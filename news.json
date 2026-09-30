@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Versão 0.2.1 no ar",
+    "date": "30/09",
+    "tag": "ATUALIZAÇÃO",
+    "body": "154 roupas novas em 9 slots, costura e conserto.\nÓculos agora corrigem o traço Míope.\nO launcher baixa tudo sozinho: é só clicar em JOGAR."
+  },
+  {
+    "title": "CANAL 7 — ALERTA",
+    "date": "30/09 23:40",
+    "style": "radio",
+    "body": "Horda migratória avistada a leste da muralha.\nEvitem a zona industrial após o anoitecer."
+  },
+  {
+    "title": "Reinício diário",
+    "date": "30/09",
+    "tag": "AVISO",
+    "body": "Todo dia às 05:00 o servidor reinicia (backup automático)."
+  }
+]

@@ -1,0 +1,392 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ato2"
+	group: "5D8B484F7578C85C"
+	icon: "minecraft:campfire"
+	id: "4B88F494D3470B6D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2F5928A6CC48A2FB"
+			]
+			description: [
+				"&7&oJoana, no rádio: \"Vocês são de verdade. Desculpa, é que eu falo com a cidade faz dez dias e a cidade nunca responde. Com pilha e fio eu fico no ar mais um mês.\""
+				""
+				"A Rádio Livre sai da torre da Igreja Matriz, no Centro. O gerador de Joana está morrendo. Leve pilhas, fio e combustível — a nave da igreja está cheia deles. Silêncio é a solução."
+			]
+			icon: "minecraft:bell"
+			id: "46CFA91DF41CA224"
+			rewards: [
+				{
+					id: "653424BC7EDF5903"
+					item: "walkietalkie:iron_walkietalkie"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6897C2857CEB9058"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "29AD18C0D2B0A103"
+					item: "flashlightmod:battery"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "6B60B5BD279B70BE"
+					item: "immersiveengineering:wire_copper"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "396A793AC9C763E1"
+					item: "car:canister"
+					title: "Um galão de combustível"
+					type: "item"
+				}
+			]
+			title: "Olhos da Torre"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46CFA91DF41CA224"
+			]
+			description: [
+				"Trinta deles na nave da igreja, e a escada da torre no fundo. Joana entrega o &emapa anotado&r: \"rua morta\" onde ela viu horda passar, \"rua limpa\" onde ela ACHA que tá limpa."
+				""
+				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+			]
+			icon: "minecraft:bell"
+			id: "590E3D690731F9C8"
+			optional: true
+			rewards: [ ]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "537AAAB4096593AC"
+					title: "Subi a torre e peguei o mapa anotado da Joana"
+					type: "checkmark"
+				}
+			]
+			title: "Subir a Torre da Matriz (em breve)"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2F5928A6CC48A2FB"
+			]
+			description: [
+				"&7&oDona Cida: \"Casa é onde tem alguém acordado de noite. Organiza turno de vigia. Vocês vão brigar por isso. Briga. Mas organiza.\""
+				""
+				"Escolham uma base e segurem ela: coletor de chuva, fogão, gerador, camas, arame. Proteja o terreno com o &eFlan&r (pá de ouro no chão marca a área: ninguém de fora quebra nada)."
+			]
+			icon: "minecraft:cauldron"
+			id: "4728AEAACAC9E3B7"
+			rewards: [
+				{
+					count: 16
+					id: "5B8DFFEFA14FE03F"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5CC7D1551FC04C7F"
+					item: "zc_world:barbed_wire"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "48BC3C5739763BD3"
+					item: "minecraft:cauldron"
+					title: "Coletor de chuva (caldeirão)"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "76D56C6715EEAD7B"
+					item: "farmersdelight:stove"
+					title: "Fogão"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "6B21595C7C53C931"
+					item: "car:generator"
+					title: "Gerador"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4883682161195B51"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "Tábuas para barricadas (64)"
+					type: "item"
+				}
+				{
+					id: "327EA6C00E0DD80D"
+					title: "A base está reivindicada (Flan) e cada um tem uma cama lá"
+					type: "checkmark"
+				}
+			]
+			title: "Fundação"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4728AEAACAC9E3B7"
+			]
+			description: [
+				"&7&oDona Cida: \"Couve em doze dias. Batata em trinta. Fome não espera trinta dias, então vocês vão ter que caçar, catar e roubar enquanto isso. Mas no trigésimo primeiro dia vocês vão comer uma coisa que vocês plantaram depois do fim do mundo. Guarda esse dia.\""
+				""
+				"Plante, espere, colha. Entregue a colheita e uma panela de sopa feita por vocês."
+			]
+			icon: "farmersdelight:cabbage"
+			id: "6E121DE44D61FE4E"
+			rewards: [
+				{
+					count: 4
+					id: "6C1CC2D93858CC4B"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5F54AAF29F327081"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "06A4502ADAEEF0EF"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "600307D3FA9606EB"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:potato"
+								}
+								{
+									Count: 1b
+									id: "minecraft:carrot"
+								}
+								{
+									Count: 1b
+									id: "minecraft:beetroot"
+								}
+								{
+									Count: 1b
+									id: "minecraft:wheat"
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:cabbage"
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:tomato"
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:onion"
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:rice"
+								}
+							]
+						}
+					}
+					title: "32 alimentos colhidos"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "17FB1DFE973608C9"
+					item: "farmersdelight:vegetable_soup"
+					title: "Uma sopa de legumes"
+					type: "item"
+				}
+			]
+			title: "Primeira Colheita"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"46CFA91DF41CA224"
+			]
+			description: [
+				"&7&oJoana: \"Toda vez que alguém grita lá no shopping, a Rua Direita inteira muda de direção. Tem alguma coisa lá dentro chamando eles.\""
+				""
+				"Antes de entrar na Galeria Itaverá, conheça o Centro: olhe de longe, conte quantos são, limpe a rua."
+			]
+			icon: "binocularsmod:binoculars"
+			id: "057ECA1AB47B10EE"
+			rewards: [
+				{
+					id: "7DAB24C2EB208CC7"
+					item: "zc_survival:suture_kit"
+					type: "item"
+				}
+				{
+					id: "74708F5FD3EF58D5"
+					item: "kubejs:weapon_parts"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2D9E13773C95FF75"
+					item: "binocularsmod:binoculars"
+					type: "item"
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "2FA1EA638ACAAFAE"
+					title: "Derrube 25 infectados"
+					type: "kill"
+					value: 25L
+				}
+			]
+			title: "A Voz na Galeria"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"057ECA1AB47B10EE"
+			]
+			description: [
+				"No átrio do shopping, alguma coisa grita — e a horda do Centro obedece. Desligar os alto-falantes antes da luta (Elétrica) reduz as ondas. O crachá da segurança abre a sala do CFTV com a gravação do Dia -3."
+				""
+				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+			]
+			icon: "minecraft:goat_horn"
+			id: "69DDA5E6275BA04E"
+			optional: true
+			rewards: [ ]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "2688A66C89CB7657"
+					title: "Derrotamos O Arauto"
+					type: "checkmark"
+				}
+			]
+			title: "O Arauto (em breve)"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"057ECA1AB47B10EE"
+			]
+			description: [
+				"&7&oJoana: \"As luzes da usina piscaram ontem à noite. Alguém tá tentando ligar.\""
+				""
+				"A Usina Termelétrica é dos &8Corvos&r. Antes de pisar lá, aprenda o básico de energia: o martelo de engenheiro faz placas, o alicate corta fio, o manual explica o resto."
+			]
+			icon: "immersiveengineering:hammer"
+			id: "5A3ADF3FD43853AE"
+			rewards: [
+				{
+					count: 4
+					id: "7C1B833300A888E9"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "73E118661309D219"
+					item: "immersiveengineering:hammer"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0F366B98D5784A01"
+					item: "immersiveengineering:wirecutter"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3A27C2C3ED2E3E9D"
+					item: "immersiveengineering:manual"
+					title: "O manual (Engineer's Manual)"
+					type: "item"
+				}
+			]
+			title: "O Homem que Conhecia a Usina"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5A3ADF3FD43853AE"
+			]
+			description: [
+				"&7&oPena, apontando a espingarda e tremendo: \"Vocês não são Corvo. Vocês não são Corvo, né? Olha, eu não vou... eu não vou gritar. Mas vocês têm que ir embora antes da troca da ronda. O Dente conta as balas.\""
+				"Entrar sem ser visto (no máximo dois Corvos no chão), achar o manual anotado do Dente na sala de controle."
+				""
+				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+			]
+			icon: "minecraft:black_dye"
+			id: "46532C9EBDEEDD45"
+			optional: true
+			rewards: [ ]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "4C2F5DE979380F88"
+					title: "Entrei na usina, li o caderno do Dente e saí"
+					type: "checkmark"
+				}
+			]
+			title: "Infiltrar a UTE (em breve)"
+			x: 6.0d
+			y: 4.0d
+		}
+	]
+	subtitle: [
+		"Casa é onde tem alguém acordado de noite."
+	]
+	title: "Ato II — Juntos"
+}

@@ -1,0 +1,147 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ato6"
+	group: "5D8B484F7578C85C"
+	icon: "zc_world:quarantine_gate"
+	id: "7A2ECF5FFA0DEAD7"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2FF8DEA8B43B57C4"
+				"67EAE6AFE1F56700"
+			]
+			description: [
+				"&7&oCoronel, no rádio militar: \"Aqui é o Comandante da Operação Cerco. Não usem nomes. Vocês estão numa frequência gravada. Vocês têm uma coisa que me interessa. Eu tenho uma porta que interessa a vocês.\""
+				"&7&oJoana, na torre: \"Ele é meu pai. Todo dia ele pede mais um dia. Eu sei porque todo dia a cidade continua aqui.\""
+				""
+				"Para Joana transmitir longe, a antena da Matriz precisa de conserto: eletrônica militar, cabo, aço e um rádio forte."
+			]
+			icon: "walkietalkie:diamond_walkietalkie"
+			id: "09352AB67C1BF92B"
+			rewards: [
+				{
+					count: 4
+					id: "4D85B7D7679A8E98"
+					item: "flashlightmod:battery"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "020243576BE40781"
+					item: "walkietalkie:diamond_walkietalkie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "6383D164C728C3EF"
+					item: "kubejs:military_electronics"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "143B8041848E27F0"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "0F57B606DDB05471"
+					item: "immersiveengineering:plate_steel"
+					type: "item"
+				}
+			]
+			title: "Frequência 46.550"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"09352AB67C1BF92B"
+			]
+			description: [
+				"Negociação pelo rádio militar do arsenal: o Ativo LÁZARO em troca do Portão 1. Com a Fita 9 ou a ordem do Protocolo Silêncio na mão, ele não consegue negar."
+				""
+				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+			]
+			icon: "minecraft:bell"
+			id: "2717F8176C95299F"
+			optional: true
+			rewards: [ ]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "2A17AAB8C15A2F15"
+					title: "Falamos com o Coronel na 46.550"
+					type: "checkmark"
+				}
+			]
+			title: "O Coronel responde (em breve)"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"09352AB67C1BF92B"
+			]
+			description: [
+				"&7&oGravação no capacete de Tavares: \"Mandaram eu não abrir pra ninguém. Eu não abri. Tem gente batendo no portão de dentro há três dias, e eu não abri. Me perdoa, mãe.\""
+				"Guará funcionando, Setor Muralha energizado, o cartão de Lídia na porta, as duas chaves."
+				""
+				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+			]
+			icon: "minecraft:netherite_helmet"
+			id: "755A49A546576576"
+			optional: true
+			rewards: [ ]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "5820E3135070E3B7"
+					title: "Pegamos as duas chaves do Portão 1"
+					type: "checkmark"
+				}
+			]
+			title: "O Escafandro (em breve)"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"755A49A546576576"
+			]
+			description: [
+				"&7&o\"...quarenta e sete. Fim da receita. Pra quem tiver ouvindo em qualquer lugar: isso aqui é de vocês agora. Anota. Passa pra frente. (pausa) Pai. Abre o portão.\""
+				"[COOP] Três noites de cerco com a sirene ligada. Duas chaves ao mesmo tempo, doze dígitos na ordem da planta de Rafael. O comboio atravessa a eclusa."
+				""
+				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+			]
+			icon: "zc_world:quarantine_gate"
+			id: "484C67B32FA9F528"
+			optional: true
+			rewards: [ ]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "3421E83C3B027771"
+					title: "Atravessamos o Portão 1"
+					type: "checkmark"
+				}
+			]
+			title: "Portão 1 (em breve)"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	subtitle: [
+		"Pai. Abre o portão."
+	]
+	title: "Ato VI — Portão"
+}

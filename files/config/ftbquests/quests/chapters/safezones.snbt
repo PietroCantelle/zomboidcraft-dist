@@ -1,0 +1,588 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "safezones"
+	group: "787EB7992C439E5E"
+	icon: "minecraft:bell"
+	id: "6F789A719F3B8ECC"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: [
+				"2F5928A6CC48A2FB"
+			]
+			description: [
+				"&7&oMural, letra da Dona Cida: \"ÁGUA. Qualquer uma que não mate. Vinte garrafas.\""
+				"Entregue água limpa. Repetível a cada 2 dias."
+			]
+			icon: "zc_survival:water_bottle"
+			id: "5710E3DD28FD36C4"
+			repeat_cooldown: 2400
+			rewards: [
+				{
+					count: 2
+					id: "29835746E8F9671C"
+					item: "zc_survival:canned_beans"
+					type: "item"
+				}
+				{
+					id: "29FB9B338D94368D"
+					item: "zc_survival:bandage"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 20L
+					id: "4E5BB2923F55A9C8"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "zomboidcraft:clean_water"
+						}
+					}
+					title: "20 garrafas de água limpa"
+					type: "item"
+				}
+			]
+			title: "Água para a Quadra"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6E121DE44D61FE4E"
+			]
+			description: [
+				"\"Quem planta come duas vezes: quando colhe e quando troca.\" Entregue 24 alimentos colhidos. A cada 3 dias."
+			]
+			icon: "minecraft:potato"
+			id: "7E7345799EDB047F"
+			repeat_cooldown: 3600
+			rewards: [
+				{
+					id: "1753F2702F1D1E5D"
+					table_data: {
+						loot_size: 1
+						rewards: [
+							{
+								count: 4
+								item: "farmersdelight:tomato_seeds"
+								type: "item"
+								weight: 3.0f
+							}
+							{
+								count: 8
+								item: "minecraft:wheat_seeds"
+								type: "item"
+								weight: 3.0f
+							}
+							{
+								count: 4
+								item: "farmersdelight:cabbage_seeds"
+								type: "item"
+								weight: 3.0f
+							}
+							{
+								count: 2
+								item: "minecraft:pumpkin_seeds"
+								type: "item"
+								weight: 1.0f
+							}
+						]
+						title: "Sementes raras"
+					}
+					title: "Sementes raras"
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 24L
+					id: "45DF7EB3323AE88E"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:potato"
+								}
+								{
+									Count: 1b
+									id: "minecraft:carrot"
+								}
+								{
+									Count: 1b
+									id: "minecraft:beetroot"
+								}
+								{
+									Count: 1b
+									id: "minecraft:wheat"
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:cabbage"
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:tomato"
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:onion"
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:rice"
+								}
+							]
+						}
+					}
+					title: "24 alimentos colhidos"
+					type: "item"
+				}
+			]
+			title: "Mais Uma Colheita"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"2F5928A6CC48A2FB"
+			]
+			description: [
+				"\"No inverno a lenha vale o dobro. Lenha molhada não vale nada.\" 64 toras. A cada 2 dias."
+			]
+			icon: "minecraft:oak_log"
+			id: "1C160AE2404532EC"
+			repeat_cooldown: 2400
+			rewards: [
+				{
+					id: "38F70D16F0C2552E"
+					table_data: {
+						loot_size: 1
+						rewards: [
+							{
+								item: "zc_clothing:thermal_shirt"
+								type: "item"
+								weight: 2.0f
+							}
+							{
+								item: "zc_clothing:thermal_pants"
+								type: "item"
+								weight: 2.0f
+							}
+							{
+								item: "zc_clothing:wool_beanie"
+								type: "item"
+								weight: 3.0f
+							}
+							{
+								item: "zc_clothing:wool_gloves"
+								type: "item"
+								weight: 3.0f
+							}
+							{
+								item: "zc_clothing:wool_socks"
+								type: "item"
+								weight: 3.0f
+							}
+						]
+						title: "Roupa de frio"
+					}
+					title: "Roupa de frio"
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "0DBA4A084E5096BE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "64 toras"
+					type: "item"
+				}
+			]
+			title: "Lenha pro Inverno"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"24D695EA2FDBC08A"
+			]
+			description: [
+				"Sem produto, a água da torneira volta a ser água de rio. Quatro frascos a cada 7 dias."
+			]
+			icon: "zc_survival:disinfectant"
+			id: "1B1446C395194BA9"
+			repeat_cooldown: 8400
+			rewards: [
+				{
+					count: 4
+					id: "0FEA31D6A9971162"
+					item: "zc_survival:water_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "6DDCC7057DB1AA51"
+					item: "zc_survival:disinfectant"
+					type: "item"
+				}
+			]
+			title: "Cloro da ETA"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"2F5928A6CC48A2FB"
+			]
+			description: [
+				"&7&oTião: \"Vigia é de dois. Um olha, outro escuta.\""
+				"[COOP] Segurem o muro da noite: 30 infectados. A cada 3 dias."
+			]
+			icon: "minecraft:lantern"
+			id: "6C1A7312D8FE602B"
+			repeat_cooldown: 3600
+			rewards: [
+				{
+					id: "32C1B6E839D2A6C7"
+					item: "kubejs:weapon_parts"
+					type: "item"
+				}
+				{
+					id: "7087A645A2266438"
+					item: "zc_survival:bandage"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "491C4B91EA39CC5D"
+					title: "30 infectados"
+					type: "kill"
+					value: 30L
+				}
+			]
+			title: "Ronda Noturna"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"2F5928A6CC48A2FB"
+			]
+			description: [
+				"A enfermaria do Refúgio gasta mais do que recebe. Cinco itens médicos. A cada 3 dias."
+			]
+			icon: "zc_survival:antibiotics"
+			id: "27AA2EE65D0A0F1D"
+			repeat_cooldown: 3600
+			rewards: [
+				{
+					id: "5ED9665667132F79"
+					item: "zc_survival:suture_kit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "790F6A39001D21F3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "zomboidcraft:medical"
+						}
+					}
+					title: "5 itens médicos"
+					type: "item"
+				}
+			]
+			title: "Remédios da Enfermaria"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4728AEAACAC9E3B7"
+			]
+			description: [
+				"&7&oBigode: \"Meu amigo! Peça boa, preço bom, sem perguntas. Duas peças de carro e a gente conversa.\""
+				"A cada 2 dias."
+			]
+			icon: "car:wheel"
+			id: "6A84D90048712C15"
+			repeat_cooldown: 2400
+			rewards: [
+				{
+					id: "38047B4C230867BA"
+					item: "car:canister"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "67F0FAC25EAD6ADE"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "718C2877E9413D75"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "car:engine_piston"
+								}
+								{
+									Count: 1b
+									id: "car:wheel"
+								}
+								{
+									Count: 1b
+									id: "car:big_wheel"
+								}
+								{
+									Count: 1b
+									id: "car:battery"
+								}
+								{
+									Count: 1b
+									id: "car:small_tank"
+								}
+								{
+									Count: 1b
+									id: "car:engine_3_cylinder"
+								}
+							]
+						}
+					}
+					title: "2 peças de carro"
+					type: "item"
+				}
+			]
+			title: "Encomenda do Bigode"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"46CFA91DF41CA224"
+			]
+			description: [
+				"&7&oJoana: \"Cada repetidor num telhado é uma rua a mais que me ouve.\""
+				"Fio e pilhas para os repetidores. A cada 5 dias."
+			]
+			icon: "immersiveengineering:wirecoil_copper"
+			id: "3F9773E67ED9524B"
+			repeat_cooldown: 6000
+			rewards: [
+				{
+					count: 4
+					id: "019C3B4B3233199D"
+					item: "minecraft:map"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D8185F53144E5F3"
+					item: "zc_survival:canned_soup"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "47FEBDDF360C0DC4"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "78657AD15A907D7D"
+					item: "flashlightmod:battery"
+					type: "item"
+				}
+			]
+			title: "Revezamento"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"46CFA91DF41CA224"
+			]
+			description: [
+				"&7&oJoana: \"Rua morta é onde eu vi horda passar. Alguém confirma pra mim?\""
+				"Limpe o caminho: 15 infectados. Todo dia."
+			]
+			icon: "minecraft:compass"
+			id: "0FAA433C2F8B03E6"
+			repeat_cooldown: 1200
+			rewards: [
+				{
+					count: 2
+					id: "64EBFE4C29F517B9"
+					item: "flashlightmod:battery"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "2422170FB3D4254D"
+					title: "15 infectados"
+					type: "kill"
+					value: 15L
+				}
+			]
+			title: "Rua Morta"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"751A2E985FDDD2F1"
+			]
+			description: [
+				"&7&oDente, pelo rádio: \"Diesel é luz. Quem traz diesel, tem luz.\""
+				"Quatro baldes de biodiesel. A cada 2 dias."
+			]
+			icon: "car:canister"
+			id: "74CCC52F9E6167EF"
+			repeat_cooldown: 2400
+			rewards: [
+				{
+					count: 2
+					id: "5AA59403EC4E4E9D"
+					item: "immersiveengineering:plate_steel"
+					type: "item"
+				}
+				{
+					id: "3535870401CB6F4B"
+					item: "immersiveengineering:light_bulb"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "73C31773C9152E78"
+					item: "car:bio_diesel_bucket"
+					type: "item"
+				}
+			]
+			title: "Frete de Diesel"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"057ECA1AB47B10EE"
+			]
+			description: [
+				"[COOP] Cem num quarteirão só. O mural anota; a reposição ali cai pela metade — um dia."
+				"A cada 2 dias."
+			]
+			icon: "marbledsmelees:sledgehammer"
+			id: "190391A4D302681F"
+			repeat_cooldown: 2400
+			rewards: [
+				{
+					count: 2
+					id: "7FF8B020A8543394"
+					item: "kubejs:weapon_parts"
+					type: "item"
+				}
+				{
+					id: "2822AB6DB6951A84"
+					item: "zc_survival:suture_kit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "562CEFFBE7E3D707"
+					title: "100 infectados"
+					type: "kill"
+					value: 100L
+				}
+			]
+			title: "Limpeza de Quarteirão"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2F5928A6CC48A2FB"
+			]
+			description: [
+				"O mural tem nomes e fotos. Às vezes alguém volta. Quase sempre volta uma aliança."
+				""
+				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+			]
+			icon: "minecraft:paper"
+			id: "5192A5B0BC94D463"
+			optional: true
+			rewards: [ ]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "40D1EAEA2440196E"
+					title: "Trouxe os pertences de alguém do mural"
+					type: "checkmark"
+				}
+			]
+			title: "Pessoa Desaparecida (em breve)"
+			x: 6.0d
+			y: 4.0d
+		}
+	]
+	subtitle: [
+		"O mural do Refúgio. Estoque e fome se renovam todo dia."
+	]
+	title: "Safezones"
+}

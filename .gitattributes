@@ -1,0 +1,2 @@
+# Byte-exact: the launcher verifies sha1 of every file. Never convert line endings.
+* -text

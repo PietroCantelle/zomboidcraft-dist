@@ -1,0 +1,6 @@
+{
+  "item.kubejs.weapon_parts": "Weapon Parts",
+  "item.kubejs.weapon_parts.tooltip": "Military salvage. Needed to build firearms.",
+  "item.kubejs.military_electronics": "Military Electronics",
+  "item.kubejs.military_electronics.tooltip": "Military salvage. Needed for optics and the gun smith table."
+}

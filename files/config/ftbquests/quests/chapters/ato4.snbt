@@ -1,0 +1,279 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ato4"
+	group: "5D8B484F7578C85C"
+	icon: "car:engine_truck"
+	id: "0E57AA78F7D728C0"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"751A2E985FDDD2F1"
+			]
+			description: [
+				"O 14º Batalhão de Polícia Militar foi a última resistência organizada. Sacos de areia, cartuchos no chão, viaturas atravessadas no pátio."
+				"Dentro dos armários ainda tem colete, e peças de arma espalhadas. Entre preparado: o pátio não está vazio."
+			]
+			icon: "marbledsarsenal:riot_armor_helmet"
+			id: "69E789C22DC868F3"
+			rewards: [
+				{
+					id: "1E7D2226F9C593DF"
+					item: "kubejs:military_electronics"
+					type: "item"
+				}
+				{
+					id: "61AFECF24E0C045A"
+					item: "zc_survival:suture_kit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "71F4B38C47444FB6"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "marbledsarsenal:riot_armor_chestplate"
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:swat_armor_chestplate"
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:black_plate_carrier_light"
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:olive_plate_carrier_light"
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:black_plate_carrier_heavy"
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:olive_plate_carrier_heavy"
+								}
+							]
+						}
+					}
+					title: "Um colete (choque, SWAT ou porta-placas)"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1079A69F661F5AC9"
+					item: "kubejs:weapon_parts"
+					title: "Peças de arma (4)"
+					type: "item"
+				}
+			]
+			title: "O Batalhão"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"69E789C22DC868F3"
+			]
+			description: [
+				"Na garagem do arsenal, um homem de escudo e capacete ainda segura a porta. Na plaqueta: \"Sgt. W. Brandão — 'Aqui ninguém passa'.\" Atrás dele, o arsenal e o rádio militar sem o qual o Ato VI é impossível."
+				""
+				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+			]
+			icon: "minecraft:shield"
+			id: "781649AD2E61E9A0"
+			optional: true
+			rewards: [ ]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "7012D937D9E5A7FC"
+					title: "Derrubamos O Escudo e abrimos o arsenal"
+					type: "checkmark"
+				}
+			]
+			title: "O Escudo (em breve)"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"69E789C22DC868F3"
+			]
+			description: [
+				"&7&oRádio de torre, voz de soldado: \"Veículos civis no setor sete, aqui é Torre Sete. Vocês estão dentro do perímetro de tiro. Isto é um aviso. (pausa, voz mais baixa) Apaguem os faróis, pelo amor de Deus. O Vasconcelos entra às seis.\""
+				""
+				"Três veículos funcionando, um deles caminhão para o diesel. Motor, rodas, bateria, tanque cheio — monte na oficina."
+			]
+			icon: "car:engine_truck"
+			id: "67EAE6AFE1F56700"
+			rewards: [
+				{
+					count: 2
+					id: "021BD6094150F8AC"
+					item: "car:repair_kit"
+					type: "item"
+				}
+				{
+					id: "65CB02036FE9EBFC"
+					item: "car:wrench"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 1L
+					id: "3D1B61DCBF254198"
+					item: "car:engine_truck"
+					title: "Motor de caminhão"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "1842CE6B810A3232"
+					item: "car:engine_3_cylinder"
+					title: "Motor de carro"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "230575AA0294A763"
+					item: "car:battery"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7954A3212585B9AD"
+					item: "car:canister"
+					title: "Galões (2)"
+					type: "item"
+				}
+				{
+					id: "76599C9A6BDB6E69"
+					title: "Temos três veículos rodando, um deles caminhão"
+					type: "checkmark"
+				}
+			]
+			title: "Comboio"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"67EAE6AFE1F56700"
+			]
+			description: [
+				"Chegar de noite, sem faróis, ao pátio da Base Cerco interna, no Setor Muralha, e achar o VBTP Guará. Instalar a primeira peça. Duas mochilas militares esquecidas no pátio."
+				""
+				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+			]
+			icon: "car:big_wheel"
+			id: "5C087BB4BE44246A"
+			optional: true
+			rewards: [ ]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "55D488964B1557C4"
+					title: "Achamos o Guará e começamos o reparo"
+					type: "checkmark"
+				}
+			]
+			title: "O Guará no pátio (em breve)"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"24D695EA2FDBC08A"
+				"67EAE6AFE1F56700"
+			]
+			description: [
+				"No Alto da Boa Vista, numa garagem com a luz queimada, um bilhete: &7&o\"Rafa, não briga com eles de novo por telefone, por favor. Tua pressão.\"&r"
+				""
+				"Na sala tem um cofre. A combinação é uma data. Quem não acha a data, fura — e fura fazendo barulho por um minuto inteiro, com a rua escutando."
+			]
+			icon: "immersiveengineering:drill"
+			id: "2AA8F751178D9592"
+			rewards: [
+				{
+					id: "1022F6D5224F679C"
+					item: "securitycraft:keycard_lv1"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0520AE4BC25DA555"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6C03C8EA733B9B39"
+					item: "immersiveengineering:drill"
+					title: "Uma furadeira"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "18A0E2E09B24C424"
+					item: "immersiveengineering:drillhead_iron"
+					type: "item"
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "65338F60038653C0"
+					title: "Mantenha a rua limpa: 40 infectados"
+					type: "kill"
+					value: 40L
+				}
+			]
+			title: "A Casa dos Sampaio"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2AA8F751178D9592"
+			]
+			description: [
+				"&7&oVídeo no pendrive: \"São onze da noite. Semana que vem eu encontro o repórter. Se eu não aparecer, é porque eu desisti ou porque alguém me convenceu. A Helena não sabe de nada disso. Ninguém culpa ela.\""
+				"O arquivo é do Dia -12. A planta do muro: o override do Portão 1 é da Veridia. A Unidade 4 passa a ter endereço."
+				""
+				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+			]
+			icon: "minecraft:paper"
+			id: "700A4BB948C9CC35"
+			optional: true
+			rewards: [ ]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "48662E6DED9A59B5"
+					title: "Lemos o pendrive num computador ligado"
+					type: "checkmark"
+				}
+			]
+			title: "O pendrive de Rafael (em breve)"
+			x: 6.0d
+			y: 2.5d
+		}
+	]
+	subtitle: [
+		"Apaguem os faróis, pelo amor de Deus."
+	]
+	title: "Ato IV — Motor"
+}

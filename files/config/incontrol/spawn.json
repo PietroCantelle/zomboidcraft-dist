@@ -1,0 +1,8 @@
+[
+  {
+    "dimension": "minecraft:overworld",
+    "mob": ["minecraft:creeper", "minecraft:skeleton", "minecraft:spider", "minecraft:witch", "minecraft:enderman", "minecraft:slime", "minecraft:phantom", "minecraft:pillager", "minecraft:vindicator", "minecraft:evoker"],
+    "minheight": 30,
+    "result": "deny"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:copper_backpack"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:backpack"
+    },
+    "M": {
+      "tag": "forge:plates/copper"
+    },
+    "L": {
+      "tag": "forge:leather"
+    }
+  },
+  "pattern": [
+    "MLM",
+    "MBM",
+    "MLM"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:copper_backpack"
+  }
+}

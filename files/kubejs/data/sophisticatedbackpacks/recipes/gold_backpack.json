@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:gold_backpack"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:iron_backpack"
+    },
+    "M": {
+      "tag": "forge:plates/gold"
+    },
+    "L": {
+      "tag": "forge:leather"
+    }
+  },
+  "pattern": [
+    "MLM",
+    "MBM",
+    "MLM"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:gold_backpack"
+  }
+}

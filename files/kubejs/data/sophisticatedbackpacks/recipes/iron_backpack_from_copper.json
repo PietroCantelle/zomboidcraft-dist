@@ -1,0 +1,25 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:iron_backpack"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:copper_backpack"
+    },
+    "M": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MBM",
+    "MMM"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:iron_backpack"
+  }
+}

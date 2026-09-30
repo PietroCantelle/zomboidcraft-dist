@@ -1,0 +1,8 @@
+key_key.push_to_talk:key.keyboard.caps.lock
+key_key.ftbquests.quests:key.keyboard.j
+key_key.zc_player.crawl:key.keyboard.c
+key_key.tacz.crawl.desc:key.keyboard.unknown
+key_key.saveToolbarActivator:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.y
+key_iris.keybind.toggleShaders:key.keyboard.f9
+key_key.toastcontrol.clear:key.keyboard.f8

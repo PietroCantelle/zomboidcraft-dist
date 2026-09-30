@@ -1,0 +1,364 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ato1"
+	group: "5D8B484F7578C85C"
+	icon: "minecraft:oak_door"
+	id: "3090AF5BE7EEF09B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4DE9EEBA3667A845"
+				"7982E7275FBC77D8"
+			]
+			description: [
+				"&7&oITAVERÁ. DIA 0.&r"
+				"&7&oHoje de manhã, a rádio mudou. Não falou mais de evacuação. Não falou mais de quando. Lá fora, alguém está batendo numa porta. Devagar. Sem parar. Não é na sua. Ainda."
+				""
+				"Beba, arrume alguma coisa para bater, tape as janelas e passe a primeira noite inteira vivo."
+				"A mochila é bônus: com ela, sair de casa deixa de ser uma aposta."
+			]
+			icon: "minecraft:oak_door"
+			id: "10C415C71BE96AEF"
+			rewards: [
+				{
+					count: 2
+					id: "6890C868D56870D7"
+					item: "zc_survival:canned_beans"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "748BCD5663452E86"
+					item: "zc_survival:water_bottle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0C29DD4D5609EBC1"
+					item: "zc_survival:bandage"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "7178832DFDAB69FE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "zomboidcraft:clean_water"
+						}
+					}
+					title: "Água limpa"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "4E9481C025514102"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "marbledsmelees:baseball_bat"
+								}
+								{
+									Count: 1b
+									id: "marbledsmelees:barbed_baseball_bat"
+								}
+								{
+									Count: 1b
+									id: "marbledsmelees:steel_baseball_bat"
+								}
+								{
+									Count: 1b
+									id: "marbledsmelees:crowbar"
+								}
+								{
+									Count: 1b
+									id: "marbledsmelees:machete"
+								}
+								{
+									Count: 1b
+									id: "marbledsmelees:fire_axe"
+								}
+								{
+									Count: 1b
+									id: "marbledsmelees:modern_axe"
+								}
+								{
+									Count: 1b
+									id: "marbledsmelees:pipe_wrench"
+								}
+								{
+									Count: 1b
+									id: "marbledsmelees:police_baton"
+								}
+								{
+									Count: 1b
+									id: "marbledsmelees:sledgehammer"
+								}
+								{
+									Count: 1b
+									id: "marbledsmelees:tomahawk"
+								}
+								{
+									Count: 1b
+									id: "marbledsmelees:katana"
+								}
+								{
+									Count: 1b
+									id: "marbledsmelees:tanto"
+								}
+								{
+									Count: 1b
+									id: "marbledsmelees:stop_sign"
+								}
+								{
+									Count: 1b
+									id: "marbledsmelees:bone_saw"
+								}
+								{
+									Count: 1b
+									id: "minecraft:wooden_axe"
+								}
+								{
+									Count: 1b
+									id: "minecraft:stone_axe"
+								}
+								{
+									Count: 1b
+									id: "minecraft:iron_axe"
+								}
+								{
+									Count: 1b
+									id: "minecraft:wooden_sword"
+								}
+								{
+									Count: 1b
+									id: "minecraft:stone_sword"
+								}
+								{
+									Count: 1b
+									id: "minecraft:iron_sword"
+								}
+								{
+									Count: 1b
+									id: "mcore:steel_axe"
+								}
+								{
+									Count: 1b
+									id: "mcore:steel_sword"
+								}
+							]
+						}
+					}
+					title: "Uma arma de mão"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7ADFBD8099700451"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "Tábuas para barricar (16)"
+					type: "item"
+				}
+				{
+					id: "29BA8A844095C6D2"
+					stat: "minecraft:time_since_death"
+					title: "Sobreviva um dia inteiro sem morrer"
+					type: "stat"
+					value: 24000
+				}
+				{
+					count: 1L
+					id: "7F024CBEF7B01AA5"
+					item: "sophisticatedbackpacks:backpack"
+					optional_task: true
+					title: "Uma mochila (bônus)"
+					type: "item"
+				}
+			]
+			title: "Dia 0"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"10C415C71BE96AEF"
+				"23FD6584127878D6"
+			]
+			description: [
+				"&7&oÀs sete da noite, entre a estática do rádio de pilha da cozinha, uma voz de menina:"
+				"&f\"...se tiver alguém vivo me ouvindo: o Colégio Dom Pedro tá com gente. Vai de dia. Não corre. Eles ouvem quando você corre. Eu repito toda noite às sete, tá? Toda noite. Então se você perdeu, amanhã tem de novo. Eu não vou a lugar nenhum. (pausa) Literalmente.\""
+				""
+				"Quem fala no rádio chama-se &eJoana&r. Para sair atrás de gente viva você precisa de luz, pilhas e um jeito de ser ouvido."
+			]
+			icon: "flashlightmod:flashlight"
+			id: "182D3B889390841A"
+			rewards: [
+				{
+					count: 2
+					id: "3227AE7CBFCC4B39"
+					item: "flashlightmod:battery"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1BB700FDA31F8B12"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "walkietalkie:wooden_walkietalkie"
+								}
+								{
+									Count: 1b
+									id: "walkietalkie:stone_walkietalkie"
+								}
+								{
+									Count: 1b
+									id: "walkietalkie:iron_walkietalkie"
+								}
+								{
+									Count: 1b
+									id: "walkietalkie:golden_walkietalkie"
+								}
+								{
+									Count: 1b
+									id: "walkietalkie:diamond_walkietalkie"
+								}
+								{
+									Count: 1b
+									id: "walkietalkie:netherite_walkietalkie"
+								}
+							]
+						}
+					}
+					title: "Um walkie-talkie"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2C992A0104C8987A"
+					item: "flashlightmod:flashlight"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "21E13F58390FD1EF"
+					item: "flashlightmod:battery"
+					type: "item"
+				}
+			]
+			title: "Anda, Não Corre"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"182D3B889390841A"
+			]
+			description: [
+				"&7&oVigia (Tião): \"Parou aí. Mão onde eu veja. Tá mordido? Não precisa responder, amanhã a gente sabe.\""
+				"&7&oDona Cida, na manhã seguinte: \"Bom dia. Café é de cevada, açúcar acabou no dia seis. Quem trabalha, come. Quem não pode trabalhar, come também. Quem mente sobre mordida, vai embora. Tá bom? Tá bom.\""
+				""
+				"Ninguém sai sozinho desta cidade. Junte-se a outros sobreviventes num &egrupo&r (FTB Teams) e passe uma noite dormindo sob o mesmo teto — a quarentena da quadra: se ninguém virar até de manhã, vocês são gente."
+			]
+			icon: "comforts:sleeping_bag_brown"
+			id: "2F5928A6CC48A2FB"
+			rewards: [
+				{
+					id: "13D7E8194D9A2A41"
+					item: "comforts:sleeping_bag_brown"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6F8AB75687B15D5D"
+					item: "zc_survival:sterile_bandage"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "5C63A6DAE06914C3"
+					title: "Estou num grupo com outros sobreviventes"
+					type: "checkmark"
+				}
+				{
+					id: "3B9532574EAA0F57"
+					stat: "minecraft:sleep_in_bed"
+					title: "Durma uma noite numa cama"
+					type: "stat"
+					value: 1
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "2E486A0E5F1F4316"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "zomboidcraft:medical"
+						}
+					}
+					title: "3 itens médicos para a enfermaria"
+					type: "item"
+				}
+			]
+			title: "Os Portões do Colégio"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2F5928A6CC48A2FB"
+			]
+			description: [
+				"O Colégio Estadual Dom Pedro II, no Jardim das Acácias: muro de contêiner, quadra de quarentena, horta no pátio, um mural com regras. Dona Cida, Tião na guarita, comércio por troca, uma cama de campanha para renascer."
+				""
+				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+			]
+			icon: "minecraft:bell"
+			id: "5755773C2812E88D"
+			optional: true
+			rewards: [ ]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "065D91FBF915CDCA"
+					title: "Cheguei ao Refúgio e passei a noite na quadra"
+					type: "checkmark"
+				}
+			]
+			title: "O Refúgio do Colégio (em breve)"
+			x: 6.0d
+			y: 2.5d
+		}
+	]
+	subtitle: [
+		"Durante sete dias, a rádio disse para você ficar em casa. Você ficou."
+	]
+	title: "Ato I — Sozinho"
+}

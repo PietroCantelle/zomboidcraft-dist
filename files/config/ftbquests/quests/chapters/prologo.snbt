@@ -1,0 +1,620 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "prologo"
+	group: "5D8B484F7578C85C"
+	icon: "minecraft:clock"
+	id: "123CF706B08EBBF2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7&oBilhete com a sua própria letra, preso na geladeira com um ímã de farmácia:"
+				""
+				"&f\"1. Agachado não faz barulho. 2. Eles vêm pelo som. 3. Não gasta a água da banheira à toa. 4. A porta de cima tranca por dentro. 5. Se eu for sair: de dia, devagar, e volta antes de escurecer.\""
+				""
+				"Este caderno é o seu diário de missões. Abre com &eJ&r ou pelo botão no canto do inventário."
+				"O progresso é do seu &egrupo&r (FTB Teams): quem estiver no mesmo grupo divide as missões. Crie ou entre num grupo pelo botão de equipe no inventário (ou &e/ftbteams party create <nome>&r). Cada um resgata a própria recompensa."
+				"Nada aqui aponta setas mágicas para lugar nenhum. Leia, olhe em volta, pergunte no rádio."
+			]
+			icon: "minecraft:paper"
+			id: "0B35663FB4B1087A"
+			rewards: [
+				{
+					id: "63857055FB63ED2F"
+					item: "zc_survival:canned_beans"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "44E7EC3BCC1AD4F6"
+					title: "Li o bilhete"
+					type: "checkmark"
+				}
+			]
+			title: "Coisas que eu preciso lembrar"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0B35663FB4B1087A"
+			]
+			description: [
+				"A barra de &bsede&r fica sempre na tela, ao lado da fome. Ela cai devagar parada (~1 ponto a cada 36 s) e bem mais rápido correndo ou no calor."
+				"Sede zerada mata. Antes disso vêm os avisos: &7Com sede → Sedento → Desidratado → Morrendo de sede&r."
+				"Água limpa: garrafas lacradas, latas, água fervida. Guarde água antes que as torneiras sequem — elas vão secar."
+			]
+			icon: "zc_survival:water_bottle"
+			id: "4DE9EEBA3667A845"
+			rewards: [
+				{
+					id: "5A99EF5667B85C05"
+					item: "zc_survival:empty_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "396A6F66AECB48F1"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "zomboidcraft:clean_water"
+						}
+					}
+					title: "Tenha 1 garrafa de água limpa"
+					type: "item"
+				}
+			]
+			title: "Sede"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4DE9EEBA3667A845"
+			]
+			description: [
+				"Garrafa vazia + rio, poça ou chuva = &7Garrafa de Água Suja&r. Beber assim é pedir disenteria."
+				"Ferva: na &efogueira&r, na fornalha ou no defumador. Sai uma &bGarrafa de Água Fervida&r."
+				"Fogo faz fumaça e luz. À noite, luz chama atenção. Ferva de dia, ou com a janela tapada."
+			]
+			icon: "zc_survival:boiled_water_bottle"
+			id: "08A5F8CA9B8866CF"
+			rewards: [
+				{
+					count: 2
+					id: "3E5785ED0E74344E"
+					item: "zc_survival:empty_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "20301609BAE8E58D"
+					item: "zc_survival:boiled_water_bottle"
+					type: "item"
+				}
+			]
+			title: "Água suja mata devagar"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0B35663FB4B1087A"
+			]
+			description: [
+				"Você contou as latas. Duas vezes. A fome continua sendo a barra de sempre, mas comida cai de valor: cru e estragado fazem mal (intoxicação alimentar)."
+				"Enlatados não estragam. Guarde para os dias ruins; coma o que apodrece primeiro."
+			]
+			icon: "zc_survival:canned_beans"
+			id: "3CF0FFC55BD76EFB"
+			rewards: [
+				{
+					id: "08D32BEA7589D6A0"
+					item: "zc_survival:canned_peaches"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "1042FD7DC0DC9A96"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "zomboidcraft:canned_food"
+						}
+					}
+					title: "Tenha 2 enlatados"
+					type: "item"
+				}
+			]
+			title: "Contar as latas"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"08A5F8CA9B8866CF"
+			]
+			description: [
+				"Seu corpo vive entre &b34&r e &c41 °C&r. A barra de temperatura fica sempre visível."
+				"Esfria com noite, altitude, chuva, vento e roupa molhada. Esquenta com fogueira, fornalha, abrigo e roupa seca."
+				"Frio demais: &7Com frio → Hipotermia → Congelando&r. Calor demais também mata. O painel de saúde (&eH&r) mostra a temperatura exata."
+				"Uma fogueira acesa dentro de casa é a diferença entre dormir e não acordar."
+			]
+			icon: "minecraft:campfire"
+			id: "6C71BA1E71C09E9F"
+			rewards: [
+				{
+					id: "42956B306B1CB1F3"
+					item: "zc_clothing:wool_socks"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1E35FD00F5C28042"
+					item: "minecraft:campfire"
+					title: "Tenha uma fogueira"
+					type: "item"
+				}
+			]
+			title: "Temperatura corporal"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3CF0FFC55BD76EFB"
+			]
+			description: [
+				"Você acordou só de roupa íntima. As roupas vão em &e9 espaços próprios&r (chapéu, rosto, pescoço, camisa, jaqueta, mãos, calça, meias, sapatos) — clique direito para vestir."
+				"Cada peça tem &eaquecimento&r, proteção contra &echuva&r e &evento&r, e chance de segurar &cmordida&r e arranhão na parte do corpo que cobre. Segure Shift no item para ver os números."
+				"Roupa rasga, suja e encharca de sangue. Jeans e couro seguram mordida; algodão não segura nada."
+			]
+			icon: "zc_clothing:tshirt_old"
+			id: "0F8C1C38F0D4808D"
+			rewards: [
+				{
+					id: "1929FAEAD071F37D"
+					item: "zc_clothing:tshirt_old"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6E666352C7C33294"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "zc_clothing:clothing"
+						}
+					}
+					title: "Pegue uma peça de roupa"
+					type: "item"
+				}
+			]
+			title: "Só de roupa de baixo"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0F8C1C38F0D4808D"
+			]
+			description: [
+				"Roupa rasgada protege menos. Conserto na mesa de trabalho: &epeça + agulha + linha + remendo&r (tecido, jeans ou tiras de couro, conforme o material)."
+				"&eAgulha&r: duas pepitas de ferro. Não é gasta na costura (desgasta um pouco). &eLinha&r: de barbante. &eTecido&r: de trapos ou de lã."
+				"Também dá para lavar (água) e tingir (corante) roupas na mesa de trabalho."
+			]
+			icon: "zc_clothing:needle"
+			id: "56F5C4BAF649E87A"
+			rewards: [
+				{
+					count: 2
+					id: "3FD6EFFE1437B577"
+					item: "zc_clothing:thread"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "78405225FF0B5505"
+					item: "zc_clothing:needle"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "4609E2EBD5BDEDDC"
+					item: "zc_clothing:thread"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "745F600032A7676C"
+					item: "zc_clothing:fabric"
+					type: "item"
+				}
+			]
+			title: "Agulha e linha"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"56F5C4BAF649E87A"
+			]
+			description: [
+				"Você só tem as mãos: a barra de 9 espaços. O resto do inventário está trancado."
+				"Uma &emochila&r no espaço das &ecostas&r libera fileiras: couro +9, ferro +18, ouro ou melhor +27 — além do que cabe dentro dela. Para tirar a mochila, esvazie antes as fileiras que ela liberou."
+				"Mochila de escola, de trilha, de soldado: procure em quartos, lojas e quartéis."
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "2A0E1C87E69C2915"
+			rewards: [
+				{
+					count: 2
+					id: "0F75275C7F31FEED"
+					item: "farmersdelight:canvas"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "49F1C6AC0C7F1D87"
+					item: "sophisticatedbackpacks:backpack"
+					title: "Tenha uma mochila"
+					type: "item"
+				}
+			]
+			title: "Nove espaços"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2A0E1C87E69C2915"
+			]
+			description: [
+				"Clique direito numa &epochete&r para prendê-la na cintura: libera alguns espaços do inventário &enesta vida&r."
+				"Há um limite por personagem, e ela se perde quando você morre de verdade."
+				"Receita: barbante e três couros. Couro de verdade é raro; carne podre vira couro devagar (defumar duas vezes)."
+			]
+			icon: "zc_player:fanny_pack"
+			id: "4ADD9D7A514F3471"
+			rewards: [
+				{
+					count: 2
+					id: "7D9F669D6AC2FF4C"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2F3D0881BF622ED2"
+					item: "zc_player:fanny_pack"
+					type: "item"
+				}
+			]
+			title: "Pochete"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0F8C1C38F0D4808D"
+			]
+			description: [
+				"&eTrapo&r: rasgue roupa velha, lã ou barbante. Estanca, mas suja rápido."
+				"&eBandagem&r: estanca e protege. Cozida na fornalha vira &eBandagem Estéril&r (estanca e desinfeta)."
+				"&eDesinfetante (álcool)&r: limpa o ferimento e evita infecção. Arde."
+				"Para tratar outra pessoa: &eagachado + clique&r nela com o item na mão."
+			]
+			icon: "zc_survival:bandage"
+			id: "2B0049BFD44569DE"
+			rewards: [
+				{
+					id: "702D3596A6D0837F"
+					item: "zc_survival:sterile_bandage"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "69DDE992E00B7493"
+					item: "zc_survival:rag"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "39A1AD3D2F64D6E6"
+					item: "zc_survival:bandage"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "60EA6D4AC4862B45"
+					item: "zc_survival:disinfectant"
+					type: "item"
+				}
+			]
+			title: "Trapo, bandagem, álcool"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2B0049BFD44569DE"
+			]
+			description: [
+				"Abra o &epainel de saúde&r (&eH&r): cabeça, tronco, braços e pernas, cada um com seus ferimentos."
+				"&7Arranhão&r — limpe e enfaixe. &cLaceração&r — sangra; &eKit de Sutura&r fecha. &cFratura&r — ouviu o estalo? &eTala&r. &4Mordida&r — enfaixe, desinfete e reze."
+				"Sangramento sem curativo mata em minutos. Curativo sujo infecciona. Antibióticos seguram infecção de ferida por um tempo. Analgésicos tiram a dor e baixam a febre."
+				"Segure um item médico e clique na parte do corpo, no painel."
+			]
+			icon: "zc_survival:splint"
+			id: "3FD95D7CA6A0651A"
+			rewards: [
+				{
+					id: "5411A8C5EF18F81F"
+					item: "zc_survival:splint"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "60132F7B4948BEBA"
+					title: "Abri o painel de saúde (H)"
+					type: "checkmark"
+				}
+			]
+			title: "O corpo conta"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3FD95D7CA6A0651A"
+			]
+			description: [
+				"&7&oRádio de pilha, SAE, Dia 1: \"...pessoas feridas por mordida devem se isolar e amarrar um pano branco na janela. Uma equipe de saúde irá até você.\"&r"
+				""
+				"Nenhuma equipe vem. A mordida tem chance alta de passar o &cKnox&r. Arranhão quase nunca."
+				"0–24 h: nada. Você se sente bem. Você quer acreditar nisso. 24–48 h: febre, sede, paranoia. 48–72 h: tosse com sangue, fraqueza. Depois: você levanta."
+				"Não existe remédio na farmácia para isso. Antibiótico não cura Knox. Se for mordido, avise o grupo. Mordida não se esconde."
+			]
+			icon: "minecraft:rotten_flesh"
+			id: "337BF1AEEFC5432C"
+			rewards: [ ]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "473E031CDFF0D536"
+					title: "Entendi"
+					type: "checkmark"
+				}
+			]
+			title: "Knox"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"337BF1AEEFC5432C"
+			]
+			description: [
+				"Quando você morre, você &clevanta&r: um infectado com o seu rosto e tudo o que você carregava. Você fica lá dentro, vendo pelos próprios olhos, sem controle."
+				"Nos primeiros instantes, alguém com uma &eInjeção de Reversão&r pode te trazer de volta: clique direito no infectado e fique parado uns segundos. Você volta fraco, com as suas coisas."
+				"Depois de um tempo, aparece a opção &eDesistir (G)&r: você renasce na sua cama (ou numa casa qualquer) sem nada. O corpo continua andando por aí com os seus itens até alguém derrubá-lo."
+				"&8Por isso ninguém anda sozinho: a injeção só serve se tiver alguém do lado."
+			]
+			icon: "zc_player:reversal_injection"
+			id: "498745CEE37C4EAA"
+			rewards: [ ]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0C20944D8D17E9C6"
+					title: "Entendi"
+					type: "checkmark"
+				}
+			]
+			title: "A Janela de Lázaro"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3FD95D7CA6A0651A"
+			]
+			description: [
+				"Tudo o que você faz ensina alguma coisa. A tela de &ehabilidades&r abre com &eK&r."
+				"Carpintaria, primeiros socorros, mecânica, elétrica... quem o servidor precisa no fim da história se forma fazendo."
+				"&8(As habilidades vêm no módulo zc_skills. Se a tecla K ainda não abrir nada, a sua versão do pack não tem ele.)"
+			]
+			icon: "minecraft:book"
+			id: "45577CCED3C69D92"
+			rewards: [ ]
+			tasks: [
+				{
+					id: "0C13F58BF9B46852"
+					title: "Abri a tela de habilidades (K)"
+					type: "checkmark"
+				}
+			]
+			title: "Habilidades (K)"
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"45577CCED3C69D92"
+			]
+			description: [
+				"&eC&r: deitar e rastejar. Passa por vãos baixos, some atrás de muretas, sai de baixo de uma cerca quebrada."
+				"&eAgachado&r você anda sem barulho. Correndo, a rua inteira escuta. &7Anda, não corre."
+				"Sem espaço em cima, você não levanta. Olhe antes de deitar."
+			]
+			icon: "minecraft:cobweb"
+			id: "287AC4008176B886"
+			rewards: [ ]
+			tasks: [
+				{
+					id: "3B454C78C682FBCB"
+					title: "Rastejei (C)"
+					type: "checkmark"
+				}
+			]
+			title: "Rastejar (C)"
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"3CF0FFC55BD76EFB"
+			]
+			description: [
+				"Não existe minimapa na cabeça de ninguém. O único mapa é o que você carrega: o &eAtlas&r."
+				"Ele junta mapas de papel enquanto você anda. Sem atlas, sem mapa. Perdeu o atlas, perdeu tudo o que desenhou."
+				"&eM&r abre o mapa do atlas; &eB&r marca um alfinete. Anote onde tem água, remédio e horda."
+			]
+			icon: "map_atlases:atlas"
+			id: "0356B17C04CE392C"
+			rewards: [
+				{
+					count: 2
+					id: "2E08D1A2BEF2E42D"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4DE8AAE29813F221"
+					item: "map_atlases:atlas"
+					type: "item"
+				}
+			]
+			title: "O Atlas"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0356B17C04CE392C"
+			]
+			description: [
+				"Voz de verdade: &esegure Caps Lock&r para falar. Quem está a ~32 blocos ouve; sussurro, bem menos. &eV&r abre as opções de voz."
+				"O chat de texto também é local. &e/shout&r grita mais longe, e cansa."
+				"Para falar com quem está longe: &eWalkie-Talkie&r. Mesmo canal que o grupo, e fale com Caps Lock."
+				"Rádio é a única coisa nessa cidade que chega longe sem fazer barulho."
+			]
+			icon: "walkietalkie:wooden_walkietalkie"
+			id: "23FD6584127878D6"
+			rewards: [
+				{
+					id: "4825BD741F4BAF76"
+					item: "flashlightmod:battery"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "598686FCDA241299"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "walkietalkie:wooden_walkietalkie"
+								}
+								{
+									Count: 1b
+									id: "walkietalkie:stone_walkietalkie"
+								}
+								{
+									Count: 1b
+									id: "walkietalkie:iron_walkietalkie"
+								}
+								{
+									Count: 1b
+									id: "walkietalkie:golden_walkietalkie"
+								}
+								{
+									Count: 1b
+									id: "walkietalkie:diamond_walkietalkie"
+								}
+								{
+									Count: 1b
+									id: "walkietalkie:netherite_walkietalkie"
+								}
+							]
+						}
+					}
+					title: "Tenha um walkie-talkie"
+					type: "item"
+				}
+			]
+			title: "Falar baixo"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0B35663FB4B1087A"
+			]
+			description: [
+				"Eles são lentos. São muitos. E ouvem tudo: tiro, vidro, porta arrombada, motor, correria."
+				"Mire na cabeça. Bata e recue. Nunca brigue com três de uma vez dentro de um corredor."
+				"Tiro resolve um e chama vinte. Arma de fogo é para quando já deu errado."
+			]
+			icon: "marbledsmelees:baseball_bat"
+			id: "7982E7275FBC77D8"
+			rewards: [
+				{
+					count: 2
+					id: "23E7748DFC6AB2CA"
+					item: "zc_survival:rag"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "0B2BF1B67BCAD741"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Primeiro morto"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	subtitle: [
+		"Coisas que eu preciso lembrar. Ninguém vai entrar para te buscar."
+	]
+	title: "Prólogo: Dia 0"
+}
