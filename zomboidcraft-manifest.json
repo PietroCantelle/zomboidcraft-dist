@@ -1,0 +1,4335 @@
+{
+ "formatVersion": 1,
+ "name": "ZomboidCraft",
+ "version": "0.2.3",
+ "generatedAt": "2026-09-30T22:40:57.711Z",
+ "minecraft": "1.20.1",
+ "forge": "47.4.23",
+ "java": {
+  "major": 17
+ },
+ "server": {
+  "address": "",
+  "name": "ZomboidCraft"
+ },
+ "memory": {
+  "recommendedMb": 8192,
+  "minimumMb": 6144
+ },
+ "managedDirs": [
+  "mods",
+  "resourcepacks",
+  "shaderpacks",
+  "config",
+  "defaultconfigs",
+  "kubejs"
+ ],
+ "strictMods": true,
+ "files": [
+  {
+   "path": "config/alexsmobs.toml",
+   "size": 35482,
+   "sha1": "a590d03af89af4d6bf0be8928a2f10fb38d86513",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/alexsmobs.toml"
+   ]
+  },
+  {
+   "path": "config/crash_assistant/config.toml",
+   "size": 20805,
+   "sha1": "c80f5c6442bf3a0cd683547a80439e3612761cac",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/crash_assistant/config.toml"
+   ]
+  },
+  {
+   "path": "config/crash_assistant/modlist.json",
+   "size": 60009,
+   "sha1": "6d36fd5b00116d56f8e7a39715e642f875cafe6f",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/crash_assistant/modlist.json"
+   ]
+  },
+  {
+   "path": "config/defaultoptions/keybindings.txt",
+   "size": 380,
+   "sha1": "91e2104ed0ea619717aa66c8de4a4cd3b95dd305",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/defaultoptions/keybindings.txt"
+   ]
+  },
+  {
+   "path": "config/defaultoptions/options.txt",
+   "size": 309,
+   "sha1": "59f490665355804d514a9db08c5022b8359881eb",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/defaultoptions/options.txt"
+   ]
+  },
+  {
+   "path": "config/DistantHorizons.toml",
+   "size": 36087,
+   "sha1": "236ad99cc8f4b1ec8bb5cdfdcb30ee4fb36a5b53",
+   "side": "both",
+   "policy": "once",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/DistantHorizons.toml"
+   ]
+  },
+  {
+   "path": "config/firstjoinmessage.json5",
+   "size": 1013,
+   "sha1": "df6cb9b695d2a944ccb657813dbf8cb52c9b9b4d",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/firstjoinmessage.json5"
+   ]
+  },
+  {
+   "path": "config/flan/flan_config.json",
+   "size": 4896,
+   "sha1": "08c301bac546ff6c97e2883d7f3c488d729c1a7b",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/flan/flan_config.json"
+   ]
+  },
+  {
+   "path": "config/ftbquests/quests/chapter_groups.snbt",
+   "size": 136,
+   "sha1": "fb8a04d971f0417bbf07e58be59a327f85baedd7",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/ftbquests/quests/chapter_groups.snbt"
+   ]
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/ato1.snbt",
+   "size": 8354,
+   "sha1": "f06afa6fea6596fe472584ef40c2f2aea51c271e",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/ftbquests/quests/chapters/ato1.snbt"
+   ]
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/ato2.snbt",
+   "size": 9527,
+   "sha1": "1a68b09a751cfafb8f4de40f5d33e13ea7b609bb",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/ftbquests/quests/chapters/ato2.snbt"
+   ]
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/ato3.snbt",
+   "size": 8230,
+   "sha1": "0d648b2f2b7b16be83f816eb141f8198f762d756",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/ftbquests/quests/chapters/ato3.snbt"
+   ]
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/ato4.snbt",
+   "size": 7076,
+   "sha1": "501aa8379d528ca2f0ce0b7c620b0e8677201c65",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/ftbquests/quests/chapters/ato4.snbt"
+   ]
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/ato5.snbt",
+   "size": 7060,
+   "sha1": "0caf26bd3f9aa973c6f34b7dae09a7486790e392",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/ftbquests/quests/chapters/ato5.snbt"
+   ]
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/ato6.snbt",
+   "size": 4258,
+   "sha1": "4e822035c0363d614723a12e112ba6926079cec6",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/ftbquests/quests/chapters/ato6.snbt"
+   ]
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/paralelas.snbt",
+   "size": 12504,
+   "sha1": "091e598bc1d930eeeeaf797050832effd754db99",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/ftbquests/quests/chapters/paralelas.snbt"
+   ]
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/prologo.snbt",
+   "size": 16521,
+   "sha1": "76be675d5799aa72737ea2def13d26e2b6047b2a",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/ftbquests/quests/chapters/prologo.snbt"
+   ]
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/registros.snbt",
+   "size": 32797,
+   "sha1": "94f207d37be4893b6c222a36657e31e53be3a172",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/ftbquests/quests/chapters/registros.snbt"
+   ]
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/safezones.snbt",
+   "size": 11342,
+   "sha1": "42d37749281697b7585bd7027f6d879a870fcb4f",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/ftbquests/quests/chapters/safezones.snbt"
+   ]
+  },
+  {
+   "path": "config/ftbquests/quests/data.snbt",
+   "size": 543,
+   "sha1": "0600585608a8e9d366685d122c215521bbc584ca",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/ftbquests/quests/data.snbt"
+   ]
+  },
+  {
+   "path": "config/hordes-common.toml",
+   "size": 5732,
+   "sha1": "b2c0445158dc571b7091b07f77795950eb097aaa",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/hordes-common.toml"
+   ]
+  },
+  {
+   "path": "config/incontrol/spawn.json",
+   "size": 317,
+   "sha1": "8e079f1e6db561496becf4fb068032cd18e647a0",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/incontrol/spawn.json"
+   ]
+  },
+  {
+   "path": "config/localizedchat-common.toml",
+   "size": 1627,
+   "sha1": "5e0c4e5731f54d6dca6f2063c8d6e1a45569abbf",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/localizedchat-common.toml"
+   ]
+  },
+  {
+   "path": "config/lootr-common.toml",
+   "size": 6609,
+   "sha1": "fa4b22bc46c68eda478a8cdcd0cf785ba9526a04",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/lootr-common.toml"
+   ]
+  },
+  {
+   "path": "config/QuantifiedAPI/quantified_config.json",
+   "size": 5781,
+   "sha1": "6155b1621a8af1cd398f7e378c71bfaad2751064",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/QuantifiedAPI/quantified_config.json"
+   ]
+  },
+  {
+   "path": "config/scaling_mobs/main.toml",
+   "size": 3034,
+   "sha1": "f65b574fd3a153442f53e4909c0911732adc89c0",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/scaling_mobs/main.toml"
+   ]
+  },
+  {
+   "path": "config/securitycraft-client.toml",
+   "size": 1290,
+   "sha1": "a060d2f2067e2c1bd5b6ebcfc14e0b24fb105f64",
+   "side": "both",
+   "policy": "once",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/securitycraft-client.toml"
+   ]
+  },
+  {
+   "path": "config/sereneseasons/seasons.toml",
+   "size": 6778,
+   "sha1": "d743112a022fda9f364c42f2a177ef03fd11ea93",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/sereneseasons/seasons.toml"
+   ]
+  },
+  {
+   "path": "config/sidebar_buttons.json",
+   "size": 197,
+   "sha1": "a3a486b1465710dad9a07797b491d8b78c140cb2",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/sidebar_buttons.json"
+   ]
+  },
+  {
+   "path": "config/simplebackups-common.toml",
+   "size": 3649,
+   "sha1": "31ab45226962029cb74cec92838c21775c4eda79",
+   "side": "server",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/simplebackups-common.toml"
+   ]
+  },
+  {
+   "path": "config/sound_physics_remastered/soundphysics.properties",
+   "size": 332,
+   "sha1": "649830043918ee9296afab1c98694a369002feda",
+   "side": "both",
+   "policy": "once",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/sound_physics_remastered/soundphysics.properties"
+   ]
+  },
+  {
+   "path": "config/toastcontrol-common.toml",
+   "size": 1445,
+   "sha1": "403387c330db3ea6985aee141be95878bb440f83",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/toastcontrol-common.toml"
+   ]
+  },
+  {
+   "path": "config/voicechat/voicechat-client.properties",
+   "size": 4795,
+   "sha1": "2bedbeb5fd98ebc381504badfc998c24e0940ace",
+   "side": "both",
+   "policy": "once",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/voicechat/voicechat-client.properties"
+   ]
+  },
+  {
+   "path": "config/voicechat/voicechat-server.properties",
+   "size": 2443,
+   "sha1": "30f5721b0fc2817fdd33840294bb57bd02f86b82",
+   "side": "server",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/voicechat/voicechat-server.properties"
+   ]
+  },
+  {
+   "path": "config/zombies_plus.json5",
+   "size": 6283,
+   "sha1": "3000ac4bbf0f6d03b851df2d3504cd519ce47ad3",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/config/zombies_plus.json5"
+   ]
+  },
+  {
+   "path": "kubejs/assets/kubejs/lang/en_us.json",
+   "size": 306,
+   "sha1": "2e3b88133fa3ee751272f58108340a0a58bd7a05",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/assets/kubejs/lang/en_us.json"
+   ]
+  },
+  {
+   "path": "kubejs/assets/kubejs/lang/pt_br.json",
+   "size": 328,
+   "sha1": "5db6439a5c9cdd2ea5f48011bf853e9f94f278df",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/assets/kubejs/lang/pt_br.json"
+   ]
+  },
+  {
+   "path": "kubejs/assets/kubejs/textures/item/military_electronics.png",
+   "size": 224,
+   "sha1": "871ac94379e3774ce586bd4860ec18bf937bc942",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/assets/kubejs/textures/item/military_electronics.png"
+   ]
+  },
+  {
+   "path": "kubejs/assets/kubejs/textures/item/weapon_parts.png",
+   "size": 202,
+   "sha1": "df9f918c4321dee5522cc44c6323244f6aea8fd5",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/assets/kubejs/textures/item/weapon_parts.png"
+   ]
+  },
+  {
+   "path": "kubejs/data/aiycrates/loot_tables/blocks/blue_filum_table.json",
+   "size": 160,
+   "sha1": "d7712f7508e736ddc613c36fa9c77412ffa4c773",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/data/aiycrates/loot_tables/blocks/blue_filum_table.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/enhancedcelestials/enhancedcelestials/lunar/event/blood_moon.json",
+   "size": 2021,
+   "sha1": "ff4fd64dde5ca75114057d9ed26f18f7812da4f4",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/data/enhancedcelestials/enhancedcelestials/lunar/event/blood_moon.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/keerdm_zombie_essentials/loot_tables/chests/abandoned_car_advanced_vics.json",
+   "size": 3229,
+   "sha1": "450d5e6dbe0d09f910ddc422a97cf59b34ec7a81",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/abandoned_car_advanced_vics.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/keerdm_zombie_essentials/loot_tables/chests/abandoned_car_basic_vics.json",
+   "size": 2917,
+   "sha1": "f503a77a450f06293b730bf102a8578f9ba4bf64",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/abandoned_car_basic_vics.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/keerdm_zombie_essentials/loot_tables/chests/abandoned_car_emergency_vics.json",
+   "size": 3014,
+   "sha1": "a1953f6da7756b8ffe1542cf3d05b870af5cfb81",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/abandoned_car_emergency_vics.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/keerdm_zombie_essentials/loot_tables/chests/apartment_bathroom_vics.json",
+   "size": 6346,
+   "sha1": "afd76bc34a9085ec28215b7c2004192e68bfe78b",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/apartment_bathroom_vics.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/keerdm_zombie_essentials/loot_tables/chests/vics_point_blank_ammochest.json",
+   "size": 7570,
+   "sha1": "5f4ddbfa94669d3854aeb2a4d8874a53577e9803",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/vics_point_blank_ammochest.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/keerdm_zombie_essentials/loot_tables/chests/vics_point_blank_gunchest.json",
+   "size": 12458,
+   "sha1": "1744654b61a2ad2f6a38bb784e42ed854fafe0de",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/vics_point_blank_gunchest.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/sophisticatedbackpacks/recipes/backpack.json",
+   "size": 560,
+   "sha1": "fd77beb4583bd4939d1f02ce79c171a58ad7bfe4",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/data/sophisticatedbackpacks/recipes/backpack.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/sophisticatedbackpacks/recipes/copper_backpack.json",
+   "size": 537,
+   "sha1": "e0298f8de29ce202794f1be3299dd0e1763f1eb5",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/data/sophisticatedbackpacks/recipes/copper_backpack.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/sophisticatedbackpacks/recipes/gold_backpack.json",
+   "size": 536,
+   "sha1": "ac10d678623cd166836f591389d16acf5a1037a7",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/data/sophisticatedbackpacks/recipes/gold_backpack.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/sophisticatedbackpacks/recipes/iron_backpack_from_copper.json",
+   "size": 488,
+   "sha1": "d27633832f5c2a711e03de04b1ec1bf05d8bf8ae",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/data/sophisticatedbackpacks/recipes/iron_backpack_from_copper.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/sophisticatedbackpacks/recipes/iron_backpack.json",
+   "size": 531,
+   "sha1": "c8c986f0cb0ddfeeb069eafacf280278f348a9e4",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/data/sophisticatedbackpacks/recipes/iron_backpack.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/terralith/functions/toast.mcfunction",
+   "size": 80,
+   "sha1": "7208d9bb660510980d568b4d77cc0eee30d4c626",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/data/terralith/functions/toast.mcfunction"
+   ]
+  },
+  {
+   "path": "kubejs/server_scripts/zc_crafting.js",
+   "size": 6288,
+   "sha1": "742204208f16a8845b5d4f71fe44d90b78690512",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/server_scripts/zc_crafting.js"
+   ]
+  },
+  {
+   "path": "kubejs/server_scripts/zc_gamerules.js",
+   "size": 622,
+   "sha1": "24e6ebba5192a8ae8769d29f03e15e89dfd0d8ce",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/server_scripts/zc_gamerules.js"
+   ]
+  },
+  {
+   "path": "kubejs/server_scripts/zc_loot.js",
+   "size": 1031,
+   "sha1": "aebef4bfc4573e47bb92437ebed64978685f97ac",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/server_scripts/zc_loot.js"
+   ]
+  },
+  {
+   "path": "kubejs/server_scripts/zc_quests.js",
+   "size": 1394,
+   "sha1": "1592fee5e3db8319c2528cdbf197a604271291d9",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/server_scripts/zc_quests.js"
+   ]
+  },
+  {
+   "path": "kubejs/startup_scripts/zc_items.js",
+   "size": 809,
+   "sha1": "bdb3d0fdc59d5e98fc5aee4e0ffbfaaf5ae008b5",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/kubejs/startup_scripts/zc_items.js"
+   ]
+  },
+  {
+   "path": "mods/[1.20.1] SecurityCraft v1.10.0.1.jar",
+   "size": 4648724,
+   "sha1": "497e922cadb9650a5edab4dc26694bedbd830bf2",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6490/260/%5B1.20.1%5D%20SecurityCraft%20v1.10.0.1.jar",
+    "https://edge.forgecdn.net/files/6490/260/%5B1.20.1%5D%20SecurityCraft%20v1.10.0.1.jar"
+   ],
+   "name": "Security Craft",
+   "curseforge": {
+    "projectId": 64760,
+    "fileId": 6490260
+   }
+  },
+  {
+   "path": "mods/1.8.1+1.20.1+forge.jar",
+   "size": 139863,
+   "sha1": "bf45d3dc317a8e1a2412996b54da88140844a6f8",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7273/881/1.8.1%2B1.20.1%2Bforge.jar",
+    "https://edge.forgecdn.net/files/7273/881/1.8.1%2B1.20.1%2Bforge.jar"
+   ],
+   "name": "[Let's Do Addon] EMI Compat",
+   "curseforge": {
+    "projectId": 1063821,
+    "fileId": 7273881
+   }
+  },
+  {
+   "path": "mods/access_denied-6.2.1.jar",
+   "size": 80904,
+   "sha1": "360a8db3442149929dcef5c0dd57613466515a28",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7193/940/access_denied-6.2.1.jar",
+    "https://edge.forgecdn.net/files/7193/940/access_denied-6.2.1.jar"
+   ],
+   "name": "Access Denied",
+   "curseforge": {
+    "projectId": 917449,
+    "fileId": 7193940
+   }
+  },
+  {
+   "path": "mods/AgeingSpawners-1.20.1-2.0.0.jar",
+   "size": 19957,
+   "sha1": "4f806466dae2fd49d2259f4d3ef5798c947e51c2",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4614/353/AgeingSpawners-1.20.1-2.0.0.jar",
+    "https://edge.forgecdn.net/files/4614/353/AgeingSpawners-1.20.1-2.0.0.jar"
+   ],
+   "name": "Ageing Spawners",
+   "curseforge": {
+    "projectId": 382979,
+    "fileId": 4614353
+   }
+  },
+  {
+   "path": "mods/AiyCrates 1.20.1 - 1.0.0.jar",
+   "size": 309840,
+   "sha1": "3dad804ea7d6fc10785a7d272424432282fadadb",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5668/599/AiyCrates%201.20.1%20-%201.0.0.jar",
+    "https://edge.forgecdn.net/files/5668/599/AiyCrates%201.20.1%20-%201.0.0.jar"
+   ],
+   "name": "Aiycrates",
+   "curseforge": {
+    "projectId": 1091912,
+    "fileId": 5668599
+   }
+  },
+  {
+   "path": "mods/alexsmobs-1.22.9.jar",
+   "size": 26350793,
+   "sha1": "dbf93d2f1da19e16739e91e8ea0fc6f4bc2f228f",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5698/791/alexsmobs-1.22.9.jar",
+    "https://edge.forgecdn.net/files/5698/791/alexsmobs-1.22.9.jar"
+   ],
+   "name": "Alex's Mobs",
+   "curseforge": {
+    "projectId": 426558,
+    "fileId": 5698791
+   }
+  },
+  {
+   "path": "mods/alltheleaks-1.1.1+1.20.1-forge.jar",
+   "size": 1187126,
+   "sha1": "3c43c2e76093dc7ef5ad6e456d20da9674c653aa",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7235/989/alltheleaks-1.1.1%2B1.20.1-forge.jar",
+    "https://edge.forgecdn.net/files/7235/989/alltheleaks-1.1.1%2B1.20.1-forge.jar"
+   ],
+   "name": "AllTheLeaks (Memory Leak Fix)",
+   "curseforge": {
+    "projectId": 1091339,
+    "fileId": 7235989
+   }
+  },
+  {
+   "path": "mods/almanac-1.20.x-forge-1.0.2.jar",
+   "size": 15906,
+   "sha1": "f0b711df59cd589b088e536ca4134c5e6e73fd58",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5803/518/almanac-1.20.x-forge-1.0.2.jar",
+    "https://edge.forgecdn.net/files/5803/518/almanac-1.20.x-forge-1.0.2.jar"
+   ],
+   "name": "Almanac Lib",
+   "curseforge": {
+    "projectId": 1115285,
+    "fileId": 5803518
+   }
+  },
+  {
+   "path": "mods/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar",
+   "size": 7336,
+   "sha1": "03c839b24e5a19f8225400be354f8ffd9572e47f",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4598/390/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar",
+    "https://edge.forgecdn.net/files/4598/390/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar"
+   ],
+   "name": "Ambient Environment",
+   "curseforge": {
+    "projectId": 320163,
+    "fileId": 4598390
+   }
+  },
+  {
+   "path": "mods/AmbientSounds_FORGE_v6.3.4_mc1.20.1.jar",
+   "size": 53428834,
+   "sha1": "e84e7053c4c3a73c7f608c9da516bb5d393aab60",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7550/220/AmbientSounds_FORGE_v6.3.4_mc1.20.1.jar",
+    "https://edge.forgecdn.net/files/7550/220/AmbientSounds_FORGE_v6.3.4_mc1.20.1.jar"
+   ],
+   "name": "AmbientSounds 6",
+   "curseforge": {
+    "projectId": 254284,
+    "fileId": 7550220
+   }
+  },
+  {
+   "path": "mods/AnvilNeverTooExpensive-1.20.1-1.1.jar",
+   "size": 7903,
+   "sha1": "099ac070195ec98a5bf2c7c5aef88f00a9fd2c12",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4681/380/AnvilNeverTooExpensive-1.20.1-1.1.jar",
+    "https://edge.forgecdn.net/files/4681/380/AnvilNeverTooExpensive-1.20.1-1.1.jar"
+   ],
+   "name": "Anvil Never Too Expensive",
+   "curseforge": {
+    "projectId": 670282,
+    "fileId": 4681380
+   }
+  },
+  {
+   "path": "mods/ApothicAttributes-1.20.1-1.3.7.jar",
+   "size": 227511,
+   "sha1": "1dc0744d17f0861fe6b067798d39abce9d8e0e86",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5634/71/ApothicAttributes-1.20.1-1.3.7.jar",
+    "https://edge.forgecdn.net/files/5634/71/ApothicAttributes-1.20.1-1.3.7.jar"
+   ],
+   "name": "Apothic Attributes",
+   "curseforge": {
+    "projectId": 898963,
+    "fileId": 5634071
+   }
+  },
+  {
+   "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+   "size": 47428,
+   "sha1": "81919356f84eab14258db98924b66c3c38e372b1",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4770/828/appleskin-forge-mc1.20.1-2.5.1.jar",
+    "https://edge.forgecdn.net/files/4770/828/appleskin-forge-mc1.20.1-2.5.1.jar"
+   ],
+   "name": "AppleSkin",
+   "curseforge": {
+    "projectId": 248787,
+    "fileId": 4770828
+   }
+  },
+  {
+   "path": "mods/architectury-9.2.14-forge.jar",
+   "size": 580602,
+   "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5137/938/architectury-9.2.14-forge.jar",
+    "https://edge.forgecdn.net/files/5137/938/architectury-9.2.14-forge.jar"
+   ],
+   "name": "Architectury API",
+   "curseforge": {
+    "projectId": 419699,
+    "fileId": 5137938
+   }
+  },
+  {
+   "path": "mods/athena-forge-1.20.1-3.1.2.jar",
+   "size": 91808,
+   "sha1": "2acee24454af859988a691f0506271a465f68f7b",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5176/879/athena-forge-1.20.1-3.1.2.jar",
+    "https://edge.forgecdn.net/files/5176/879/athena-forge-1.20.1-3.1.2.jar"
+   ],
+   "name": "Athena",
+   "curseforge": {
+    "projectId": 841890,
+    "fileId": 5176879
+   }
+  },
+  {
+   "path": "mods/Atlas Lib-1.20.1-1.1.12.jar",
+   "size": 124436,
+   "sha1": "17534bfd6878afc2da5d990fe6fc348b2606530c",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5254/550/Atlas%20Lib-1.20.1-1.1.12.jar",
+    "https://edge.forgecdn.net/files/5254/550/Atlas%20Lib-1.20.1-1.1.12.jar"
+   ],
+   "name": "Atlas Lib",
+   "curseforge": {
+    "projectId": 463826,
+    "fileId": 5254550
+   }
+  },
+  {
+   "path": "mods/auudio_forge_1.0.3_MC_1.19.3.jar",
+   "size": 27560,
+   "sha1": "584ed872789341ab42058a6c1fd49e2840aeacd2",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4203/288/auudio_forge_1.0.3_MC_1.19.3.jar",
+    "https://edge.forgecdn.net/files/4203/288/auudio_forge_1.0.3_MC_1.19.3.jar"
+   ],
+   "name": "Auudio [Forge]",
+   "curseforge": {
+    "projectId": 606159,
+    "fileId": 4203288
+   }
+  },
+  {
+   "path": "mods/BadMobs-1.20.1-19.0.4.jar",
+   "size": 10425,
+   "sha1": "100f29f6c425688bcbd77d1a3b99b12e18f019cd",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5086/469/BadMobs-1.20.1-19.0.4.jar",
+    "https://edge.forgecdn.net/files/5086/469/BadMobs-1.20.1-19.0.4.jar"
+   ],
+   "name": "Bad Mobs",
+   "curseforge": {
+    "projectId": 233258,
+    "fileId": 5086469
+   }
+  },
+  {
+   "path": "mods/BadOptimizations-2.4.1-1.20.1.jar",
+   "size": 460234,
+   "sha1": "304007dcb0fb15ed1a1bc3771736470dafc5be0f",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7338/200/BadOptimizations-2.4.1-1.20.1.jar",
+    "https://edge.forgecdn.net/files/7338/200/BadOptimizations-2.4.1-1.20.1.jar"
+   ],
+   "name": "BadOptimizations",
+   "curseforge": {
+    "projectId": 949555,
+    "fileId": 7338200
+   }
+  },
+  {
+   "path": "mods/baguettelib-1.20.1-Forge-1.1.6.jar",
+   "size": 31898,
+   "sha1": "8d3c9551bbed4c2f2e8cb2b9a10d31bad4edb52d",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7544/807/baguettelib-1.20.1-Forge-1.1.6.jar",
+    "https://edge.forgecdn.net/files/7544/807/baguettelib-1.20.1-Forge-1.1.6.jar"
+   ],
+   "name": "BaguetteLib",
+   "curseforge": {
+    "projectId": 1264423,
+    "fileId": 7544807
+   }
+  },
+  {
+   "path": "mods/balm-forge-1.20.1-7.3.38-all.jar",
+   "size": 591397,
+   "sha1": "515905f87268f1eb5af2a9878a84914517efe552",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7420/617/balm-forge-1.20.1-7.3.38-all.jar",
+    "https://edge.forgecdn.net/files/7420/617/balm-forge-1.20.1-7.3.38-all.jar"
+   ],
+   "name": "Balm",
+   "curseforge": {
+    "projectId": 531761,
+    "fileId": 7420617
+   }
+  },
+  {
+   "path": "mods/bbb-forge-2.0pre4.jar",
+   "size": 1890413,
+   "sha1": "3cdd83d437c6893b05097b90300980fbf12c91f8",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7627/387/bbb-forge-2.0pre4.jar",
+    "https://edge.forgecdn.net/files/7627/387/bbb-forge-2.0pre4.jar"
+   ],
+   "name": "Building But Better",
+   "curseforge": {
+    "projectId": 989479,
+    "fileId": 7627387
+   }
+  },
+  {
+   "path": "mods/bbs-1.20.1-0.1.3-forge.jar",
+   "size": 14852,
+   "sha1": "972fdb8da6e1d29add810a6dcd90219dc3a5812d",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4709/560/bbs-1.20.1-0.1.3-forge.jar",
+    "https://edge.forgecdn.net/files/4709/560/bbs-1.20.1-0.1.3-forge.jar"
+   ],
+   "name": "Better Block Sounds",
+   "curseforge": {
+    "projectId": 630342,
+    "fileId": 4709560
+   }
+  },
+  {
+   "path": "mods/betterbiomereblend-1.5.3.jar",
+   "size": 226772,
+   "sha1": "80d2e5e3bc88c610244d449859c4e3480f3edae1",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7093/592/betterbiomereblend-1.5.3.jar",
+    "https://edge.forgecdn.net/files/7093/592/betterbiomereblend-1.5.3.jar"
+   ],
+   "name": "Better Biome Reblend",
+   "curseforge": {
+    "projectId": 1018276,
+    "fileId": 7093592
+   }
+  },
+  {
+   "path": "mods/binocularsmod-1.02.jar",
+   "size": 412934,
+   "sha1": "01492298f5d84bceaf5e7de9605999dd72f36c45",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6334/718/binocularsmod-1.02.jar",
+    "https://edge.forgecdn.net/files/6334/718/binocularsmod-1.02.jar"
+   ],
+   "name": "Keerdm's Binoculars",
+   "curseforge": {
+    "projectId": 1214525,
+    "fileId": 6334718
+   }
+  },
+  {
+   "path": "mods/biomereplacer-2.1-hippo-forge.jar",
+   "size": 396898,
+   "sha1": "382cb16421baa0a4f1e02bb44e64d1a0f4d40e0e",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6807/124/biomereplacer-2.1-hippo-forge.jar",
+    "https://edge.forgecdn.net/files/6807/124/biomereplacer-2.1-hippo-forge.jar"
+   ],
+   "name": "Biome Replacer",
+   "curseforge": {
+    "projectId": 910274,
+    "fileId": 6807124
+   }
+  },
+  {
+   "path": "mods/biomesize-1.20.1-1.6.jar",
+   "size": 12857,
+   "sha1": "b513e9447b1f5d19b63da324cb75a38a370a7c99",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7541/878/biomesize-1.20.1-1.6.jar",
+    "https://edge.forgecdn.net/files/7541/878/biomesize-1.20.1-1.6.jar"
+   ],
+   "name": "Biome Sizes",
+   "curseforge": {
+    "projectId": 775502,
+    "fileId": 7541878
+   }
+  },
+  {
+   "path": "mods/Bookshelf-Forge-1.20.1-20.2.15.jar",
+   "size": 343925,
+   "sha1": "9df4908f606c6dc62a358b3e04e3fdedba59a12c",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7612/389/Bookshelf-Forge-1.20.1-20.2.15.jar",
+    "https://edge.forgecdn.net/files/7612/389/Bookshelf-Forge-1.20.1-20.2.15.jar"
+   ],
+   "name": "Bookshelf",
+   "curseforge": {
+    "projectId": 228525,
+    "fileId": 7612389
+   }
+  },
+  {
+   "path": "mods/car-forge-1.20.1-1.0.45.jar",
+   "size": 2666201,
+   "sha1": "3605b62e492f1a9d00ee40aaf31ae5449b86d75f",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7141/961/car-forge-1.20.1-1.0.45.jar",
+    "https://edge.forgecdn.net/files/7141/961/car-forge-1.20.1-1.0.45.jar"
+   ],
+   "name": "Ultimate Car Mod",
+   "curseforge": {
+    "projectId": 267458,
+    "fileId": 7141961
+   }
+  },
+  {
+   "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar",
+   "size": 439457,
+   "sha1": "9999714ca3dd2f2401f0396ca44f3b27c3784c4f",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4882/500/carryon-forge-1.20.1-2.1.2.7.jar",
+    "https://edge.forgecdn.net/files/4882/500/carryon-forge-1.20.1-2.1.2.7.jar"
+   ],
+   "name": "Carry On",
+   "curseforge": {
+    "projectId": 274259,
+    "fileId": 4882500
+   }
+  },
+  {
+   "path": "mods/charmofundying-forge-6.5.0+1.20.1.jar",
+   "size": 169487,
+   "sha1": "2afdc7f42b47384062012e54439c4aab90fb7063",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5159/193/charmofundying-forge-6.5.0%2B1.20.1.jar",
+    "https://edge.forgecdn.net/files/5159/193/charmofundying-forge-6.5.0%2B1.20.1.jar"
+   ],
+   "name": "Charm of Undying (Fabric/Forge/Quilt)",
+   "curseforge": {
+    "projectId": 316873,
+    "fileId": 5159193
+   }
+  },
+  {
+   "path": "mods/chat_heads-0.15.0-forge-1.20.jar",
+   "size": 722765,
+   "sha1": "52a21207af65259adfa840e26042c28058f6513f",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7591/237/chat_heads-0.15.0-forge-1.20.jar",
+    "https://edge.forgecdn.net/files/7591/237/chat_heads-0.15.0-forge-1.20.jar"
+   ],
+   "name": "Chat Heads",
+   "curseforge": {
+    "projectId": 407206,
+    "fileId": 7591237
+   }
+  },
+  {
+   "path": "mods/chatanimation-forge-1.3.3+mc1.20.1.jar",
+   "size": 1067270,
+   "sha1": "c212037fdec51ac9d5c5e326261e7de880785759",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8902/956/chatanimation-forge-1.3.3%2Bmc1.20.1.jar",
+    "https://edge.forgecdn.net/files/8902/956/chatanimation-forge-1.3.3%2Bmc1.20.1.jar"
+   ],
+   "name": "Chat Animation [Smooth Chat]",
+   "curseforge": {
+    "projectId": 892086,
+    "fileId": 8902956
+   }
+  },
+  {
+   "path": "mods/Chunky-1.3.146.jar",
+   "size": 341451,
+   "sha1": "0b782d12b4ac3b03a94c28f32e9b2d5587d1dd50",
+   "side": "server",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5320/28/Chunky-1.3.146.jar",
+    "https://edge.forgecdn.net/files/5320/28/Chunky-1.3.146.jar"
+   ],
+   "name": "Chunky (Forge/NeoForge)",
+   "curseforge": {
+    "projectId": 485681,
+    "fileId": 5320028
+   }
+  },
+  {
+   "path": "mods/citadel-2.6.3-1.20.1.jar",
+   "size": 3185275,
+   "sha1": "fb0b1fa96ce28e4be77b38ad95d83c3da7ec8316",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7476/570/citadel-2.6.3-1.20.1.jar",
+    "https://edge.forgecdn.net/files/7476/570/citadel-2.6.3-1.20.1.jar"
+   ],
+   "name": "Citadel",
+   "curseforge": {
+    "projectId": 331936,
+    "fileId": 7476570
+   }
+  },
+  {
+   "path": "mods/cleanswing-1.20-1.8.jar",
+   "size": 8305,
+   "sha1": "c128e24c47ab4a389b3868ff6913ee0631f254e8",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5962/530/cleanswing-1.20-1.8.jar",
+    "https://edge.forgecdn.net/files/5962/530/cleanswing-1.20-1.8.jar"
+   ],
+   "name": "Clean Swing Through Grass",
+   "curseforge": {
+    "projectId": 915308,
+    "fileId": 5962530
+   }
+  },
+  {
+   "path": "mods/cloth-config-11.1.136-forge.jar",
+   "size": 1181413,
+   "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5729/105/cloth-config-11.1.136-forge.jar",
+    "https://edge.forgecdn.net/files/5729/105/cloth-config-11.1.136-forge.jar"
+   ],
+   "name": "Cloth Config API (Fabric/Forge/NeoForge)",
+   "curseforge": {
+    "projectId": 348521,
+    "fileId": 5729105
+   }
+  },
+  {
+   "path": "mods/Clumps-forge-1.20.1-12.0.0.4.jar",
+   "size": 20299,
+   "sha1": "97cc669f68dbe812cb77cc3631339334fc28b877",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5278/538/Clumps-forge-1.20.1-12.0.0.4.jar",
+    "https://edge.forgecdn.net/files/5278/538/Clumps-forge-1.20.1-12.0.0.4.jar"
+   ],
+   "name": "Clumps",
+   "curseforge": {
+    "projectId": 256717,
+    "fileId": 5278538
+   }
+  },
+  {
+   "path": "mods/cofh_core-1.20.1-11.0.2.56.jar",
+   "size": 1509649,
+   "sha1": "6f7c0056fece31bf393df450d79482810ed444af",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5374/122/cofh_core-1.20.1-11.0.2.56.jar",
+    "https://edge.forgecdn.net/files/5374/122/cofh_core-1.20.1-11.0.2.56.jar"
+   ],
+   "name": "CoFH Core",
+   "curseforge": {
+    "projectId": 69162,
+    "fileId": 5374122
+   }
+  },
+  {
+   "path": "mods/collective-1.20.1-8.13.jar",
+   "size": 665169,
+   "sha1": "74b917dd99cd97b2f0480628a1b56958f5e0f5ad",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7148/968/collective-1.20.1-8.13.jar",
+    "https://edge.forgecdn.net/files/7148/968/collective-1.20.1-8.13.jar"
+   ],
+   "name": "Collective",
+   "curseforge": {
+    "projectId": 342584,
+    "fileId": 7148968
+   }
+  },
+  {
+   "path": "mods/colorwheel_patcher-forge-1.0.4+mc1.20.1.jar",
+   "size": 207040,
+   "sha1": "a8ae8241362d7de40fd8909f942c3b1362779bd6",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7397/574/colorwheel_patcher-forge-1.0.4%2Bmc1.20.1.jar",
+    "https://edge.forgecdn.net/files/7397/574/colorwheel_patcher-forge-1.0.4%2Bmc1.20.1.jar"
+   ],
+   "name": "Colorwheel Patcher",
+   "curseforge": {
+    "projectId": 1285475,
+    "fileId": 7397574
+   }
+  },
+  {
+   "path": "mods/colorwheel-forge-1.2.2+mc1.20.1.jar",
+   "size": 376937,
+   "sha1": "12de57b9e1b992cf915e77f9c29f127c7d95c19f",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7757/225/colorwheel-forge-1.2.2%2Bmc1.20.1.jar",
+    "https://edge.forgecdn.net/files/7757/225/colorwheel-forge-1.2.2%2Bmc1.20.1.jar"
+   ],
+   "name": "Colorwheel",
+   "curseforge": {
+    "projectId": 1254143,
+    "fileId": 7757225
+   }
+  },
+  {
+   "path": "mods/comforts-forge-6.4.0+1.20.1.jar",
+   "size": 382083,
+   "sha1": "e7b9fe89566bb1ee013e33745f22f309f679536e",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5503/516/comforts-forge-6.4.0%2B1.20.1.jar",
+    "https://edge.forgecdn.net/files/5503/516/comforts-forge-6.4.0%2B1.20.1.jar"
+   ],
+   "name": "Comforts",
+   "curseforge": {
+    "projectId": 276951,
+    "fileId": 5503516
+   }
+  },
+  {
+   "path": "mods/configurableextramobdrops-1.20.1-3.5.jar",
+   "size": 45245,
+   "sha1": "43d1585d90c0a6923bdbf55f53b7eb16ea34cc75",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6186/316/configurableextramobdrops-1.20.1-3.5.jar",
+    "https://edge.forgecdn.net/files/6186/316/configurableextramobdrops-1.20.1-3.5.jar"
+   ],
+   "name": "Configurable Extra Mob Drops",
+   "curseforge": {
+    "projectId": 414350,
+    "fileId": 6186316
+   }
+  },
+  {
+   "path": "mods/Controlling-forge-1.20.1-12.0.2.jar",
+   "size": 115280,
+   "sha1": "f6d3cdd3ec68c5590cf5b2e89c38dbf031824bfd",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4646/682/Controlling-forge-1.20.1-12.0.2.jar",
+    "https://edge.forgecdn.net/files/4646/682/Controlling-forge-1.20.1-12.0.2.jar"
+   ],
+   "name": "Controlling",
+   "curseforge": {
+    "projectId": 250398,
+    "fileId": 4646682
+   }
+  },
+  {
+   "path": "mods/coolrain-1.20.1-Forge-1.0.3.jar",
+   "size": 4154428,
+   "sha1": "796410e3954a39a458bc89228a62ae2463a0ba57",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7270/440/coolrain-1.20.1-Forge-1.0.3.jar",
+    "https://edge.forgecdn.net/files/7270/440/coolrain-1.20.1-Forge-1.0.3.jar"
+   ],
+   "name": "Cool Rain Reforged",
+   "curseforge": {
+    "projectId": 1346978,
+    "fileId": 7270440
+   }
+  },
+  {
+   "path": "mods/copycats-3.0.7+mc.1.20.1-forge.jar",
+   "size": 1996097,
+   "sha1": "5d0f497695fc2ee4ef89f1898458882b9d2d3aad",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7634/682/copycats-3.0.7%2Bmc.1.20.1-forge.jar",
+    "https://edge.forgecdn.net/files/7634/682/copycats-3.0.7%2Bmc.1.20.1-forge.jar"
+   ],
+   "name": "Create: Copycats+",
+   "curseforge": {
+    "projectId": 968398,
+    "fileId": 7634682
+   }
+  },
+  {
+   "path": "mods/Corgilib-Forge-1.20.1-4.0.3.4.jar",
+   "size": 360700,
+   "sha1": "4b08e5f8f2580842eacd5388458a0b52411a9fb2",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6616/784/Corgilib-Forge-1.20.1-4.0.3.4.jar",
+    "https://edge.forgecdn.net/files/6616/784/Corgilib-Forge-1.20.1-4.0.3.4.jar"
+   ],
+   "name": "CorgiLib",
+   "curseforge": {
+    "projectId": 693313,
+    "fileId": 6616784
+   }
+  },
+  {
+   "path": "mods/coroutil-forge-1.20.1-1.3.7.jar",
+   "size": 64187,
+   "sha1": "7f5f0b62a638b6053c95919cbe8c2bea2e0c93d0",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5096/38/coroutil-forge-1.20.1-1.3.7.jar",
+    "https://edge.forgecdn.net/files/5096/38/coroutil-forge-1.20.1-1.3.7.jar"
+   ],
+   "name": "CoroUtil",
+   "curseforge": {
+    "projectId": 237749,
+    "fileId": 5096038
+   }
+  },
+  {
+   "path": "mods/CraftPresence-2.7.1+1.20.1-forge.jar",
+   "size": 1310126,
+   "sha1": "c354216e78b6688c9bcbe67043b8f5e2156a4dde",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7704/742/CraftPresence-2.7.1%2B1.20.1-forge.jar",
+    "https://edge.forgecdn.net/files/7704/742/CraftPresence-2.7.1%2B1.20.1-forge.jar"
+   ],
+   "name": "CraftPresence",
+   "curseforge": {
+    "projectId": 297038,
+    "fileId": 7704742
+   }
+  },
+  {
+   "path": "mods/CrashAssistant-forge-1.19-1.20.1-1.11.3.jar",
+   "size": 3046687,
+   "sha1": "ef09d8a690da525180e3655e85dceade658391b2",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7769/876/CrashAssistant-forge-1.19-1.20.1-1.11.3.jar",
+    "https://edge.forgecdn.net/files/7769/876/CrashAssistant-forge-1.19-1.20.1-1.11.3.jar"
+   ],
+   "name": "Crash Assistant",
+   "curseforge": {
+    "projectId": 1154099,
+    "fileId": 7769876
+   }
+  },
+  {
+   "path": "mods/create_netherless-1.20.1-1.3.jar",
+   "size": 28927,
+   "sha1": "965bd359b1363f795414092796075540ca42cb11",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4831/343/create_netherless-1.20.1-1.3.jar",
+    "https://edge.forgecdn.net/files/4831/343/create_netherless-1.20.1-1.3.jar"
+   ],
+   "name": "Create: Netherless ((Neo)Forge)",
+   "curseforge": {
+    "projectId": 881506,
+    "fileId": 4831343
+   }
+  },
+  {
+   "path": "mods/create-1.20.1-6.0.8.jar",
+   "size": 19170905,
+   "sha1": "b13d912b9247a38d66d11598c121442585a1c1e9",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7178/761/create-1.20.1-6.0.8.jar",
+    "https://edge.forgecdn.net/files/7178/761/create-1.20.1-6.0.8.jar"
+   ],
+   "name": "Create",
+   "curseforge": {
+    "projectId": 328085,
+    "fileId": 7178761
+   }
+  },
+  {
+   "path": "mods/createdeco-2.0.3-1.20.1-forge.jar",
+   "size": 3509013,
+   "sha1": "54c8ad5686b846310bca9e69982a455e668dede3",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6373/226/createdeco-2.0.3-1.20.1-forge.jar",
+    "https://edge.forgecdn.net/files/6373/226/createdeco-2.0.3-1.20.1-forge.jar"
+   ],
+   "name": "Create Deco",
+   "curseforge": {
+    "projectId": 509285,
+    "fileId": 6373226
+   }
+  },
+  {
+   "path": "mods/createlowheated-forge-1.20.1-6.0.8-6.jar",
+   "size": 177308,
+   "sha1": "a85719a568f4dd7e7c7117e8e678a0de76375e5a",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8074/958/createlowheated-forge-1.20.1-6.0.8-6.jar",
+    "https://edge.forgecdn.net/files/8074/958/createlowheated-forge-1.20.1-6.0.8-6.jar"
+   ],
+   "name": "Create Low-Heated",
+   "curseforge": {
+    "projectId": 873945,
+    "fileId": 8074958
+   }
+  },
+  {
+   "path": "mods/CreativeCore_FORGE_v2.12.35_mc1.20.1.jar",
+   "size": 1143788,
+   "sha1": "f2324c43cd0bbb856b115ce1a688c33bff999294",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7649/757/CreativeCore_FORGE_v2.12.35_mc1.20.1.jar",
+    "https://edge.forgecdn.net/files/7649/757/CreativeCore_FORGE_v2.12.35_mc1.20.1.jar"
+   ],
+   "name": "CreativeCore",
+   "curseforge": {
+    "projectId": 257814,
+    "fileId": 7649757
+   }
+  },
+  {
+   "path": "mods/cupboard-1.20.1-3.5.jar",
+   "size": 29505,
+   "sha1": "638d720173b6a156663f84c1a6d3ac66797456fb",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7746/490/cupboard-1.20.1-3.5.jar",
+    "https://edge.forgecdn.net/files/7746/490/cupboard-1.20.1-3.5.jar"
+   ],
+   "name": "Cupboard",
+   "curseforge": {
+    "projectId": 326652,
+    "fileId": 7746490
+   }
+  },
+  {
+   "path": "mods/curios-forge-5.14.1+1.20.1.jar",
+   "size": 398066,
+   "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6418/456/curios-forge-5.14.1%2B1.20.1.jar",
+    "https://edge.forgecdn.net/files/6418/456/curios-forge-5.14.1%2B1.20.1.jar"
+   ],
+   "name": "Curios API",
+   "curseforge": {
+    "projectId": 309927,
+    "fileId": 6418456
+   }
+  },
+  {
+   "path": "mods/Data_Anchor-forge-1.20.1-1.0.0.20.jar",
+   "size": 112171,
+   "sha1": "f16089cc8af8e5dca8f5a14dc7bab11840d9b9a8",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7256/555/Data_Anchor-forge-1.20.1-1.0.0.20.jar",
+    "https://edge.forgecdn.net/files/7256/555/Data_Anchor-forge-1.20.1-1.0.0.20.jar"
+   ],
+   "name": "Data Anchor",
+   "curseforge": {
+    "projectId": 1203668,
+    "fileId": 7256555
+   }
+  },
+  {
+   "path": "mods/decorative_blocks-forge-1.20.1-4.1.3.jar",
+   "size": 573928,
+   "sha1": "10263d3e99807662ff065edce0e470fe62e84b30",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5089/406/decorative_blocks-forge-1.20.1-4.1.3.jar",
+    "https://edge.forgecdn.net/files/5089/406/decorative_blocks-forge-1.20.1-4.1.3.jar"
+   ],
+   "name": "Decorative Blocks",
+   "curseforge": {
+    "projectId": 362528,
+    "fileId": 5089406
+   }
+  },
+  {
+   "path": "mods/defaultoptions-forge-1.20.1-18.0.5.jar",
+   "size": 101393,
+   "sha1": "dddab6a5ff092b4535e9fdfb01e1e011afb90e57",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8286/304/defaultoptions-forge-1.20.1-18.0.5.jar",
+    "https://edge.forgecdn.net/files/8286/304/defaultoptions-forge-1.20.1-18.0.5.jar"
+   ],
+   "name": "Default Options",
+   "curseforge": {
+    "projectId": 232131,
+    "fileId": 8286304
+   }
+  },
+  {
+   "path": "mods/DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar",
+   "size": 29561297,
+   "sha1": "5667440fdca4d4543c345c9ba6fda2dda64928ca",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8389/142/DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar",
+    "https://edge.forgecdn.net/files/8389/142/DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar"
+   ],
+   "name": "Distant Horizons: A Level of Detail mod",
+   "curseforge": {
+    "projectId": 508933,
+    "fileId": 8389142
+   }
+  },
+  {
+   "path": "mods/distraction_free_recipes-forge-1.2.1-1.20.1.jar",
+   "size": 241822,
+   "sha1": "8cb739a7b1707d535b29a01e8b7d45e31d2874c0",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6110/178/distraction_free_recipes-forge-1.2.1-1.20.1.jar",
+    "https://edge.forgecdn.net/files/6110/178/distraction_free_recipes-forge-1.2.1-1.20.1.jar"
+   ],
+   "name": "Distraction Free Recipes (EMI / REI / JEI)",
+   "curseforge": {
+    "projectId": 1167848,
+    "fileId": 6110178
+   }
+  },
+  {
+   "path": "mods/drippyloadingscreen_forge_3.1.2_MC_1.20.1.jar",
+   "size": 287611,
+   "sha1": "0f4fe368d76572f2af563b90fafea7d75c007d22",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8032/766/drippyloadingscreen_forge_3.1.2_MC_1.20.1.jar",
+    "https://edge.forgecdn.net/files/8032/766/drippyloadingscreen_forge_3.1.2_MC_1.20.1.jar"
+   ],
+   "name": "Drippy Loading Screen",
+   "curseforge": {
+    "projectId": 511770,
+    "fileId": 8032766
+   }
+  },
+  {
+   "path": "mods/dummmmmmy-1.20-2.0.9.jar",
+   "size": 363044,
+   "sha1": "782d16edca6fa22fb72fa825cec39117bbb7e78a",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6860/192/dummmmmmy-1.20-2.0.9.jar",
+    "https://edge.forgecdn.net/files/6860/192/dummmmmmy-1.20-2.0.9.jar"
+   ],
+   "name": "MmmMmmMmmMmm (Target Dummy)",
+   "curseforge": {
+    "projectId": 225738,
+    "fileId": 6860192
+   }
+  },
+  {
+   "path": "mods/dynamiclights-v1.9-mc1.17-1.21.5-mod.jar",
+   "size": 406858,
+   "sha1": "b90e19d06788a0c2bc8551b7e0e7dd49e67b3b16",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7053/902/dynamiclights-v1.9-mc1.17-1.21.5-mod.jar",
+    "https://edge.forgecdn.net/files/7053/902/dynamiclights-v1.9-mc1.17-1.21.5-mod.jar"
+   ],
+   "name": "Dynamic Lights [Server] [Fabric/NeoForge]",
+   "curseforge": {
+    "projectId": 910095,
+    "fileId": 7053902
+   }
+  },
+  {
+   "path": "mods/eatinganimation-1.20.1-5.1.0.jar",
+   "size": 294792,
+   "sha1": "d80502ca23195814f245bb8a4bffcb778ea4c02a",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5567/578/eatinganimation-1.20.1-5.1.0.jar",
+    "https://edge.forgecdn.net/files/5567/578/eatinganimation-1.20.1-5.1.0.jar"
+   ],
+   "name": "Eating Animation [Neo/Forge]",
+   "curseforge": {
+    "projectId": 570544,
+    "fileId": 5567578
+   }
+  },
+  {
+   "path": "mods/ecologic_fixes-0.0.1.jar",
+   "size": 6075,
+   "sha1": "2763ce49f2a14681d87e0c953ba3655c2766dd5f",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6849/55/ecologic_fixes-0.0.1.jar",
+    "https://edge.forgecdn.net/files/6849/55/ecologic_fixes-0.0.1.jar"
+   ],
+   "name": "Ecologic Fixes",
+   "curseforge": {
+    "projectId": 1321036,
+    "fileId": 6849055
+   }
+  },
+  {
+   "path": "mods/ecologics-forge-1.20.1-2.2.2.jar",
+   "size": 1809159,
+   "sha1": "709fba5e3fc727944b66e2d1a556cff6fc5d591e",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6733/908/ecologics-forge-1.20.1-2.2.2.jar",
+    "https://edge.forgecdn.net/files/6733/908/ecologics-forge-1.20.1-2.2.2.jar"
+   ],
+   "name": "Ecologics",
+   "curseforge": {
+    "projectId": 570463,
+    "fileId": 6733908
+   }
+  },
+  {
+   "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+   "size": 1320675,
+   "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5681/725/embeddium-0.3.31%2Bmc1.20.1.jar",
+    "https://edge.forgecdn.net/files/5681/725/embeddium-0.3.31%2Bmc1.20.1.jar"
+   ],
+   "name": "Embeddium",
+   "curseforge": {
+    "projectId": 908741,
+    "fileId": 5681725
+   }
+  },
+  {
+   "path": "mods/emi-1.1.22+1.20.1+forge.jar",
+   "size": 1048567,
+   "sha1": "d8049d6ec86befcd100a0ff0fc8ebc289f735997",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6420/945/emi-1.1.22%2B1.20.1%2Bforge.jar",
+    "https://edge.forgecdn.net/files/6420/945/emi-1.1.22%2B1.20.1%2Bforge.jar"
+   ],
+   "name": "EMI",
+   "curseforge": {
+    "projectId": 580555,
+    "fileId": 6420945
+   }
+  },
+  {
+   "path": "mods/EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar",
+   "size": 66883,
+   "sha1": "0328a8350cf0a6d1c44265367a077649088b354b",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7612/607/EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar",
+    "https://edge.forgecdn.net/files/7612/607/EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar"
+   ],
+   "name": "Enchantment Descriptions",
+   "curseforge": {
+    "projectId": 250419,
+    "fileId": 7612607
+   }
+  },
+  {
+   "path": "mods/Enhanced-Celestials-forge-1.20.1-5.0.3.2.jar",
+   "size": 1629693,
+   "sha1": "53cd78df951489f24f0f943f6b169d4d45d96578",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7714/235/Enhanced-Celestials-forge-1.20.1-5.0.3.2.jar",
+    "https://edge.forgecdn.net/files/7714/235/Enhanced-Celestials-forge-1.20.1-5.0.3.2.jar"
+   ],
+   "name": "Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons",
+   "curseforge": {
+    "projectId": 438447,
+    "fileId": 7714235
+   }
+  },
+  {
+   "path": "mods/EnhancedVisuals_FORGE_v1.8.2_mc1.20.1.jar",
+   "size": 4726286,
+   "sha1": "780caf39421ccfc495d14cb287856ced97c32985",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6192/498/EnhancedVisuals_FORGE_v1.8.2_mc1.20.1.jar",
+    "https://edge.forgecdn.net/files/6192/498/EnhancedVisuals_FORGE_v1.8.2_mc1.20.1.jar"
+   ],
+   "name": "EnhancedVisuals",
+   "curseforge": {
+    "projectId": 255389,
+    "fileId": 6192498
+   }
+  },
+  {
+   "path": "mods/entity_model_features_1.20.1-forge-3.0.12.jar",
+   "size": 683607,
+   "sha1": "2cbde765d1c64beb52ac854eb9abf423ce190b6f",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7647/252/entity_model_features_1.20.1-forge-3.0.12.jar",
+    "https://edge.forgecdn.net/files/7647/252/entity_model_features_1.20.1-forge-3.0.12.jar"
+   ],
+   "name": "[EMF] Entity Model Features [Fabric & Forge]",
+   "curseforge": {
+    "projectId": 844662,
+    "fileId": 7647252
+   }
+  },
+  {
+   "path": "mods/entity_texture_features_1.20.1-forge-7.0.9.jar",
+   "size": 926386,
+   "sha1": "05c8b2e64cfcda05a4f3c6dd404a13de310bcee8",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7623/545/entity_texture_features_1.20.1-forge-7.0.9.jar",
+    "https://edge.forgecdn.net/files/7623/545/entity_texture_features_1.20.1-forge-7.0.9.jar"
+   ],
+   "name": "[ETF] Entity Texture Features - [Fabric & Forge]",
+   "curseforge": {
+    "projectId": 568563,
+    "fileId": 7623545
+   }
+  },
+  {
+   "path": "mods/entityculling-forge-1.9.5-mc1.20.1.jar",
+   "size": 1569588,
+   "sha1": "524be2ed63e9f131a17393ead67cd3fddc97ca2b",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7396/677/entityculling-forge-1.9.5-mc1.20.1.jar",
+    "https://edge.forgecdn.net/files/7396/677/entityculling-forge-1.9.5-mc1.20.1.jar"
+   ],
+   "name": "Entity Culling Fabric/Forge",
+   "curseforge": {
+    "projectId": 448233,
+    "fileId": 7396677
+   }
+  },
+  {
+   "path": "mods/EuphoriaPatcher-1.9.2-r5.8.1-forge.jar",
+   "size": 4212445,
+   "sha1": "eb3cb57543e5064d465c59017c4f867aa980f2c0",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8126/791/EuphoriaPatcher-1.9.2-r5.8.1-forge.jar",
+    "https://edge.forgecdn.net/files/8126/791/EuphoriaPatcher-1.9.2-r5.8.1-forge.jar"
+   ],
+   "name": "Euphoria Patches",
+   "curseforge": {
+    "projectId": 915902,
+    "fileId": 8126791
+   }
+  },
+  {
+   "path": "mods/experimentalsettingsdisabler-1.20.1-3.0.jar",
+   "size": 8264,
+   "sha1": "f03a753b276bbb1f17bc7050566a1bf9dbb0a74a",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4815/25/experimentalsettingsdisabler-1.20.1-3.0.jar",
+    "https://edge.forgecdn.net/files/4815/25/experimentalsettingsdisabler-1.20.1-3.0.jar"
+   ],
+   "name": "Experimental Settings Disabler",
+   "curseforge": {
+    "projectId": 926083,
+    "fileId": 4815025
+   }
+  },
+  {
+   "path": "mods/explosiveenhancement-1.1.0-1.20.1-client-and-server.jar",
+   "size": 83842,
+   "sha1": "cd88ace6193c3704d46a5ee8fc7d0063d2e687f6",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5960/819/explosiveenhancement-1.1.0-1.20.1-client-and-server.jar",
+    "https://edge.forgecdn.net/files/5960/819/explosiveenhancement-1.1.0-1.20.1-client-and-server.jar"
+   ],
+   "name": "Explosive Enhancement: Reforged",
+   "curseforge": {
+    "projectId": 1036246,
+    "fileId": 5960819
+   }
+  },
+  {
+   "path": "mods/extra_zombie_drops-1.0.0.jar",
+   "size": 5896,
+   "sha1": "8ca6422cac3f7067c0f2d8a5062fcd651c84ded6",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6765/912/extra_zombie_drops-1.0.0.jar",
+    "https://edge.forgecdn.net/files/6765/912/extra_zombie_drops-1.0.0.jar"
+   ],
+   "name": "Extra Zombie Drops",
+   "curseforge": {
+    "projectId": 822109,
+    "fileId": 6765912
+   }
+  },
+  {
+   "path": "mods/extragore-1.20.1-5.2.3.1.jar",
+   "size": 49559,
+   "sha1": "54efacc6db27a314284ba29bb176ca089e20a18b",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5398/532/extragore-1.20.1-5.2.3.1.jar",
+    "https://edge.forgecdn.net/files/5398/532/extragore-1.20.1-5.2.3.1.jar"
+   ],
+   "name": "Extra Gore",
+   "curseforge": {
+    "projectId": 937006,
+    "fileId": 5398532
+   }
+  },
+  {
+   "path": "mods/EZActions-forge-1.20.1-2.0.1.6.jar",
+   "size": 508874,
+   "sha1": "a24dc3e2670d8b1b28bd31cd0424c59299f1036c",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7713/916/EZActions-forge-1.20.1-2.0.1.6.jar",
+    "https://edge.forgecdn.net/files/7713/916/EZActions-forge-1.20.1-2.0.1.6.jar"
+   ],
+   "name": "EZ Actions",
+   "curseforge": {
+    "projectId": 1340029,
+    "fileId": 7713916
+   }
+  },
+  {
+   "path": "mods/fallingleaves-1.20.1-2.1.2.jar",
+   "size": 124212,
+   "sha1": "b890536f44a5c0a49f2b1f4af91c17d948b4ef4d",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6241/90/fallingleaves-1.20.1-2.1.2.jar",
+    "https://edge.forgecdn.net/files/6241/90/fallingleaves-1.20.1-2.1.2.jar"
+   ],
+   "name": "Falling Leaves (NeoForge/Forge)",
+   "curseforge": {
+    "projectId": 463155,
+    "fileId": 6241090
+   }
+  },
+  {
+   "path": "mods/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar",
+   "size": 4025908,
+   "sha1": "e787f81ddc9e8afea8d859d57776e212ab2b6ff4",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6231/30/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar",
+    "https://edge.forgecdn.net/files/6231/30/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar"
+   ],
+   "name": "Panda's Falling Trees",
+   "curseforge": {
+    "projectId": 880630,
+    "fileId": 6231030
+   }
+  },
+  {
+   "path": "mods/fancymenu_forge_3.9.6_MC_1.20.1.jar",
+   "size": 25627507,
+   "sha1": "c537ecb702bf08e46ee17ec3fd2c96199e72ce43",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8328/519/fancymenu_forge_3.9.6_MC_1.20.1.jar",
+    "https://edge.forgecdn.net/files/8328/519/fancymenu_forge_3.9.6_MC_1.20.1.jar"
+   ],
+   "name": "FancyMenu",
+   "curseforge": {
+    "projectId": 367706,
+    "fileId": 8328519
+   }
+  },
+  {
+   "path": "mods/FarmersDelight-1.20.1-1.2.10.jar",
+   "size": 2955928,
+   "sha1": "0dd8364318dd98e257c07168f905b71be9b39869",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7596/353/FarmersDelight-1.20.1-1.2.10.jar",
+    "https://edge.forgecdn.net/files/7596/353/FarmersDelight-1.20.1-1.2.10.jar"
+   ],
+   "name": "Farmer's Delight",
+   "curseforge": {
+    "projectId": 398521,
+    "fileId": 7596353
+   }
+  },
+  {
+   "path": "mods/fastpaintings-1.20-1.2.7.jar",
+   "size": 309400,
+   "sha1": "036137a54b8f503794cf38296ff4c7fbf2e9d5cc",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5324/825/fastpaintings-1.20-1.2.7.jar",
+    "https://edge.forgecdn.net/files/5324/825/fastpaintings-1.20-1.2.7.jar"
+   ],
+   "name": "Fast Paintings",
+   "curseforge": {
+    "projectId": 883287,
+    "fileId": 5324825
+   }
+  },
+  {
+   "path": "mods/FastSuite-1.20.1-5.1.2.jar",
+   "size": 26600,
+   "sha1": "32ea4495b0e646f8f060e4e97d17044dd9fdefbd",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7527/943/FastSuite-1.20.1-5.1.2.jar",
+    "https://edge.forgecdn.net/files/7527/943/FastSuite-1.20.1-5.1.2.jar"
+   ],
+   "name": "FastSuite",
+   "curseforge": {
+    "projectId": 475117,
+    "fileId": 7527943
+   }
+  },
+  {
+   "path": "mods/ferritecore-6.0.1-forge.jar",
+   "size": 123034,
+   "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4810/975/ferritecore-6.0.1-forge.jar",
+    "https://edge.forgecdn.net/files/4810/975/ferritecore-6.0.1-forge.jar"
+   ],
+   "name": "FerriteCore ((Neo)Forge)",
+   "curseforge": {
+    "projectId": 429235,
+    "fileId": 4810975
+   }
+  },
+  {
+   "path": "mods/firstjoinmessage-1.20.1-3.8.jar",
+   "size": 22641,
+   "sha1": "5aa7e3484b74f30fee784e1386b4f9d7cd366d2f",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6505/541/firstjoinmessage-1.20.1-3.8.jar",
+    "https://edge.forgecdn.net/files/6505/541/firstjoinmessage-1.20.1-3.8.jar"
+   ],
+   "name": "First Join Message",
+   "curseforge": {
+    "projectId": 390733,
+    "fileId": 6505541
+   }
+  },
+  {
+   "path": "mods/flan-1.20.1-1.11.15-forge.jar",
+   "size": 894694,
+   "sha1": "dab59a6cc1c542ebc81669947311c6fa36c40260",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6989/323/flan-1.20.1-1.11.15-forge.jar",
+    "https://edge.forgecdn.net/files/6989/323/flan-1.20.1-1.11.15-forge.jar"
+   ],
+   "name": "Flan (Forge, NeoForge)",
+   "curseforge": {
+    "projectId": 493246,
+    "fileId": 6989323
+   }
+  },
+  {
+   "path": "mods/Flashier Flashlights 1.2.0.jar",
+   "size": 3574595,
+   "sha1": "d85e7e8f89e674eb029a1ba2f113a99a8430530b",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8453/760/Flashier%20Flashlights%201.2.0.jar",
+    "https://edge.forgecdn.net/files/8453/760/Flashier%20Flashlights%201.2.0.jar"
+   ],
+   "name": "Flashier Flashlights",
+   "curseforge": {
+    "projectId": 1604184,
+    "fileId": 8453760
+   }
+  },
+  {
+   "path": "mods/forgivingworld-1.20.1-4.7.jar",
+   "size": 24083,
+   "sha1": "3cc56387ad8646106f624d64b7e684594c1b443e",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5470/219/forgivingworld-1.20.1-4.7.jar",
+    "https://edge.forgecdn.net/files/5470/219/forgivingworld-1.20.1-4.7.jar"
+   ],
+   "name": "Forgiving World - Dimension Stacking",
+   "curseforge": {
+    "projectId": 523233,
+    "fileId": 5470219
+   }
+  },
+  {
+   "path": "mods/framework-forge-1.20.1-0.8.0.jar",
+   "size": 383868,
+   "sha1": "27347879f8760a7bc0b4bd71977abc50e498811c",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7573/740/framework-forge-1.20.1-0.8.0.jar",
+    "https://edge.forgecdn.net/files/7573/740/framework-forge-1.20.1-0.8.0.jar"
+   ],
+   "name": "Framework",
+   "curseforge": {
+    "projectId": 549225,
+    "fileId": 7573740
+   }
+  },
+  {
+   "path": "mods/ftb-library-forge-2001.2.12.jar",
+   "size": 780523,
+   "sha1": "7f36ec4af42ad1d69872c58022e93a9d1b9c82b7",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7296/748/ftb-library-forge-2001.2.12.jar",
+    "https://edge.forgecdn.net/files/7296/748/ftb-library-forge-2001.2.12.jar"
+   ],
+   "name": "FTB Library (NeoForge)",
+   "curseforge": {
+    "projectId": 404465,
+    "fileId": 7296748
+   }
+  },
+  {
+   "path": "mods/ftb-quests-forge-2001.4.18.jar",
+   "size": 1251902,
+   "sha1": "e2ff1cea24c5f3d6d55d093d429efae60dcad9e0",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7608/804/ftb-quests-forge-2001.4.18.jar",
+    "https://edge.forgecdn.net/files/7608/804/ftb-quests-forge-2001.4.18.jar"
+   ],
+   "name": "FTB Quests (NeoForge)",
+   "curseforge": {
+    "projectId": 289412,
+    "fileId": 7608804
+   }
+  },
+  {
+   "path": "mods/ftb-teams-forge-2001.3.2.jar",
+   "size": 252579,
+   "sha1": "c49023f5d471aa1ba7fc624d2565fe9e82b7117e",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7499/810/ftb-teams-forge-2001.3.2.jar",
+    "https://edge.forgecdn.net/files/7499/810/ftb-teams-forge-2001.3.2.jar"
+   ],
+   "name": "FTB Teams (NeoForge)",
+   "curseforge": {
+    "projectId": 404468,
+    "fileId": 7499810
+   }
+  },
+  {
+   "path": "mods/ftb-xmod-compat-forge-2.1.3.jar",
+   "size": 129725,
+   "sha1": "0584f628d2bc6a612d79dee368324357ebae1423",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6402/486/ftb-xmod-compat-forge-2.1.3.jar",
+    "https://edge.forgecdn.net/files/6402/486/ftb-xmod-compat-forge-2.1.3.jar"
+   ],
+   "name": "FTB XMod Compat",
+   "curseforge": {
+    "projectId": 889915,
+    "fileId": 6402486
+   }
+  },
+  {
+   "path": "mods/fzzy_config-0.7.7+1.20.1+forge.jar",
+   "size": 2397175,
+   "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8883/366/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
+    "https://edge.forgecdn.net/files/8883/366/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar"
+   ],
+   "name": "Fzzy Config",
+   "curseforge": {
+    "projectId": 1005914,
+    "fileId": 8883366
+   }
+  },
+  {
+   "path": "mods/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar",
+   "size": 57110,
+   "sha1": "122deb73346968f7a78cbe1e86e17759110c5cc6",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4664/631/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar",
+    "https://edge.forgecdn.net/files/4664/631/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar"
+   ],
+   "name": "Game Menu Remove GFARB",
+   "curseforge": {
+    "projectId": 420519,
+    "fileId": 4664631
+   }
+  },
+  {
+   "path": "mods/geckolib-forge-1.20.1-4.8.3.jar",
+   "size": 1039046,
+   "sha1": "5428765c6c2e2135da6ee01f2f0478fa0db6aee7",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7553/267/geckolib-forge-1.20.1-4.8.3.jar",
+    "https://edge.forgecdn.net/files/7553/267/geckolib-forge-1.20.1-4.8.3.jar"
+   ],
+   "name": "GeckoLib",
+   "curseforge": {
+    "projectId": 388172,
+    "fileId": 7553267
+   }
+  },
+  {
+   "path": "mods/gliders-forge-1.1.7.jar",
+   "size": 745083,
+   "sha1": "b04dd3c921dedea97c5fe2de3dc07096d71defdc",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6517/195/gliders-forge-1.1.7.jar",
+    "https://edge.forgecdn.net/files/6517/195/gliders-forge-1.1.7.jar"
+   ],
+   "name": "Gliders",
+   "curseforge": {
+    "projectId": 828331,
+    "fileId": 6517195
+   }
+  },
+  {
+   "path": "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+   "size": 87550,
+   "sha1": "1a0aaf7c33b9acb26bf75899a43e8941cac1f6e7",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5787/839/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+    "https://edge.forgecdn.net/files/5787/839/GlitchCore-forge-1.20.1-0.0.1.1.jar"
+   ],
+   "name": "GlitchCore",
+   "curseforge": {
+    "projectId": 955399,
+    "fileId": 5787839
+   }
+  },
+  {
+   "path": "mods/gml-4.0.11-all.jar",
+   "size": 11125541,
+   "sha1": "1b8899ea5a9fd45f2adf8bbb25651a0a95dc6020",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6434/243/gml-4.0.11-all.jar",
+    "https://edge.forgecdn.net/files/6434/243/gml-4.0.11-all.jar"
+   ],
+   "name": "GroovyModLoader (GML)",
+   "curseforge": {
+    "projectId": 661517,
+    "fileId": 6434243
+   }
+  },
+  {
+   "path": "mods/handcrafted-forge-1.20.1-3.0.6.jar",
+   "size": 7111059,
+   "sha1": "f1b9a009529134c736c59d6d192d53a4a25e5e5f",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5118/729/handcrafted-forge-1.20.1-3.0.6.jar",
+    "https://edge.forgecdn.net/files/5118/729/handcrafted-forge-1.20.1-3.0.6.jar"
+   ],
+   "name": "Handcrafted",
+   "curseforge": {
+    "projectId": 538214,
+    "fileId": 5118729
+   }
+  },
+  {
+   "path": "mods/ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
+   "size": 538992,
+   "sha1": "e2e60485a0c3efa72f1948c952b095150e3ba4fc",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7537/759/ImmediatelyFast-Forge-1.5.4%2B1.20.4.jar",
+    "https://edge.forgecdn.net/files/7537/759/ImmediatelyFast-Forge-1.5.4%2B1.20.4.jar"
+   ],
+   "name": "ImmediatelyFast",
+   "curseforge": {
+    "projectId": 686911,
+    "fileId": 7537759
+   }
+  },
+  {
+   "path": "mods/immersive_aircraft-1.4.0+1.20.1-forge.jar",
+   "size": 2428368,
+   "sha1": "64e6c792c5208005ee6b099e8fb7d2738873737d",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6972/825/immersive_aircraft-1.4.0%2B1.20.1-forge.jar",
+    "https://edge.forgecdn.net/files/6972/825/immersive_aircraft-1.4.0%2B1.20.1-forge.jar"
+   ],
+   "name": "Immersive Aircraft",
+   "curseforge": {
+    "projectId": 666014,
+    "fileId": 6972825
+   }
+  },
+  {
+   "path": "mods/immersive_weathering_pandas_compat-1.0.0-all.jar",
+   "size": 638550,
+   "sha1": "e5298e3b41699877aa2cf196bebc3fa6d0683bbb",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7351/462/immersive_weathering_pandas_compat-1.0.0-all.jar",
+    "https://edge.forgecdn.net/files/7351/462/immersive_weathering_pandas_compat-1.0.0-all.jar"
+   ],
+   "name": "Immersive Weathering Panda's Compat",
+   "curseforge": {
+    "projectId": 1408485,
+    "fileId": 7351462
+   }
+  },
+  {
+   "path": "mods/immersive_weathering-1.20.1-2.0.5-forge.jar",
+   "size": 2269048,
+   "sha1": "d89ad3793ffb97df27f415ac6cc07c61460dd9f3",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6116/941/immersive_weathering-1.20.1-2.0.5-forge.jar",
+    "https://edge.forgecdn.net/files/6116/941/immersive_weathering-1.20.1-2.0.5-forge.jar"
+   ],
+   "name": "Immersive Weathering [FORGE]",
+   "curseforge": {
+    "projectId": 592449,
+    "fileId": 6116941
+   }
+  },
+  {
+   "path": "mods/ImmersiveEngineering-1.20.1-10.2.0-183.jar",
+   "size": 12129396,
+   "sha1": "b6e403e0e5be1802268be366ad1a7791f07fb793",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6206/989/ImmersiveEngineering-1.20.1-10.2.0-183.jar",
+    "https://edge.forgecdn.net/files/6206/989/ImmersiveEngineering-1.20.1-10.2.0-183.jar"
+   ],
+   "name": "Immersive Engineering",
+   "curseforge": {
+    "projectId": 231951,
+    "fileId": 6206989
+   }
+  },
+  {
+   "path": "mods/improved-village-placement-1.1.2.jar",
+   "size": 34332,
+   "sha1": "5225cdd0f18cabd290551ca93125dbdceb7a7755",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7321/283/improved-village-placement-1.1.2.jar",
+    "https://edge.forgecdn.net/files/7321/283/improved-village-placement-1.1.2.jar"
+   ],
+   "name": "Improved Village Placement",
+   "curseforge": {
+    "projectId": 1175325,
+    "fileId": 7321283
+   }
+  },
+  {
+   "path": "mods/incontrol-1.20-9.4.6.jar",
+   "size": 361894,
+   "sha1": "0d324b97af98938f28f58f696e0b992c42eb8f31",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7436/213/incontrol-1.20-9.4.6.jar",
+    "https://edge.forgecdn.net/files/7436/213/incontrol-1.20-9.4.6.jar"
+   ],
+   "name": "In Control!",
+   "curseforge": {
+    "projectId": 257356,
+    "fileId": 7436213
+   }
+  },
+  {
+   "path": "mods/insanelib-1.23.4.3.jar",
+   "size": 369566,
+   "sha1": "58bb3c0bc97e65fda5560b78c40dc4db4cb6c6c0",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7635/498/insanelib-1.23.4.3.jar",
+    "https://edge.forgecdn.net/files/7635/498/insanelib-1.23.4.3.jar"
+   ],
+   "name": "InsaneLib",
+   "curseforge": {
+    "projectId": 465109,
+    "fileId": 7635498
+   }
+  },
+  {
+   "path": "mods/inventorysorter-1.20.1-23.0.8.jar",
+   "size": 52385,
+   "sha1": "36565103f478245ac1da7f4d7c8f2dfda5702f12",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5979/609/inventorysorter-1.20.1-23.0.8.jar",
+    "https://edge.forgecdn.net/files/5979/609/inventorysorter-1.20.1-23.0.8.jar"
+   ],
+   "name": "Inventory Sorter",
+   "curseforge": {
+    "projectId": 240633,
+    "fileId": 5979609
+   }
+  },
+  {
+   "path": "mods/IrisSearch-1.2.0-forge.jar",
+   "size": 154688,
+   "sha1": "ea5898e5b4e83661b0bfec66fe5d947f1b12f2e7",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8307/310/IrisSearch-1.2.0-forge.jar",
+    "https://edge.forgecdn.net/files/8307/310/IrisSearch-1.2.0-forge.jar"
+   ],
+   "name": "Iris & Oculus Search",
+   "curseforge": {
+    "projectId": 1583035,
+    "fileId": 8307310
+   }
+  },
+  {
+   "path": "mods/Item Scrapper Pack - Armor  Tools.jar",
+   "size": 64874,
+   "sha1": "d9ca300106e1b32c9859f8feb07f56526019873d",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6658/722/Item%20Scrapper%20Pack%20-%20Armor%20%20Tools.jar",
+    "https://edge.forgecdn.net/files/6658/722/Item%20Scrapper%20Pack%20-%20Armor%20%20Tools.jar"
+   ],
+   "name": "Item Scrapper Pack - Armor & Tools",
+   "curseforge": {
+    "projectId": 1288136,
+    "fileId": 6658722
+   }
+  },
+  {
+   "path": "mods/Item Scrapper Pack - TACZ.jar",
+   "size": 48529,
+   "sha1": "3958b8fcbe326c4cb394d92e331b61f56d4f9950",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6658/746/Item%20Scrapper%20Pack%20-%20TACZ.jar",
+    "https://edge.forgecdn.net/files/6658/746/Item%20Scrapper%20Pack%20-%20TACZ.jar"
+   ],
+   "name": "Item Scrapper Pack - TACZ",
+   "curseforge": {
+    "projectId": 1288141,
+    "fileId": 6658746
+   }
+  },
+  {
+   "path": "mods/item_scrapper-1.3.0.jar",
+   "size": 208567,
+   "sha1": "af6878fa529f31a6b06cefdd8634897599269b8e",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7743/212/item_scrapper-1.3.0.jar",
+    "https://edge.forgecdn.net/files/7743/212/item_scrapper-1.3.0.jar"
+   ],
+   "name": "Item Scrapper",
+   "curseforge": {
+    "projectId": 1163529,
+    "fileId": 7743212
+   }
+  },
+  {
+   "path": "mods/item-filters-forge-2001.1.0-build.59.jar",
+   "size": 110191,
+   "sha1": "55a7f032c59489eca96069a7841601de2ff97590",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4838/266/item-filters-forge-2001.1.0-build.59.jar",
+    "https://edge.forgecdn.net/files/4838/266/item-filters-forge-2001.1.0-build.59.jar"
+   ],
+   "name": "Item Filters",
+   "curseforge": {
+    "projectId": 309674,
+    "fileId": 4838266
+   }
+  },
+  {
+   "path": "mods/Item-Obliterator-NeoForge-MC1.20.1-2.3.1.jar",
+   "size": 22930,
+   "sha1": "d8fa4e840a3d60f2172de0584d804d0bf7e6db19",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5479/898/Item-Obliterator-NeoForge-MC1.20.1-2.3.1.jar",
+    "https://edge.forgecdn.net/files/5479/898/Item-Obliterator-NeoForge-MC1.20.1-2.3.1.jar"
+   ],
+   "name": "Item Obliterator (Modpack Utils Series)",
+   "curseforge": {
+    "projectId": 835861,
+    "fileId": 5479898
+   }
+  },
+  {
+   "path": "mods/itemscrapperpack-ma-1.20.1forge-1.0.0.jar",
+   "size": 21954,
+   "sha1": "a68fb548b81422e72b0664e92b9e93f0672c938d",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6975/61/itemscrapperpack-ma-1.20.1forge-1.0.0.jar",
+    "https://edge.forgecdn.net/files/6975/61/itemscrapperpack-ma-1.20.1forge-1.0.0.jar"
+   ],
+   "name": "Item Scrapper Pack - Marbled's Arsenal",
+   "curseforge": {
+    "projectId": 1341930,
+    "fileId": 6975061
+   }
+  },
+  {
+   "path": "mods/jamlib-forge-1.3.6+1.20.1.jar",
+   "size": 190810,
+   "sha1": "4ae73f20f5f13cd787ef23e76c0c1eb6746be5c6",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7766/758/jamlib-forge-1.3.6%2B1.20.1.jar",
+    "https://edge.forgecdn.net/files/7766/758/jamlib-forge-1.3.6%2B1.20.1.jar"
+   ],
+   "name": "JamLib",
+   "curseforge": {
+    "projectId": 623764,
+    "fileId": 7766758
+   }
+  },
+  {
+   "path": "mods/jei-1.20.1-forge-15.20.0.112.jar",
+   "size": 1385600,
+   "sha1": "f12b3781af6337794ae6e010420a97585360ea2f",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6600/311/jei-1.20.1-forge-15.20.0.112.jar",
+    "https://edge.forgecdn.net/files/6600/311/jei-1.20.1-forge-15.20.0.112.jar"
+   ],
+   "name": "Just Enough Items (JEI)",
+   "curseforge": {
+    "projectId": 238222,
+    "fileId": 6600311
+   }
+  },
+  {
+   "path": "mods/Keerdm Zombie Apocalypse Essentials (TACZ) 1.42.jar",
+   "size": 258713,
+   "sha1": "0bbdc50e6eee9991ac453767e0bb73796417939e",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7740/113/Keerdm%20Zombie%20Apocalypse%20Essentials%20(TACZ)%201.42.jar",
+    "https://edge.forgecdn.net/files/7740/113/Keerdm%20Zombie%20Apocalypse%20Essentials%20(TACZ)%201.42.jar"
+   ],
+   "name": "Keerdm's Zombie Apocalypse Essentials",
+   "curseforge": {
+    "projectId": 1061079,
+    "fileId": 7740113
+   }
+  },
+  {
+   "path": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+   "size": 625185,
+   "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5028/413/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+    "https://edge.forgecdn.net/files/5028/413/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
+   ],
+   "name": "Konkrete",
+   "curseforge": {
+    "projectId": 410295,
+    "fileId": 5028413
+   }
+  },
+  {
+   "path": "mods/kotlinforforge-4.12.0-all.jar",
+   "size": 7442998,
+   "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7291/67/kotlinforforge-4.12.0-all.jar",
+    "https://edge.forgecdn.net/files/7291/67/kotlinforforge-4.12.0-all.jar"
+   ],
+   "name": "Kotlin for Forge",
+   "curseforge": {
+    "projectId": 351264,
+    "fileId": 7291067
+   }
+  },
+  {
+   "path": "mods/kubejs-forge-2001.6.5-build.16.jar",
+   "size": 1654660,
+   "sha1": "93fcf0eacc5dc08a4f719eaaed1dc93f0dc80f66",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5853/326/kubejs-forge-2001.6.5-build.16.jar",
+    "https://edge.forgecdn.net/files/5853/326/kubejs-forge-2001.6.5-build.16.jar"
+   ],
+   "name": "KubeJS",
+   "curseforge": {
+    "projectId": 238086,
+    "fileId": 5853326
+   }
+  },
+  {
+   "path": "mods/lc2h-3.5.0.jar",
+   "size": 1234199,
+   "sha1": "df308c8b2872c759a6a0a06dac136dc2691878c6",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7978/635/lc2h-3.5.0.jar",
+    "https://edge.forgecdn.net/files/7978/635/lc2h-3.5.0.jar"
+   ],
+   "name": "[LC²H] | Lost Cities: Multithreaded",
+   "curseforge": {
+    "projectId": 1325431,
+    "fileId": 7978635
+   }
+  },
+  {
+   "path": "mods/letmedespawn-1.20.x-forge-1.5.0.jar",
+   "size": 14789,
+   "sha1": "878dd35df02e1e17b7eb16113147f964eda8847f",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6311/230/letmedespawn-1.20.x-forge-1.5.0.jar",
+    "https://edge.forgecdn.net/files/6311/230/letmedespawn-1.20.x-forge-1.5.0.jar"
+   ],
+   "name": "Let Me Despawn",
+   "curseforge": {
+    "projectId": 663477,
+    "fileId": 6311230
+   }
+  },
+  {
+   "path": "mods/letsdo-API-forge-1.2.15-forge.jar",
+   "size": 1440591,
+   "sha1": "a261043a45097d861a13a63ebdbb0ca350e06a63",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5468/182/letsdo-API-forge-1.2.15-forge.jar",
+    "https://edge.forgecdn.net/files/5468/182/letsdo-API-forge-1.2.15-forge.jar"
+   ],
+   "name": "[Let's Do] API ",
+   "curseforge": {
+    "projectId": 864599,
+    "fileId": 5468182
+   }
+  },
+  {
+   "path": "mods/letsdo-bloomingnature-forge-1.0.12.jar",
+   "size": 3094193,
+   "sha1": "360727042ae8579f5cdc95650953b39ea30fabfa",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6172/650/letsdo-bloomingnature-forge-1.0.12.jar",
+    "https://edge.forgecdn.net/files/6172/650/letsdo-bloomingnature-forge-1.0.12.jar"
+   ],
+   "name": "[Let's Do] BloomingNature",
+   "curseforge": {
+    "projectId": 962885,
+    "fileId": 6172650
+   }
+  },
+  {
+   "path": "mods/letsdo-herbalbrews-forge-1.0.12.jar",
+   "size": 735868,
+   "sha1": "3de7feb383868a0db45351580d6ef5b05b776f16",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6458/889/letsdo-herbalbrews-forge-1.0.12.jar",
+    "https://edge.forgecdn.net/files/6458/889/letsdo-herbalbrews-forge-1.0.12.jar"
+   ],
+   "name": "[Let's Do] HerbalBrews",
+   "curseforge": {
+    "projectId": 951221,
+    "fileId": 6458889
+   }
+  },
+  {
+   "path": "mods/lithostitched-forge-1.20.1-1.4.11.jar",
+   "size": 476347,
+   "sha1": "d1a755de84ee5d8910ff1e65e815473056e93ece",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6742/615/lithostitched-forge-1.20.1-1.4.11.jar",
+    "https://edge.forgecdn.net/files/6742/615/lithostitched-forge-1.20.1-1.4.11.jar"
+   ],
+   "name": "Lithostitched",
+   "curseforge": {
+    "projectId": 936015,
+    "fileId": 6742615
+   }
+  },
+  {
+   "path": "mods/LocalizedChat-forge-1.20.1-5.1.3.jar",
+   "size": 23894,
+   "sha1": "4b7be0537e42b4bcd1126c82e4fb539c9ce7464a",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6461/35/LocalizedChat-forge-1.20.1-5.1.3.jar",
+    "https://edge.forgecdn.net/files/6461/35/LocalizedChat-forge-1.20.1-5.1.3.jar"
+   ],
+   "name": "Localized Chat",
+   "curseforge": {
+    "projectId": 292502,
+    "fileId": 6461035
+   }
+  },
+  {
+   "path": "mods/lootjs-forge-1.20.1-2.13.0.jar",
+   "size": 242227,
+   "sha1": "fdf90acf177c19bcbfaa08527f6568bd3e6e622e",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6508/899/lootjs-forge-1.20.1-2.13.0.jar",
+    "https://edge.forgecdn.net/files/6508/899/lootjs-forge-1.20.1-2.13.0.jar"
+   ],
+   "name": "LootJS: KubeJS Addon",
+   "curseforge": {
+    "projectId": 570630,
+    "fileId": 6508899
+   }
+  },
+  {
+   "path": "mods/lootr-forge-1.20-0.7.35.94.jar",
+   "size": 463485,
+   "sha1": "1ec77a7df8adbf3290a296bf25b8f99f37a60020",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7263/76/lootr-forge-1.20-0.7.35.94.jar",
+    "https://edge.forgecdn.net/files/7263/76/lootr-forge-1.20-0.7.35.94.jar"
+   ],
+   "name": "Lootr (Forge & NeoForge)",
+   "curseforge": {
+    "projectId": 361276,
+    "fileId": 7263076
+   }
+  },
+  {
+   "path": "mods/lostcities-1.20-7.4.11.jar",
+   "size": 1253469,
+   "sha1": "4609cbaa8cf3c2b1abb55e88444d5d6c208bcf45",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7432/706/lostcities-1.20-7.4.11.jar",
+    "https://edge.forgecdn.net/files/7432/706/lostcities-1.20-7.4.11.jar"
+   ],
+   "name": "The Lost Cities",
+   "curseforge": {
+    "projectId": 269024,
+    "fileId": 7432706
+   }
+  },
+  {
+   "path": "mods/LuckPerms-Forge-5.4.102.jar",
+   "size": 1398478,
+   "sha1": "00597f94cd1f88a468202c1fa0495106f000d564",
+   "side": "server",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4738/950/LuckPerms-Forge-5.4.102.jar",
+    "https://edge.forgecdn.net/files/4738/950/LuckPerms-Forge-5.4.102.jar"
+   ],
+   "name": "LuckPerms",
+   "curseforge": {
+    "projectId": 431733,
+    "fileId": 4738950
+   }
+  },
+  {
+   "path": "mods/majrusz-library-forge-1.20.1-7.0.8.jar",
+   "size": 437340,
+   "sha1": "be0e1b5808206abcc2ff6a369ce0c2ba53968c55",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5302/100/majrusz-library-forge-1.20.1-7.0.8.jar",
+    "https://edge.forgecdn.net/files/5302/100/majrusz-library-forge-1.20.1-7.0.8.jar"
+   ],
+   "name": "Majrusz Library",
+   "curseforge": {
+    "projectId": 437409,
+    "fileId": 5302100
+   }
+  },
+  {
+   "path": "mods/map_atlases-1.20-6.0.20.jar",
+   "size": 746226,
+   "sha1": "d20b4bde9d5c75eaa99c430aff78840ecb145fb1",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8146/282/map_atlases-1.20-6.0.20.jar",
+    "https://edge.forgecdn.net/files/8146/282/map_atlases-1.20-6.0.20.jar"
+   ],
+   "name": "Map Atlases [Forge]",
+   "curseforge": {
+    "projectId": 519759,
+    "fileId": 8146282
+   }
+  },
+  {
+   "path": "mods/marbledsarsenal-1.20.1forge-2.4.0.0.jar",
+   "size": 389987,
+   "sha1": "905ffdbbbcae950618110a2cda1e8fcb70e7dd62",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7760/146/marbledsarsenal-1.20.1forge-2.4.0.0.jar",
+    "https://edge.forgecdn.net/files/7760/146/marbledsarsenal-1.20.1forge-2.4.0.0.jar"
+   ],
+   "name": "Marbled's Arsenal (Legacy)",
+   "curseforge": {
+    "projectId": 776273,
+    "fileId": 7760146
+   }
+  },
+  {
+   "path": "mods/marbledsmelees-1.20.1-1.0.0.jar",
+   "size": 53283,
+   "sha1": "938aba5d580ff993c70088b5210db1da5158db85",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5771/784/marbledsmelees-1.20.1-1.0.0.jar",
+    "https://edge.forgecdn.net/files/5771/784/marbledsmelees-1.20.1-1.0.0.jar"
+   ],
+   "name": "Lot' a Melees (Formerly Marbled's Melees)",
+   "curseforge": {
+    "projectId": 1112401,
+    "fileId": 5771784
+   }
+  },
+  {
+   "path": "mods/mcore-1.20.1-1.0.3.0.jar",
+   "size": 121205,
+   "sha1": "9296ede0ee8e975cb7ded4a449d16b76eca8420b",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6058/648/mcore-1.20.1-1.0.3.0.jar",
+    "https://edge.forgecdn.net/files/6058/648/mcore-1.20.1-1.0.3.0.jar"
+   ],
+   "name": "Miscellaneous Metals (Formerly Marbled's Core)",
+   "curseforge": {
+    "projectId": 1039434,
+    "fileId": 6058648
+   }
+  },
+  {
+   "path": "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+   "size": 37178,
+   "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5109/692/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+    "https://edge.forgecdn.net/files/5109/692/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
+   ],
+   "name": "Melody",
+   "curseforge": {
+    "projectId": 938643,
+    "fileId": 5109692
+   }
+  },
+  {
+   "path": "mods/mobcontrol-1.20.1-1.5.15.jar",
+   "size": 188114,
+   "sha1": "d1a265b0ce602a73173d147d29fce61d52010162",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7266/115/mobcontrol-1.20.1-1.5.15.jar",
+    "https://edge.forgecdn.net/files/7266/115/mobcontrol-1.20.1-1.5.15.jar"
+   ],
+   "name": "Mob Control: Add custom AI, break blocks, regrowth, spawners, plus more! Bad mobs? Block them! You're in control of your mobs!",
+   "curseforge": {
+    "projectId": 1261370,
+    "fileId": 7266115
+   }
+  },
+  {
+   "path": "mods/modernfix-forge-5.27.51+mc1.20.1.jar",
+   "size": 982465,
+   "sha1": "1f69aa3406e24c645d4b9df25c35a6e4deb66527",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8255/312/modernfix-forge-5.27.51%2Bmc1.20.1.jar",
+    "https://edge.forgecdn.net/files/8255/312/modernfix-forge-5.27.51%2Bmc1.20.1.jar"
+   ],
+   "name": "ModernFix",
+   "curseforge": {
+    "projectId": 790626,
+    "fileId": 8255312
+   }
+  },
+  {
+   "path": "mods/money.jar",
+   "size": 14479,
+   "sha1": "1566c3f6f1fa5dfb93b05aa6719946df5823b028",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4791/888/money.jar",
+    "https://edge.forgecdn.net/files/4791/888/money.jar"
+   ],
+   "name": "Money (lopro9879)",
+   "curseforge": {
+    "projectId": 921716,
+    "fileId": 4791888
+   }
+  },
+  {
+   "path": "mods/moonlight-1.20-2.16.35-forge.jar",
+   "size": 1425229,
+   "sha1": "a7885d318f5a6810b0ef543cd1cce7d4308f10e6",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8820/589/moonlight-1.20-2.16.35-forge.jar",
+    "https://edge.forgecdn.net/files/8820/589/moonlight-1.20-2.16.35-forge.jar"
+   ],
+   "name": "Moonlight Lib",
+   "curseforge": {
+    "projectId": 499980,
+    "fileId": 8820589
+   }
+  },
+  {
+   "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+   "size": 76237,
+   "sha1": "d751153e722a4e014691c83f39f5b07c6ec5333c",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5338/457/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+    "https://edge.forgecdn.net/files/5338/457/MouseTweaks-forge-mc1.20.1-2.25.1.jar"
+   ],
+   "name": "Mouse Tweaks",
+   "curseforge": {
+    "projectId": 60089,
+    "fileId": 5338457
+   }
+  },
+  {
+   "path": "mods/MutantMonsters-v8.0.7-1.20.1-Forge.jar",
+   "size": 1334303,
+   "sha1": "9675f602022f6ec87535dafb97f392c3a8f6f734",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5107/399/MutantMonsters-v8.0.7-1.20.1-Forge.jar",
+    "https://edge.forgecdn.net/files/5107/399/MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+   ],
+   "name": "Mutant Monsters",
+   "curseforge": {
+    "projectId": 852665,
+    "fileId": 5107399
+   }
+  },
+  {
+   "path": "mods/MyServerIsCompatible-1.20-1.0.jar",
+   "size": 3482,
+   "sha1": "a53abcabc6c3531667049be249b3fb165aad5468",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4580/511/MyServerIsCompatible-1.20-1.0.jar",
+    "https://edge.forgecdn.net/files/4580/511/MyServerIsCompatible-1.20-1.0.jar"
+   ],
+   "name": "My Server Is Compatible",
+   "curseforge": {
+    "projectId": 492574,
+    "fileId": 4580511
+   }
+  },
+  {
+   "path": "mods/NaNny-1.0.1.jar",
+   "size": 5086,
+   "sha1": "1e716311028b1c3147b569b89cd6697ccd5874d4",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4772/710/NaNny-1.0.1.jar",
+    "https://edge.forgecdn.net/files/4772/710/NaNny-1.0.1.jar"
+   ],
+   "name": "NaNny (Fix NaN Health / Absorption)",
+   "curseforge": {
+    "projectId": 634392,
+    "fileId": 4772710
+   }
+  },
+  {
+   "path": "mods/Necronomicon-Forge-1.6.0+1.20.1.jar",
+   "size": 33251,
+   "sha1": "2ad4ffa0fb087e4467c6f7496d456fc1ac949ebf",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5772/681/Necronomicon-Forge-1.6.0%2B1.20.1.jar",
+    "https://edge.forgecdn.net/files/5772/681/Necronomicon-Forge-1.6.0%2B1.20.1.jar"
+   ],
+   "name": "Necronomicon API",
+   "curseforge": {
+    "projectId": 586157,
+    "fileId": 5772681
+   }
+  },
+  {
+   "path": "mods/nobz-1.3.jar",
+   "size": 8002,
+   "sha1": "917e161fa73a25b7da3df967b8225cb7c5817424",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7266/607/nobz-1.3.jar",
+    "https://edge.forgecdn.net/files/7266/607/nobz-1.3.jar"
+   ],
+   "name": "No Baby Zombies",
+   "curseforge": {
+    "projectId": 959336,
+    "fileId": 7266607
+   }
+  },
+  {
+   "path": "mods/noisium-forge-2.3.0+mc1.20-1.20.1.jar",
+   "size": 218152,
+   "sha1": "7da1cdf00c0ae5cad31e17f765f6ea021c8ac808",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5650/506/noisium-forge-2.3.0%2Bmc1.20-1.20.1.jar",
+    "https://edge.forgecdn.net/files/5650/506/noisium-forge-2.3.0%2Bmc1.20-1.20.1.jar"
+   ],
+   "name": "Noisium (archived)",
+   "curseforge": {
+    "projectId": 930207,
+    "fileId": 5650506
+   }
+  },
+  {
+   "path": "mods/nopoof-1.20.1-1.0.0.jar",
+   "size": 4181,
+   "sha1": "0cf36bb6324c877cd221cbd6785a1cd626233ad4",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6254/342/nopoof-1.20.1-1.0.0.jar",
+    "https://edge.forgecdn.net/files/6254/342/nopoof-1.20.1-1.0.0.jar"
+   ],
+   "name": "No Poof",
+   "curseforge": {
+    "projectId": 1211375,
+    "fileId": 6254342
+   }
+  },
+  {
+   "path": "mods/nostartupmessages-1.0.1.jar",
+   "size": 7035,
+   "sha1": "f3c5a3cc7fa289b86213285ea9a8485a9d51d788",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4824/101/nostartupmessages-1.0.1.jar",
+    "https://edge.forgecdn.net/files/4824/101/nostartupmessages-1.0.1.jar"
+   ],
+   "name": "No Startup Messages Please",
+   "curseforge": {
+    "projectId": 928593,
+    "fileId": 4824101
+   }
+  },
+  {
+   "path": "mods/Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar",
+   "size": 21667,
+   "sha1": "c0806369f4257149664904db44efc60bd1785c17",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5760/231/Not%20Enough%20Recipe%20Book-FORGE-0.4.1%2B1.20.1.jar",
+    "https://edge.forgecdn.net/files/5760/231/Not%20Enough%20Recipe%20Book-FORGE-0.4.1%2B1.20.1.jar"
+   ],
+   "name": "Not Enough Recipe Book [NERB]",
+   "curseforge": {
+    "projectId": 738663,
+    "fileId": 5760231
+   }
+  },
+  {
+   "path": "mods/notenoughanimations-forge-1.11.3-mc1.20.1.jar",
+   "size": 1931081,
+   "sha1": "2073d897924398d73eccd727c6a8b3bbc95c20d9",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7650/352/notenoughanimations-forge-1.11.3-mc1.20.1.jar",
+    "https://edge.forgecdn.net/files/7650/352/notenoughanimations-forge-1.11.3-mc1.20.1.jar"
+   ],
+   "name": "Not Enough Animations",
+   "curseforge": {
+    "projectId": 433760,
+    "fileId": 7650352
+   }
+  },
+  {
+   "path": "mods/novillagerdm-1.20.1-5.0.0.jar",
+   "size": 5630,
+   "sha1": "ff69fd8513b7eed4f20eb270838ce684add2706c",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4772/109/novillagerdm-1.20.1-5.0.0.jar",
+    "https://edge.forgecdn.net/files/4772/109/novillagerdm-1.20.1-5.0.0.jar"
+   ],
+   "name": "No Villager Death Messages",
+   "curseforge": {
+    "projectId": 451682,
+    "fileId": 4772109
+   }
+  },
+  {
+   "path": "mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+   "size": 424035,
+   "sha1": "9eab28baff36942e1c924489e34753df10f40208",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6274/623/OctoLib-FORGE-0.5.0.1%2B1.20.1.jar",
+    "https://edge.forgecdn.net/files/6274/623/OctoLib-FORGE-0.5.0.1%2B1.20.1.jar"
+   ],
+   "name": "ShatterLib | OctoLib",
+   "curseforge": {
+    "projectId": 916747,
+    "fileId": 6274623
+   }
+  },
+  {
+   "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+   "size": 2851119,
+   "sha1": "984f774e71790deaec674c7587bd24e0711871b2",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6020/952/oculus-mc1.20.1-1.8.0.jar",
+    "https://edge.forgecdn.net/files/6020/952/oculus-mc1.20.1-1.8.0.jar"
+   ],
+   "name": "Oculus",
+   "curseforge": {
+    "projectId": 581495,
+    "fileId": 6020952
+   }
+  },
+  {
+   "path": "mods/OpenLoader-Forge-1.20.1-19.0.5.jar",
+   "size": 23937,
+   "sha1": "a0d862da2dd1dc21d00e64508f56e45d31639686",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7613/218/OpenLoader-Forge-1.20.1-19.0.5.jar",
+    "https://edge.forgecdn.net/files/7613/218/OpenLoader-Forge-1.20.1-19.0.5.jar"
+   ],
+   "name": "Open Loader",
+   "curseforge": {
+    "projectId": 354339,
+    "fileId": 7613218
+   }
+  },
+  {
+   "path": "mods/packetfixer-3.3.1-1.18-1.20.4-merged.jar",
+   "size": 188673,
+   "sha1": "0bef29023c8cadb2934d78a8b0066b49d4460974",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7221/527/packetfixer-3.3.1-1.18-1.20.4-merged.jar",
+    "https://edge.forgecdn.net/files/7221/527/packetfixer-3.3.1-1.18-1.20.4-merged.jar"
+   ],
+   "name": "Packet Fixer",
+   "curseforge": {
+    "projectId": 689467,
+    "fileId": 7221527
+   }
+  },
+  {
+   "path": "mods/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+   "size": 864398,
+   "sha1": "1e8d8e9688a04df5177a46036d6f34c83194686c",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6245/108/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+    "https://edge.forgecdn.net/files/6245/108/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar"
+   ],
+   "name": "PandaLib",
+   "curseforge": {
+    "projectId": 975460,
+    "fileId": 6245108
+   }
+  },
+  {
+   "path": "mods/particular-1.20.1-Forge-1.2.7.jar",
+   "size": 420332,
+   "sha1": "db04a6b14b7fb219701c50907986384bca363298",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6916/904/particular-1.20.1-Forge-1.2.7.jar",
+    "https://edge.forgecdn.net/files/6916/904/particular-1.20.1-Forge-1.2.7.jar"
+   ],
+   "name": "Particular ✨ Reforged",
+   "curseforge": {
+    "projectId": 1219053,
+    "fileId": 6916904
+   }
+  },
+  {
+   "path": "mods/Patchouli-1.20.1-85-FORGE.jar",
+   "size": 642732,
+   "sha1": "d4614507d6e4c7cb464bba5eca891978272062ef",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7731/17/Patchouli-1.20.1-85-FORGE.jar",
+    "https://edge.forgecdn.net/files/7731/17/Patchouli-1.20.1-85-FORGE.jar"
+   ],
+   "name": "Patchouli",
+   "curseforge": {
+    "projectId": 306770,
+    "fileId": 7731017
+   }
+  },
+  {
+   "path": "mods/PhilipsRuins1.20.1-5.7.jar",
+   "size": 1525512,
+   "sha1": "2b5ca7b5adc7feb6721ce6406fcd903e4c382c38",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7024/377/PhilipsRuins1.20.1-5.7.jar",
+    "https://edge.forgecdn.net/files/7024/377/PhilipsRuins1.20.1-5.7.jar"
+   ],
+   "name": "Philip's Ruins",
+   "curseforge": {
+    "projectId": 569737,
+    "fileId": 7024377
+   }
+  },
+  {
+   "path": "mods/Placebo-1.20.1-8.6.3.jar",
+   "size": 282474,
+   "sha1": "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6274/231/Placebo-1.20.1-8.6.3.jar",
+    "https://edge.forgecdn.net/files/6274/231/Placebo-1.20.1-8.6.3.jar"
+   ],
+   "name": "Placebo",
+   "curseforge": {
+    "projectId": 283644,
+    "fileId": 6274231
+   }
+  },
+  {
+   "path": "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+   "size": 181437,
+   "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4587/214/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar",
+    "https://edge.forgecdn.net/files/4587/214/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar"
+   ],
+   "name": "playerAnimator",
+   "curseforge": {
+    "projectId": 658587,
+    "fileId": 4587214
+   }
+  },
+  {
+   "path": "mods/polymorph-forge-0.49.10+1.20.1.jar",
+   "size": 299601,
+   "sha1": "e4afd6f512cc06311320357ed974cee586e031c3",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6450/982/polymorph-forge-0.49.10%2B1.20.1.jar",
+    "https://edge.forgecdn.net/files/6450/982/polymorph-forge-0.49.10%2B1.20.1.jar"
+   ],
+   "name": "Polymorph",
+   "curseforge": {
+    "projectId": 388800,
+    "fileId": 6450982
+   }
+  },
+  {
+   "path": "mods/powderedup-0.7.1.jar",
+   "size": 3597396,
+   "sha1": "e93998905ff09a0b71756395bcb0ee684dfc30fe",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8599/564/powderedup-0.7.1.jar",
+    "https://edge.forgecdn.net/files/8599/564/powderedup-0.7.1.jar"
+   ],
+   "name": "Bats to Gunpowder",
+   "curseforge": {
+    "projectId": 1317742,
+    "fileId": 8599564
+   }
+  },
+  {
+   "path": "mods/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+   "size": 7080698,
+   "sha1": "6ccb76043763f929a11f1857a57b41bb70ab7512",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5015/286/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+    "https://edge.forgecdn.net/files/5015/286/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar"
+   ],
+   "name": "Presence Footsteps (Forge)",
+   "curseforge": {
+    "projectId": 433068,
+    "fileId": 5015286
+   }
+  },
+  {
+   "path": "mods/projectvibrantjourneys-1.20.1-6.2.1.jar",
+   "size": 731569,
+   "sha1": "afd16e9596dd3f28dc0b518efcb286dacb9538c6",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7712/545/projectvibrantjourneys-1.20.1-6.2.1.jar",
+    "https://edge.forgecdn.net/files/7712/545/projectvibrantjourneys-1.20.1-6.2.1.jar"
+   ],
+   "name": "Project: Vibrant Journeys",
+   "curseforge": {
+    "projectId": 300297,
+    "fileId": 7712545
+   }
+  },
+  {
+   "path": "mods/propertymodifier-1.20.1-0.1-all.jar",
+   "size": 148830,
+   "sha1": "17258767e39ac3831bd3ca8d6674284720021dcb",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4661/543/propertymodifier-1.20.1-0.1-all.jar",
+    "https://edge.forgecdn.net/files/4661/543/propertymodifier-1.20.1-0.1-all.jar"
+   ],
+   "name": "Property Modifier",
+   "curseforge": {
+    "projectId": 474822,
+    "fileId": 4661543
+   }
+  },
+  {
+   "path": "mods/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+   "size": 1342987,
+   "sha1": "285b7c7616971338ccbe0022c9ea0f8ad3036aaf",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6918/565/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+    "https://edge.forgecdn.net/files/6918/565/PuzzlesLib-v8.1.33-1.20.1-Forge.jar"
+   ],
+   "name": "Puzzles Lib",
+   "curseforge": {
+    "projectId": 495476,
+    "fileId": 6918565
+   }
+  },
+  {
+   "path": "mods/quantified api-omni-2.2.3.jar",
+   "size": 9577892,
+   "sha1": "0a4f72b0a7685c99724ffcf2cec69ce0e739c185",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8830/709/quantified%20api-omni-2.2.3.jar",
+    "https://edge.forgecdn.net/files/8830/709/quantified%20api-omni-2.2.3.jar"
+   ],
+   "name": "[QAPI] | Quantified API",
+   "curseforge": {
+    "projectId": 1397967,
+    "fileId": 8830709
+   }
+  },
+  {
+   "path": "mods/realmrpg_skeletons-1.1.0-forge-1.20.1.jar",
+   "size": 652022,
+   "sha1": "b3e2385a5df9a24b12089b76f97a9e9337956255",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6058/824/realmrpg_skeletons-1.1.0-forge-1.20.1.jar",
+    "https://edge.forgecdn.net/files/6058/824/realmrpg_skeletons-1.1.0-forge-1.20.1.jar"
+   ],
+   "name": "Realm RPG: Fallen Adventurers",
+   "curseforge": {
+    "projectId": 916895,
+    "fileId": 6058824
+   }
+  },
+  {
+   "path": "mods/refurbished_furniture-forge-1.20.1-1.0.20.jar",
+   "size": 6689588,
+   "sha1": "ffb68135b88bdbb25224378c76daf922c3f4c322",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7110/922/refurbished_furniture-forge-1.20.1-1.0.20.jar",
+    "https://edge.forgecdn.net/files/7110/922/refurbished_furniture-forge-1.20.1-1.0.20.jar"
+   ],
+   "name": "MrCrayfish's Furniture Mod: Refurbished",
+   "curseforge": {
+    "projectId": 897116,
+    "fileId": 7110922
+   }
+  },
+  {
+   "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar",
+   "size": 432753,
+   "sha1": "6fc590a7c56a720fec57e290cbb0a106efbb3ffa",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5659/871/resourcefullib-forge-1.20.1-2.1.29.jar",
+    "https://edge.forgecdn.net/files/5659/871/resourcefullib-forge-1.20.1-2.1.29.jar"
+   ],
+   "name": "Resourceful Lib",
+   "curseforge": {
+    "projectId": 570073,
+    "fileId": 5659871
+   }
+  },
+  {
+   "path": "mods/responsiveshields-2.3-mc1.18-19-20.x.jar",
+   "size": 63747,
+   "sha1": "51bac4566c689abe50f5016b1de3de807a1a78aa",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4922/27/responsiveshields-2.3-mc1.18-19-20.x.jar",
+    "https://edge.forgecdn.net/files/4922/27/responsiveshields-2.3-mc1.18-19-20.x.jar"
+   ],
+   "name": "Responsive Shields",
+   "curseforge": {
+    "projectId": 557556,
+    "fileId": 4922027
+   }
+  },
+  {
+   "path": "mods/rhino-forge-2001.2.3-build.10.jar",
+   "size": 1798244,
+   "sha1": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6186/971/rhino-forge-2001.2.3-build.10.jar",
+    "https://edge.forgecdn.net/files/6186/971/rhino-forge-2001.2.3-build.10.jar"
+   ],
+   "name": "Rhino",
+   "curseforge": {
+    "projectId": 416294,
+    "fileId": 6186971
+   }
+  },
+  {
+   "path": "mods/rightclickharvest-forge-4.6.1+1.20.1.jar",
+   "size": 288408,
+   "sha1": "539bfd7e456eec310707ca577e029fb9ace626c7",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7508/764/rightclickharvest-forge-4.6.1%2B1.20.1.jar",
+    "https://edge.forgecdn.net/files/7508/764/rightclickharvest-forge-4.6.1%2B1.20.1.jar"
+   ],
+   "name": "RightClickHarvest",
+   "curseforge": {
+    "projectId": 452834,
+    "fileId": 7508764
+   }
+  },
+  {
+   "path": "mods/ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar",
+   "size": 78625,
+   "sha1": "3e13ad86b2cc4107b8a18eec1d980ed19cdc37aa",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7292/523/ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar",
+    "https://edge.forgecdn.net/files/7292/523/ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar"
+   ],
+   "name": "Ritchie's Projectile Library",
+   "curseforge": {
+    "projectId": 1279407,
+    "fileId": 7292523
+   }
+  },
+  {
+   "path": "mods/rotten_flesh_to_leather-1.0.0.jar",
+   "size": 13070,
+   "sha1": "4b7f0937a748d3fbb41309ac52c170cc4b6309c7",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6762/699/rotten_flesh_to_leather-1.0.0.jar",
+    "https://edge.forgecdn.net/files/6762/699/rotten_flesh_to_leather-1.0.0.jar"
+   ],
+   "name": "Harder Rotten Flesh to Leather ",
+   "curseforge": {
+    "projectId": 1305813,
+    "fileId": 6762699
+   }
+  },
+  {
+   "path": "mods/ScalingMobs-2.4.3.jar",
+   "size": 57889,
+   "sha1": "e49f7f77099959274db9807a150723e35dc4457f",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7398/187/ScalingMobs-2.4.3.jar",
+    "https://edge.forgecdn.net/files/7398/187/ScalingMobs-2.4.3.jar"
+   ],
+   "name": "Scaling Mob Difficulty",
+   "curseforge": {
+    "projectId": 506521,
+    "fileId": 7398187
+   }
+  },
+  {
+   "path": "mods/Searchables-forge-1.20.1-1.0.3.jar",
+   "size": 77732,
+   "sha1": "ed5a23ec30c90fd06b3f1d8140614028e1fafaee",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5284/15/Searchables-forge-1.20.1-1.0.3.jar",
+    "https://edge.forgecdn.net/files/5284/15/Searchables-forge-1.20.1-1.0.3.jar"
+   ],
+   "name": "Searchables",
+   "curseforge": {
+    "projectId": 858542,
+    "fileId": 5284015
+   }
+  },
+  {
+   "path": "mods/SereneSeasons-forge-1.20.1-9.1.0.2.jar",
+   "size": 160887,
+   "sha1": "706d3eaf79ce5b33a30f3ad1aaa88a2a4483abf6",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6398/227/SereneSeasons-forge-1.20.1-9.1.0.2.jar",
+    "https://edge.forgecdn.net/files/6398/227/SereneSeasons-forge-1.20.1-9.1.0.2.jar"
+   ],
+   "name": "Serene Seasons",
+   "curseforge": {
+    "projectId": 291874,
+    "fileId": 6398227
+   }
+  },
+  {
+   "path": "mods/serverpress-Forge-1.20.1-0.8.jar",
+   "size": 443797,
+   "sha1": "ee54b1e65f25f63e1379814127a64ffcc9c36b4a",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8228/358/serverpress-Forge-1.20.1-0.8.jar",
+    "https://edge.forgecdn.net/files/8228/358/serverpress-Forge-1.20.1-0.8.jar"
+   ],
+   "name": "ServerPress",
+   "curseforge": {
+    "projectId": 1570887,
+    "fileId": 8228358
+   }
+  },
+  {
+   "path": "mods/ShoulderSurfing-Forge-1.20.1-4.22.1.jar",
+   "size": 266626,
+   "sha1": "9fdd51554eef1f06fe9181f2d6566530c5c63625",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7720/579/ShoulderSurfing-Forge-1.20.1-4.22.1.jar",
+    "https://edge.forgecdn.net/files/7720/579/ShoulderSurfing-Forge-1.20.1-4.22.1.jar"
+   ],
+   "name": "Shoulder Surfing Reloaded",
+   "curseforge": {
+    "projectId": 243190,
+    "fileId": 7720579
+   }
+  },
+  {
+   "path": "mods/simple_snowy_fix-forge-1.19-1.20.1-2.1.5.jar",
+   "size": 123109,
+   "sha1": "13ebae3a2daa7b8291a7f2be7847a5cd1aafd079",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7205/120/simple_snowy_fix-forge-1.19-1.20.1-2.1.5.jar",
+    "https://edge.forgecdn.net/files/7205/120/simple_snowy_fix-forge-1.19-1.20.1-2.1.5.jar"
+   ],
+   "name": "Simple Snowy Fix (Forge / Fabric)",
+   "curseforge": {
+    "projectId": 1211256,
+    "fileId": 7205120
+   }
+  },
+  {
+   "path": "mods/SimpleBackups-1.20.1-3.1.24.jar",
+   "size": 51010,
+   "sha1": "dcbb71212dd474e160152d12c37b807e580f5043",
+   "side": "server",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7451/460/SimpleBackups-1.20.1-3.1.24.jar",
+    "https://edge.forgecdn.net/files/7451/460/SimpleBackups-1.20.1-3.1.24.jar"
+   ],
+   "name": "Simple Backups",
+   "curseforge": {
+    "projectId": 583228,
+    "fileId": 7451460
+   }
+  },
+  {
+   "path": "mods/simpleshops-1.2.2.jar",
+   "size": 135614,
+   "sha1": "8751f9a178b3002e746b2f30af75dd83281821ee",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4716/851/simpleshops-1.2.2.jar",
+    "https://edge.forgecdn.net/files/4716/851/simpleshops-1.2.2.jar"
+   ],
+   "name": "Simple Shops",
+   "curseforge": {
+    "projectId": 517272,
+    "fileId": 4716851
+   }
+  },
+  {
+   "path": "mods/simply_traps-1.7-forge-1.20.1.jar",
+   "size": 171139,
+   "sha1": "8d549b3c83fdcfcf43c09828499eb65e2bf01a6c",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6980/501/simply_traps-1.7-forge-1.20.1.jar",
+    "https://edge.forgecdn.net/files/6980/501/simply_traps-1.7-forge-1.20.1.jar"
+   ],
+   "name": "Simply Traps",
+   "curseforge": {
+    "projectId": 1172014,
+    "fileId": 6980501
+   }
+  },
+  {
+   "path": "mods/simplylight-1.20.1-1.4.6-build.50.jar",
+   "size": 555625,
+   "sha1": "cfd851ffd2c3b451a96a19207dc6e084c1dfec73",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4832/944/simplylight-1.20.1-1.4.6-build.50.jar",
+    "https://edge.forgecdn.net/files/4832/944/simplylight-1.20.1-1.4.6-build.50.jar"
+   ],
+   "name": "Simply Light",
+   "curseforge": {
+    "projectId": 300331,
+    "fileId": 4832944
+   }
+  },
+  {
+   "path": "mods/Sky's Overworld Netherite 2.8 1.20.1 Forge.jar",
+   "size": 233094,
+   "sha1": "3a714a1105ceacea9490c165883739e760ab78d3",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7457/417/Sky's%20Overworld%20Netherite%202.8%201.20.1%20Forge.jar",
+    "https://edge.forgecdn.net/files/7457/417/Sky's%20Overworld%20Netherite%202.8%201.20.1%20Forge.jar"
+   ],
+   "name": "Sky's Overworld Netherite",
+   "curseforge": {
+    "projectId": 625133,
+    "fileId": 7457417
+   }
+  },
+  {
+   "path": "mods/sliceanddice-forge-3.6.0.jar",
+   "size": 588268,
+   "sha1": "a4e47dbf4382ebe092b6c2cb71919e412b456d84",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7184/951/sliceanddice-forge-3.6.0.jar",
+    "https://edge.forgecdn.net/files/7184/951/sliceanddice-forge-3.6.0.jar"
+   ],
+   "name": "Create Slice & Dice",
+   "curseforge": {
+    "projectId": 659674,
+    "fileId": 7184951
+   }
+  },
+  {
+   "path": "mods/SmartBrainLib-forge-1.20.1-1.15.jar",
+   "size": 362338,
+   "sha1": "d278b6ca36075c4d097677345a25751f9aeed3c1",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5654/964/SmartBrainLib-forge-1.20.1-1.15.jar",
+    "https://edge.forgecdn.net/files/5654/964/SmartBrainLib-forge-1.20.1-1.15.jar"
+   ],
+   "name": "SmartBrainLib (Forge/Fabric/Quilt)",
+   "curseforge": {
+    "projectId": 661293,
+    "fileId": 5654964
+   }
+  },
+  {
+   "path": "mods/smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+   "size": 41044,
+   "sha1": "3fd79132dba444bd109b5de4ad75dee06a48e130",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5016/280/smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+    "https://edge.forgecdn.net/files/5016/280/smoothboot(reloaded)-mc1.20.1-0.0.4.jar"
+   ],
+   "name": "Smooth Boot (Reloaded)",
+   "curseforge": {
+    "projectId": 633412,
+    "fileId": 5016280
+   }
+  },
+  {
+   "path": "mods/SoLOnion_FORGE_v1.4.5_mc1.20.1.jar",
+   "size": 285625,
+   "sha1": "1c8a22b8e1da93feb9a1c0e5a2c57dc805db9df7",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5816/336/SoLOnion_FORGE_v1.4.5_mc1.20.1.jar",
+    "https://edge.forgecdn.net/files/5816/336/SoLOnion_FORGE_v1.4.5_mc1.20.1.jar"
+   ],
+   "name": "Spice of Life Onion",
+   "curseforge": {
+    "projectId": 878047,
+    "fileId": 5816336
+   }
+  },
+  {
+   "path": "mods/sophisticatedbackpacks-1.20.1-3.23.17.1246.jar",
+   "size": 924351,
+   "sha1": "f7beb466c68703311d5d828fc869cb3a27142087",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6539/219/sophisticatedbackpacks-1.20.1-3.23.17.1246.jar",
+    "https://edge.forgecdn.net/files/6539/219/sophisticatedbackpacks-1.20.1-3.23.17.1246.jar"
+   ],
+   "name": "Sophisticated Backpacks",
+   "curseforge": {
+    "projectId": 422301,
+    "fileId": 6539219
+   }
+  },
+  {
+   "path": "mods/sophisticatedcore-1.20.1-1.2.60.987.jar",
+   "size": 1323236,
+   "sha1": "948bab903fdf1b44ab4e5e13c31a2bce89bea571",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6545/102/sophisticatedcore-1.20.1-1.2.60.987.jar",
+    "https://edge.forgecdn.net/files/6545/102/sophisticatedcore-1.20.1-1.2.60.987.jar"
+   ],
+   "name": "Sophisticated Core",
+   "curseforge": {
+    "projectId": 618298,
+    "fileId": 6545102
+   }
+  },
+  {
+   "path": "mods/sound-physics-remastered-forge-1.20.1-1.4.10.jar",
+   "size": 203819,
+   "sha1": "629e987b2a0c9342a31dfdef67590f228d949c34",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6352/920/sound-physics-remastered-forge-1.20.1-1.4.10.jar",
+    "https://edge.forgecdn.net/files/6352/920/sound-physics-remastered-forge-1.20.1-1.4.10.jar"
+   ],
+   "name": "Sound Physics Remastered",
+   "curseforge": {
+    "projectId": 535489,
+    "fileId": 6352920
+   }
+  },
+  {
+   "path": "mods/spark-1.10.53-forge.jar",
+   "size": 3114590,
+   "sha1": "231fb325368c0660954f47bfb03493f5246fa4d1",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4738/952/spark-1.10.53-forge.jar",
+    "https://edge.forgecdn.net/files/4738/952/spark-1.10.53-forge.jar"
+   ],
+   "name": "spark",
+   "curseforge": {
+    "projectId": 361579,
+    "fileId": 4738952
+   }
+  },
+  {
+   "path": "mods/Steam_Rails-1.7.2+forge-mc1.20.1.jar",
+   "size": 16819720,
+   "sha1": "15d317afd2459368b19c23f2bdfefdeb87708bdd",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7758/640/Steam_Rails-1.7.2%2Bforge-mc1.20.1.jar",
+    "https://edge.forgecdn.net/files/7758/640/Steam_Rails-1.7.2%2Bforge-mc1.20.1.jar"
+   ],
+   "name": "Create: Steam 'n' Rails",
+   "curseforge": {
+    "projectId": 688231,
+    "fileId": 7758640
+   }
+  },
+  {
+   "path": "mods/storage_shelves-1.1.2-forge-1.20.1.jar",
+   "size": 956243,
+   "sha1": "1c36ce60ae28d1ca79683a9aedb122781db32cc0",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6903/144/storage_shelves-1.1.2-forge-1.20.1.jar",
+    "https://edge.forgecdn.net/files/6903/144/storage_shelves-1.1.2-forge-1.20.1.jar"
+   ],
+   "name": "Wan's Storage Shelves",
+   "curseforge": {
+    "projectId": 1317410,
+    "fileId": 6903144
+   }
+  },
+  {
+   "path": "mods/structure_gel-1.20.1-2.16.2.jar",
+   "size": 966028,
+   "sha1": "ec8c59d2a69eca3249a8da673f572b40b6d59895",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5278/429/structure_gel-1.20.1-2.16.2.jar",
+    "https://edge.forgecdn.net/files/5278/429/structure_gel-1.20.1-2.16.2.jar"
+   ],
+   "name": "Structure Gel API",
+   "curseforge": {
+    "projectId": 378802,
+    "fileId": 5278429
+   }
+  },
+  {
+   "path": "mods/structurecontrol-1.20.1-1.8.5.jar",
+   "size": 46533,
+   "sha1": "86be0be5322c36a6a73880fef0e555d23a177cd1",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7384/432/structurecontrol-1.20.1-1.8.5.jar",
+    "https://edge.forgecdn.net/files/7384/432/structurecontrol-1.20.1-1.8.5.jar"
+   ],
+   "name": "Structure Control: Ruined Portals, Villages, Stronghold, Nether Portal, Custom Structures, and more!",
+   "curseforge": {
+    "projectId": 1236071,
+    "fileId": 7384432
+   }
+  },
+  {
+   "path": "mods/SubtleEffects-forge-1.20.1-1.14.3.jar",
+   "size": 3514583,
+   "sha1": "a96fc73389b3323c28d697ef6e216bc4addd3a06",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8008/318/SubtleEffects-forge-1.20.1-1.14.3.jar",
+    "https://edge.forgecdn.net/files/8008/318/SubtleEffects-forge-1.20.1-1.14.3.jar"
+   ],
+   "name": "Subtle Effects",
+   "curseforge": {
+    "projectId": 1023913,
+    "fileId": 8008318
+   }
+  },
+  {
+   "path": "mods/super_resolution-forge-1.20.1-0.8.3-alpha.6+opengl.jar",
+   "size": 33115259,
+   "sha1": "d98e5db70ea0fb9373011452d70987fb1076b94e",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8443/83/super_resolution-forge-1.20.1-0.8.3-alpha.6%2Bopengl.jar",
+    "https://edge.forgecdn.net/files/8443/83/super_resolution-forge-1.20.1-0.8.3-alpha.6%2Bopengl.jar"
+   ],
+   "name": "Super Resolution",
+   "curseforge": {
+    "projectId": 1461023,
+    "fileId": 8443083
+   }
+  },
+  {
+   "path": "mods/tacz-1.20.1-1.1.6-hotfix.jar",
+   "size": 47826468,
+   "sha1": "e951d81b5f452bcad47c20d5b491fd26f8de8ce2",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6654/541/tacz-1.20.1-1.1.6-hotfix.jar",
+    "https://edge.forgecdn.net/files/6654/541/tacz-1.20.1-1.1.6-hotfix.jar"
+   ],
+   "name": "[TaCZ] Timeless and Classics Zero Guns",
+   "curseforge": {
+    "projectId": 1028108,
+    "fileId": 6654541
+   }
+  },
+  {
+   "path": "mods/taczaddon-1.20.1-1.1.6.jar",
+   "size": 116234,
+   "sha1": "f62b2f1bb43db02a57269b0848f3e945358925be",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7009/388/taczaddon-1.20.1-1.1.6.jar",
+    "https://edge.forgecdn.net/files/7009/388/taczaddon-1.20.1-1.1.6.jar"
+   ],
+   "name": "TaCZ addon",
+   "curseforge": {
+    "projectId": 1238419,
+    "fileId": 7009388
+   }
+  },
+  {
+   "path": "mods/temporalapi-1.6.7.jar",
+   "size": 216661,
+   "sha1": "ad7e62754b33f930ecc4270475fe3b9b78eb70e3",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5509/183/temporalapi-1.6.7.jar",
+    "https://edge.forgecdn.net/files/5509/183/temporalapi-1.6.7.jar"
+   ],
+   "name": "Temporal API",
+   "curseforge": {
+    "projectId": 970291,
+    "fileId": 5509183
+   }
+  },
+  {
+   "path": "mods/tenshilib-1.20.1-1.7.6-forge.jar",
+   "size": 465737,
+   "sha1": "4a8f6ac745297430e64b50466f338c2b2aa8b101",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5240/455/tenshilib-1.20.1-1.7.6-forge.jar",
+    "https://edge.forgecdn.net/files/5240/455/tenshilib-1.20.1-1.7.6-forge.jar"
+   ],
+   "name": "TenshiLib (Forge/NeoForge)",
+   "curseforge": {
+    "projectId": 312040,
+    "fileId": 5240455
+   }
+  },
+  {
+   "path": "mods/Terralith_1.20.x_v2.5.4.jar",
+   "size": 3156901,
+   "sha1": "79e1409b8db4ce86df9d6d6730f09c4bd8860a30",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5512/76/Terralith_1.20.x_v2.5.4.jar",
+    "https://edge.forgecdn.net/files/5512/76/Terralith_1.20.x_v2.5.4.jar"
+   ],
+   "name": "Terralith",
+   "curseforge": {
+    "projectId": 513688,
+    "fileId": 5512076
+   }
+  },
+  {
+   "path": "mods/the_deep_void-1.28-forge-1.20.1.jar",
+   "size": 8982052,
+   "sha1": "c44354cb0dd846136ed9f0a65dcd813e5f44bcb9",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5788/605/the_deep_void-1.28-forge-1.20.1.jar",
+    "https://edge.forgecdn.net/files/5788/605/the_deep_void-1.28-forge-1.20.1.jar"
+   ],
+   "name": "The Deep Void",
+   "curseforge": {
+    "projectId": 982999,
+    "fileId": 5788605
+   }
+  },
+  {
+   "path": "mods/The-Hordes-1.20.1-1.5.4c.jar",
+   "size": 586378,
+   "sha1": "43c4dfe11ed5d890572996c3c7ebddf9891f5bc2",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6718/502/The-Hordes-1.20.1-1.5.4c.jar",
+    "https://edge.forgecdn.net/files/6718/502/The-Hordes-1.20.1-1.5.4c.jar"
+   ],
+   "name": "The Hordes",
+   "curseforge": {
+    "projectId": 485779,
+    "fileId": 6718502
+   }
+  },
+  {
+   "path": "mods/theimpossiblelibrary-0.4.7.jar",
+   "size": 8165646,
+   "sha1": "f59b779fb4c563b0fb1ceddb39af09fbaf492109",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7250/524/theimpossiblelibrary-0.4.7.jar",
+    "https://edge.forgecdn.net/files/7250/524/theimpossiblelibrary-0.4.7.jar"
+   ],
+   "name": "The Impossible LIbrary",
+   "curseforge": {
+    "projectId": 661115,
+    "fileId": 7250524
+   }
+  },
+  {
+   "path": "mods/threatengl-forge-2.0.4-release.10.jar",
+   "size": 51241,
+   "sha1": "79478bbc21b1258b64d22dacaac6177618c1ed9d",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7179/999/threatengl-forge-2.0.4-release.10.jar",
+    "https://edge.forgecdn.net/files/7179/999/threatengl-forge-2.0.4-release.10.jar"
+   ],
+   "name": "ThreatenGL",
+   "curseforge": {
+    "projectId": 1288635,
+    "fileId": 7179999
+   }
+  },
+  {
+   "path": "mods/tidal-towns-1.3.4.jar",
+   "size": 110098,
+   "sha1": "a0a8db8df7a471e75b53e3fa8cafc7ca767f5506",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5944/710/tidal-towns-1.3.4.jar",
+    "https://edge.forgecdn.net/files/5944/710/tidal-towns-1.3.4.jar"
+   ],
+   "name": "Tidal Towns",
+   "curseforge": {
+    "projectId": 891880,
+    "fileId": 5944710
+   }
+  },
+  {
+   "path": "mods/Tips-Forge-1.20.1-12.1.9.jar",
+   "size": 127186,
+   "sha1": "033d62395ecf7939f82e5a69ef53cf62ad1afb7f",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7613/269/Tips-Forge-1.20.1-12.1.9.jar",
+    "https://edge.forgecdn.net/files/7613/269/Tips-Forge-1.20.1-12.1.9.jar"
+   ],
+   "name": "Tips",
+   "curseforge": {
+    "projectId": 306549,
+    "fileId": 7613269
+   }
+  },
+  {
+   "path": "mods/ToastControl-1.20.1-8.0.3.jar",
+   "size": 26957,
+   "sha1": "e9ef48672f01b076ea3b8c7c5e6a139c2491a67c",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4711/316/ToastControl-1.20.1-8.0.3.jar",
+    "https://edge.forgecdn.net/files/4711/316/ToastControl-1.20.1-8.0.3.jar"
+   ],
+   "name": "Toast Control",
+   "curseforge": {
+    "projectId": 271740,
+    "fileId": 4711316
+   }
+  },
+  {
+   "path": "mods/ToolBelt-1.20.1-1.20.02.jar",
+   "size": 253567,
+   "sha1": "3e4e2d2e3ee9486de4c6b64bcf8f25d87d55fc92",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5929/61/ToolBelt-1.20.1-1.20.02.jar",
+    "https://edge.forgecdn.net/files/5929/61/ToolBelt-1.20.1-1.20.02.jar"
+   ],
+   "name": "Tool Belt",
+   "curseforge": {
+    "projectId": 260262,
+    "fileId": 5929061
+   }
+  },
+  {
+   "path": "mods/tp_shooting-1.20.1-5.1.1+tacz1.1.6-all.jar",
+   "size": 179476,
+   "sha1": "43c627e23f7e72ee011085a94bdc1ba57b86a7ba",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7034/860/tp_shooting-1.20.1-5.1.1%2Btacz1.1.6-all.jar",
+    "https://edge.forgecdn.net/files/7034/860/tp_shooting-1.20.1-5.1.1%2Btacz1.1.6-all.jar"
+   ],
+   "name": "Third Person Shooting: Zero",
+   "curseforge": {
+    "projectId": 969378,
+    "fileId": 7034860
+   }
+  },
+  {
+   "path": "mods/trashslot-forge-1.20.1-15.1.4.jar",
+   "size": 117934,
+   "sha1": "c50867bb2222066ab36b251ab7fe7348f6c5a162",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7772/364/trashslot-forge-1.20.1-15.1.4.jar",
+    "https://edge.forgecdn.net/files/7772/364/trashslot-forge-1.20.1-15.1.4.jar"
+   ],
+   "name": "TrashSlot",
+   "curseforge": {
+    "projectId": 235577,
+    "fileId": 7772364
+   }
+  },
+  {
+   "path": "mods/TslatEffectsLib-forge-1.20.1-1.8.7.jar",
+   "size": 300898,
+   "sha1": "d5b09eb6d6fde5ddcab5caf19ae37cf44dae71ad",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7004/994/TslatEffectsLib-forge-1.20.1-1.8.7.jar",
+    "https://edge.forgecdn.net/files/7004/994/TslatEffectsLib-forge-1.20.1-1.8.7.jar"
+   ],
+   "name": "TslatEffectsLib",
+   "curseforge": {
+    "projectId": 700382,
+    "fileId": 7004994
+   }
+  },
+  {
+   "path": "mods/txnilib-forge-1.0.24-1.20.1.jar",
+   "size": 3743339,
+   "sha1": "a1e16b7d61f0f16a162d429ee1eab9b4e3eeb9ef",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6533/724/txnilib-forge-1.0.24-1.20.1.jar",
+    "https://edge.forgecdn.net/files/6533/724/txnilib-forge-1.0.24-1.20.1.jar"
+   ],
+   "name": "TxniLib",
+   "curseforge": {
+    "projectId": 1104882,
+    "fileId": 6533724
+   }
+  },
+  {
+   "path": "mods/u_team_core-forge-1.20.1-5.1.4.382.jar",
+   "size": 587742,
+   "sha1": "45d737d4215c453c35bc8a16aa0c74d1179a0934",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6548/219/u_team_core-forge-1.20.1-5.1.4.382.jar",
+    "https://edge.forgecdn.net/files/6548/219/u_team_core-forge-1.20.1-5.1.4.382.jar"
+   ],
+   "name": "U Team Core",
+   "curseforge": {
+    "projectId": 273744,
+    "fileId": 6548219
+   }
+  },
+  {
+   "path": "mods/UniLib-1.2.1+1.20.1-forge.jar",
+   "size": 1657890,
+   "sha1": "bf4bd0346650ad95dcd13867793da99a639f31fa",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7703/340/UniLib-1.2.1%2B1.20.1-forge.jar",
+    "https://edge.forgecdn.net/files/7703/340/UniLib-1.2.1%2B1.20.1-forge.jar"
+   ],
+   "name": "UniLib",
+   "curseforge": {
+    "projectId": 1056812,
+    "fileId": 7703340
+   }
+  },
+  {
+   "path": "mods/voicechat-forge-1.20.1-2.6.12.jar",
+   "size": 4892161,
+   "sha1": "c4d43c19afb69726c36a7ea0fe3bfd5dd848b7b6",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7614/2/voicechat-forge-1.20.1-2.6.12.jar",
+    "https://edge.forgecdn.net/files/7614/2/voicechat-forge-1.20.1-2.6.12.jar"
+   ],
+   "name": "Simple Voice Chat",
+   "curseforge": {
+    "projectId": 416089,
+    "fileId": 7614002
+   }
+  },
+  {
+   "path": "mods/walkietalkie-forge-1.20.1-1.3.0.jar",
+   "size": 169451,
+   "sha1": "d24badc63364806f2878de5438d5f841a09b25bc",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5133/440/walkietalkie-forge-1.20.1-1.3.0.jar",
+    "https://edge.forgecdn.net/files/5133/440/walkietalkie-forge-1.20.1-1.3.0.jar"
+   ],
+   "name": "Walkie-Talkie",
+   "curseforge": {
+    "projectId": 825621,
+    "fileId": 5133440
+   }
+  },
+  {
+   "path": "mods/watut-forge-1.20.1-1.2.3.jar",
+   "size": 435496,
+   "sha1": "d376debf1f96f37dbedf56919baeb7da2dcef9ab",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6315/241/watut-forge-1.20.1-1.2.3.jar",
+    "https://edge.forgecdn.net/files/6315/241/watut-forge-1.20.1-1.2.3.jar"
+   ],
+   "name": "What Are They Up To (Watut)",
+   "curseforge": {
+    "projectId": 945479,
+    "fileId": 6315241
+   }
+  },
+  {
+   "path": "mods/wits-1.1.0+1.20.1-forge.jar",
+   "size": 13903,
+   "sha1": "59b065469899b8bb5f0dea25abc164baca278587",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4789/318/wits-1.1.0%2B1.20.1-forge.jar",
+    "https://edge.forgecdn.net/files/4789/318/wits-1.1.0%2B1.20.1-forge.jar"
+   ],
+   "name": "WITS (What Is This Structure?)",
+   "curseforge": {
+    "projectId": 909375,
+    "fileId": 4789318
+   }
+  },
+  {
+   "path": "mods/xrayreporter-1.1.1.jar",
+   "size": 34211,
+   "sha1": "ded2399aacef1ad5069d92bc5be3e92b4bd805b5",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/7865/679/xrayreporter-1.1.1.jar",
+    "https://edge.forgecdn.net/files/7865/679/xrayreporter-1.1.1.jar"
+   ],
+   "name": "XrayReporter",
+   "curseforge": {
+    "projectId": 1394450,
+    "fileId": 7865679
+   }
+  },
+  {
+   "path": "mods/YungsApi-1.20-Forge-4.0.6.jar",
+   "size": 370524,
+   "sha1": "af584b690f5646c6032002b58abc4591beed3833",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5769/971/YungsApi-1.20-Forge-4.0.6.jar",
+    "https://edge.forgecdn.net/files/5769/971/YungsApi-1.20-Forge-4.0.6.jar"
+   ],
+   "name": "YUNG's API (Forge/NeoForge)",
+   "curseforge": {
+    "projectId": 421850,
+    "fileId": 5769971
+   }
+  },
+  {
+   "path": "mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+   "size": 792381,
+   "sha1": "67a9e1c2ff126ab54cea8e0709d178915243039e",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5271/360/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+    "https://edge.forgecdn.net/files/5271/360/YungsBetterDungeons-1.20-Forge-4.0.4.jar"
+   ],
+   "name": "YUNG's Better Dungeons (Forge/NeoForge)",
+   "curseforge": {
+    "projectId": 510089,
+    "fileId": 5271360
+   }
+  },
+  {
+   "path": "mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+   "size": 492998,
+   "sha1": "e2cbc574807a994bb9610184eb4bbfe29a6c0774",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4769/63/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+    "https://edge.forgecdn.net/files/4769/63/YungsBetterMineshafts-1.20-Forge-4.0.4.jar"
+   ],
+   "name": "YUNG's Better Mineshafts (Forge/NeoForge)",
+   "curseforge": {
+    "projectId": 389665,
+    "fileId": 4769063
+   }
+  },
+  {
+   "path": "mods/zc_clothing.jar",
+   "size": 576791,
+   "sha1": "06161a32a06fa0cade155b6960de5042ae6ea601",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/mods/zc_clothing.jar"
+   ]
+  },
+  {
+   "path": "mods/zc_player.jar",
+   "size": 607392,
+   "sha1": "c53641314416526bb0d1499c863afc29077fa624",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/mods/zc_player.jar"
+   ]
+  },
+  {
+   "path": "mods/zc_skills.jar",
+   "size": 232339,
+   "sha1": "fc3e088de33ad9ccdd49bab1600deeedf0f14f08",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/mods/zc_skills.jar"
+   ]
+  },
+  {
+   "path": "mods/zc_survival.jar",
+   "size": 309190,
+   "sha1": "31df22cab0de629d3e05d5e31b2896d09284cad4",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/mods/zc_survival.jar"
+   ]
+  },
+  {
+   "path": "mods/zc_world.jar",
+   "size": 201992,
+   "sha1": "a4ff58250d4c31fdc6f6a6e0e2366b44de0ab86a",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/72e8b1e07a9861ee584139cfa51f9f20224179cb/files/mods/zc_world.jar"
+   ]
+  },
+  {
+   "path": "mods/zombies_plus-2.1.2-1.20-.4(excl.3)-[forge-fabric].jar",
+   "size": 624117,
+   "sha1": "5d66c4f882dc17c4fd17f4f2bc10c4d5e5515e32",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5889/911/zombies_plus-2.1.2-1.20-.4(excl.3)-%5Bforge-fabric%5D.jar",
+    "https://edge.forgecdn.net/files/5889/911/zombies_plus-2.1.2-1.20-.4(excl.3)-%5Bforge-fabric%5D.jar"
+   ],
+   "name": "Zombies+",
+   "curseforge": {
+    "projectId": 1072974,
+    "fileId": 5889911
+   }
+  },
+  {
+   "path": "resourcepacks/Cubic Leaves 1.6 (compat).zip",
+   "size": 228917,
+   "sha1": "2a9811cdad527abdd4076a8b1ef8041eac7c7951",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6465/164/Cubic%20Leaves%201.6%20(compat).zip",
+    "https://edge.forgecdn.net/files/6465/164/Cubic%20Leaves%201.6%20(compat).zip"
+   ],
+   "name": "Cubic Leaves",
+   "curseforge": {
+    "projectId": 1252004,
+    "fileId": 6465164
+   }
+  },
+  {
+   "path": "resourcepacks/Default-Dark-Mode-1.20-2023.7.0.zip",
+   "size": 664752,
+   "sha1": "fc488eca9d771b6bd7ce5c651793d812a0adb1ae",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/4633/979/Default-Dark-Mode-1.20-2023.7.0.zip",
+    "https://edge.forgecdn.net/files/4633/979/Default-Dark-Mode-1.20-2023.7.0.zip"
+   ],
+   "name": "Default Dark Mode",
+   "curseforge": {
+    "projectId": 349116,
+    "fileId": 4633979
+   }
+  },
+  {
+   "path": "resourcepacks/Default-Dark-Mode-Expansion-1.19.0+-2025.2.20.zip",
+   "size": 1489105,
+   "sha1": "403f9b17f9e8ad139823524d2e96d1c38f9b4417",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/6214/967/Default-Dark-Mode-Expansion-1.19.0%2B-2025.2.20.zip",
+    "https://edge.forgecdn.net/files/6214/967/Default-Dark-Mode-Expansion-1.19.0%2B-2025.2.20.zip"
+   ],
+   "name": "Default Dark Mode: Expansion",
+   "curseforge": {
+    "projectId": 1077191,
+    "fileId": 6214967
+   }
+  },
+  {
+   "path": "resourcepacks/FreshAnimations_v1.9.2.zip",
+   "size": 516256,
+   "sha1": "ff18e6a762b87d7e8bad0726ac7d9c153306c6d2",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/5494/142/FreshAnimations_v1.9.2.zip",
+    "https://edge.forgecdn.net/files/5494/142/FreshAnimations_v1.9.2.zip"
+   ],
+   "name": "Fresh Animations",
+   "curseforge": {
+    "projectId": 453763,
+    "fileId": 5494142
+   }
+  },
+  {
+   "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip",
+   "size": 546925,
+   "sha1": "5a021081f0178ed91dd911194071465ab0a4348b",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8123/287/ComplementaryReimagined_r5.8.1.zip",
+    "https://edge.forgecdn.net/files/8123/287/ComplementaryReimagined_r5.8.1.zip"
+   ],
+   "name": "Complementary Shaders - Reimagined",
+   "curseforge": {
+    "projectId": 627557,
+    "fileId": 8123287
+   }
+  },
+  {
+   "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
+   "size": 546928,
+   "sha1": "af656a33be2cbd217ea08986ad2cdd76f6bbfe1c",
+   "side": "client",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8123/288/ComplementaryUnbound_r5.8.1.zip",
+    "https://edge.forgecdn.net/files/8123/288/ComplementaryUnbound_r5.8.1.zip"
+   ],
+   "name": "Complementary Shaders - Unbound",
+   "curseforge": {
+    "projectId": 385587,
+    "fileId": 8123288
+   }
+  }
+ ]
+}
