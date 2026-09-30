@@ -1,20 +1,20 @@
 [
   {
-    "title": "Versão 0.2.1 no ar",
-    "date": "30/09",
+    "title": "Versão 0.2.3 no ar",
+    "date": "01/10",
     "tag": "ATUALIZAÇÃO",
-    "body": "154 roupas novas em 9 slots, costura e conserto.\nÓculos agora corrigem o traço Míope.\nO launcher baixa tudo sozinho: é só clicar em JOGAR."
+    "body": "121 missões (tecla J) e habilidades com árvore de talentos (tecla K).\nC para deitar e rastejar. Temperatura bem mais perigosa: procure abrigo com teto e paredes.\nSem nomes sobre a cabeça, sem progressos do Minecraft e sem o painel de blocos."
   },
   {
     "title": "CANAL 7 — ALERTA",
-    "date": "30/09 23:40",
+    "date": "01/10 00:40",
     "style": "radio",
-    "body": "Horda migratória avistada a leste da muralha.\nEvitem a zona industrial após o anoitecer."
+    "body": "A quem estiver ouvindo: a chuva está matando mais que eles.\nNão saiam molhados. Acendam fogo dentro de casa. Repito: não saiam molhados."
   },
   {
-    "title": "Reinício diário",
-    "date": "30/09",
+    "title": "Você começa sem nada",
+    "date": "01/10",
     "tag": "AVISO",
-    "body": "Todo dia às 05:00 o servidor reinicia (backup automático)."
+    "body": "Todo sobrevivente acorda só de roupa íntima.\nProcure guarda-roupas, lojas e hospitais. Com agulha, linha e tecido dá para costurar o básico."
   }
 ]
