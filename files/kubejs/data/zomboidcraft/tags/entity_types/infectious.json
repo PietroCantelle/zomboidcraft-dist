@@ -1,0 +1,77 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "zombie_extreme:infected",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:runner",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:crawler",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:infected_police",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:infected_military",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:infected_hazmat",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:infected_juggernaut",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:boomer",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:inflated",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:explosive_infected",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:bomber",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thesmoker",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thespitter",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:therabidus",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:theheavy",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thepregnant",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thebidy",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:theordure",
+      "required": false
+    }
+  ]
+}

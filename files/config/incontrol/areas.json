@@ -1,0 +1,90 @@
+[
+  {
+    "name": "zc_batalhao",
+    "dimension": "minecraft:overworld",
+    "type": "box",
+    "x": -700,
+    "y": 64,
+    "z": 0,
+    "dimx": 96,
+    "dimy": 120,
+    "dimz": 96
+  },
+  {
+    "name": "zc_hospital",
+    "dimension": "minecraft:overworld",
+    "type": "box",
+    "x": 0,
+    "y": 64,
+    "z": -700,
+    "dimx": 110,
+    "dimy": 120,
+    "dimz": 110
+  },
+  {
+    "name": "zc_campus",
+    "dimension": "minecraft:overworld",
+    "type": "box",
+    "x": -600,
+    "y": 64,
+    "z": -1800,
+    "dimx": 140,
+    "dimy": 120,
+    "dimz": 140
+  },
+  {
+    "name": "zc_base_cerco",
+    "dimension": "minecraft:overworld",
+    "type": "box",
+    "x": 2250,
+    "y": 64,
+    "z": 0,
+    "dimx": 170,
+    "dimy": 120,
+    "dimz": 170
+  },
+  {
+    "name": "zc_wall_e",
+    "dimension": "minecraft:overworld",
+    "type": "box",
+    "x": 2380,
+    "y": 64,
+    "z": 0,
+    "dimx": 140,
+    "dimy": 120,
+    "dimz": 2520
+  },
+  {
+    "name": "zc_wall_w",
+    "dimension": "minecraft:overworld",
+    "type": "box",
+    "x": -2380,
+    "y": 64,
+    "z": 0,
+    "dimx": 140,
+    "dimy": 120,
+    "dimz": 2520
+  },
+  {
+    "name": "zc_wall_n",
+    "dimension": "minecraft:overworld",
+    "type": "box",
+    "x": 0,
+    "y": 64,
+    "z": -2380,
+    "dimx": 2520,
+    "dimy": 120,
+    "dimz": 140
+  },
+  {
+    "name": "zc_wall_s",
+    "dimension": "minecraft:overworld",
+    "type": "box",
+    "x": 0,
+    "y": 64,
+    "z": 2380,
+    "dimx": 2520,
+    "dimy": 120,
+    "dimz": 140
+  }
+]

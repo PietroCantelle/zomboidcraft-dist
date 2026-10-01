@@ -1,0 +1,182 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "final"
+	group: "5D8B484F7578C85C"
+	icon: "minecraft:white_banner"
+	id: "48F4AB51363C4DE6"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"484C67B32FA9F528"
+			]
+			description: [
+				"Com o portão aberto, o servidor escolhe o fim. Vote no &econsole do Portão 1&r ou clicando no final na mensagem do chat (&e/zcstory vote <final>&r). A votação fecha quando todos os que estão online votarem, ou 90 s depois do primeiro voto. Só valem finais possíveis:"
+				"&e• Transmissão&r — a fórmula já foi transmitida pela Rádio Livre e a Joana está viva."
+				"&e• Entrega&r — alguém online carrega a fórmula do RIMIDAX (ela é entregue aos militares)."
+				"&e• Os Poucos&r — de 1 a 4 jogadores no heliponto (hospital ou Base Cerco) quando a votação fechar."
+				"Todos que estiverem no servidor (e quem entrar depois) veem o final."
+			]
+			icon: "minecraft:writable_book"
+			id: "5B54687436D6495A"
+			rewards: [ ]
+			size: 1.25d
+			tasks: [
+				{
+					icon: "minecraft:writable_book"
+					id: "51D9D0377817DB1F"
+					title: "Votei (ou o servidor já decidiu)"
+					type: "custom"
+				}
+			]
+			title: "A Escolha"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5B54687436D6495A"
+			]
+			description: [
+				"&7&o\"...Torres, cessar fogo. Abram a eclusa.\""
+				"A receita é de todo mundo agora."
+			]
+			icon: "zc_story:radio_portatil"
+			id: "5506AEB55F2F3174"
+			optional: true
+			rewards: [ ]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "zc_story:radio_portatil"
+					id: "4BB37682A5F7C4C3"
+					title: "Final Transmissão"
+					type: "custom"
+				}
+			]
+			title: "Final: Transmissão"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5B54687436D6495A"
+			]
+			description: [
+				"O Ativo LÁZARO vai para o outro lado do muro, em caixa térmica. O portão abre para quem entregou."
+			]
+			icon: "zc_story:amostra_primaria"
+			id: "7E4197F08B3C0EC9"
+			optional: true
+			rewards: [ ]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "zc_story:amostra_primaria"
+					id: "154105C6BC6403EC"
+					title: "Final Entrega"
+					type: "custom"
+				}
+			]
+			title: "Final: Entrega"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5B54687436D6495A"
+			]
+			description: [
+				"Quatro lugares no helicóptero. O resto fica com a cidade."
+			]
+			icon: "minecraft:feather"
+			id: "2DC104C768867D88"
+			optional: true
+			rewards: [ ]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "minecraft:feather"
+					id: "526B202D6EA06FED"
+					title: "Final Os Poucos"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:elytra"
+					id: "43B17F82C2293EEE"
+					optional_task: true
+					title: "Eu estava no helicóptero"
+					type: "custom"
+				}
+			]
+			title: "Final: Os Poucos"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0B35663FB4B1087A"
+			]
+			description: [
+				"&7&oORDEM DE SERVIÇO — PROTOCOLO SILÊNCIO: \"...fica autorizada a esterilização do perímetro Anel-Itaverá por meios termobáricos... Comunicação pública: incêndio florestal de grandes proporções.\""
+				""
+				"O final de quem não abre o portão a tempo. &8Opcional e desligado por padrão: só existe se o servidor tiver um prazo (config do zc_story, silencioDeadlineDay). Nos últimos dias, a frequência da Rede Cerco avisa."
+			]
+			icon: "minecraft:tnt"
+			id: "06942BDC0AE7CD97"
+			optional: true
+			rewards: [ ]
+			shape: "octagon"
+			tasks: [
+				{
+					icon: "minecraft:tnt"
+					id: "60E07904A543BA88"
+					title: "Final Silêncio"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:radio_militar"
+					id: "5973AA7CC396F96C"
+					optional_task: true
+					title: "Ouvi o aviso na Rede Cerco"
+					type: "custom"
+				}
+			]
+			title: "Final: Silêncio"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5B54687436D6495A"
+				"06942BDC0AE7CD97"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Os créditos levam o nome de todo mundo que passou por Itaverá: quantas vezes morreu, em que dia chegou."
+				"&8Anda, não corre."
+			]
+			icon: "minecraft:clock"
+			id: "0F901F7EA1341237"
+			rewards: [ ]
+			size: 1.5d
+			tasks: [
+				{
+					icon: "minecraft:clock"
+					id: "422E22494E3C9786"
+					title: "A história de Itaverá terminou"
+					type: "custom"
+				}
+			]
+			title: "Fim"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	subtitle: [
+		"Isso aqui não traz ninguém de volta da morte. Traz de volta dos primeiros minutos da morte."
+	]
+	title: "Final — Do Outro Lado"
+}

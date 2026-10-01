@@ -5,7 +5,7 @@
 	group: "787EB7992C439E5E"
 	icon: "minecraft:bell"
 	id: "6F789A719F3B8ECC"
-	order_index: 7
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -560,25 +560,451 @@
 				"2F5928A6CC48A2FB"
 			]
 			description: [
-				"O mural tem nomes e fotos. Às vezes alguém volta. Quase sempre volta uma aliança."
+				"O mural do Refúgio tem nomes e fotos. Às vezes alguém volta. Quase sempre volta uma aliança."
 				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"Uma senhora passa o dia no pátio do Refúgio, perto do mural de desaparecidos: &eDona Neide&r. Ela procura o filho, Mateus. Fale com ela. (A carta dele está com os Corvos: Histórias paralelas, Cartas do Pena.)"
+				"&eOnde:&r o Colégio Estadual Dom Pedro II, no Jardim das Acácias, cerca de 1 km a noroeste da Igreja Matriz: muro de contêineres com arame, ônibus escolar atravessado no portão leste, duas torres de vigia."
 			]
 			icon: "minecraft:paper"
 			id: "5192A5B0BC94D463"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "40D1EAEA2440196E"
-					title: "Trouxe os pertences de alguém do mural"
-					type: "checkmark"
+					id: "319EB96C89F58785"
+					item: "zc_survival:canned_soup"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "132B01672F825EB1"
+					item: "zc_story:pilha_aa"
+					type: "item"
 				}
 			]
-			title: "Pessoa Desaparecida (em breve)"
+			tasks: [
+				{
+					icon: "minecraft:paper"
+					id: "40D1EAEA2440196E"
+					title: "Fale com a Dona Neide, no pátio do Refúgio"
+					type: "custom"
+				}
+			]
+			title: "Pessoa Desaparecida"
 			x: 6.0d
 			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2F5928A6CC48A2FB"
+			]
+			description: [
+				"&7&oDona Cida: \"Quem trabalha, come. Quem não pode trabalhar, come também.\""
+				"Fale com o NPC (clique direito) e escolha &eTrabalhos&r: entregas e caçadas com prazo, uma de cada vez. Entregar dá itens do estoque e reputação. No Refúgio: a &eDona Cida&r (água, colheita, lenha, remédios) e o &eTião&r (ronda, limpeza)."
+			]
+			icon: "minecraft:wooden_hoe"
+			id: "11058138529C45A8"
+			rewards: [
+				{
+					count: 2
+					id: "0EE445CFE1793EAE"
+					item: "zc_survival:canned_beans"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0A03A47C2C4BE026"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:wooden_hoe"
+					id: "41155B977A5AC281"
+					title: "Termine um trabalho do Refúgio"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:emerald"
+					id: "377B9ABD282EB1C1"
+					optional_task: true
+					title: "Faça uma troca no Refúgio"
+					type: "custom"
+				}
+			]
+			title: "Quem Trabalha, Come"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"11058138529C45A8"
+			]
+			description: [
+				"Reputação (por safezone, 0 a 2000): &7Hostil < 0 · Desconhecido 0 · &fTolerado 100&7 (comércio, cama) · &fConhecido 300&7 (trabalhos nível 2, preço melhor) · &fConfiável 700&7 (estoque raro) · &fFamília 1500&7 (o menor preço)&r. Sobe com trabalhos, entregas e missões; cai roubando, agredindo ou mentindo."
+				"Chegue a &eConhecido&r (300) com o Refúgio do Colégio."
+			]
+			icon: "minecraft:bread"
+			id: "648424B9E7E4BE37"
+			rewards: [
+				{
+					count: 2
+					id: "5741259D3B225047"
+					item: "zc_survival:sterile_bandage"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:bread"
+					id: "218BF3E26269C24F"
+					title: "Reputação Conhecido no Refúgio"
+					type: "custom"
+				}
+			]
+			title: "Refúgio: Conhecido"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"648424B9E7E4BE37"
+			]
+			description: [
+				"Reputação (por safezone, 0 a 2000): &7Hostil < 0 · Desconhecido 0 · &fTolerado 100&7 (comércio, cama) · &fConhecido 300&7 (trabalhos nível 2, preço melhor) · &fConfiável 700&7 (estoque raro) · &fFamília 1500&7 (o menor preço)&r. Sobe com trabalhos, entregas e missões; cai roubando, agredindo ou mentindo."
+				"Chegue a &eConfiável&r (700) com o Refúgio do Colégio."
+			]
+			icon: "minecraft:cake"
+			id: "4A80E6798CB34D16"
+			optional: true
+			rewards: [
+				{
+					id: "6990EC8A193576CD"
+					item: "zc_survival:suture_kit"
+					type: "item"
+				}
+				{
+					id: "5BE4DF35790C8F8D"
+					item: "zc_survival:antibiotics"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:cake"
+					id: "4C256BDD9969C210"
+					title: "Reputação Confiável no Refúgio"
+					type: "custom"
+				}
+			]
+			title: "Refúgio: Confiável"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4A80E6798CB34D16"
+			]
+			description: [
+				"Reputação (por safezone, 0 a 2000): &7Hostil < 0 · Desconhecido 0 · &fTolerado 100&7 (comércio, cama) · &fConhecido 300&7 (trabalhos nível 2, preço melhor) · &fConfiável 700&7 (estoque raro) · &fFamília 1500&7 (o menor preço)&r. Sobe com trabalhos, entregas e missões; cai roubando, agredindo ou mentindo."
+				"Chegue a &eFamília&r (1500) com o Refúgio do Colégio."
+			]
+			icon: "minecraft:red_bed"
+			id: "049C764C2631DC26"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "27700E2B2745BFA7"
+					item: "zc_survival:antibiotics"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:red_bed"
+					id: "06ECE60913F1484B"
+					title: "Reputação Família no Refúgio"
+					type: "custom"
+				}
+			]
+			title: "Refúgio: Família"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2F5928A6CC48A2FB"
+			]
+			description: [
+				"De tempos em tempos uma horda vem contra uma safezone (a Rádio Livre avisa; a barra aparece na tela). Se os moradores caírem, a safezone cai junto. Estar lá dentro e segurar o muro até o fim do ataque conta."
+			]
+			icon: "minecraft:shield"
+			id: "214C1AFC1A30EFA6"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "678AE7C78EE30317"
+					item: "kubejs:weapon_parts"
+					type: "item"
+				}
+				{
+					id: "2C4F23C6345F1189"
+					item: "zc_survival:suture_kit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:shield"
+					id: "5F694F8F0F146774"
+					title: "Defenda uma safezone de um ataque"
+					type: "custom"
+				}
+			]
+			title: "A Noite do Muro"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2F5928A6CC48A2FB"
+			]
+			description: [
+				"&7&oBigode: \"Meu amigo! Peça boa, preço bom, sem perguntas.\""
+				"&eOnde:&r o depósito do Mercado Central, no Centro, poucos quarteirões a nordeste da Igreja Matriz: galpão de chapa com pátio murado de contêineres e caminhões."
+				"O Bigode fica no escritório do mezanino. Nas bancas de baixo, comerciantes. Tudo é &eescambo&r: o valor do que você oferece contra o que você leva, com o markup da sua reputação."
+			]
+			icon: "minecraft:chest"
+			id: "36396B5F2474FE87"
+			rewards: [
+				{
+					id: "75F1DFE0A8852717"
+					item: "car:canister"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "61AA23E0FDC721C7"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:compass"
+					id: "7AAF2584B908E1F0"
+					title: "Chegue ao Galpão do Bigode"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:chest"
+					id: "0A399C3FC867FB1C"
+					title: "Fale com o Bigode"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:emerald"
+					id: "325620ABB36144F9"
+					title: "Faça uma troca no Galpão"
+					type: "custom"
+				}
+			]
+			title: "O Galpão do Bigode"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"36396B5F2474FE87"
+			]
+			description: [
+				"Fale com o NPC (clique direito) e escolha &eTrabalhos&r: entregas e caçadas com prazo, uma de cada vez. Entregar dá itens do estoque e reputação. O &eBigode&r paga por peças, sucata eletrônica, combustível e por limpar o caminho das cargas."
+			]
+			icon: "car:wheel"
+			id: "1C77CF04AB68EEF4"
+			rewards: [
+				{
+					id: "1A029A059426E080"
+					item: "car:repair_kit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "car:wheel"
+					id: "3580BDA948F38902"
+					title: "Termine um trabalho do Galpão"
+					type: "custom"
+				}
+			]
+			title: "Serviço pro Bigode"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1C77CF04AB68EEF4"
+			]
+			description: [
+				"Reputação (por safezone, 0 a 2000): &7Hostil < 0 · Desconhecido 0 · &fTolerado 100&7 (comércio, cama) · &fConhecido 300&7 (trabalhos nível 2, preço melhor) · &fConfiável 700&7 (estoque raro) · &fFamília 1500&7 (o menor preço)&r. Sobe com trabalhos, entregas e missões; cai roubando, agredindo ou mentindo."
+				"Chegue a &eConhecido&r (300) com o Galpão. &8(Expor o livro-caixa do Bigode derruba essa reputação.)"
+			]
+			icon: "minecraft:gold_nugget"
+			id: "1B057FD01462F46C"
+			optional: true
+			rewards: [
+				{
+					id: "5892DD0312A2C839"
+					item: "car:canister"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:gold_nugget"
+					id: "1E03702A477D4174"
+					title: "Reputação Conhecido no Galpão"
+					type: "custom"
+				}
+			]
+			title: "Galpão: Conhecido"
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1B057FD01462F46C"
+			]
+			description: [
+				"Reputação (por safezone, 0 a 2000): &7Hostil < 0 · Desconhecido 0 · &fTolerado 100&7 (comércio, cama) · &fConhecido 300&7 (trabalhos nível 2, preço melhor) · &fConfiável 700&7 (estoque raro) · &fFamília 1500&7 (o menor preço)&r. Sobe com trabalhos, entregas e missões; cai roubando, agredindo ou mentindo."
+				"Chegue a &eConfiável&r (700) com o Galpão."
+			]
+			icon: "minecraft:gold_ingot"
+			id: "35AB6B20D9B9EC2F"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1EDB13FFEB04188D"
+					item: "kubejs:weapon_parts"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:gold_ingot"
+					id: "5C8F3EB90644BECB"
+					title: "Reputação Confiável no Galpão"
+					type: "custom"
+				}
+			]
+			title: "Galpão: Confiável"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"46CFA91DF41CA224"
+			]
+			description: [
+				"&7&oJoana: \"Eu não tenho comida pra trocar. Eu tenho rádio, pilha e informação. Informação é o que mais vale aqui.\""
+				"A Joana troca rádios, pilhas e o mapa anotado por componentes, fio e pilhas."
+			]
+			icon: "zc_story:radio_portatil"
+			id: "7A2FF93B2430BDC3"
+			rewards: [
+				{
+					count: 4
+					id: "119F83B87F2DD665"
+					item: "zc_story:pilha_aa"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4702049FAF1C92B5"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:emerald"
+					id: "7AA0BE3B6E74F8FA"
+					title: "Faça uma troca com a Joana"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:pilha_aa"
+					id: "2CD19C4099EE2E8F"
+					title: "Termine um trabalho da Torre"
+					type: "custom"
+				}
+			]
+			title: "A Rádio Livre Troca"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"7A2FF93B2430BDC3"
+			]
+			description: [
+				"Reputação (por safezone, 0 a 2000): &7Hostil < 0 · Desconhecido 0 · &fTolerado 100&7 (comércio, cama) · &fConhecido 300&7 (trabalhos nível 2, preço melhor) · &fConfiável 700&7 (estoque raro) · &fFamília 1500&7 (o menor preço)&r. Sobe com trabalhos, entregas e missões; cai roubando, agredindo ou mentindo."
+				"Chegue a &eConhecido&r (300) com a Torre da Matriz."
+			]
+			icon: "minecraft:lightning_rod"
+			id: "174700288494D3C2"
+			rewards: [
+				{
+					count: 4
+					id: "070FEB689C486FA8"
+					item: "flashlightmod:battery"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:lightning_rod"
+					id: "44B5070DF2636AD2"
+					title: "Reputação Conhecido na Torre"
+					type: "custom"
+				}
+			]
+			title: "Torre: Conhecido"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"174700288494D3C2"
+			]
+			description: [
+				"Reputação (por safezone, 0 a 2000): &7Hostil < 0 · Desconhecido 0 · &fTolerado 100&7 (comércio, cama) · &fConhecido 300&7 (trabalhos nível 2, preço melhor) · &fConfiável 700&7 (estoque raro) · &fFamília 1500&7 (o menor preço)&r. Sobe com trabalhos, entregas e missões; cai roubando, agredindo ou mentindo."
+				"Chegue a &eConfiável&r (700) com a Torre da Matriz."
+			]
+			icon: "minecraft:spyglass"
+			id: "2B72BD62B5EA98EE"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "5A15AE11DDD963BA"
+					item: "zc_story:pilha_aa"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:spyglass"
+					id: "355502F9D270328E"
+					title: "Reputação Confiável na Torre"
+					type: "custom"
+				}
+			]
+			title: "Torre: Confiável"
+			x: 4.0d
+			y: -6.5d
 		}
 	]
 	subtitle: [

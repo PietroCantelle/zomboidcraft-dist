@@ -43,6 +43,319 @@
 				"0B35663FB4B1087A"
 			]
 			description: [
+				"Soco não derruba árvore, nem tira pedra do chão. Você não tem ferramenta nenhuma."
+				"Procure &epedras soltas&r no chão: em parques, terrenos, na terra e até no asfalto e na calçada rachados. Cavando terra ou grama com a mão às vezes sai uma."
+				"&eCascalho&r sai com a mão: 3 cascalhos = 2 &esílex&r na mesa (e às vezes sai sílex direto)."
+			]
+			icon: "notreepunching:stone_loose_rock"
+			id: "1B72477A19EBE0FF"
+			rewards: [ ]
+			tasks: [
+				{
+					count: 1L
+					id: "11E08904774F6624"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "notreepunching:stone_loose_rock"
+								}
+								{
+									Count: 1b
+									id: "notreepunching:andesite_loose_rock"
+								}
+								{
+									Count: 1b
+									id: "notreepunching:diorite_loose_rock"
+								}
+								{
+									Count: 1b
+									id: "notreepunching:granite_loose_rock"
+								}
+								{
+									Count: 1b
+									id: "notreepunching:sandstone_loose_rock"
+								}
+								{
+									Count: 1b
+									id: "notreepunching:red_sandstone_loose_rock"
+								}
+							]
+						}
+					}
+					title: "Pegue uma pedra solta"
+					type: "item"
+				}
+			]
+			title: "Mãos nuas"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1B72477A19EBE0FF"
+			]
+			description: [
+				"Segure um &esílex&r e clique direito numa superfície de &epedra&r (concreto, tijolo, rocha) para &elascar&r. Às vezes quebra à toa; às vezes saem &eLascas de Sílex&r."
+				"Sem sílex: cascalho (3 = 2 sílex) ou a sorte de achar uma lasca na casa onde você acordou."
+			]
+			icon: "notreepunching:flint_shard"
+			id: "36041C4F2AD3CFF0"
+			rewards: [ ]
+			tasks: [
+				{
+					count: 2L
+					id: "2706D4CDE672657D"
+					item: "notreepunching:flint_shard"
+					type: "item"
+				}
+			]
+			title: "Lascar o sílex"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"36041C4F2AD3CFF0"
+			]
+			description: [
+				"&eLasca de Sílex&r em cima de um &egraveto&r = &eFaca de Sílex&r."
+				"Graveto: quebre &efolhas&r com a mão (às vezes cai um) ou procure nas casas."
+				"A faca corta mato e grama (sai &efibra vegetal&r), lã, teia e couro."
+			]
+			icon: "notreepunching:flint_knife"
+			id: "2AFE46F2E9B5E268"
+			rewards: [ ]
+			tasks: [
+				{
+					count: 1L
+					id: "13CE5B5A039A8731"
+					item: "notreepunching:flint_knife"
+					type: "item"
+				}
+			]
+			title: "Faca de sílex"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2AFE46F2E9B5E268"
+			]
+			description: [
+				"Com a faca na mão, quebre &egrama alta&r, folhas, mudas, flores ou cana: sai &eFibra Vegetal&r."
+				"Fibras viram &eBarbante Vegetal&r na mesa. Barbante amarra ferramenta no cabo."
+			]
+			icon: "notreepunching:plant_fiber"
+			id: "0AD458CFE4198318"
+			rewards: [ ]
+			tasks: [
+				{
+					count: 4L
+					id: "7CE5204347D09526"
+					item: "notreepunching:plant_fiber"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "6098EE4ECF0490E7"
+					item: "notreepunching:plant_string"
+					type: "item"
+				}
+			]
+			title: "Fibra e barbante"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0AD458CFE4198318"
+			]
+			description: [
+				"Toda ferramenta precisa de cabo. &eFolhas&r quebradas com a mão às vezes soltam gravetos."
+				"Depois que tiver machado ou serra: tora ou tábua vira um monte de gravetos."
+			]
+			icon: "minecraft:stick"
+			id: "7D6A3E2213C4A524"
+			rewards: [ ]
+			tasks: [
+				{
+					count: 4L
+					id: "08C401B297E5A6C0"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "Gravetos"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7D6A3E2213C4A524"
+			]
+			description: [
+				"&eLasca + barbante + graveto&r = &eMachado de Sílex&r. Agora árvore cai."
+				"Também há &epicareta&r (tira pedra e minério fraco), &epá&r e &eenxada&r de sílex."
+			]
+			icon: "notreepunching:flint_axe"
+			id: "4DED20677FF9DBF6"
+			rewards: [ ]
+			tasks: [
+				{
+					count: 1L
+					id: "1C6AE949AE8207B7"
+					item: "notreepunching:flint_axe"
+					type: "item"
+				}
+			]
+			title: "Machado de sílex"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4DED20677FF9DBF6"
+			]
+			description: [
+				"Derrube uma árvore com o machado. Lenha é casa, fogo e ferramenta."
+			]
+			icon: "minecraft:oak_log"
+			id: "28B49AA33B789149"
+			rewards: [ ]
+			tasks: [
+				{
+					count: 4L
+					id: "04E76026A8F703DB"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "4 toras"
+					type: "item"
+				}
+			]
+			title: "Lenha"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"28B49AA33B789149"
+			]
+			description: [
+				"Na mesa, &etora + machado&r dá poucas tábuas (o machado gasta). Com uma &eserra&r rende mais."
+				"A serra pede metal: mais para frente. Por enquanto, machado."
+			]
+			icon: "minecraft:oak_planks"
+			id: "6E1F04D8556CD7B4"
+			rewards: [ ]
+			tasks: [
+				{
+					count: 8L
+					id: "188EFEA6A89A0829"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "8 tábuas"
+					type: "item"
+				}
+			]
+			title: "Tábuas"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6E1F04D8556CD7B4"
+			]
+			description: [
+				"Quatro tábuas: &eBancada de Trabalho&r. Quase tudo daqui em diante passa por ela."
+			]
+			icon: "minecraft:crafting_table"
+			id: "28F3C8C1757E3254"
+			rewards: [ ]
+			tasks: [
+				{
+					count: 1L
+					id: "26B6FEECB66478B4"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			title: "Bancada"
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"28F3C8C1757E3254"
+			]
+			description: [
+				"&eGravetos + barbante + lasca de sílex&r = &eAcendedor&r (arco de fogo). Pega fogo de vez em quando — insista."
+			]
+			icon: "notreepunching:fire_starter"
+			id: "12DB359C77C6ADB6"
+			rewards: [ ]
+			tasks: [
+				{
+					count: 1L
+					id: "328B49D8ED390A52"
+					item: "notreepunching:fire_starter"
+					type: "item"
+				}
+			]
+			title: "Acendedor"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"12DB359C77C6ADB6"
+			]
+			description: [
+				"Jogue no chão &e1 tora&r e &e3 gravetos/folhas/fibra&r (gravetos, mudas, folhas, barbante, fibra) e use o &eacendedor&r em cima: vira uma &efogueira&r."
+				"Fogueira ferve água, assa comida e esquenta. E faz luz e fumaça: à noite, chama atenção."
+			]
+			icon: "minecraft:campfire"
+			id: "6BF299D8A142F308"
+			rewards: [
+				{
+					count: 2
+					id: "3670F28A70B2A1A3"
+					item: "notreepunching:flint_shard"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5D489DF842EA00E0"
+					observe_type: 0
+					timer: 20L
+					title: "Olhe para uma fogueira acesa"
+					to_observe: "minecraft:campfire"
+					type: "observation"
+				}
+			]
+			title: "Fogueira"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0B35663FB4B1087A"
+			]
+			description: [
 				"A barra de &bsede&r fica sempre na tela, ao lado da fome. Ela cai devagar parada (~1 ponto a cada 36 s) e bem mais rápido correndo ou no calor."
 				"Sede zerada mata. Antes disso vêm os avisos: &7Com sede → Sedento → Desidratado → Morrendo de sede&r."
 				"Água limpa: garrafas lacradas, latas, água fervida. Guarde água antes que as torneiras sequem — elas vão secar."
@@ -492,9 +805,10 @@
 				"3CF0FFC55BD76EFB"
 			]
 			description: [
-				"Não existe minimapa na cabeça de ninguém. O único mapa é o que você carrega: o &eAtlas&r."
+				"Não existe minimapa na cabeça de ninguém. O mapa é o que você carrega: o &eAtlas&r."
 				"Ele junta mapas de papel enquanto você anda. Sem atlas, sem mapa. Perdeu o atlas, perdeu tudo o que desenhou."
-				"&eM&r abre o mapa do atlas; &eB&r marca um alfinete. Anote onde tem água, remédio e horda."
+				"&eM&r abre o mapa do atlas; &e,&r (vírgula) marca um alfinete. Anote onde tem água, remédio e horda."
+				"O minimapa no canto da tela só funciona com um &eGPS&r no inventário. Achou um? Guarde com a vida."
 			]
 			icon: "map_atlases:atlas"
 			id: "0356B17C04CE392C"
@@ -523,7 +837,7 @@
 				"0356B17C04CE392C"
 			]
 			description: [
-				"Voz de verdade: &esegure Caps Lock&r para falar. Quem está a ~32 blocos ouve; sussurro, bem menos. &eV&r abre as opções de voz."
+				"Voz de verdade: &esegure Caps Lock&r para falar. Quem está a ~32 blocos ouve; sussurro, bem menos. &eN&r abre o menu de voz."
 				"O chat de texto também é local. &e/shout&r grita mais longe, e cansa."
 				"Para falar com quem está longe: &eWalkie-Talkie&r. Mesmo canal que o grupo, e fale com Caps Lock."
 				"Rádio é a única coisa nessa cidade que chega longe sem fazer barulho."

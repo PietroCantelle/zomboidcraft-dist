@@ -12,8 +12,9 @@ const COLORS = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'p
   'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
 
 ServerEvents.recipes(event => {
-  // ------------------------------------------------------------------ 1. metal tools, weapons, armor
-  const GEAR = ['sword', 'pickaxe', 'axe', 'shovel', 'hoe', 'helmet', 'chestplate', 'leggings', 'boots']
+  // ------------------------------------------------------------------ 1. metal tools and weapons
+  // (armor: see zc_armor.js - since 0.2.4 every armor recipe is loot-only or late mechanical crafting)
+  const GEAR = ['sword', 'pickaxe', 'axe', 'shovel', 'hoe']
   GEAR.forEach(g => {
     event.replaceInput({ output: `minecraft:iron_${g}` }, 'minecraft:iron_ingot', IRON_PLATE)
     event.replaceInput({ output: `minecraft:golden_${g}` }, 'minecraft:gold_ingot', GOLD_PLATE)

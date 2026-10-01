@@ -1,0 +1,283 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1790000000000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+menu_background {
+  instance_identifier = zc_title_bg
+  background_type = image
+  image_path = [source:local]/config/fancymenu/assets/zomboidcraft/menu_bg.jpg
+  slide = false
+  repeat_texture = false
+  parallax = false
+  show_background = true
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = image
+  instance_identifier = zc_panel_left
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 220
+  height = 240
+  stay_on_screen = false
+  enable_parallax = false
+  source = [source:local]/config/fancymenu/assets/zomboidcraft/panel_left.png
+  stretch_y = true
+}
+
+element {
+  element_type = image
+  instance_identifier = zc_logo
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = mid-left
+  x = 16
+  y = -108
+  width = 180
+  height = 60
+  stay_on_screen = false
+  enable_parallax = false
+  source = [source:local]/config/fancymenu/assets/zomboidcraft/logo.png
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = zc_version
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = bottom-left
+  x = 4
+  y = -11
+  width = 140
+  height = 9
+  stay_on_screen = false
+  enable_parallax = false
+  source = ZomboidCraft 0.2.5
+  source_mode = direct
+  base_color = #8C8174
+  scale = 1.0
+  shadow = true
+  text_border = 0
+  line_spacing = 1
+  parse_markdown = false
+  auto_line_wrapping = false
+  enable_scrolling = false
+  interactable = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_singleplayer_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = mid-left
+  x = 18
+  y = -26
+  width = 150
+  height = 20
+  stay_on_screen = false
+  enable_parallax = false
+  is_hidden = false
+  label = 
+  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/btn_singleplayer.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/btn_singleplayer_hover.png
+  nine_slice_custom_background = false
+  transparent_background = false
+  underline_label_on_hover = false
+  navigatable = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_multiplayer_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = mid-left
+  x = 18
+  y = -2
+  width = 150
+  height = 20
+  stay_on_screen = false
+  enable_parallax = false
+  is_hidden = false
+  label = 
+  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/btn_multiplayer.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/btn_multiplayer_hover.png
+  nine_slice_custom_background = false
+  transparent_background = false
+  underline_label_on_hover = false
+  navigatable = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_options_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = mid-left
+  x = 18
+  y = 22
+  width = 150
+  height = 20
+  stay_on_screen = false
+  enable_parallax = false
+  is_hidden = false
+  label = 
+  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/btn_options.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/btn_options_hover.png
+  nine_slice_custom_background = false
+  transparent_background = false
+  underline_label_on_hover = false
+  navigatable = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_quit_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = mid-left
+  x = 18
+  y = 46
+  width = 150
+  height = 20
+  stay_on_screen = false
+  enable_parallax = false
+  is_hidden = false
+  label = 
+  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/btn_quit.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/btn_quit_hover.png
+  nine_slice_custom_background = false
+  transparent_background = false
+  underline_label_on_hover = false
+  navigatable = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = forge_titlescreen_mods_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = mid-left
+  x = 18
+  y = 74
+  width = 56
+  height = 14
+  stay_on_screen = false
+  enable_parallax = false
+  is_hidden = false
+  label = 
+  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/btn_mods.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/btn_mods_hover.png
+  nine_slice_custom_background = false
+  transparent_background = false
+  underline_label_on_hover = false
+  navigatable = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = title_screen_copyright_button
+  anchor_point = vanilla
+  is_hidden = false
+  label = {"text":"Copyright Mojang AB. Do not distribute!","color":"#8C8174"}
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_realms_button
+  anchor_point = vanilla
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_language_button
+  anchor_point = vanilla
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_accessibility_button
+  anchor_point = vanilla
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_logo_widget
+  anchor_point = vanilla
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_splash_widget
+  anchor_point = vanilla
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_realms_notification_icons_widget
+  anchor_point = vanilla
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_branding_widget
+  anchor_point = vanilla
+  is_hidden = true
+}
+

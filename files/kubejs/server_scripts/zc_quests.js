@@ -14,16 +14,18 @@ const ZC_QUEST_KILL_TASKS = [
 ]
 
 EntityEvents.death(event => {
-  const entity = event.entity
-  const type = String(entity.type)
+  let entity = event.entity
+  let type = String(entity.type)
   if (type == 'minecraft:zombie') return // o próprio KillTask já conta
-  if (type.indexOf('zombie') < 0 && type != 'minecraft:husk' && type != 'minecraft:drowned') return
+  // zombie_extreme:* contém 'zombie'; mutações do THE UNDEAD REVAMPED (só as usadas, ver config/incontrol)
+  let special = /^undead_revamp2:(bomber|thesmoker|thespitter|therabidus|theheavy|thepregnant|thebidy|theordure)$/.test(type)
+  if (!special && type.indexOf('zombie') < 0 && type != 'minecraft:husk' && type != 'minecraft:drowned') return
   if (type == 'zc_player:turned_player') return // corpo de jogador não conta
-  const src = event.source
-  const player = src ? src.player : null
+  let src = event.source
+  let player = src ? src.player : null
   if (!player) return
   try {
-    const data = FTBQuests.getServerDataFromPlayer(player)
+    let data = FTBQuests.getServerDataFromPlayer(player)
     if (!data) return
     ZC_QUEST_KILL_TASKS.forEach(id => {
       if (!data.isCompleted(id)) data.addProgress(id, 1)

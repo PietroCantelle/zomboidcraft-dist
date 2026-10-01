@@ -5,7 +5,7 @@
 	group: "787EB7992C439E5E"
 	icon: "minecraft:paper"
 	id: "7237C59A5E5F4B14"
-	order_index: 9
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -17,7 +17,7 @@
 				""
 				"&fMô, fui na fila da vacina com a Bia. Tem arroz na panela. Se a gente não voltar até as 6 NÃO SAI DE CASA. Tranca a porta de cima também. Te amo. Não esquece o remédio da pressão."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:paper"
@@ -28,9 +28,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_fridge"
 					id: "5B2C5CA93918512D"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#01 Bilhete na porta da geladeira"
@@ -46,7 +47,7 @@
 				""
 				"&fTerça. O marido da Débora da enfermagem gritou a noite toda. Depois parou. Depois começou outro barulho, tipo alguém batendo a cabeça no portão, devagar, sem parar. Liguei 190. Deu ocupado. Liguei de novo. Deu ocupado. Anotei a hora: 5 e 12."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:writable_book"
@@ -57,9 +58,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_zulmira_1"
 					id: "167AF4643688DB08"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#02 Diário de Dona Zulmira, pág. 1"
@@ -75,7 +77,7 @@
 				""
 				"&fA Débora tá na rua de camisola. Descalça. Tem sangue até o cotovelo. Eu chamei ela pelo nome e ela virou. Ela virou pra mim. Mas não era pra mim que ela olhava. Era pro som. Eu fechei a janela e fiquei quieta até o sol ir embora. Não sou mais de rezar mas rezei."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:writable_book"
@@ -86,9 +88,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_zulmira_2"
 					id: "314C21D73FC014CA"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#03 Diário de Dona Zulmira, pág. 2"
@@ -105,7 +108,7 @@
 				"&fDia 8. Ele me mordeu. O Dr. Rafael, que tava morto. A Dra. Helena disse que é reflexo, que ele não sabe o que faz. Eu passei álcool, fiz curativo, tá só roxo. Não vou contar pro Nilton. Não vou contar pra ninguém. Se eu contar ela perde tudo e eu perco o emprego e a mãe perde o tratamento."
 				"&fDia 9. Febre de 39,4. Tomei dipirona. Tô com uma sede que não passa. O Nilton tá dormindo do meu lado e eu tô ouvindo o coração dele. Eu nunca tinha ouvido o coração de ninguém sem estetoscópio."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "zc_clothing:nurse_dress"
@@ -116,9 +119,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_debora"
 					id: "63DDFD00AC159109"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#04 Diário da Enfermeira Débora Lins"
@@ -134,7 +138,7 @@
 				""
 				"&fNATUREZA: Lesão corporal / Homicídio (em apuração). RELATO: Vizinhos acionaram após gritos. No local, a guarnição encontrou a autora, DÉBORA LINS, 34, em estado de surto psicótico, com lesões por mordida no rosto e pescoço da vítima NILTON LINS, 37, óbito no local. Autora não respondia a comandos verbais, NÃO reagiu a dois disparos de taser. Contida com dificuldade. Obs. do soldado Mendes: a vítima, já em óbito constatado pelo SAMU, \"mexeu a mão\" durante o transporte. Encaminhar para o IML. &m Encaminhar &r Aguardar orientação."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:paper"
@@ -145,9 +149,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_bo_2217"
 					id: "4FFA8030906E8D17"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#05 Boletim de Ocorrência nº 2217"
@@ -163,7 +168,7 @@
 				""
 				"&fPREFEITURA MUNICIPAL DE ITAVERÁ — SECRETARIA DE SAÚDE. COMUNICADO: Surto de MENINGITE bacteriana em investigação. Aulas suspensas. Evite aglomerações. Compareça ao POSTO DE VACINAÇÃO (Portão Leste do Anel) com documento. A vacina é GRATUITA e OBRIGATÓRIA. Não há motivo para pânico."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:paper"
@@ -174,9 +179,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_poster_meningite"
 					id: "2A27A085367A6B7A"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#06 Cartaz oficial colado em poste"
@@ -193,7 +199,7 @@
 				"&fOPERAÇÃO CERCO — INSTRUÇÕES AO CIDADÃO. 1. Mantenha-se na fila. 2. Apresente documento. 3. Receba a imunização. 4. Receba sua pulseira (VERDE: liberado para retorno à residência. AMARELA: aguardar. VERMELHA: acompanhar agente). 5. Não retorne ao posto sem convocação. Não é permitido atravessar o Portão sem autorização do Comando."
 				"&f&o(À caneta, embaixo:) ninguém ganhou pulseira de \"sair\". só verde amarela e vermelha. REPAREM NISSO."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:paper"
@@ -204,9 +210,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_triagem_folheto"
 					id: "1100FF4BFE664223"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#07 Folheto de triagem"
@@ -222,7 +229,7 @@
 				""
 				"&f[chiado] Dia... Dia menos nove. Caio Ferraz, LÁZARO. Eu não devia estar gravando isso. Cheguei às sete e a sala B3-07 tava trancada com a doutora dentro. Tinha um homem na maca. Tinha um homem na maca que eu... eu vi o laudo, gente. Óbito às 23h40. E ele tava respirando. Não, espera. Ele não tava respirando. O peito não mexia. Ele tava... ele tava virando a cabeça pra mim. [pausa longa] Ela disse \"fecha a porta, Caio\". Eu fechei."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:music_disc_11"
@@ -233,9 +240,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:tape_caio_1"
 					id: "4847AE42A264A539"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#08 Fita do Caio nº 1"
@@ -251,7 +259,7 @@
 				""
 				"&fEu liguei pra sede. Contei tudo. O Arruda ficou do meu lado enquanto eu falava. Do outro lado, um homem que eu nunca vi, calmo, perguntou se a amostra estava \"íntegra\". Não perguntou da enfermeira. Não perguntou da cidade. Perguntou se a amostra estava íntegra. E aí ele disse: \"Nenhuma comunicação externa pelas próximas 72 horas. Para não gerar pânico.\" Setenta e duas horas. A Débora morreu em vinte."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:music_disc_11"
@@ -262,9 +270,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:tape_caio_2"
 					id: "1F2D0E5B97409275"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#09 Fita do Caio nº 2"
@@ -280,7 +289,7 @@
 				""
 				"&fEntendi o que é. Entendi, finalmente. O vetor não mata ninguém. Quem mata é o coração parando. O vetor só... segura. Segura o que dá pra segurar. Tronco, cerebelo, motor, fome. E come o resto. A gente chamava de poda nas planilhas. Uma palavra bonita. Poda. Como se fosse jardim."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:music_disc_11"
@@ -291,9 +300,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:tape_caio_3"
 					id: "5F70430835FC2EB1"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#10 Fita do Caio nº 3"
@@ -309,7 +319,7 @@
 				""
 				"&fA doutora me mostrou os dados dos primeiros minutos. Tem atividade no pré-frontal. Organizada. Tipo sonho. Por alguns minutos, eles ainda tão lá. Aí começa a poda. Ela acha que o RIMIDAX com adrenalina traz de volta se for dentro da janela. Ela chama de Janela de Lázaro. Ela tá testando nos macacos agora. [som de impacto ao fundo] Isso é o Rafael de novo. Ele não para de bater no vidro quando ouve a voz dela."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:music_disc_11"
@@ -320,9 +330,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:tape_caio_4"
 					id: "175824E409624F6F"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#11 Fita do Caio nº 4"
@@ -338,7 +349,7 @@
 				""
 				"&fDia menos um. Os helicópteros. Levaram as caixas térmicas, levaram os HDs, levaram o diretor. Eu tava na lista. A doutora não tava. Eu desci do heliponto. Não sei por quê. Acho que porque se eu subisse eu ia ser o homem calmo no telefone daqui a dez anos."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:music_disc_11"
@@ -349,9 +360,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:tape_caio_5"
 					id: "62A94F24462C001A"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#12 Fita do Caio nº 5"
@@ -367,7 +379,7 @@
 				""
 				"&fFuncionou. Macaco 14. Parada induzida, reanimação pelo vetor aos quarenta segundos, RIMIDAX aos cinquenta e oito. Voltou. Voltou! Pegou a banana da minha mão. Aí aos três minutos e dez tentamos no Macaco 9, e voltou só o corpo. Coração batendo, olho aberto, ninguém em casa. A janela é curta. Muito curta."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:music_disc_11"
@@ -378,9 +390,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:tape_caio_6"
 					id: "3EB511B483D81996"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#13 Fita do Caio nº 6"
@@ -396,7 +409,7 @@
 				""
 				"&fO RIMIDAX. A gente tem pouco. O estoque grande foi no helicóptero. A doutora sabe sintetizar, mas precisa da bancada, precisa de energia estável. Quando a luz caiu pro gerador, ela começou a escrever a síntese à mão. E a ler em voz alta num gravador. Eu perguntei pra quem. Ela disse: \"Pra quem sobrar.\""
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:music_disc_11"
@@ -407,9 +420,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:tape_caio_7"
 					id: "2473EC914D13BFA2"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#14 Fita do Caio nº 7"
@@ -425,7 +439,7 @@
 				""
 				"&fEu peguei o crachá do Arruda. Ele não precisa mais. Vou subir pelo túnel até o hospital, achar um rádio que funcione, falar com qualquer um. Se você tá ouvindo isso, eu não consegui. Tem mais duas fitas. Uma tá comigo. A outra eu deixei pra ela. Não fica com raiva dela. Tá bom? Fica com raiva deles."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:music_disc_11"
@@ -436,9 +450,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:tape_caio_8"
 					id: "52C41EA75FC15BFE"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#15 Fita do Caio nº 8"
@@ -454,7 +469,7 @@
 				""
 				"&fA vacina da meningite. Eu vi o lote no manifesto do Exército. KNX-7-A. A versão atenuada. Eles vacinaram a cidade inteira com o vetor. Não é pra proteger. É pra marcar. Quem morrer aqui dentro, de qualquer coisa — um tombo, uma gripe, um tiro — levanta. E quem levanta fica. O muro não é pra segurar os mortos. O muro é pra segurar todo mundo que um dia vai morrer."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:music_disc_11"
@@ -465,9 +480,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:tape_caio_9"
 					id: "7BDC47F7C8D88E7C"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#16 Fita do Caio nº 9"
@@ -483,7 +499,7 @@
 				""
 				"&fDoutora, se a senhora ouvir isso: eu contei pra eles. Fui eu. Eu achei que eles iam mandar ajuda. Me desculpa. E obrigado por me deixar fechar a porta aquele dia. Eu teria feito a mesma coisa. Com minha mãe, eu teria feito a mesma coisa."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:music_disc_11"
@@ -494,9 +510,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:tape_caio_10"
 					id: "7E6C7954ACCCA6A4"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#17 Fita do Caio nº 10"
@@ -512,7 +529,7 @@
 				""
 				"&f03h. Seis horas na porta do São Lucas. Escudo, bastão, espingarda de bala de borracha. Bala de borracha. Eles não caem. Eles não sentem. O Rocha levou uma mordida na canela e falou que era nada. Às quatro ele já tava com febre. O rádio diz \"aguarde reforço\". Eu já disse \"entendido\" dezessete vezes. Se o reforço chegar, alguém avisa minha esposa que eu segurei. Que eu segurei a porta."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "marbledsarsenal:riot_armor_helmet"
@@ -523,9 +540,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_brandao"
 					id: "4E52E0E1BA95BD75"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#18 Diário do Sgt. Brandão"
@@ -541,7 +559,7 @@
 				""
 				"&f— Cerco, aqui é Farias. Ativo localizado. Repito, ativo localizado. É um homem, Cerco. O \"ativo\" é um homem. E a doutora. — [ruído] — Entendido, Cerco. Não, não vou. Não vou entregar isso pra empresa. Vou entregar pro senhor, coronel. Pro senhor, pessoalmente. O senhor precisa ver o que eles fizeram. — [estática] — Farias, repita. Farias? — [tiros] —"
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:iron_helmet"
@@ -552,9 +570,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:tape_lidia_1"
 					id: "5C90A2FA173ACD54"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#19 Rádio de capacete da Major Lídia"
@@ -570,7 +589,7 @@
 				""
 				"&fPerdi Souza e Kenji no B1. Estou com o cartão de acesso ao controle do Portão 1, código de dupla chave está com o Tavares na torre. O override de 12 dígitos NÃO é nosso. É da Veridia. O Exército construiu uma porta e deu a chave para uma empresa. Se alguém ler isto: o terminal do diretor, B3, sala 3-01. A senha é o aniversário de casamento dela. Está na parede, em foto."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:paper"
@@ -581,9 +600,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_lidia"
 					id: "68427BAA0F548A73"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#20 Diário da Major Lídia (folha solta)"
@@ -599,7 +619,7 @@
 				""
 				"&fMãe, tô com os Corvo. Não fica brava. O Dente não deixa ninguém mexer com a gente e dá comida todo dia. Eu tenho que ficar de vigia e fazer o sino. O sino é quando amarra alguém no poste pra zumbi ir lá e não vir pra cá. Eu não gosto do sino. Eu fecho o olho. Mãe, se a senhora tiver viva, eu tô na usina, pede pro Dente, fala que é mãe do Pena."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:feather"
@@ -610,9 +630,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_pena"
 					id: "601CDA1F94D375A5"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#21 Carta de Mateus \"Pena\" para a mãe"
@@ -629,7 +650,7 @@
 				"&fDIA 5 — Saída: 1 informação (fam. Pereira, R. das Acácias 211, 2 adultos, 1 idoso, comida p/ 3 meses). Entrada: 40 L diesel, 2 cx 12. — B.L."
 				"&f&o(Na margem, outra letra:) O Bigode vende gente. Guarda isso. — D."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:writable_book"
@@ -640,9 +661,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_bigode_ledger"
 					id: "2222B57C056C5703"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#22 Livro-caixa do Galpão do Bigode"
@@ -658,7 +680,7 @@
 				""
 				"&fDia 11. Pedi mais 24 horas. Me deram. O general disse, com toda a educação, que 24 horas é o que um coronel ganha por ter um bom histórico. Ouvi a menina de novo no 98.3. Ela disse que a Rua Direita ainda tem um cachorro vivo, que alguém anda dando ração pra ele. Ela riu. A mãe dela ria igual."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:writable_book"
@@ -669,9 +691,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_prado"
 					id: "3BCF953291ABD561"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#23 Diário do Coronel Prado"
@@ -687,7 +710,7 @@
 				""
 				"&fCLASSIFICAÇÃO: ULTRASSECRETO. Na impossibilidade de recuperação do ATIVO LÁZARO (amostra primária + protocolo de síntese RIMIDAX), fica autorizada a esterilização do perímetro Anel-Itaverá por meios termobáricos, mediante confirmação do Comandante de Contenção. Comunicação pública: incêndio florestal de grandes proporções. — Janela de execução: a critério do Estado-Maior."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:paper"
@@ -698,9 +721,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_silencio"
 					id: "03B14D8B83688BD3"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#24 Ordem de Serviço — Protocolo Silêncio"
@@ -717,7 +741,7 @@
 				"&fANEL DE CONTENÇÃO — LOTE LESTE — REV. 14. Classe de contenção: BIO-4 (!!). Portão 1: eclusa dupla, descontaminação por névoa, acionamento hidráulico (rede municipal 13,8 kV, fallback: NENHUM). Override remoto: Veridia/Unidade 4 (???). Torres: setor de tiro 360°, prioridade interna."
 				"&f&o(À caneta, letra de Rafael:) Muro contra enchente não precisa de linha de tiro pra dentro. Amanhã falo com o repórter. Não conto pra Helena ainda."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:map"
@@ -728,9 +752,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_rafael_planta"
 					id: "3AEC9A1A6AE48422"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#25 Especificação técnica do Anel"
@@ -746,7 +771,7 @@
 				""
 				"&fRafa, não briga com eles de novo por telefone, por favor. Tua pressão. A gente conversa sábado com calma. Eu sei que você acha que eu sabia do muro. Eu não sabia. Eu juro que não sabia. Janta tá no micro. — H."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:paper"
@@ -757,9 +782,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_helena_garagem"
 					id: "12A50713FCDCA3E0"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#26 Bilhete na garagem dos Sampaio"
@@ -776,7 +802,7 @@
 				"&f[voz feminina, calma, cansada] Para quem sobrar. Grupo um. Quatro. Sete. Zero. Dois. Grupo dois. Um. Um. Nove. Pausa. Grupo três... [...] Repetindo. Para quem sobrar."
 				"&f&o(Na caderneta de Joana, abaixo:) Os grupos têm sempre 3 a 5 números. 47 grupos. Tipo… receita? Proporções?"
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:note_block"
@@ -787,9 +813,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:radio_numeros"
 					id: "3FF8F3DEF95E47D1"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#27 Transcrição da Estação dos Números"
@@ -805,7 +832,7 @@
 				""
 				"&fO ÔNIBUS DAS 18H PRA BH NÃO SAIU. A GENTE ESPEROU ATÉ AS 3. SE VOCÊ É DO GUICHÊ 4 — O SENHOR DISSE QUE SAÍA. O SENHOR DISSE."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:black_dye"
@@ -816,9 +843,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:grafite_rodoviaria"
 					id: "331CC12C1C403F2B"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#28 Pichação no muro interno da Rodoviária"
@@ -834,7 +862,7 @@
 				""
 				"&fPac. 114 — Osvaldo Reis, 61, IMC 41. Internado Dia -6 por \"raiva atípica\". Óbito Dia -5, 22h. Reanimação espontânea 22h03. Contenção na ala C. Abdome com distensão progressiva (gás?). Irmã Graça pede para não ser designada para a ala C. Pedido negado por falta de pessoal."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:paper"
@@ -845,9 +873,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_p114"
 					id: "45A8CCFC0B1521FD"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#29 Prontuário, Paciente 114"
@@ -863,7 +892,7 @@
 				""
 				"&fSenhor, eu não peço que o Senhor os leve. Eu peço que o Senhor os encontre. Eles estão em algum lugar ali dentro. A médica diz que por uns minutos ainda estão. Se for verdade, então por uns minutos eles ainda estão com medo. Fica com eles esses minutos. Depois pode levar."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:candle"
@@ -874,9 +903,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_irma_graca"
 					id: "3CE18C9FC54BBE61"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#30 Oração de Irmã Graça"
@@ -892,7 +922,7 @@
 				""
 				"&f&mpão&r / água (MUITA) / pilha AA / pilha D / lanterna / esparadrapo / fita silver tape / pregos / &mcerveja&r ok cerveja / dipirona / vela / fósforo / sal / ração do Thor / &mvacina&r / NÃO ABRIR PORTA PRA NINGUÉM"
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:paper"
@@ -903,9 +933,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_lista"
 					id: "1D1AD015E8209CD3"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#31 Lista de compras de um sobrevivente"
@@ -921,7 +952,7 @@
 				""
 				"&f&o(escrito à caneta na cédula)&r isso aqui não compra mais nada. troca por uma bala."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:paper"
@@ -932,9 +963,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_cedula"
 					id: "452322C1B2142F22"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#32 Mensagem numa nota de R$ 50"
@@ -951,7 +983,7 @@
 				"&fPARTIDA A FRIO — TURBOGERADOR 2. 1. Verificar nível de diesel no tanque diário. 2. Bateria de partida (24 V). 3. Sequência de sincronismo com a Subestação Ferrugem..."
 				"&f&o(à margem, letra do Dente:) disjuntor 52-3 da Ferrugem tá queimado desde o dia 8. sem ele não sincroniza. sem sincronizar, explode. TEM QUE TROCAR O 52-3. ninguém aqui sabe e eu não tenho a peça. — W."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "immersiveengineering:manual"
@@ -962,9 +994,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_dente_manual"
 					id: "3BFE78E48B897CB3"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#33 Manual da Usina (anotado à mão)"
@@ -980,7 +1013,7 @@
 				""
 				"&fREGRAS DA CASA. 1. Quem chega, fica 1 noite na quarentena da quadra. 2. Mordida não se esconde. Se esconder, vai embora. 3. Quem trabalha, come. Quem não pode trabalhar, come também. 4. Barulho só no pátio de trás. 5. Ninguém desce na biblioteca. — Diretora Aparecida."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:oak_sign"
@@ -991,9 +1024,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_cida_mural"
 					id: "4BC39779AE7E9892"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#34 Recado de Dona Cida no mural do Colégio"
@@ -1009,7 +1043,7 @@
 				""
 				"&fSe você achou isso: eu sou o que atirou pra cima ontem, não em você. Amanhã é o turno do Vasconcelos e ele não atira pra cima. Não chega perto de dia. De noite a gente usa térmica. Não chega perto nunca. Desculpa. Tem uma caixa de ração que eu joguei no pé da torre 7. Se pegar, pisca a lanterna: três curtas, três longas. — Sd. Moura"
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:cobblestone"
@@ -1020,9 +1054,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_torre"
 					id: "681BBC1B48B60F1D"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#35 Carta de um soldado da torre"
@@ -1038,7 +1073,7 @@
 				""
 				"&fRafael, hoje faz 30 dias. Eu parei de contar os meus. Eu queria te dizer que eu te trouxe de volta porque eu te amava, mas não é verdade inteira. Eu te trouxe de volta porque eu não sabia fazer outra coisa com as mãos naquela hora. Quinze anos treinando as mãos para não deixar ninguém ir. Se alguém chegar até aqui, eu vou dar a eles a única coisa que eu fiz de certo: a receita do que desliga. É tudo o que eu tenho para devolver."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:written_book"
@@ -1049,9 +1084,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_helena_final"
 					id: "01D2FAB9BCD823C6"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#36 Última página do diário de Helena"
@@ -1067,7 +1103,7 @@
 				""
 				"&fAlguém me perguntou hoje por que eu continuo falando. Eu não sei. Acho que é porque, enquanto alguém ouve, a cidade não morreu. É tipo quando a vó tava no hospital e eu ficava falando com ela mesmo desacordada. Os médicos diziam que talvez ela ouvisse. Então... talvez vocês ouçam. Boa noite, Itaverá. Anda, não corre."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "walkietalkie:iron_walkietalkie"
@@ -1078,9 +1114,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:radio_joana_21"
 					id: "7651891A6A445429"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#37 Radiotransmissão de Joana, Dia 21"
@@ -1096,7 +1133,7 @@
 				""
 				"&fA gente saiu no dia que os guarda correu. Uns ficaram. O Seu Toninho da cela 9 ficou porque disse que lá fora era pior. Eu voltei no dia 6 pra buscar ele. A cela tava aberta e ele tava lá dentro ainda, de pé, virado pra parede. Eu fechei a grade. Não sei por quê. Pra ele ter o lugar dele."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:iron_bars"
@@ -1107,9 +1144,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_corvo_2"
 					id: "508F3408A6C00035"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#38 Diário de um Corvo arrependido"
@@ -1125,7 +1163,7 @@
 				""
 				"&fExperimento L-8. Sujeito: Farias, L., 39. Consentimento verbal (gravado, arquivo 0412). Mordida em trapézio, choque hemorrágico. KNX-8 lote 2 às 14h02. Óbito 14h09. Reanimação 14h09m51s. Atividade pré-frontal preservada em 30–40%. Sujeito reconheceu o próprio nome às 14h16. Às 14h40 não reconhecia mais. Às 15h00 abriu a porta da sala 2-04 girando a maçaneta. Nenhum outro hospedeiro faz isso. Eu não dei a ela uma segunda chance. Eu dei a ela uma segunda morte, mais lenta. — H.S."
 				""
-				"&8&oLeia, marque, siga em frente."
+				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:paper"
@@ -1136,9 +1174,10 @@
 			size: 0.9d
 			tasks: [
 				{
+					icon: "zc_story:note_l8"
 					id: "76612DAFA8B267D7"
-					title: "Li"
-					type: "checkmark"
+					title: "Leia o documento"
+					type: "custom"
 				}
 			]
 			title: "#39 Registro de laboratório, L-8"

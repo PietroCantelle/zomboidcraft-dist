@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "zc_world:asphalt", "required": false },
+    { "id": "zc_world:asphalt_cracked", "required": false },
+    { "id": "zc_world:sidewalk", "required": false },
+    "minecraft:cobblestone",
+    "minecraft:mossy_cobblestone",
+    "minecraft:rooted_dirt",
+    "minecraft:mud"
+  ]
+}

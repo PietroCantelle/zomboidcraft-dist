@@ -14,6 +14,7 @@
 			]
 			description: [
 				"O 14º Batalhão de Polícia Militar foi a última resistência organizada. Sacos de areia, cartuchos no chão, viaturas atravessadas no pátio."
+				"&eOnde:&r o centro-oeste, uns 650 m a oeste da Matriz: muro com arame, quartel de dois andares, viaturas atravessadas no pátio."
 				"Dentro dos armários ainda tem colete, e peças de arma espalhadas. Entre preparado: o pátio não está vazio."
 			]
 			icon: "marbledsarsenal:riot_armor_helmet"
@@ -86,29 +87,61 @@
 				"69E789C22DC868F3"
 			]
 			description: [
-				"Na garagem do arsenal, um homem de escudo e capacete ainda segura a porta. Na plaqueta: \"Sgt. W. Brandão — 'Aqui ninguém passa'.\" Atrás dele, o arsenal e o rádio militar sem o qual o Ato VI é impossível."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"Na garagem do arsenal, um homem de escudo e capacete ainda segura a porta. Na plaqueta: \"Sgt. W. Brandão — 'Aqui ninguém passa'.\""
+				"&cBoss:&r o escudo balístico segura tudo pela frente — flanqueie (ele vira devagar) ou gaste o escudo com golpes pesados e explosões. Quando ele investe e bate na parede, fica tonto. A lata de gás no colete estoura no primeiro golpe no tronco (máscara de gás ajuda). No fim ele bate no portão e chama reforço."
+				"Ele larga a &echave do arsenal&r: a grade do arsenal (porta trancada) abre com ela na mão. Lá dentro: armas, coletes e &erádios militares&r (os únicos que pegam a frequência da Rede Cerco)."
 			]
 			icon: "minecraft:shield"
 			id: "781649AD2E61E9A0"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "7012D937D9E5A7FC"
-					title: "Derrubamos O Escudo e abrimos o arsenal"
-					type: "checkmark"
+					count: 2
+					id: "75A0239041133945"
+					item: "zc_survival:sterile_bandage"
+					type: "item"
+				}
+				{
+					id: "2FB06D72CDCB19B6"
+					item: "kubejs:military_electronics"
+					type: "item"
 				}
 			]
-			title: "O Escudo (em breve)"
+			size: 1.25d
+			tasks: [
+				{
+					icon: "minecraft:wither_skeleton_skull"
+					id: "7012D937D9E5A7FC"
+					title: "O Escudo caiu (por vocês ou por outro grupo)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:chave_arsenal"
+					id: "29129478F01F4614"
+					title: "Abra o arsenal com a chave"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:note_brandao"
+					id: "185D332E24E9F28C"
+					optional_task: true
+					title: "Leia o diário do Sgt. Brandão (#18)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:radio_militar"
+					id: "35BB013ECEC719D4"
+					optional_task: true
+					title: "Pegue um rádio militar"
+					type: "custom"
+				}
+			]
+			title: "O Escudo"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: [
-				"69E789C22DC868F3"
+				"781649AD2E61E9A0"
 			]
 			description: [
 				"&7&oRádio de torre, voz de soldado: \"Veículos civis no setor sete, aqui é Torre Sete. Vocês estão dentro do perímetro de tiro. Isto é um aviso. (pausa, voz mais baixa) Apaguem os faróis, pelo amor de Deus. O Vasconcelos entra às seis.\""
@@ -174,29 +207,54 @@
 				"67EAE6AFE1F56700"
 			]
 			description: [
-				"Chegar de noite, sem faróis, ao pátio da Base Cerco interna, no Setor Muralha, e achar o VBTP Guará. Instalar a primeira peça. Duas mochilas militares esquecidas no pátio."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"Chegar de noite, sem faróis, ao pátio da Base Avançada Cerco, no Setor Muralha. Os blindados estão parados lá (o VBTP Guará entre eles), com mochilas e caixas militares esquecidas no pátio."
+				"&eOnde:&r o Setor Muralha, no extremo leste, pouco antes do Portão 1: tendas, blindados, heliporto."
+				"O heliporto da base é o mesmo que, no fim, pode levar quatro pessoas embora (final Os Poucos)."
 			]
 			icon: "car:big_wheel"
 			id: "5C087BB4BE44246A"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "55D488964B1557C4"
-					title: "Achamos o Guará e começamos o reparo"
-					type: "checkmark"
+					id: "40701B0653F2BD41"
+					item: "car:repair_kit"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E9E7EBD5174D91D"
+					item: "zc_survival:canned_soup"
+					type: "item"
 				}
 			]
-			title: "O Guará no pátio (em breve)"
+			tasks: [
+				{
+					icon: "minecraft:compass"
+					id: "55D488964B1557C4"
+					title: "Chegue à Base Avançada Cerco"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:note_triagem_folheto"
+					id: "61DF814E1BA06B89"
+					optional_task: true
+					title: "Leia um folheto de triagem (#07)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:manual_vbtp"
+					id: "4942BFF311E4A08C"
+					optional_task: true
+					title: "Leia o manual do VBTP Guará"
+					type: "custom"
+				}
+			]
+			title: "O pátio da Base Cerco"
 			x: 3.0d
 			y: 2.5d
 		}
 		{
 			dependencies: [
-				"24D695EA2FDBC08A"
+				"575AAC5C7195BF52"
 				"67EAE6AFE1F56700"
 			]
 			description: [
@@ -253,21 +311,46 @@
 				"&7&oVídeo no pendrive: \"São onze da noite. Semana que vem eu encontro o repórter. Se eu não aparecer, é porque eu desisti ou porque alguém me convenceu. A Helena não sabe de nada disso. Ninguém culpa ela.\""
 				"O arquivo é do Dia -12. A planta do muro: o override do Portão 1 é da Veridia. A Unidade 4 passa a ter endereço."
 				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"&eOnde:&r o extremo norte da cidade, a noroeste da usina: sede de vidro de cinco andares e prédio de laboratórios."
+				"O pendrive e o bilhete da garagem aparecem em casas, garagens e escritórios (e nos baús do Campus). Documento único: se outro grupo achou, peça para ler."
 			]
 			icon: "minecraft:paper"
 			id: "700A4BB948C9CC35"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "48662E6DED9A59B5"
-					title: "Lemos o pendrive num computador ligado"
-					type: "checkmark"
+					id: "0F95325128BFE865"
+					item: "minecraft:map"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6CB2DF18229346D6"
+					item: "zc_story:pilha_aa"
+					type: "item"
 				}
 			]
-			title: "O pendrive de Rafael (em breve)"
+			tasks: [
+				{
+					icon: "minecraft:compass"
+					id: "48662E6DED9A59B5"
+					title: "Chegue ao Campus Veridia"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:pendrive_rafael"
+					id: "4C0F792FC8292A8A"
+					title: "Veja o pendrive de Rafael (ou a planta #25)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:note_helena_garagem"
+					id: "781589E2436A3CA0"
+					optional_task: true
+					title: "Leia o bilhete da garagem (#26)"
+					type: "custom"
+				}
+			]
+			title: "O pendrive de Rafael"
 			x: 6.0d
 			y: 2.5d
 		}

@@ -1,0 +1,69 @@
+# ZomboidCraft: CameraOverhaul suave (~50% dos padroes). Formato = o que o mod grava (config/cameraoverhaul.toml, configVersion 3).
+# Desligado em 3a pessoa (o Shoulder Surfing ja controla a camera la).
+configVersion = 3
+
+[general]
+enabled = true
+enableInThirdPerson = false
+contextTransitionSmoothing = 0.15
+turningRollAccumulation = 0.8
+turningRollIntensity = 0.6
+turningRollSmoothing = 1.5
+cameraSwayIntensity = 0.35
+cameraSwayFrequency = 0.12
+cameraSwayFadeInDelay = 0.4
+cameraSwayFadeInLength = 6.0
+cameraSwayFadeOutLength = 0.75
+screenShakesMaxIntensity = 2.0
+screenShakesMaxFrequency = 5.0
+explosionTrauma = 0.8
+thunderTrauma = 0.03
+handSwingTrauma = 0.02
+
+[walking]
+strafingRollFactor = 4.0
+forwardVelocityPitchFactor = 3.0
+verticalVelocityPitchFactor = 1.5
+horizontalVelocitySmoothingFactor = 1.0
+verticalVelocitySmoothingFactor = 1.0
+cameraSmoothing = 0.2
+
+[sprinting]
+strafingRollFactor = 6.0
+forwardVelocityPitchFactor = 4.5
+verticalVelocityPitchFactor = 1.5
+horizontalVelocitySmoothingFactor = 1.0
+verticalVelocitySmoothingFactor = 1.0
+cameraSmoothing = 0.6
+
+[swimming]
+strafingRollFactor = -8.0
+forwardVelocityPitchFactor = 6.0
+verticalVelocityPitchFactor = 4.0
+horizontalVelocitySmoothingFactor = 1.0
+verticalVelocitySmoothingFactor = 1.0
+cameraSmoothing = 1.5
+
+[flying]
+strafingRollFactor = -4.0
+forwardVelocityPitchFactor = 3.0
+verticalVelocityPitchFactor = 1.5
+horizontalVelocitySmoothingFactor = 1.0
+verticalVelocitySmoothingFactor = 1.0
+cameraSmoothing = 1.0
+
+[mounts]
+strafingRollFactor = 6.0
+forwardVelocityPitchFactor = 2.0
+verticalVelocityPitchFactor = 1.5
+horizontalVelocitySmoothingFactor = 1.0
+verticalVelocitySmoothingFactor = 1.0
+cameraSmoothing = 1.0
+
+[vehicles]
+strafingRollFactor = 2.0
+forwardVelocityPitchFactor = 1.5
+verticalVelocityPitchFactor = 2.0
+horizontalVelocitySmoothingFactor = 1.0
+verticalVelocitySmoothingFactor = 1.0
+cameraSmoothing = 0.3

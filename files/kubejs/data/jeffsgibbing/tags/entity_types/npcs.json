@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "tacz_npc:duty",
+      "required": false
+    },
+    {
+      "id": "tacz_npc:bandit",
+      "required": false
+    }
+  ]
+}

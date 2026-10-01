@@ -10,13 +10,16 @@
 	quests: [
 		{
 			dependencies: [
-				"5A3ADF3FD43853AE"
+				"46532C9EBDEEDD45"
 			]
 			description: [
 				"&7&oÀ margem do manual da usina, letra do Dente: \"disjuntor 52-3 da Ferrugem tá queimado desde o dia 8. sem ele não sincroniza. sem sincronizar, explode. TEM QUE TROCAR O 52-3.\""
 				"&7&oJoana: \"Um disjuntor. A cidade inteira no escuro por causa de UM disjuntor. Isso é a coisa mais Itaverá que eu já ouvi.\""
 				""
-				"Bobinas, contatos de prata, chapas, óleo isolante e uma placa de controle. Entregue na bancada."
+				"Duas peças religam a cidade:"
+				"&e• Disjuntor 52-3&r (bancada): 4 blocos de cobre, 2 blocos de redstone, 2 lingotes de ouro e 1 bloco de ferro. Vai na Subestação Ferrugem."
+				"&e• Fusível industrial&r (bancada: ferro, cobre, vidro e bloco de redstone; às vezes nos baús da usina e de lojas de ferragens). Vai no disjuntor geral da usina."
+				"Se outro grupo já instalou a peça, a tarefa conta: a rede é uma só."
 			]
 			icon: "immersiveengineering:coil_mv"
 			id: "29A7509C57BEC8D4"
@@ -36,44 +39,16 @@
 			]
 			tasks: [
 				{
-					consume_items: true
-					count: 4L
+					icon: "zc_story:disjuntor_52_3"
 					id: "04C45F79144F9863"
-					item: "immersiveengineering:coil_mv"
-					title: "Bobinas (4)"
-					type: "item"
+					title: "Tenha o Disjuntor 52-3"
+					type: "custom"
 				}
 				{
-					consume_items: true
-					count: 2L
+					icon: "zc_story:fusivel_industrial"
 					id: "4A4D65F05483E3D8"
-					item: "immersiveengineering:plate_silver"
-					title: "Contatos de prata (2)"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 6L
-					id: "746F3697FBFC2090"
-					item: "immersiveengineering:plate_steel"
-					title: "Chapas de aço (6)"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 1L
-					id: "5069B26F75DF0D96"
-					item: "car:canola_oil_bucket"
-					title: "Óleo isolante (balde)"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 1L
-					id: "43AC7883B10499E0"
-					item: "immersiveengineering:component_electronic"
-					title: "Placa de controle"
-					type: "item"
+					title: "Tenha um Fusível industrial"
+					type: "custom"
 				}
 			]
 			title: "Disjuntor 52-3"
@@ -82,12 +57,199 @@
 		}
 		{
 			dependencies: [
+				"46532C9EBDEEDD45"
+			]
+			description: [
+				"&7&oDente: \"Eu conheço cada parafuso daquele turbogerador. Onze anos. Então não vem me falar de ordem. Me fala de troca.\""
+				""
+				"&eOnde:&r o Distrito Industrial Norte, quase 2 km ao norte do Centro: as chaminés se veem de longe. Território dos Corvos. Ele espera na casa de máquinas, entre as turbinas."
+				"&cBoss:&r espingarda serrada de dois tiros (recarrega 3 s: é a hora de chegar perto), ordens para os Corvos, válvulas de vapor, luzes apagadas; no fim, facão e coquetéis molotov. O capacete segura o primeiro golpe na cabeça."
+				"Com pouca vida ele &eajoelha e se rende&r. A escolha é de vocês:"
+				"&e• Poupar:&r agache e segure clique direito nele por 3 s (ou algeme). Ele vira prisioneiro no Refúgio (Pedágio)."
+				"&e• Executar:&r bata de novo. Loot completo, e o Refúgio não gosta (Os Corvos)."
+				"As duas rotas seguem a história."
+			]
+			icon: "minecraft:iron_bars"
+			id: "53317F5316D7CB51"
+			rewards: [
+				{
+					id: "143AD4C9595AA6E0"
+					item: "zc_survival:antibiotics"
+					type: "item"
+				}
+				{
+					id: "2CD95EB0E9BABE59"
+					item: "zc_survival:suture_kit"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					icon: "minecraft:wither_skeleton_skull"
+					id: "6BB9FF8991FEA31C"
+					title: "O Dente caiu: rendido ou morto (por vocês ou por outro grupo)"
+					type: "custom"
+				}
+			]
+			title: "O Dente"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"53317F5316D7CB51"
+			]
+			description: [
+				"Rota de combate. O Dente não saiu da usina. Os Corvos que sobraram não esquecem: o norte fica mais perigoso."
+				"&7&o(Dona Cida, depois: \"A gente não é eles.\" — o Refúgio perde um pouco de confiança em quem estava lá.)"
+				"&8Rota alternativa a Pedágio: só uma das duas acontece por mundo."
+			]
+			icon: "minecraft:iron_bars"
+			id: "0FF7982D3CB5255E"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "02903756D2BFC2CE"
+					item: "kubejs:weapon_parts"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "minecraft:iron_sword"
+					id: "604992A133D4AA98"
+					title: "O Dente foi executado"
+					type: "custom"
+				}
+			]
+			title: "Os Corvos"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"53317F5316D7CB51"
+			]
+			description: [
+				"&7&oDente: \"Vocês entraram na minha casa, leram meu caderno e saíram sem atirar em ninguém. Ou vocês são muito bons ou muito burros. Senta.\""
+				""
+				"Rota de quem poupou. O Dente fica preso no Refúgio do Colégio, perto do mural. Fale com ele: ele ensina os atalhos da usina e entrega o caderno dele."
+				"&8Rota alternativa a Os Corvos: só uma das duas acontece por mundo."
+			]
+			icon: "minecraft:white_banner"
+			id: "196ED0FED80412A1"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "42DEEB75C1E0F3E6"
+					item: "zc_survival:canned_soup"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2C68C8F4285258F6"
+					item: "zc_story:pilha_aa"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "minecraft:white_banner"
+					id: "25B4D6380BCB205D"
+					title: "O Dente se rendeu e foi poupado"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:caderno_dente"
+					id: "3665120B9DD65A13"
+					optional_task: true
+					title: "Ouça o Dente, preso no Refúgio"
+					type: "custom"
+				}
+			]
+			title: "Pedágio"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
 				"29A7509C57BEC8D4"
+				"53317F5316D7CB51"
+			]
+			description: [
+				"&7&oRádio, Joana ouvindo tudo: \"...tá chegando... tá chegando... AGORA! (silêncio) Gente? GENTE? A USINA TÁ ACESA. Eu tô vendo daqui! Eu tô VENDO!\""
+				""
+				"&e1. Usina:&r na sala de controle envidraçada da casa de máquinas, clique direito no &edisjuntor geral&r com o &eFusível industrial&r na mão."
+				"&e2. Subestação Ferrugem:&r o Distrito Industrial Norte, uns 1,5 km ao norte do Centro, a oeste da usina: pátio de brita com seis transformadores. Clique direito numa das duas &echaves de manobra&r com o &eDisjuntor 52-3&r na mão para instalar."
+				"&e3. Sincronia:&r as duas chaves ficam a uns 40 blocos uma da outra (vão do disjuntor e casa de controle). &cDois jogadores&r fecham cada um a sua no &emesmo segundo&r — combinem pelo rádio: \"três, dois, um, agora\". Uma chave fechada sozinha volta depois de 1 s."
+				"Quando a rede volta, as luzes elétricas dos lugares da história acendem, e a cidade inteira fica sabendo."
+			]
+			icon: "minecraft:clock"
+			id: "737EDB245F2A7E39"
+			rewards: [
+				{
+					count: 4
+					id: "0E3E810D4E9E6E68"
+					item: "immersiveengineering:light_bulb"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2D2590D3665C1C20"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31687043E9B9534B"
+					item: "zc_story:pilha_aa"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					icon: "zc_story:fusivel_industrial"
+					id: "147949D985788FB9"
+					title: "Fusível no disjuntor geral da UTE"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:compass"
+					id: "149B8FEDFB37CE88"
+					title: "Chegue à Subestação Ferrugem"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:disjuntor_52_3"
+					id: "5A5CB89057B8EB25"
+					title: "Disjuntor 52-3 instalado na Ferrugem"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:redstone_lamp"
+					id: "6A84CB57B9E8C5E7"
+					title: "As duas chaves no mesmo segundo: a rede voltou"
+					type: "custom"
+				}
+			]
+			title: "Sincronismo [COOP]"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"737EDB245F2A7E39"
 			]
 			description: [
 				"&7&oJoana, no ar, voz embargada: \"Vocês viram? Vocês VIRAM? A Rua Direita acesa. Tem um cachorro latindo pra luz. Eu chorei. Desculpa, é que... fazia tanto tempo.\""
 				""
-				"Enquanto a usina não volta, cada grupo faz a sua luz: gerador, capacitor, fio e um holofote na rua da base. Luz à noite chama eles. Luz à noite também deixa você ver eles chegando."
+				"A rede da cidade só chega aos lugares da história. Na base, cada grupo faz a sua luz: gerador, capacitor, fio e um holofote na rua. Luz à noite chama eles. Luz à noite também deixa você ver eles chegando."
 			]
 			icon: "immersiveengineering:floodlight"
 			id: "751A2E985FDDD2F1"
@@ -126,8 +288,51 @@
 				}
 			]
 			title: "Luz na Rua Direita"
-			x: 3.0d
+			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"737EDB245F2A7E39"
+			]
+			description: [
+				"Volte ao Refúgio do Colégio e conte para a Dona Cida. Ela vai querer ouvir de vocês, não do rádio."
+				"&8A Joana também tem coisa nova no ar depois que a luz volta (Rádio Livre, 19h)."
+			]
+			icon: "minecraft:redstone_lamp"
+			id: "6CFF551CC674B3DF"
+			rewards: [
+				{
+					count: 2
+					id: "33C6B7DAAEE73220"
+					item: "zc_survival:canned_peaches"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "51C9D53DDE8C7396"
+					item: "zc_survival:canned_beans"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:writable_book"
+					id: "0E36F5670F470AC6"
+					title: "Conte à Dona Cida que a luz voltou"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:radio_portatil"
+					id: "4056CEC2E4E19A6E"
+					optional_task: true
+					title: "Ouça a Rádio Livre com a cidade acesa"
+					type: "custom"
+				}
+			]
+			title: "A Noite das Luzes"
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -171,135 +376,59 @@
 				}
 			]
 			title: "Água da Torneira"
-			x: 6.0d
+			x: 9.0d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"29A7509C57BEC8D4"
-			]
-			description: [
-				"Rota de combate: tomar a usina, derrotar o Dente, soltar os \"sinos\" amarrados nos postes. Os Corvos que sobrarem viram patrulhas hostis no norte até o fim."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
-			]
-			icon: "minecraft:iron_bars"
-			id: "0FF7982D3CB5255E"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
-				{
-					id: "604992A133D4AA98"
-					title: "Tomamos a usina à força"
-					type: "checkmark"
-				}
-			]
-			title: "Os Corvos (em breve)"
-			x: 0.0d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"29A7509C57BEC8D4"
-			]
-			description: [
-				"&7&oDente: \"Vocês entraram na minha casa, leram meu caderno e saíram sem atirar em ninguém. Ou vocês são muito bons ou muito burros. Senta.\""
-				"Rota diplomática: pano branco na mão, dez antibióticos, um carro e a verdade sobre o Bigode."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
-			]
-			icon: "minecraft:white_banner"
-			id: "196ED0FED80412A1"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
-				{
-					id: "25B4D6380BCB205D"
-					title: "Fechamos negócio com o Dente"
-					type: "checkmark"
-				}
-			]
-			title: "Pedágio (em breve)"
-			x: 2.0d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"29A7509C57BEC8D4"
-			]
-			description: [
-				"&7&oRádio, Joana ouvindo tudo: \"...tá chegando... tá chegando... AGORA! (silêncio) Gente? GENTE? A USINA TÁ ACESA. Eu tô vendo daqui! Eu tô VENDO!\""
-				"[COOP] Um na usina, outro na Subestação Ferrugem, falando pelo rádio. Fechar o 52-3 com o ponteiro às 12h."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
-			]
-			icon: "minecraft:clock"
-			id: "737EDB245F2A7E39"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
-				{
-					id: "147949D985788FB9"
-					title: "A usina sincronizou com a subestação"
-					type: "checkmark"
-				}
-			]
-			title: "Sincronismo (em breve)"
-			x: 4.0d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"751A2E985FDDD2F1"
-			]
-			description: [
-				"Reparar as cabines de distribuição de três distritos (um deles o Centro) e segurar a Noite das Luzes em cada um."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
-			]
-			icon: "minecraft:redstone_lamp"
-			id: "6CFF551CC674B3DF"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
-				{
-					id: "0E36F5670F470AC6"
-					title: "A rede da cidade voltou em três distritos"
-					type: "checkmark"
-				}
-			]
-			title: "Três distritos (em breve)"
-			x: 6.0d
-			y: 2.5d
 		}
 		{
 			dependencies: [
 				"24D695EA2FDBC08A"
 			]
 			description: [
-				"Energizar a Estação de Tratamento, consertar duas bombas e tirar os quarenta que caíram nos tanques de decantação."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"A água da cidade parou entre o Dia 5 e o Dia 10. Ela só volta com a estação de tratamento energizada."
+				"&eOnde:&r a Estação de Tratamento de Água, no nordeste do Distrito Industrial (uns 1,4 km ao norte, a leste da usina): tanques circulares de decantação."
+				"Com a rede religada (Sincronismo), clique direito no &eregistro&r da casa de bombas. Os tanques de decantação estão cheios de gente que caiu lá dentro: cuidado onde pisa."
+				"Depois, a Dona Cida abre a torneira da cozinha do Colégio."
 			]
 			icon: "minecraft:water_bucket"
 			id: "575AAC5C7195BF52"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "21EBE5C8CD10DDA8"
-					title: "A água voltou às torneiras da cidade"
-					type: "checkmark"
+					count: 6
+					id: "318369959E2DFD97"
+					item: "zc_survival:water_bottle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0BC5F606F4B441B1"
+					item: "zc_survival:disinfectant"
+					type: "item"
 				}
 			]
-			title: "A ETA (em breve)"
-			x: 8.0d
-			y: 2.5d
+			size: 1.25d
+			tasks: [
+				{
+					icon: "minecraft:compass"
+					id: "21EBE5C8CD10DDA8"
+					title: "Chegue à ETA"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:water_bucket"
+					id: "2855E8648B9B0913"
+					title: "Abra o registro: a água voltou"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:writable_book"
+					id: "78455D2618DA7B81"
+					title: "Veja a Dona Cida abrir a torneira"
+					type: "custom"
+				}
+			]
+			title: "A ETA"
+			x: 9.0d
+			y: 3.0d
 		}
 	]
 	subtitle: [

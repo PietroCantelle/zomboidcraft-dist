@@ -67,49 +67,145 @@
 				"09352AB67C1BF92B"
 			]
 			description: [
-				"Negociação pelo rádio militar do arsenal: o Ativo LÁZARO em troca do Portão 1. Com a Fita 9 ou a ordem do Protocolo Silêncio na mão, ele não consegue negar."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"No alto da torre da Matriz, a &eestação de rádio&r da Joana (clique direito) tem um botão para chamar a &eRede Cerco&r. Precisa de luz: a rede da cidade religada."
+				"O Coronel quer o Ativo LÁZARO (a amostra e a fórmula) em troca do Portão 1. Com a ordem do Protocolo Silêncio (#24) ou a fita 9 do Caio na cabeça, ele não consegue negar."
+				"Depois, desça a escada e pergunte à Joana quem é o homem do rádio."
 			]
 			icon: "minecraft:bell"
 			id: "2717F8176C95299F"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "2A17AAB8C15A2F15"
-					title: "Falamos com o Coronel na 46.550"
-					type: "checkmark"
+					count: 4
+					id: "2D54F75444A197DE"
+					item: "flashlightmod:battery"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "61AC73F9D2C45FD1"
+					item: "zc_story:pilha_aa"
+					type: "item"
 				}
 			]
-			title: "O Coronel responde (em breve)"
+			tasks: [
+				{
+					icon: "zc_story:radio_militar"
+					id: "2A17AAB8C15A2F15"
+					title: "Chame a Rede Cerco na estação da Matriz"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:note_prado"
+					id: "586B14657CB863A6"
+					title: "Pergunte à Joana sobre o pai"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:note_silencio"
+					id: "3898A6C7DF401241"
+					optional_task: true
+					title: "Confronte o Coronel com o Protocolo Silêncio"
+					type: "custom"
+				}
+			]
+			title: "O Coronel responde"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: [
-				"09352AB67C1BF92B"
+				"2717F8176C95299F"
+			]
+			description: [
+				"&7&o\"...quarenta e sete. Fim da receita. Pra quem tiver ouvindo em qualquer lugar: isso aqui é de vocês agora. Anota. Passa pra frente.\""
+				""
+				"Com a rede religada, a &efórmula do RIMIDAX&r na mão e a Joana viva: peça a ela para transmitir (ou use o botão da estação de rádio da torre). É a condição do final &eTransmissão&r. Pode ser feito antes ou depois de abrir o portão; uma vez por mundo."
+			]
+			icon: "zc_story:radio_portatil"
+			id: "65F79ECC9D677376"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "765C643F1EFB9137"
+					item: "zc_story:pilha_aa"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "zc_story:formula_rimidax"
+					id: "0C0898EC002FD749"
+					title: "A fórmula foi transmitida pela Rádio Livre"
+					type: "custom"
+				}
+			]
+			title: "Pra Quem Tiver Ouvindo"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2717F8176C95299F"
 			]
 			description: [
 				"&7&oGravação no capacete de Tavares: \"Mandaram eu não abrir pra ninguém. Eu não abri. Tem gente batendo no portão de dentro há três dias, e eu não abri. Me perdoa, mãe.\""
-				"Guará funcionando, Setor Muralha energizado, o cartão de Lídia na porta, as duas chaves."
 				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"&eOnde:&r a Muralha, no extremo leste (siga o nascer do sol): o único portão que ainda funciona, com a torre de controle de 60 m."
+				"&cBoss:&r no topo da torre de controle (sala envidraçada e passarela externa). Armadura pesada: explosão e bala quase não entram; lâmina curta nas costuras das costas entra. O visor quebra com golpes na cabeça. Ele empurra para a beirada e arrasta jogadores até ela (outro jogador solta). A cada 15 s ele para 2 s, ofegante."
+				"Ele larga a &echave A&r e o diário dele. O diário tem a combinação do &ecofre da torre&r (4 dígitos): lá estão a &echave B&r e a ordem do Protocolo Silêncio."
 			]
 			icon: "minecraft:netherite_helmet"
 			id: "755A49A546576576"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "5820E3135070E3B7"
-					title: "Pegamos as duas chaves do Portão 1"
-					type: "checkmark"
+					count: 2
+					id: "382C9EB3B31CA972"
+					item: "zc_survival:suture_kit"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "688F408950F1EB0D"
+					item: "minecraft:iron_ingot"
+					type: "item"
 				}
 			]
-			title: "O Escafandro (em breve)"
+			size: 1.25d
+			tasks: [
+				{
+					icon: "minecraft:compass"
+					id: "5820E3135070E3B7"
+					title: "Chegue ao Portão 1"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:wither_skeleton_skull"
+					id: "5EFA815BF4374B2F"
+					title: "O Escafandro caiu (por vocês ou por outro grupo)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:chave_portao_a"
+					id: "306CF89520C2085A"
+					title: "Chave A do Portão 1"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:chave_portao_b"
+					id: "6415C2F79D795AB4"
+					title: "Chave B do Portão 1 (cofre da torre)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:diario_tavares"
+					id: "16A9C2C74F34AB54"
+					optional_task: true
+					title: "Leia o diário de Tavares"
+					type: "custom"
+				}
+			]
+			title: "O Escafandro"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -118,26 +214,193 @@
 				"755A49A546576576"
 			]
 			description: [
+				"No pátio do Portão 1, duas fechaduras em pilares a &e22 blocos&r uma da outra. Precisa de luz (rede religada)."
+				"Dois jogadores, cada um com uma chave na mão, giram (clique direito) &eno mesmo segundo&r. Uma chave girada sozinha volta. Combinem pelo rádio."
+			]
+			icon: "zc_story:chave_portao_a"
+			id: "47E3E081D3C7B013"
+			rewards: [
+				{
+					count: 2
+					id: "0A740FBB0D7E82A9"
+					item: "zc_survival:canned_beans"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "zc_story:chave_portao_b"
+					id: "1BF4B47FF48490C6"
+					title: "As duas chaves giraram juntas"
+					type: "custom"
+				}
+			]
+			title: "Duas Chaves, Um Segundo [COOP]"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"47E3E081D3C7B013"
+			]
+			description: [
+				"Na guarita do portão, o &econsole do Portão 1&r (clique direito) abre o teclado depois das chaves."
+				"O código são os três &efragmentos&r (clique direito para ler cada um: 4 dígitos), na ordem da planta de Rafael: 1, 2, 3."
+				"&cO código certo começa o cerco:&r o mecanismo hidráulico pressuriza por três noites, e a cidade inteira ouve."
+				"Antes de digitar: muros, armadilhas, munição, curativos, injeções e &eferro&r (o painel se conserta com ferro)."
+			]
+			icon: "minecraft:stone_button"
+			id: "42ABDEFF3FCC8F9F"
+			rewards: [
+				{
+					count: 16
+					id: "11CC4EAC86FD78CF"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "70601F046CC9AE75"
+					item: "zc_survival:sterile_bandage"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:stone_button"
+					id: "20E9F6C1C32642CE"
+					title: "Código aceito: o cerco começou"
+					type: "custom"
+				}
+			]
+			title: "Doze Dígitos"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"42ABDEFF3FCC8F9F"
+			]
+			description: [
+				"Hordas vêm do lado da cidade direto para o console. Infectados colados no console estragam o &epainel&r; clique direito no console com &elingote de ferro (+25)&r ou &ebloco de ferro (+225)&r para consertar. Se o painel quebrar, a pressão cai e a contagem de noites volta a zero."
+				"A primeira madrugada que passar com o painel de pé conta."
+			]
+			icon: "minecraft:iron_ingot"
+			id: "0D644D8D610584C6"
+			rewards: [
+				{
+					count: 8
+					id: "7869018D0D5AC0B9"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "0331CD7324D688CC"
+					item: "zc_survival:suture_kit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:iron_ingot"
+					id: "310D01C0EE6585DF"
+					title: "Primeira noite vencida"
+					type: "custom"
+				}
+			]
+			title: "Cerco: Primeira Noite [COOP]"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0D644D8D610584C6"
+			]
+			description: [
+				"Hordas vêm do lado da cidade direto para o console. Infectados colados no console estragam o &epainel&r; clique direito no console com &elingote de ferro (+25)&r ou &ebloco de ferro (+225)&r para consertar. Se o painel quebrar, a pressão cai e a contagem de noites volta a zero."
+				"A segunda noite manda mais gente, em mais ondas."
+			]
+			icon: "minecraft:iron_block"
+			id: "5E4DE1CC865D0F34"
+			rewards: [
+				{
+					count: 8
+					id: "108EE53519CEB6BF"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7E11A84C8A8685E5"
+					item: "zc_survival:sterile_bandage"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:iron_block"
+					id: "64C59E9E0155BCE0"
+					title: "Segunda noite vencida"
+					type: "custom"
+				}
+			]
+			title: "Cerco: Segunda Noite [COOP]"
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5E4DE1CC865D0F34"
+			]
+			description: [
+				"Hordas vêm do lado da cidade direto para o console. Infectados colados no console estragam o &epainel&r; clique direito no console com &elingote de ferro (+25)&r ou &ebloco de ferro (+225)&r para consertar. Se o painel quebrar, a pressão cai e a contagem de noites volta a zero."
+				"Na terceira madrugada, se o painel aguentar, o portão abre."
+			]
+			icon: "minecraft:bell"
+			id: "59123D32F8B67BD0"
+			rewards: [
+				{
+					id: "75DF22C61A12A509"
+					item: "zc_survival:antibiotics"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:bell"
+					id: "37324DCDD3B81607"
+					title: "Terceira noite vencida"
+					type: "custom"
+				}
+			]
+			title: "Cerco: Terceira Noite [COOP]"
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"59123D32F8B67BD0"
+			]
+			description: [
 				"&7&o\"...quarenta e sete. Fim da receita. Pra quem tiver ouvindo em qualquer lugar: isso aqui é de vocês agora. Anota. Passa pra frente. (pausa) Pai. Abre o portão.\""
-				"[COOP] Três noites de cerco com a sirene ligada. Duas chaves ao mesmo tempo, doze dígitos na ordem da planta de Rafael. O comboio atravessa a eclusa."
 				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"Na terceira madrugada o portão abre. Do outro lado, a escolha (capítulo &eFinal&r)."
 			]
 			icon: "zc_world:quarantine_gate"
 			id: "484C67B32FA9F528"
-			optional: true
 			rewards: [ ]
-			shape: "octagon"
+			size: 1.5d
 			tasks: [
 				{
+					icon: "zc_world:quarantine_gate"
 					id: "3421E83C3B027771"
-					title: "Atravessamos o Portão 1"
-					type: "checkmark"
+					title: "O Portão 1 abriu"
+					type: "custom"
 				}
 			]
-			title: "Portão 1 (em breve)"
+			title: "Portão 1"
 			x: 6.0d
-			y: 0.0d
+			y: 2.5d
 		}
 	]
 	subtitle: [

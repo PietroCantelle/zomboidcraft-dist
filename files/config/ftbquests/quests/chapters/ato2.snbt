@@ -15,7 +15,9 @@
 			description: [
 				"&7&oJoana, no rádio: \"Vocês são de verdade. Desculpa, é que eu falo com a cidade faz dez dias e a cidade nunca responde. Com pilha e fio eu fico no ar mais um mês.\""
 				""
-				"A Rádio Livre sai da torre da Igreja Matriz, no Centro. O gerador de Joana está morrendo. Leve pilhas, fio e combustível — a nave da igreja está cheia deles. Silêncio é a solução."
+				"A Rádio Livre sai da torre da Igreja Matriz, no Centro. O transmissor de Joana come pilha. A nave da igreja está cheia deles: silêncio é a solução. A escada em caracol sobe pelo fundo da torre até a sala de rádio."
+				"&eOnde:&r a Igreja Matriz de N. Sra. da Pedra, no coração do Centro: a torre mais alta da cidade, com uma antena torta no topo. Joana fica na sala de rádio, lá em cima."
+				"Leve &e12 Pilhas AA&r (bancada: lingote de cobre + redstone + pepita de ferro = 2 pilhas) e fale com ela. Em troca ela te dá o &emapa anotado&r e um rádio portátil."
 			]
 			icon: "minecraft:bell"
 			id: "46CFA91DF41CA224"
@@ -34,26 +36,16 @@
 			]
 			tasks: [
 				{
-					consume_items: true
-					count: 8L
+					icon: "minecraft:bell"
 					id: "29AD18C0D2B0A103"
-					item: "flashlightmod:battery"
-					type: "item"
+					title: "Suba a torre e fale com a Joana"
+					type: "custom"
 				}
 				{
-					consume_items: true
-					count: 8L
+					icon: "zc_story:pilha_aa"
 					id: "6B60B5BD279B70BE"
-					item: "immersiveengineering:wire_copper"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 1L
-					id: "396A793AC9C763E1"
-					item: "car:canister"
-					title: "Um galão de combustível"
-					type: "item"
+					title: "Entregue 12 Pilhas AA à Joana (ou alguém do servidor já entregou)"
+					type: "custom"
 				}
 			]
 			title: "Olhos da Torre"
@@ -65,23 +57,36 @@
 				"46CFA91DF41CA224"
 			]
 			description: [
-				"Trinta deles na nave da igreja, e a escada da torre no fundo. Joana entrega o &emapa anotado&r: \"rua morta\" onde ela viu horda passar, \"rua limpa\" onde ela ACHA que tá limpa."
+				"&7&oJoana: \"Ó, pega. É o mapa. Tá escrito 'rua morta' onde eu vi horda passar. 'Rua limpa' é onde eu ACHO que tá limpa. Não confia muito no 'acho'.\""
 				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"Clique direito no &emapa anotado&r para ler: ele lista onde ficam o Refúgio, o Galpão, a Matriz, a Galeria, o hospital, o batalhão, os bombeiros, a usina, a subestação, a ETA, o presídio e o Portão 1 — com coordenadas."
+				"É o mais perto de um GPS que esta cidade tem. Copie para o Atlas, divida com o grupo."
 			]
-			icon: "minecraft:bell"
+			icon: "minecraft:filled_map"
 			id: "590E3D690731F9C8"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "537AAAB4096593AC"
-					title: "Subi a torre e peguei o mapa anotado da Joana"
-					type: "checkmark"
+					count: 2
+					id: "278216F40DC573EB"
+					item: "minecraft:map"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "446BAFFFE9EAD402"
+					item: "minecraft:paper"
+					type: "item"
 				}
 			]
-			title: "Subir a Torre da Matriz (em breve)"
+			tasks: [
+				{
+					icon: "zc_story:mapa_anotado"
+					id: "537AAAB4096593AC"
+					title: "Leia o mapa anotado da Joana"
+					type: "custom"
+				}
+			]
+			title: "O Mapa Anotado"
 			x: 0.0d
 			y: 2.5d
 		}
@@ -294,29 +299,62 @@
 				"057ECA1AB47B10EE"
 			]
 			description: [
-				"No átrio do shopping, alguma coisa grita — e a horda do Centro obedece. Desligar os alto-falantes antes da luta (Elétrica) reduz as ondas. O crachá da segurança abre a sala do CFTV com a gravação do Dia -3."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"No átrio do shopping, alguma coisa grita — e a horda do Centro obedece."
+				"&eOnde:&r o shopping de dois andares no Centro, uns 350 m a leste-sudeste da Matriz, com a claraboia rachada sobre o átrio."
+				"&cBoss:&r O Arauto acorda quando alguém entra no átrio (debaixo da claraboia). O grito tem 3 s de preparo: um golpe forte na cabeça interrompe. Cada grito puxa infectados dos corredores; depois ele grita em cone (empurra e enjoa) e derruba painéis da claraboia. Cabeça e garganta levam o triplo. Se ninguém fizer barulho perto, ele para para escutar."
+				"Quem estiver a até 64 blocos quando ele cair recebe a vitória. Ele não volta: se outro grupo já o derrubou, a tarefa se completa sozinha."
+				"Ele larga o &emegafone&r e o &ecrachá da segurança&r da Galeria. Na sala de CFTV há a gravação do Dia -3."
 			]
 			icon: "minecraft:goat_horn"
 			id: "69DDA5E6275BA04E"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "2688A66C89CB7657"
-					title: "Derrotamos O Arauto"
-					type: "checkmark"
+					id: "07A420B671FCA954"
+					item: "zc_survival:suture_kit"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D80DB58AC65E6C1"
+					item: "kubejs:weapon_parts"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "611D3973BC6FB678"
+					item: "zc_story:pilha_aa"
+					type: "item"
 				}
 			]
-			title: "O Arauto (em breve)"
+			size: 1.25d
+			tasks: [
+				{
+					icon: "minecraft:compass"
+					id: "2688A66C89CB7657"
+					title: "Entre na Galeria Itaverá"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:wither_skeleton_skull"
+					id: "69FDDB5318AD8415"
+					title: "O Arauto caiu (por vocês ou por outro grupo)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:tape_cftv_fila"
+					id: "66BB645A22B7D95C"
+					optional_task: true
+					title: "Assista à gravação do CFTV (Dia -3)"
+					type: "custom"
+				}
+			]
+			title: "O Arauto"
 			x: 3.0d
 			y: 4.0d
 		}
 		{
 			dependencies: [
-				"057ECA1AB47B10EE"
+				"69DDA5E6275BA04E"
 			]
 			description: [
 				"&7&oJoana: \"As luzes da usina piscaram ontem à noite. Alguém tá tentando ligar.\""
@@ -364,23 +402,50 @@
 			]
 			description: [
 				"&7&oPena, apontando a espingarda e tremendo: \"Vocês não são Corvo. Vocês não são Corvo, né? Olha, eu não vou... eu não vou gritar. Mas vocês têm que ir embora antes da troca da ronda. O Dente conta as balas.\""
-				"Entrar sem ser visto (no máximo dois Corvos no chão), achar o manual anotado do Dente na sala de controle."
 				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"&eOnde:&r o Distrito Industrial Norte, quase 2 km ao norte do Centro: as chaminés se veem de longe. Território dos Corvos."
+				"Entre na casa de máquinas sem chamar atenção. Na sala de controle envidraçada (passarela a 6 blocos do chão) fica o &edisjuntor geral&r da usina. Nos baús da usina: o &emanual anotado do Dente&r (#33), a carta do Pena (#21) e o &elivro-caixa do Bigode&r (#22) — documentos únicos: se outro grupo pegou, peça emprestado."
+				"O Dente está lá dentro. Ainda não é hora de brigar com ele (Ato III)."
 			]
 			icon: "minecraft:black_dye"
 			id: "46532C9EBDEEDD45"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "4C2F5DE979380F88"
-					title: "Entrei na usina, li o caderno do Dente e saí"
-					type: "checkmark"
+					count: 2
+					id: "54C9269D445758D3"
+					item: "zc_survival:painkillers"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7FE5808583940AE2"
+					item: "zc_story:pilha_aa"
+					type: "item"
 				}
 			]
-			title: "Infiltrar a UTE (em breve)"
+			tasks: [
+				{
+					icon: "minecraft:compass"
+					id: "4C2F5DE979380F88"
+					title: "Entre na Usina Termelétrica"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:note_dente_manual"
+					id: "6FE543350ADF9DD0"
+					optional_task: true
+					title: "Leia o manual anotado do Dente (#33)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:note_bigode_ledger"
+					id: "252ABF53D5C6BC5E"
+					optional_task: true
+					title: "Ache o livro-caixa do Bigode (#22)"
+					type: "custom"
+				}
+			]
+			title: "Infiltrar a UTE"
 			x: 6.0d
 			y: 4.0d
 		}

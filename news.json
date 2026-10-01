@@ -1,20 +1,20 @@
 [
   {
-    "title": "Versão 0.2.3 no ar",
+    "title": "Versão 0.3.0 no ar",
     "date": "01/10",
     "tag": "ATUALIZAÇÃO",
-    "body": "121 missões (tecla J) e habilidades com árvore de talentos (tecla K).\nC para deitar e rastejar. Temperatura bem mais perigosa: procure abrigo com teto e paredes.\nSem nomes sobre a cabeça, sem progressos do Minecraft e sem o painel de blocos."
+    "body": "A história agora pode ser jogada até o fim: safezones com sobreviventes, rádio, corte de água e luz, 7 bosses, o laboratório e o cerco do Portão 1.\nNovos infectados: policiais, militares, hazmat e mutações a partir do dia 7.\nCidades novas, GPS com minimapa e barulho de passos e voz que atrai zumbis."
   },
   {
     "title": "CANAL 7 — ALERTA",
-    "date": "01/10 00:40",
+    "date": "01/10 07:00",
     "style": "radio",
-    "body": "A quem estiver ouvindo: a chuva está matando mais que eles.\nNão saiam molhados. Acendam fogo dentro de casa. Repito: não saiam molhados."
+    "body": "Quem tiver rádio: a Joana fala na 98.3 a partir do quarto dia.\nNão gritem no rádio. Eles escutam. Repito: eles escutam."
   },
   {
-    "title": "Você começa sem nada",
+    "title": "Como começar",
     "date": "01/10",
     "tag": "AVISO",
-    "body": "Todo sobrevivente acorda só de roupa íntima.\nProcure guarda-roupas, lojas e hospitais. Com agulha, linha e tecido dá para costurar o básico."
+    "body": "Você acorda só de roupa íntima. Pegue pedrinhas no chão, faça uma lasca e uma faca, corte mato e galhos.\nAperte J para o Prólogo: ele ensina tudo, passo a passo."
   }
 ]

@@ -5,7 +5,7 @@
 	group: "787EB7992C439E5E"
 	icon: "minecraft:writable_book"
 	id: "2E2BFB5FFD48B640"
-	order_index: 8
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -163,6 +163,7 @@
 				"&7&oFolheto de triagem, à caneta embaixo: \"ninguém ganhou pulseira de 'sair'. só verde amarela e vermelha. REPAREM NISSO.\""
 				""
 				"O Portão Leste. Onde a fila dobrava o quarteirão. Onde, na noite do Dia -3, alguém na fila virou — e os soldados abriram fogo. Vá até um portão da Muralha e fique ali um pouco."
+				"No pátio do Portão 1 e na Base Cerco, as caixas do lote de vacinas ainda estão lá."
 			]
 			icon: "zc_world:quarantine_gate"
 			id: "2EB709D7D65F86F7"
@@ -176,6 +177,13 @@
 					to_observe: "zc_world:quarantine_gate"
 					type: "observation"
 				}
+				{
+					icon: "zc_story:note_triagem_lote"
+					id: "65B07E824860C714"
+					optional_task: true
+					title: "Ache a etiqueta do lote de vacinas (KNX-7-A)"
+					type: "custom"
+				}
 			]
 			title: "Noite da Fila"
 			x: 6.0d
@@ -183,51 +191,69 @@
 		}
 		{
 			dependencies: [
-				"2FF8DEA8B43B57C4"
+				"2F5928A6CC48A2FB"
 			]
 			description: [
-				"Barulho na biblioteca do Colégio (regra 5 do mural: ninguém desce na biblioteca). Seu Jorge, acorrentado. Dona Cida lê jornal velho para ele todo dia. Depois da Receita, ela vai pedir a injeção."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"Barulho na biblioteca do Colégio (regra 5 do mural: ninguém desce na biblioteca)."
+				"Pergunte à &eDona Cida&r sobre a biblioteca. Ela vai contar do Seu Jorge, e do jornal velho que ela lê para ele todo dia."
+				"&8Depois da Receita, ninguém precisa explicar para ela que a injeção não funciona fora da janela. Ela já sabe."
 			]
 			icon: "minecraft:book"
 			id: "5DAFF7B7C34F1DA8"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "081C719615F71072"
-					title: "Falei a verdade para a Dona Cida"
-					type: "checkmark"
+					count: 4
+					id: "2D9C43E4911116F6"
+					item: "minecraft:paper"
+					type: "item"
 				}
 			]
-			title: "O Leitor (em breve)"
+			tasks: [
+				{
+					icon: "minecraft:book"
+					id: "081C719615F71072"
+					title: "Pergunte à Dona Cida sobre a biblioteca"
+					type: "custom"
+				}
+			]
+			title: "O Leitor"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: [
-				"5A3ADF3FD43853AE"
+				"46532C9EBDEEDD45"
 			]
 			description: [
-				"Achar a mãe do Pena — Dona Neide está viva, no mural de desaparecidos do Refúgio, procurando o filho."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"A carta de Mateus \"Pena\" para a mãe (#21) está nos baús da usina dos Corvos."
+				"A mãe dele está viva: &eDona Neide&r, no pátio do Refúgio, procurando o filho no mural de desaparecidos."
+				"Leia a carta e fale com ela."
 			]
 			icon: "minecraft:feather"
 			id: "2BBD99F5A450492F"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "3576A2990FF06431"
-					title: "Levei a carta para a Dona Neide"
-					type: "checkmark"
+					count: 2
+					id: "079C6829D114233C"
+					item: "zc_survival:canned_peaches"
+					type: "item"
 				}
 			]
-			title: "Cartas do Pena (em breve)"
+			tasks: [
+				{
+					icon: "zc_story:note_pena"
+					id: "3576A2990FF06431"
+					title: "Leia a carta do Pena (#21)"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:feather"
+					id: "06D83E259435FBB0"
+					title: "Fale com a Dona Neide no Refúgio"
+					type: "custom"
+				}
+			]
+			title: "Cartas do Pena"
 			x: 2.0d
 			y: 3.0d
 		}
@@ -236,23 +262,34 @@
 				"46CFA91DF41CA224"
 			]
 			description: [
-				"Pichação na Rodoviária: \"O ÔNIBUS DAS 18H PRA BH NÃO SAIU.\" O bilheteiro ainda está preso na cabine."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"Pichação no muro interno da Rodoviária, no Centro: \"O ÔNIBUS DAS 18H PRA BH NÃO SAIU.\""
+				"A pichação aparece copiada em papel nas lojas e lanchonetes do Centro (#28). Leve a notícia ao mural do Refúgio: fale com qualquer morador."
 			]
 			icon: "minecraft:name_tag"
 			id: "436FDFA3C3660DDB"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "1E9065436F10934A"
-					title: "Entreguei a lista de passageiros no mural"
-					type: "checkmark"
+					count: 2
+					id: "7B5B2C18645FDC39"
+					item: "zc_survival:canned_beans"
+					type: "item"
 				}
 			]
-			title: "Guichê 4 (em breve)"
+			tasks: [
+				{
+					icon: "zc_story:grafite_rodoviaria"
+					id: "1E9065436F10934A"
+					title: "Leia a pichação da Rodoviária (#28)"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:name_tag"
+					id: "19424DC54A67875D"
+					title: "Conte a um morador do Refúgio"
+					type: "custom"
+				}
+			]
+			title: "Guichê 4"
 			x: 4.0d
 			y: 3.0d
 		}
@@ -261,48 +298,71 @@
 				"69E789C22DC868F3"
 			]
 			description: [
-				"Na 3ª Delegacia, um policial sentado com o revólver no colo e uma bala no tambor. No bolso, um endereço no Jardim das Acácias. Na casa, um bilhete: \"fomos pra fila\"."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"Um boletim de ocorrência da 3ª Delegacia (#05), e o bilhete de alguém que \"foi na fila da vacina\" (#01). A fila levou todo mundo: quem ficou, ficou esperando."
+				"Ache os dois papéis: delegacias, batalhão, cozinhas e geladeiras."
 			]
 			icon: "minecraft:iron_nugget"
 			id: "379E73DF3800DE79"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "5EBCF962AFE8494D"
-					title: "Levei o bilhete até ele"
-					type: "checkmark"
+					id: "6B9AABE12C97AE3F"
+					item: "zc_survival:painkillers"
+					type: "item"
 				}
 			]
-			title: "Uma Bala (em breve)"
+			tasks: [
+				{
+					icon: "zc_story:note_bo_2217"
+					id: "5EBCF962AFE8494D"
+					title: "Leia o B.O. nº 2217 (#05)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:note_fridge"
+					id: "058151872A826DBE"
+					title: "Leia um bilhete de geladeira (#01)"
+					type: "custom"
+				}
+			]
+			title: "Uma Bala"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: [
-				"5A3ADF3FD43853AE"
+				"46532C9EBDEEDD45"
 			]
 			description: [
-				"\"DIA 5 — Saída: 1 informação (fam. Pereira, R. das Acácias 211). Entrada: 40 L diesel.\" Confrontar o Bigode, expor no mural ou entregar ao Dente. Nenhuma escolha é limpa."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"\"DIA 5 — Saída: 1 informação (fam. Pereira, R. das Acácias 211). Entrada: 40 L diesel.\" — B.L."
+				"O livro-caixa do Bigode (#22) está nos baús da usina. Com ele na mão, escolha:"
+				"&e• Confrontar o Bigode&r em particular, no Galpão: ele paga o silêncio (uma injeção e uma dose de soro)."
+				"&e• Expor no mural&r: entregue à Dona Cida. O Galpão inteiro fica sabendo e a sua reputação lá despenca."
+				"Nenhuma escolha é limpa."
 			]
 			icon: "minecraft:writable_book"
 			id: "6128268768FCEA0C"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "317EF4BEF727AE62"
-					title: "Decidimos o que fazer com o livro-caixa"
-					type: "checkmark"
+					id: "446AD0486569FD2D"
+					item: "zc_survival:antibiotics"
+					type: "item"
 				}
 			]
-			title: "Livro-Caixa (em breve)"
+			tasks: [
+				{
+					icon: "zc_story:note_bigode_ledger"
+					id: "317EF4BEF727AE62"
+					title: "Leia o livro-caixa (#22)"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:writable_book"
+					id: "0E7161B996A35742"
+					title: "Decidam o que fazer com ele"
+					type: "custom"
+				}
+			]
+			title: "Livro-Caixa"
 			x: 0.0d
 			y: 5.0d
 		}
@@ -312,47 +372,69 @@
 			]
 			description: [
 				"No campanário do hospital, há quarenta dias, com água de chuva e hóstias. Ela não fala de Deus. Fala de pontos e gaze."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"A oração dela (#30) está na capela do São Lucas; o prontuário do Paciente 114 (#29) mostra que ela pediu para não ir para a Ala C."
 			]
 			icon: "minecraft:candle"
 			id: "0FE53A7DAFDF7177"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "68F024990D3A239D"
-					title: "Escoltamos a Irmã Graça até o Refúgio"
-					type: "checkmark"
+					count: 2
+					id: "150B02CF7F41AD22"
+					item: "zc_survival:sterile_bandage"
+					type: "item"
 				}
 			]
-			title: "Irmã Graça (em breve)"
+			tasks: [
+				{
+					icon: "zc_story:note_irma_graca"
+					id: "68F024990D3A239D"
+					title: "Leia a oração de Irmã Graça (#30)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:note_p114"
+					id: "65685DB03A5EDE9C"
+					title: "Leia o prontuário do 114 (#29)"
+					type: "custom"
+				}
+			]
+			title: "Irmã Graça"
 			x: 2.0d
 			y: 5.0d
 		}
 		{
 			dependencies: [
-				"5A3ADF3FD43853AE"
+				"46532C9EBDEEDD45"
 			]
 			description: [
 				"No Presídio, a cela 9 fechada por fora. Seu Toninho de pé, virado para a parede."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"&eOnde:&r o noroeste, isolado, a mais de 2 km do Centro: muro alto, quatro guaritas, portão aberto por dentro."
+				"O diário de um Corvo arrependido (#38) conta o resto."
 			]
 			icon: "minecraft:iron_bars"
 			id: "1F0533432293CDFD"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "3B7EEE990448A39C"
-					title: "Dei descanso ao Seu Toninho"
-					type: "checkmark"
+					id: "5FB1315235766501"
+					item: "kubejs:weapon_parts"
+					type: "item"
 				}
 			]
-			title: "Seu Toninho da Cela 9 (em breve)"
+			tasks: [
+				{
+					icon: "minecraft:compass"
+					id: "3B7EEE990448A39C"
+					title: "Chegue ao Presídio Regional"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:note_corvo_2"
+					id: "24D31AFBEBA1F4BF"
+					title: "Leia o diário do Corvo arrependido (#38)"
+					type: "custom"
+				}
+			]
+			title: "Seu Toninho da Cela 9"
 			x: 4.0d
 			y: 5.0d
 		}
@@ -361,48 +443,71 @@
 				"2AA8F751178D9592"
 			]
 			description: [
-				"\"A senha é o aniversário de casamento dela. Está na parede, em foto.\""
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"\"A senha é o aniversário de casamento dela. Está na parede, em foto.\" (folha solta da Major Lídia, #20)"
+				"Uma &efoto de casamento&r dos Sampaio (casas, quartos, o Campus, a Unidade 4) tem a data. Ela abre o terminal do B3 sem invasão."
 			]
 			icon: "minecraft:clock"
 			id: "5AE32383E058A39F"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "4B2549E45D403F63"
-					title: "Achei a data"
-					type: "checkmark"
+					count: 2
+					id: "3BFADADB0367B211"
+					item: "minecraft:paper"
+					type: "item"
 				}
 			]
-			title: "Aniversário de Casamento (em breve)"
+			tasks: [
+				{
+					icon: "zc_story:foto_casamento"
+					id: "4B2549E45D403F63"
+					title: "Ache a foto de casamento dos Sampaio"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:clock"
+					id: "30A95BFCE1858154"
+					optional_task: true
+					title: "Use a data no terminal do B3"
+					type: "custom"
+				}
+			]
+			title: "Aniversário de Casamento"
 			x: 6.0d
 			y: 5.0d
 		}
 		{
 			dependencies: [
-				"0C4BD8AD40BD1593"
+				"70F74A858BDB2181"
 			]
 			description: [
-				"No biotério do B2, o único revertido com sucesso. Desidratado. Não pode ficar sem água mais de um dia."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"&7&oFita nº 6 do Caio: \"Funcionou. Macaco 14. (...) Voltou! Pegou a banana da minha mão.\""
+				"No biotério do B2, as gaiolas. A prova de que a Janela existe — e de que ela é curta. Ouça as fitas 6 e 7 do Caio (elas saem do terminal do B2)."
 			]
 			icon: "minecraft:cocoa_beans"
 			id: "2E73FEB9536925C2"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "7EEEBE75051B0D3E"
-					title: "Trouxemos o Macaco 14 para a superfície"
-					type: "checkmark"
+					count: 4
+					id: "7D6D6FD24E626CA3"
+					item: "minecraft:cocoa_beans"
+					type: "item"
 				}
 			]
-			title: "Macaco 14 (em breve)"
+			tasks: [
+				{
+					icon: "zc_story:tape_caio_6"
+					id: "7EEEBE75051B0D3E"
+					title: "Ouça a fita nº 6 do Caio (#13)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:tape_caio_7"
+					id: "0942CF1E9CF94C75"
+					title: "Ouça a fita nº 7 do Caio (#14)"
+					type: "custom"
+				}
+			]
+			title: "Macaco 14"
 			x: 0.0d
 			y: 7.0d
 		}
@@ -411,48 +516,70 @@
 				"2F5928A6CC48A2FB"
 			]
 			description: [
-				"Perto da casa dela, na Vila Operária, uma infectada de uniforme de enfermagem. No bolso, a chave do armário da enfermagem do São Lucas."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"Perto da casa dela, na Vila Operária, uma infectada de uniforme de enfermagem."
+				"O diário dela (#04) e o da vizinha, Dona Zulmira (#02, #03), estão nas casas da Vila Operária."
 			]
 			icon: "zc_clothing:nurse_dress"
 			id: "70F79AC351BFBA52"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "02A09B34CA6708EE"
-					title: "Libertei a Débora"
-					type: "checkmark"
+					id: "0C6C0DC153811A67"
+					item: "zc_survival:disinfectant"
+					type: "item"
 				}
 			]
-			title: "Débora (em breve)"
+			tasks: [
+				{
+					icon: "zc_story:note_debora"
+					id: "02A09B34CA6708EE"
+					title: "Leia o diário de Débora (#04)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:note_zulmira_2"
+					id: "1D22A08C4C7328B9"
+					title: "Leia o diário de Dona Zulmira, pág. 2 (#03)"
+					type: "custom"
+				}
+			]
+			title: "Débora"
 			x: 2.0d
 			y: 7.0d
 		}
 		{
 			dependencies: [
-				"34829CCC4C633000"
+				"46CFA91DF41CA224"
 			]
 			description: [
-				"Ondas curtas, 7.350 kHz, às 03h e às 15h. \"Para quem sobrar. Grupo um. Quatro. Sete. Zero. Dois...\" Gravar três vezes, levar a Joana, decodificar."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"Uma voz de mulher, calma, cansada, nas ondas curtas: \"Para quem sobrar. Grupo um. Quatro. Sete. Zero. Dois...\""
+				"No rádio portátil (Shift + clique direito), sintonize a &eEstação dos Números&r de madrugada (3h) ou à tarde (15h) e ouça até o fim: a transcrição (#27) fica com você."
+				"&8Os grupos de números são proporções. É a receita, lida em voz alta, para quem sobrar."
 			]
 			icon: "minecraft:note_block"
 			id: "6C2B0828C84C65A2"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "31B9D7B76A4A52C5"
-					title: "Decodificamos a Estação dos Números"
-					type: "checkmark"
+					count: 2
+					id: "7C81543CB02427C3"
+					item: "zc_story:pilha_aa"
+					type: "item"
 				}
 			]
-			title: "A Estação dos Números (em breve)"
+			tasks: [
+				{
+					icon: "minecraft:note_block"
+					id: "31B9D7B76A4A52C5"
+					title: "Ouça a Estação dos Números"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:radio_numeros"
+					id: "0AD337FE9F2821B9"
+					title: "Leia a transcrição (#27)"
+					type: "custom"
+				}
+			]
+			title: "A Estação dos Números"
 			x: 4.0d
 			y: 7.0d
 		}

@@ -206,6 +206,8 @@
 				"&f\"...se tiver alguém vivo me ouvindo: o Colégio Dom Pedro tá com gente. Vai de dia. Não corre. Eles ouvem quando você corre. Eu repito toda noite às sete, tá? Toda noite. Então se você perdeu, amanhã tem de novo. Eu não vou a lugar nenhum. (pausa) Literalmente.\""
 				""
 				"Quem fala no rádio chama-se &eJoana&r. Para sair atrás de gente viva você precisa de luz, pilhas e um jeito de ser ouvido."
+				""
+				"&eRádio Livre 98.3:&r um &eRádio portátil&r (gaveta de casa, loja de ferragens, ou na bancada: ferro, tábuas, redstone e cobre) com carga. &eShift + clique direito&r abre o sintonizador; clique direito liga e desliga; com uma &ePilha AA&r na outra mão, troca a pilha. A Joana só entra no ar &ea partir do Dia 4, às 19h&r (até umas 20h45). Fique ouvindo até a transmissão acabar."
 			]
 			icon: "flashlightmod:flashlight"
 			id: "182D3B889390841A"
@@ -214,6 +216,12 @@
 					count: 2
 					id: "3227AE7CBFCC4B39"
 					item: "flashlightmod:battery"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4441BACD67619282"
+					item: "zc_story:pilha_aa"
 					type: "item"
 				}
 			]
@@ -268,6 +276,12 @@
 					item: "flashlightmod:battery"
 					type: "item"
 				}
+				{
+					icon: "zc_story:radio_portatil"
+					id: "18A398AED45135F9"
+					title: "Ouça a Joana na Rádio Livre 98.3 (Dia 4 em diante, 19h)"
+					type: "custom"
+				}
 			]
 			title: "Anda, Não Corre"
 			x: 3.0d
@@ -278,9 +292,61 @@
 				"182D3B889390841A"
 			]
 			description: [
+				"&7&oJoana, no rádio: \"...o Colégio Dom Pedro tá com gente. A Dona Cida tá lá. Tem comida. Vai de dia.\""
+				""
+				"&eOnde:&r o Colégio Estadual Dom Pedro II, no Jardim das Acácias, cerca de 1 km a noroeste da Igreja Matriz: muro de contêineres com arame, ônibus escolar atravessado no portão leste, duas torres de vigia. Dentro do muro os infectados não nascem: é a primeira safezone."
+				"Na guarita do portão está o &eTião&r (clique direito para falar). No pátio, o &emural&r com as regras da casa (documento #34: o Tião ou a Cida te dão uma cópia; clique direito para ler)."
+				"Os moradores trocam por &eescambo&r: o que vale para eles depende da sua &ereputação&r com o Refúgio."
+			]
+			icon: "minecraft:bell"
+			id: "5755773C2812E88D"
+			rewards: [
+				{
+					count: 2
+					id: "74EE8A55D410B5E5"
+					item: "zc_story:pilha_aa"
+					type: "item"
+				}
+				{
+					id: "41902221D0796D11"
+					item: "zc_survival:canned_beans"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:compass"
+					id: "065D91FBF915CDCA"
+					title: "Chegue ao Refúgio do Colégio"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:bell"
+					id: "313ECD692140B1B2"
+					title: "Fale com o Tião na guarita"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:note_cida_mural"
+					id: "33178383E0B82BB3"
+					optional_task: true
+					title: "Leia as regras do mural (#34)"
+					type: "custom"
+				}
+			]
+			title: "O Refúgio do Colégio"
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5755773C2812E88D"
+			]
+			description: [
 				"&7&oVigia (Tião): \"Parou aí. Mão onde eu veja. Tá mordido? Não precisa responder, amanhã a gente sabe.\""
 				"&7&oDona Cida, na manhã seguinte: \"Bom dia. Café é de cevada, açúcar acabou no dia seis. Quem trabalha, come. Quem não pode trabalhar, come também. Quem mente sobre mordida, vai embora. Tá bom? Tá bom.\""
 				""
+				"A &eDona Cida&r fica na sala da diretoria, no colégio em L. Falar com ela pela primeira vez te dá a reputação &eTolerado&r com o Refúgio (comércio e trabalhos do mural)."
 				"Ninguém sai sozinho desta cidade. Junte-se a outros sobreviventes num &egrupo&r (FTB Teams) e passe uma noite dormindo sob o mesmo teto — a quarentena da quadra: se ninguém virar até de manhã, vocês são gente."
 			]
 			icon: "comforts:sleeping_bag_brown"
@@ -326,35 +392,16 @@
 					title: "3 itens médicos para a enfermaria"
 					type: "item"
 				}
+				{
+					icon: "minecraft:writable_book"
+					id: "7E9D14BF914975BD"
+					title: "Apresente-se à Dona Cida"
+					type: "custom"
+				}
 			]
 			title: "Os Portões do Colégio"
 			x: 6.0d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"2F5928A6CC48A2FB"
-			]
-			description: [
-				"O Colégio Estadual Dom Pedro II, no Jardim das Acácias: muro de contêiner, quadra de quarentena, horta no pátio, um mural com regras. Dona Cida, Tião na guarita, comércio por troca, uma cama de campanha para renascer."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
-			]
-			icon: "minecraft:bell"
-			id: "5755773C2812E88D"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
-				{
-					id: "065D91FBF915CDCA"
-					title: "Cheguei ao Refúgio e passei a noite na quadra"
-					type: "checkmark"
-				}
-			]
-			title: "O Refúgio do Colégio (em breve)"
-			x: 6.0d
-			y: 2.5d
 		}
 	]
 	subtitle: [

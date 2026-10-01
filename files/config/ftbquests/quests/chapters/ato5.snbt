@@ -16,6 +16,7 @@
 				"&7&oAnúncio automático do hospital, em loop, num gerador de emergência que ainda funciona: \"Atenção: código amarelo na ala C. Equipe de contenção, favor dirigir-se à ala C. Atenção: código amarelo...\""
 				""
 				"O Hospital Regional São Lucas foi o primeiro lugar a cair. Quem entra precisa sair com o próprio sangue dentro do corpo."
+				"&eOnde:&r o Bairro Saúde, centro-norte, uns 750 m ao norte da Matriz: três andares, heliponto, ambulâncias e tendas de triagem na frente."
 			]
 			icon: "zc_survival:suture_kit"
 			id: "34829CCC4C633000"
@@ -68,34 +69,67 @@
 				"34829CCC4C633000"
 			]
 			description: [
-				"Paciente 114, Osvaldo Reis, 61 anos. Na ala C, no necrotério. O molho de chaves do segurança está dentro dele. A chave do túnel de serviço também."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
+				"Paciente 114, Osvaldo Reis, 61 anos. Na Ala C, depois a rampa de macas até o necrotério. O molho de chaves do segurança está dentro dele. A chave do túnel de serviço também."
+				"&cBoss:&r aura de gás (máscara de gás protege), vômito de bile, e o gás da sala sobe com o tempo. &cFogo, explosão e tiro dentro do gás explodem tudo&r. Ele chama pacientes batendo nas gavetas. Ao morrer solta uma nuvem venenosa por 20 s: recue."
+				"Ele larga a &echave do túnel de serviço&r e o &ecrachá da segurança&r do hospital."
 			]
 			icon: "minecraft:slime_ball"
 			id: "1B66F017ABD3BE31"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
+			rewards: [
 				{
-					id: "061653228A415CB0"
-					title: "Derrubamos O Inchado e pegamos a chave do túnel"
-					type: "checkmark"
+					count: 2
+					id: "5B38034BD9A53C0D"
+					item: "zc_survival:antibiotics"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0B049BE8F3FB2EDB"
+					item: "zc_survival:sterile_bandage"
+					type: "item"
 				}
 			]
-			title: "O Inchado (em breve)"
-			x: 0.0d
-			y: 2.5d
+			size: 1.25d
+			tasks: [
+				{
+					icon: "minecraft:compass"
+					id: "061653228A415CB0"
+					title: "Entre no Hospital São Lucas"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:wither_skeleton_skull"
+					id: "7A0B118862B77966"
+					title: "O Inchado caiu (por vocês ou por outro grupo)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:chave_tunel_servico"
+					id: "15E7E12743D21EF4"
+					title: "Pegue a chave do túnel de serviço"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:note_p114"
+					id: "69C2243AB32D5B48"
+					optional_task: true
+					title: "Leia o prontuário do Paciente 114 (#29)"
+					type: "custom"
+				}
+			]
+			title: "O Inchado"
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
-				"34829CCC4C633000"
+				"1B66F017ABD3BE31"
 			]
 			description: [
 				"&7&oVoz de mulher, pelo interfone: \"...quem está no B1? Identifique-se. (pausa) Vocês não são Veridia. Vocês não são Exército. (pausa longa) Não desçam para o B2 com luz branca. Ela odeia luz branca. Usem vermelha.\""
 				""
-				"Novecentos metros de túnel escuro, água no tornozelo, rádio mudo depois dos duzentos. Leve luz, pilha e diesel para o gerador do B1 — carregado à mão."
+				"No necrotério, a &eporta de serviço&r trancada abre com a chave do túnel na mão. O túnel é longo (mais de um quilômetro e meio), escuro, com trilhos de carrinho de amostras e luz vermelha de emergência. O rádio morre lá embaixo. No meio do caminho, o que sobrou do esquadrão da Major."
+				"Leve luz, pilha e luz vermelha."
 			]
 			icon: "flashlightmod:flashlight"
 			id: "0C4BD8AD40BD1593"
@@ -134,9 +168,22 @@
 					title: "Luz vermelha (8 tochas de redstone)"
 					type: "item"
 				}
+				{
+					icon: "zc_story:chave_tunel_servico"
+					id: "56A81E89DEA7AF53"
+					title: "Abra a porta de serviço do necrotério"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:tape_caio_8"
+					id: "16CAFDBEA3107A8F"
+					optional_task: true
+					title: "Ache a fita nº 8 do Caio no túnel (#15)"
+					type: "custom"
+				}
 			]
 			title: "Novecentos Metros"
-			x: 3.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -144,10 +191,184 @@
 				"0C4BD8AD40BD1593"
 			]
 			description: [
+				"O fim do túnel dá no B1: descontaminação, posto de segurança, escritórios, servidores."
+				"&eTerminal do posto de segurança:&r clique direito. Com o &ecartão de acesso Veridia&r (túnel, Campus) o acesso é direto; sem ele, &einvasão&r: a tela mostra 12 palavras, uma é a senha; cada erro diz quantas letras estão na posição certa. 4 tentativas, depois 1 minuto bloqueado."
+				"Com acesso, &ebaixe&r o arquivo: sai o &eFragmento de código 1/3&r (4 dígitos do código do Portão 1)."
+			]
+			icon: "minecraft:iron_door"
+			id: "515C2FDBCB80366C"
+			rewards: [
+				{
+					count: 4
+					id: "6030423C77CFB649"
+					item: "flashlightmod:battery"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5DD54202B2D8DCD3"
+					item: "zc_survival:sterile_bandage"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:compass"
+					id: "3FC137814CE1ABC5"
+					title: "Chegue ao B1 da Unidade 4"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:cartao_acesso_veridia"
+					id: "77632EDDB4DA5302"
+					title: "Acesso ao terminal do B1"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:fragmento_codigo_1"
+					id: "7CCA2E56657E9564"
+					title: "Fragmento de código 1/3"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:tape_caio_4"
+					id: "33BCF4E3651ACD37"
+					optional_task: true
+					title: "Ouça a fita nº 4 do Caio (#11)"
+					type: "custom"
+				}
+			]
+			title: "Unidade 4 — B1"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"515C2FDBCB80366C"
+			]
+			description: [
+				"&7&oHelena, pelo interfone, depois: \"...Farias. O nome dela era Lídia Farias. Ela pediu. Eu quero que vocês saibam que ela pediu. (pausa) Não que isso mude alguma coisa.\""
+				""
+				"B2: doze laboratórios, biotério, a sala de observação de vidro escuro (terminal do B2) e os dutos acima do teto."
+				"&cBoss:&r Experimento L-8. Caça quem está mais sozinho; se o grupo anda junto, ela some nos dutos (escute o barulho no teto). Abre e fecha portas. Puxa os disjuntores (escuridão). &eLanterna na cara dela por meio segundo a atordoa.&r"
+				"Ela larga o &ecartão de Lídia&r. O terminal do B2 (cartão Veridia ou invasão) dá o &eFragmento 2/3&r."
+			]
+			icon: "minecraft:red_candle"
+			id: "70F74A858BDB2181"
+			rewards: [
+				{
+					count: 2
+					id: "6F78F63AC9AA5299"
+					item: "zc_survival:suture_kit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "63B488D4DA83F808"
+					item: "flashlightmod:battery"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					icon: "minecraft:wither_skeleton_skull"
+					id: "12737CE7AC924FD5"
+					title: "A Major caiu (por vocês ou por outro grupo)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:cartao_lidia"
+					id: "2606729031B21DC9"
+					title: "Pegue o cartão de Lídia"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:fragmento_codigo_2"
+					id: "07C63A956CFD02A0"
+					title: "Fragmento de código 2/3"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:note_l8"
+					id: "0DE623F035248E24"
+					optional_task: true
+					title: "Leia o registro L-8 (#39)"
+					type: "custom"
+				}
+			]
+			title: "A Major"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"70F74A858BDB2181"
+			]
+			description: [
+				"&7&oHelena: \"Não me perguntem se valeu a pena. Me perguntem o que vocês precisam.\""
+				""
+				"B3: celas B3-01 a 12. A B3-07 abre para o anfiteatro. Rafael Sampaio está acorrentado lá dentro."
+				"&cBoss:&r cinco placas de osso que só quebram com arma de impacto, explosão ou tiro forte (lâmina não adianta; fogo também não). A nuca leva o triplo. Ele quebra as correntes, investe, arremessa macas, agarra (outro jogador solta batendo nas costas). O &einterfone&r do pilar (ou o botão no terminal do B3) põe a voz da Helena no ar: ele para e escuta por 3 s. Três vezes."
+				"&eTerminal do B3:&r a senha é uma data de 4 dígitos (o aniversário de casamento dela — tem foto) ou invasão (3 tentativas). Baixar abre o cofre: &eFragmento 3/3&r, a &efórmula do RIMIDAX&r, a última página do diário, a fita 10 e duas doses de soro diluído."
+			]
+			icon: "minecraft:writable_book"
+			id: "06A034B0A8F904CA"
+			rewards: [
+				{
+					count: 4
+					id: "112436FDBD92085B"
+					item: "zc_survival:sterile_bandage"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "033D9DD07450AC46"
+					item: "zc_survival:painkillers"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					icon: "minecraft:wither_skeleton_skull"
+					id: "7409B0FBC792A4FD"
+					title: "O Paciente Zero caiu (por vocês ou por outro grupo)"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:fragmento_codigo_3"
+					id: "20834D2BD7BFED84"
+					title: "Fragmento de código 3/3"
+					type: "custom"
+				}
+				{
+					icon: "zc_story:formula_rimidax"
+					id: "4A4DB79C074F9ABC"
+					title: "A fórmula do RIMIDAX saiu do cofre"
+					type: "custom"
+				}
+				{
+					icon: "minecraft:note_block"
+					id: "1D920478FB9DD27E"
+					optional_task: true
+					title: "Use o interfone (a voz da Helena)"
+					type: "custom"
+				}
+			]
+			title: "Para Quem Sobrar"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"06A034B0A8F904CA"
+			]
+			description: [
 				"&7&oJoana: \"Então a gente pode... se alguém morrer, a gente tem um minuto. A gente tem um minuto! (pausa) Eu vou pedir pra todo mundo parar de andar sozinho. Porque um minuto só serve se tiver alguém do lado.\""
 				""
 				"RIMIDAX, adrenalina, glicose, um carreador de oxigênio. A &eInjeção de Reversão&r não traz ninguém de volta da morte: traz de volta dos primeiros minutos da morte. É muito menos. É tudo."
-				"Fabrique a primeira injeção do grupo (veja a receita no EMI)."
+				"Leia a fórmula (clique direito) e fabrique a primeira injeção do grupo (veja a receita no EMI)."
 			]
 			icon: "zc_player:reversal_injection"
 			id: "2FF8DEA8B43B57C4"
@@ -162,92 +383,21 @@
 			size: 1.25d
 			tasks: [
 				{
-					count: 1L
+					icon: "zc_story:formula_rimidax"
 					id: "78BAD7BC4578F748"
+					title: "Leia a fórmula do RIMIDAX"
+					type: "custom"
+				}
+				{
+					count: 1L
+					id: "7F616590808F1C33"
 					item: "zc_player:reversal_injection"
 					type: "item"
 				}
 			]
 			title: "A Receita"
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"0C4BD8AD40BD1593"
-			]
-			description: [
-				"O corpo de Caio no túnel, com o crachá nível 2 e as fitas 8 e 9. O gerador do B1, o terminal (Elétrica 8): fragmento de código 1/3."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
-			]
-			icon: "minecraft:iron_door"
-			id: "515C2FDBCB80366C"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
-				{
-					id: "3FC137814CE1ABC5"
-					title: "Energizamos o B1 e tiramos o fragmento 1"
-					type: "checkmark"
-				}
-			]
-			title: "Unidade 4 — B1 (em breve)"
-			x: 3.0d
+			x: 2.5d
 			y: 2.5d
-		}
-		{
-			dependencies: [
-				"515C2FDBCB80366C"
-			]
-			description: [
-				"&7&oHelena, pelo interfone, depois: \"...Farias. O nome dela era Lídia Farias. Ela pediu. Eu quero que vocês saibam que ela pediu. (pausa) Não que isso mude alguma coisa.\""
-				"Experimento L-8. Abre portas. Flanqueia. Foge da luz. O cartão dela abre a sala de controle do Portão 1."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
-			]
-			icon: "minecraft:red_candle"
-			id: "70F74A858BDB2181"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
-				{
-					id: "12737CE7AC924FD5"
-					title: "Derrotamos A Major e pegamos o cartão de Lídia"
-					type: "checkmark"
-				}
-			]
-			title: "A Major (em breve)"
-			x: 1.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"70F74A858BDB2181"
-			]
-			description: [
-				"&7&oHelena, sentada no chão do cofre, mão enfaixada: \"Não me perguntem se valeu a pena. Me perguntem o que vocês precisam.\""
-				"O Paciente Zero na B3-07. A fórmula do RIMIDAX, a amostra primária, o fragmento 3/3. E a escolha do servidor: Helena fica, ou sobe."
-				""
-				"&8&o[Em breve] Isto ainda não existe no mundo. A tarefa fica aqui para o mapa da história fazer sentido. Quando for implementado, a missão ganha objetivos de verdade. Não há recompensa por marcar."
-			]
-			icon: "minecraft:writable_book"
-			id: "06A034B0A8F904CA"
-			optional: true
-			rewards: [ ]
-			shape: "octagon"
-			tasks: [
-				{
-					id: "7409B0FBC792A4FD"
-					title: "Chegamos ao cofre de Helena"
-					type: "checkmark"
-				}
-			]
-			title: "Para Quem Sobrar (em breve)"
-			x: 3.0d
-			y: 4.0d
 		}
 	]
 	subtitle: [
