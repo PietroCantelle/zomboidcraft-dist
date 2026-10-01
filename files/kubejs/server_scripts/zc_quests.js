@@ -17,8 +17,8 @@ EntityEvents.death(event => {
   let entity = event.entity
   let type = String(entity.type)
   if (type == 'minecraft:zombie') return // o próprio KillTask já conta
-  // zombie_extreme:* contém 'zombie'; mutações do THE UNDEAD REVAMPED (só as usadas, ver config/incontrol)
-  let special = /^undead_revamp2:(bomber|thesmoker|thespitter|therabidus|theheavy|thepregnant|thebidy|theordure)$/.test(type)
+  // zombie_extreme:* contém "zombie"; mutações do THE UNDEAD REVAMPED (0.3.2: todas, as não usadas nem nascem)
+  let special = /^undead_revamp2:/.test(type)
   if (!special && type.indexOf('zombie') < 0 && type != 'minecraft:husk' && type != 'minecraft:drowned') return
   if (type == 'zc_player:turned_player') return // corpo de jogador não conta
   let src = event.source

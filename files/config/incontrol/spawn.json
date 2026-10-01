@@ -17,14 +17,47 @@
     "result": "deny"
   },
   {
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "mincount": {
+      "amount": 8,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "mincount": {
+      "amount": 300,
+      "hostile": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
     "mob": [
-      "undead_revamp2:thehunter",
+      "minecraft:zombie",
+      "minecraft:husk",
+      "minecraft:drowned",
+      "minecraft:zombie_villager"
+    ],
+    "spawntype": "natural",
+    "incontrol": false,
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "zombie_extreme:zero_patient",
+      "zombie_extreme:parasite",
+      "zombie_extreme:chainsaw",
+      "zombie_extreme:devestated",
+      "zombie_extreme:military",
+      "zombie_extreme:assasin_black_ops",
       "undead_revamp2:thebeartamer",
       "undead_revamp2:thewolf",
       "undead_revamp2:axestrom",
-      "undead_revamp2:the_moonflower",
-      "undead_revamp2:thespectre",
-      "undead_revamp2:thegliter",
       "undead_revamp2:slaveman",
       "undead_revamp2:theimmortal",
       "undead_revamp2:invisiimmortal",
@@ -34,16 +67,10 @@
       "undead_revamp2:invisilehcery",
       "undead_revamp2:weakspot",
       "undead_revamp2:theposessive",
-      "undead_revamp2:thelurker",
-      "undead_revamp2:theswarmer",
-      "undead_revamp2:theskeeper",
       "undead_revamp2:thesomnolence",
       "undead_revamp2:thehorrors",
       "undead_revamp2:thehorrorsdecoys",
-      "undead_revamp2:therod",
       "undead_revamp2:sucker",
-      "undead_revamp2:bigsucker",
-      "undead_revamp2:clogger",
       "undead_revamp2:grounded_clogger",
       "undead_revamp2:invisiclogger",
       "undead_revamp2:grounded_invisiclogger",
@@ -55,22 +82,7 @@
       "undead_revamp2:crackleball",
       "undead_revamp2:propball_1",
       "undead_revamp2:smokesmitter",
-      "zombie_extreme:faceless",
-      "zombie_extreme:revived",
-      "zombie_extreme:parasite",
-      "zombie_extreme:fetus",
-      "zombie_extreme:divided",
-      "zombie_extreme:night_hunter",
-      "zombie_extreme:clicker",
-      "zombie_extreme:rat_king",
-      "zombie_extreme:zero_patient",
-      "zombie_extreme:ram",
-      "zombie_extreme:demolisher",
-      "zombie_extreme:devestated",
-      "zombie_extreme:chainsaw",
-      "zombie_extreme:goon",
-      "zombie_extreme:military",
-      "zombie_extreme:assasin_black_ops"
+      "undead_revamp2:therabidus"
     ],
     "result": "deny"
   },
@@ -83,52 +95,62 @@
     "result": "deny"
   },
   {
-    "mod": "undead_revamp2",
-    "incontrol": true,
-    "mincount": {
-      "amount": 2,
-      "mod": "undead_revamp2",
-      "perplayer": true
-    },
-    "result": "deny"
-  },
-  {
     "mob": [
       "zombie_extreme:boomer",
       "zombie_extreme:inflated",
       "zombie_extreme:explosive_infected",
-      "zombie_extreme:infected_juggernaut"
+      "zombie_extreme:infected_juggernaut",
+      "zombie_extreme:demolisher",
+      "undead_revamp2:theheavy",
+      "undead_revamp2:thepregnant",
+      "undead_revamp2:thelurker"
     ],
     "incontrol": true,
     "mincount": {
-      "amount": 1,
+      "amount": 2,
       "mob": [
         "zombie_extreme:boomer",
         "zombie_extreme:inflated",
         "zombie_extreme:explosive_infected",
-        "zombie_extreme:infected_juggernaut"
+        "zombie_extreme:infected_juggernaut",
+        "zombie_extreme:demolisher",
+        "undead_revamp2:theheavy",
+        "undead_revamp2:thepregnant",
+        "undead_revamp2:thelurker"
       ],
       "perplayer": true
     },
     "result": "deny"
   },
   {
-    "mob": [
-      "zombie_extreme:infected_police",
-      "zombie_extreme:infected_military",
-      "zombie_extreme:infected_hazmat"
-    ],
+    "mob": "zombie_extreme:infected_police",
     "incontrol": true,
-    "mincount": {
-      "amount": 4,
-      "mob": [
-        "zombie_extreme:infected_police",
-        "zombie_extreme:infected_military",
-        "zombie_extreme:infected_hazmat"
-      ],
-      "perplayer": true
-    },
-    "result": "deny"
+    "area": "zc_d_acacias",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_police",
+    "incontrol": true,
+    "area": "zc_d_boavista",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_police",
+    "incontrol": true,
+    "area": "zc_d_operaria",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_police",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_police",
+    "incontrol": true,
+    "area": "zc_d_saude",
+    "result": "allow"
   },
   {
     "mob": "zombie_extreme:infected_police",
@@ -137,26 +159,193 @@
     "result": "allow"
   },
   {
-    "mob": "zombie_extreme:infected_police",
+    "mob": "undead_revamp2:thesmoker",
     "incontrol": true,
-    "building": [
-      "zc_world:police",
-      "police"
-    ],
+    "area": "zc_d_acacias",
     "result": "allow"
   },
   {
-    "mob": "zombie_extreme:infected_police",
+    "mob": "undead_revamp2:thesmoker",
     "incontrol": true,
-    "instreet": true,
-    "random": 0.15,
+    "area": "zc_d_boavista",
     "result": "allow"
   },
   {
-    "mob": [
-      "zombie_extreme:infected_military",
-      "zombie_extreme:infected_juggernaut"
-    ],
+    "mob": "undead_revamp2:thesmoker",
+    "incontrol": true,
+    "area": "zc_d_operaria",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thesmoker",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thesmoker",
+    "incontrol": true,
+    "area": "zc_d_saude",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:bomber",
+    "incontrol": true,
+    "area": "zc_d_saude",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:bomber",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:bomber",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:bomber",
+    "incontrol": true,
+    "area": "zc_galeria",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:theordure",
+    "incontrol": true,
+    "area": "zc_d_saude",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:theordure",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:theordure",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:theordure",
+    "incontrol": true,
+    "area": "zc_galeria",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:therod",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thehunter",
+    "incontrol": true,
+    "area": "zc_d_saude",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thehunter",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thehunter",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thehunter",
+    "incontrol": true,
+    "area": "zc_galeria",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:the_moonflower",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:theswarmer",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:clicker",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thespitter",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thespitter",
+    "incontrol": true,
+    "area": "zc_galeria",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:theskeeper",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:theskeeper",
+    "incontrol": true,
+    "area": "zc_galeria",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:boomer",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:boomer",
+    "incontrol": true,
+    "area": "zc_galeria",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_military",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_military",
+    "incontrol": true,
+    "area": "zc_d_rural_w",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_military",
+    "incontrol": true,
+    "area": "zc_d_rural_s",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_military",
+    "incontrol": true,
+    "area": "zc_d_industrial",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_military",
     "incontrol": true,
     "area": "zc_base_cerco",
     "result": "allow"
@@ -188,6 +377,24 @@
   {
     "mob": "zombie_extreme:infected_hazmat",
     "incontrol": true,
+    "area": "zc_d_rural_w",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_hazmat",
+    "incontrol": true,
+    "area": "zc_d_rural_s",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_hazmat",
+    "incontrol": true,
+    "area": "zc_d_industrial",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_hazmat",
+    "incontrol": true,
     "area": "zc_campus",
     "result": "allow"
   },
@@ -200,96 +407,160 @@
   {
     "mob": "zombie_extreme:infected_hazmat",
     "incontrol": true,
+    "area": "zc_ute",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:inflated",
+    "incontrol": true,
+    "area": "zc_d_rural_w",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:inflated",
+    "incontrol": true,
+    "area": "zc_d_rural_s",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:inflated",
+    "incontrol": true,
+    "area": "zc_d_industrial",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:bigsucker",
+    "incontrol": true,
+    "area": "zc_d_rural_w",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:bigsucker",
+    "incontrol": true,
+    "area": "zc_d_rural_s",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:bigsucker",
+    "incontrol": true,
+    "area": "zc_d_industrial",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thepregnant",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thegliter",
+    "incontrol": true,
+    "area": "zc_d_acacias",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thelurker",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:fetus",
+    "incontrol": true,
+    "area": "zc_d_boavista",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:explosive_infected",
+    "incontrol": true,
+    "area": "zc_d_boavista",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thebidy",
+    "incontrol": true,
+    "area": "zc_d_boavista",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:goon",
+    "incontrol": true,
     "area": "zc_base_cerco",
-    "random": 0.3,
     "result": "allow"
   },
   {
-    "mob": [
-      "zombie_extreme:infected",
-      "zombie_extreme:crawler"
-    ],
+    "mob": "zombie_extreme:rat_king",
     "incontrol": true,
-    "area": "zc_hospital",
-    "result": "allow"
-  },
-  {
-    "mob": [
-      "zombie_extreme:infected",
-      "zombie_extreme:crawler"
-    ],
-    "incontrol": true,
-    "building": [
-      "zc_world:hospital00",
-      "zc_world:hospital01",
-      "zc_world:hospital10",
-      "zc_world:hospital11",
-      "hospital00",
-      "hospital01",
-      "hospital10",
-      "hospital11",
-      "zc_world:pharmacy",
-      "pharmacy"
-    ],
-    "result": "allow"
-  },
-  {
-    "mob": "zombie_extreme:crawler",
-    "incontrol": true,
-    "incity": true,
-    "result": "allow"
-  },
-  {
-    "mob": "zombie_extreme:runner",
-    "incontrol": true,
-    "incity": true,
-    "result": "allow"
-  },
-  {
-    "mob": [
-      "zombie_extreme:boomer",
-      "zombie_extreme:inflated",
-      "zombie_extreme:explosive_infected"
-    ],
-    "incontrol": true,
-    "instreet": true,
+    "area": "zc_base_cerco",
     "result": "allow"
   },
   {
     "mob": "zombie_extreme:infected_juggernaut",
     "incontrol": true,
-    "incity": true,
-    "random": 0.25,
+    "area": "zc_base_cerco",
     "result": "allow"
   },
   {
-    "mob": [
-      "undead_revamp2:bomber",
-      "undead_revamp2:therabidus",
-      "undead_revamp2:thespitter",
-      "undead_revamp2:theheavy"
-    ],
+    "mob": "zombie_extreme:demolisher",
     "incontrol": true,
-    "incity": true,
+    "area": "zc_base_cerco",
     "result": "allow"
   },
   {
-    "mob": [
-      "undead_revamp2:thesmoker",
-      "undead_revamp2:theordure",
-      "undead_revamp2:thepregnant"
-    ],
-    "incontrol": true,
-    "inbuilding": true,
-    "result": "allow"
-  },
-  {
-    "mob": [
-      "undead_revamp2:theheavy",
-      "undead_revamp2:thesmoker"
-    ],
+    "mob": "zombie_extreme:revived",
     "incontrol": true,
     "area": "zc_campus",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:divided",
+    "incontrol": true,
+    "area": "zc_campus",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:ram",
+    "incontrol": true,
+    "area": "zc_campus",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thespectre",
+    "incontrol": true,
+    "area": "zc_campus",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:theheavy",
+    "incontrol": true,
+    "area": "zc_campus",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:night_hunter",
+    "incontrol": true,
+    "area": "zc_ute",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:faceless",
+    "incontrol": true,
+    "area": "zc_ute",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:clogger",
+    "incontrol": true,
+    "area": "zc_ute",
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "zombie_extreme:infected",
+      "zombie_extreme:crawler"
+    ],
+    "incontrol": true,
+    "area": "zc_hospital",
     "result": "allow"
   },
   {

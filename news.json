@@ -1,20 +1,20 @@
 [
   {
-    "title": "Versão 0.3.1 no ar",
-    "date": "01/10",
+    "title": "Versão 0.3.2 no ar",
+    "date": "02/10",
     "tag": "ATUALIZAÇÃO",
-    "body": "Carros de verdade, todos quebrados: ache as peças, conserte e dirija.\nCidade refeita: ruas contínuas, escadarias, mato tomando o asfalto.\nMenus, hotbar e telas no clima do apocalipse. Sapatos e furtividade abafam seus passos."
+    "body": "Itaverá foi refeita: favelas, comércio de bairro, prédios com interiores, esgoto e metrô.\nZumbis novos com rostos e vozes diferentes, nas ruas e dentro dos prédios. A cada dia são mais.\nMenos carros nas ruas. Crie um mundo novo para ver a cidade nova."
   },
   {
     "title": "CANAL 7 — ALERTA",
-    "date": "01/10 20:00",
+    "date": "02/10 01:00",
     "style": "radio",
-    "body": "Achou um carro? Antes de mexer, olhe em volta.\nDesmontar faz barulho. E barulho chama eles."
+    "body": "Não desçam pelos bueiros sem luz.\nO metrô parou com gente dentro. Ninguém saiu."
   },
   {
-    "title": "Comece um mundo novo",
-    "date": "01/10",
+    "title": "Cada dia pior",
+    "date": "02/10",
     "tag": "AVISO",
-    "body": "A cidade mudou por completo nesta versão.\nMundos antigos vão ficar com emendas: para jogar a 0.3.1 do jeito certo, crie um mundo novo."
+    "body": "A quantidade de infectados cresce com os dias da quarentena.\nNo dia 30 são quase o dobro. Organize seu grupo cedo."
   }
 ]
