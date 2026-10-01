@@ -1,20 +1,20 @@
 [
   {
-    "title": "Versão 0.3.0 no ar",
+    "title": "Versão 0.3.1 no ar",
     "date": "01/10",
     "tag": "ATUALIZAÇÃO",
-    "body": "A história agora pode ser jogada até o fim: safezones com sobreviventes, rádio, corte de água e luz, 7 bosses, o laboratório e o cerco do Portão 1.\nNovos infectados: policiais, militares, hazmat e mutações a partir do dia 7.\nCidades novas, GPS com minimapa e barulho de passos e voz que atrai zumbis."
+    "body": "Carros de verdade, todos quebrados: ache as peças, conserte e dirija.\nCidade refeita: ruas contínuas, escadarias, mato tomando o asfalto.\nMenus, hotbar e telas no clima do apocalipse. Sapatos e furtividade abafam seus passos."
   },
   {
     "title": "CANAL 7 — ALERTA",
-    "date": "01/10 07:00",
+    "date": "01/10 20:00",
     "style": "radio",
-    "body": "Quem tiver rádio: a Joana fala na 98.3 a partir do quarto dia.\nNão gritem no rádio. Eles escutam. Repito: eles escutam."
+    "body": "Achou um carro? Antes de mexer, olhe em volta.\nDesmontar faz barulho. E barulho chama eles."
   },
   {
-    "title": "Como começar",
+    "title": "Comece um mundo novo",
     "date": "01/10",
     "tag": "AVISO",
-    "body": "Você acorda só de roupa íntima. Pegue pedrinhas no chão, faça uma lasca e uma faca, corte mato e galhos.\nAperte J para o Prólogo: ele ensina tudo, passo a passo."
+    "body": "A cidade mudou por completo nesta versão.\nMundos antigos vão ficar com emendas: para jogar a 0.3.1 do jeito certo, crie um mundo novo."
   }
 ]

@@ -1,0 +1,82 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = pause_screen
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1790000000000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+element {
+  element_type = image
+  instance_identifier = zc_pause_vignette
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  stay_on_screen = false
+  enable_parallax = false
+  source = [source:local]/config/fancymenu/assets/zomboidcraft/pause_vignette.png
+  stretch_x = true
+  stretch_y = true
+}
+
+element {
+  element_type = image
+  instance_identifier = zc_pause_logo
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = top-left
+  x = 6
+  y = 6
+  width = 90
+  height = 30
+  stay_on_screen = false
+  enable_parallax = false
+  source = [source:local]/config/fancymenu/assets/zomboidcraft/logo.png
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = zc_pause_version
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = bottom-left
+  x = 4
+  y = -20
+  width = 160
+  height = 20
+  stay_on_screen = false
+  enable_parallax = false
+  source = ZomboidCraft 0.3.1
+  source_mode = direct
+  base_color = #8C8174
+  scale = 1.0
+  shadow = true
+  text_border = 0
+  line_spacing = 1
+  parse_markdown = false
+  auto_line_wrapping = false
+  enable_scrolling = false
+  interactable = false
+}
+

@@ -1,0 +1,23 @@
+{
+  "defaultCycleTime": 9000,
+  "ignoredNamespaces": [
+    "tipsmod"
+  ],
+  "ignoredTips": [],
+  "hideUnlocalizedTips": false,
+  "tipRenderWidthPercent": 0.42,
+  "defaultTitle": {
+    "text": "",
+    "extra": [
+      {
+        "text": "\u00bb",
+        "color": "#B3261E"
+      },
+      {
+        "text": " DI\u00c1RIO DE SOBREVIV\u00caNCIA",
+        "color": "#D9A43A",
+        "bold": true
+      }
+    ]
+  }
+}
