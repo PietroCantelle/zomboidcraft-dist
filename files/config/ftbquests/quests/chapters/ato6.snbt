@@ -182,7 +182,7 @@
 				{
 					icon: "minecraft:wither_skeleton_skull"
 					id: "5EFA815BF4374B2F"
-					title: "O Escafandro caiu (por vocês ou por outro grupo)"
+					title: "O Escafandro caiu — com você na luta (esquadrão, tecla ])"
 					type: "custom"
 				}
 				{

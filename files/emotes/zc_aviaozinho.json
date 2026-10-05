@@ -1,0 +1,124 @@
+{
+ "name": "Aviãozinho",
+ "author": "ZomboidCraft",
+ "description": "Comemoração de gol: braços abertos, inclinando de um lado pro outro.",
+ "uuid": "5a1f2c3e-0b0c-4d6e-9a01-7c0e5aa10001",
+ "emote": {
+  "isLoop": "true",
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 40,
+  "stopTick": 43,
+  "degrees": true,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "InOutSine",
+    "rightArm": {
+     "roll": 90
+    },
+    "leftArm": {
+     "roll": -90
+    },
+    "head": {
+     "pitch": -10
+    }
+   },
+   {
+    "tick": 0,
+    "easing": "InOutSine",
+    "torso": {
+     "roll": 12
+    },
+    "rightArm": {
+     "roll": 102
+    },
+    "leftArm": {
+     "roll": -78
+    },
+    "rightLeg": {
+     "pitch": -25
+    },
+    "leftLeg": {
+     "pitch": 15
+    }
+   },
+   {
+    "tick": 10,
+    "easing": "InOutSine",
+    "torso": {
+     "roll": -12
+    },
+    "rightArm": {
+     "roll": 78
+    },
+    "leftArm": {
+     "roll": -102
+    },
+    "rightLeg": {
+     "pitch": 15
+    },
+    "leftLeg": {
+     "pitch": -25
+    }
+   },
+   {
+    "tick": 20,
+    "easing": "InOutSine",
+    "torso": {
+     "roll": 12
+    },
+    "rightArm": {
+     "roll": 102
+    },
+    "leftArm": {
+     "roll": -78
+    },
+    "rightLeg": {
+     "pitch": -25
+    },
+    "leftLeg": {
+     "pitch": 15
+    }
+   },
+   {
+    "tick": 30,
+    "easing": "InOutSine",
+    "torso": {
+     "roll": -12
+    },
+    "rightArm": {
+     "roll": 78
+    },
+    "leftArm": {
+     "roll": -102
+    },
+    "rightLeg": {
+     "pitch": 15
+    },
+    "leftLeg": {
+     "pitch": -25
+    }
+   },
+   {
+    "tick": 40,
+    "easing": "InOutSine",
+    "torso": {
+     "roll": 12
+    },
+    "rightArm": {
+     "roll": 102
+    },
+    "leftArm": {
+     "roll": -78
+    },
+    "rightLeg": {
+     "pitch": -25
+    },
+    "leftLeg": {
+     "pitch": 15
+    }
+   }
+  ]
+ }
+}

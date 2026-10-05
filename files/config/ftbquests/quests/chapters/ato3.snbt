@@ -67,7 +67,7 @@
 				"Com pouca vida ele &eajoelha e se rende&r. A escolha é de vocês:"
 				"&e• Poupar:&r agache e segure clique direito nele por 3 s (ou algeme). Ele vira prisioneiro no Refúgio (Pedágio)."
 				"&e• Executar:&r bata de novo. Loot completo, e o Refúgio não gosta (Os Corvos)."
-				"As duas rotas seguem a história."
+				"As duas rotas seguem a história. O destino do Dente é um só por mundo: vale a primeira rendição ou execução. Esquadrões que chegarem depois ainda enfrentam o Dente (a vitória conta para eles), mas o mundo mantém o destino já escrito."
 			]
 			icon: "minecraft:iron_bars"
 			id: "53317F5316D7CB51"
@@ -88,7 +88,7 @@
 				{
 					icon: "minecraft:wither_skeleton_skull"
 					id: "6BB9FF8991FEA31C"
-					title: "O Dente caiu: rendido ou morto (por vocês ou por outro grupo)"
+					title: "O Dente caiu: rendido ou morto (com você na luta)"
 					type: "custom"
 				}
 			]

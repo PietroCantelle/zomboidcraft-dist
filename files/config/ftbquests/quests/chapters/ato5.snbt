@@ -100,7 +100,7 @@
 				{
 					icon: "minecraft:wither_skeleton_skull"
 					id: "7A0B118862B77966"
-					title: "O Inchado caiu (por vocês ou por outro grupo)"
+					title: "O Inchado caiu — com você na luta (esquadrão, tecla ])"
 					type: "custom"
 				}
 				{
@@ -274,7 +274,7 @@
 				{
 					icon: "minecraft:wither_skeleton_skull"
 					id: "12737CE7AC924FD5"
-					title: "A Major caiu (por vocês ou por outro grupo)"
+					title: "A Major caiu — com você na luta (esquadrão, tecla ])"
 					type: "custom"
 				}
 				{
@@ -333,7 +333,7 @@
 				{
 					icon: "minecraft:wither_skeleton_skull"
 					id: "7409B0FBC792A4FD"
-					title: "O Paciente Zero caiu (por vocês ou por outro grupo)"
+					title: "O Paciente Zero caiu — com você na luta (esquadrão, tecla ])"
 					type: "custom"
 				}
 				{
@@ -365,9 +365,9 @@
 				"06A034B0A8F904CA"
 			]
 			description: [
-				"&7&oJoana: \"Então a gente pode... se alguém morrer, a gente tem um minuto. A gente tem um minuto! (pausa) Eu vou pedir pra todo mundo parar de andar sozinho. Porque um minuto só serve se tiver alguém do lado.\""
+				"&7&oJoana: \"Então a gente pode... se alguém for mordido, a gente tem um tempo. A gente tem um tempo! (pausa) Eu vou pedir pra todo mundo parar de andar sozinho. Porque esse tempo só serve se tiver alguém do lado.\""
 				""
-				"RIMIDAX, adrenalina, glicose, um carreador de oxigênio. A &eInjeção de Reversão&r não traz ninguém de volta da morte: traz de volta dos primeiros minutos da morte. É muito menos. É tudo."
+				"RIMIDAX, adrenalina, glicose, um carreador de oxigênio. A &eInjeção de Reversão&r não traz ninguém de volta da morte: segura o Knox &eantes&r de ele terminar o serviço. Aplicada depois que a pessoa levanta, não serve para nada. É muito menos. É tudo."
 				"Leia a fórmula (clique direito) e fabrique a primeira injeção do grupo (veja a receita no EMI)."
 			]
 			icon: "zc_player:reversal_injection"

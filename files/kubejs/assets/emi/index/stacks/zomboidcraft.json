@@ -2,6 +2,11 @@
   "filters": [
     "minecraft:enchanted_book",
     "minecraft:enchanting_table",
-    "minecraft:ender_eye"
+    "minecraft:ender_eye",
+    "supplementaries:bomb",
+    "supplementaries:bomb_blue",
+    "supplementaries:bomb_spiky",
+    "supplementaries:cannon",
+    "supplementaries:cannonball"
   ]
 }

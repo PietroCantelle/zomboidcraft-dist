@@ -35,3 +35,7 @@ key_gui.xaero_new_waypoint:key.keyboard.u:SHIFT
 key_gui.xaero_enlarge_map:key.keyboard.period
 key_gui.xaero_minimap_settings:key.keyboard.f12
 key_gui.xaero_instant_waypoint:key.keyboard.unknown
+key_key.emotecraft.fastchoose:key.keyboard.minus
+key_key.emotecraft.stop:key.keyboard.unknown
+key_key.emotecraft.debug:key.keyboard.unknown
+key_supplementaries.keybind.quiver:key.keyboard.v

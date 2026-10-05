@@ -604,8 +604,8 @@
 				"2A0E1C87E69C2915"
 			]
 			description: [
-				"Clique direito numa &epochete&r para prendê-la na cintura: libera alguns espaços do inventário &enesta vida&r."
-				"Há um limite por personagem, e ela se perde quando você morre de verdade."
+				"Clique direito numa &epochete&r para prendê-la na cintura: libera alguns espaços do inventário &edo personagem&r."
+				"Há um limite por personagem. Morrer não tira: o personagem continua o mesmo, e as pochetes com ele."
 				"Receita: barbante e três couros. Couro de verdade é raro; carne podre vira couro devagar (defumar duas vezes)."
 			]
 			icon: "zc_player:fanny_pack"
@@ -734,10 +734,11 @@
 				"337BF1AEEFC5432C"
 			]
 			description: [
-				"Quando você morre, você &clevanta&r: um infectado com o seu rosto e tudo o que você carregava. Você fica lá dentro, vendo pelos próprios olhos, sem controle."
-				"Nos primeiros instantes, alguém com uma &eInjeção de Reversão&r pode te trazer de volta: clique direito no infectado e fique parado uns segundos. Você volta fraco, com as suas coisas."
-				"Depois de um tempo, aparece a opção &eDesistir (G)&r: você renasce na sua cama (ou numa casa qualquer) sem nada. O corpo continua andando por aí com os seus itens até alguém derrubá-lo."
-				"&8Por isso ninguém anda sozinho: a injeção só serve se tiver alguém do lado."
+				"Morrer não apaga quem você é. Você acorda na &eúltima cama em que dormiu&r (sem cama, numa casa qualquer) com o mesmo nome, a mesma profissão e as mesmas habilidades. Mas &cnada&r do que você carregava vem junto."
+				"Morreu de tombo, tiro, fome ou frio? O seu &ecorpo&r fica lá caído, com tudo. Clique direito nele para &erevistar&r: qualquer um pode pegar. &e\"Pegar tudo\"&r veste de volta roupa, armadura e mochila. Vazio, dá para enterrar."
+				"Morreu &cinfectado&r? Aí você &clevanta&r: um infectado com o seu rosto, a sua roupa e a sua mochila nas costas. Derrube ele e as suas coisas caem no chão."
+				"A &eInjeção de Reversão&r não traz ninguém de volta. Ela segura o &cKnox&r antes de ele terminar o serviço: segure o clique direito para aplicar em você, ou clique direito em alguém. É raríssima."
+				"&8Por isso ninguém anda sozinho: alguém precisa voltar lá para buscar o que você deixou."
 			]
 			icon: "zc_player:reversal_injection"
 			id: "498745CEE37C4EAA"
@@ -749,8 +750,15 @@
 					title: "Entendi"
 					type: "checkmark"
 				}
+				{
+					icon: "minecraft:bone"
+					id: "3E0A0D64F33063BB"
+					optional_task: true
+					title: "Reviste um corpo"
+					type: "custom"
+				}
 			]
-			title: "A Janela de Lázaro"
+			title: "Morrer em Itaverá"
 			x: 12.0d
 			y: 4.0d
 		}

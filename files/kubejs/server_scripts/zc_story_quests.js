@@ -5,12 +5,13 @@
 // A cada 2 s, para cada jogador online:
 //   - local: ZcLocations.at(nível, pos) do zc_world -> tag zc_quests_visited_<local>;
 //   - inventário: itens-chave do zc_story -> tag zc_quests_had_<item> (fica mesmo depois de usar o item);
-//   - bosses: zc_boss_<id>_defeated em qualquer jogador fica gravado no mundo (persistentData) e vale para todos (o
-//     boss não renasce; missão principal é do servidor);
+//   - bosses: zc_boss_<id>_defeated vale só para quem tem a tag (zc_bosses 0.3.4: vitória por jogador, esquadrões);
+//     nada é lembrado no mundo (as marcas zcq_zc_boss_* antigas do persistentData são ignoradas);
 //   - tarefas: as que casam e ainda não estão completas recebem addProgress(id, 1) (max = 1).
 // Comandos (op): /zcquests selftest | /zcquests poll | /zcquests check (o próprio jogador) | /zcquests tags.
 
 const ZCQ_HOOKS = [ // [task id, quest key, [any of these tags], optional task?]
+  ["3E0A0D64F33063BB", "janela", ["zc_player_corpse_searched"], true],
   ["18A398AED45135F9", "m02", ["zc_story_heard_livre", "zc_story_radio_livre_found", "zc_story_heard_livre_d4"]],
   ["065D91FBF915CDCA", "m03_colegio", ["zc_quests_visited_safezone_colegio"]],
   ["313ECD692140B1B2", "m03_colegio", ["zc_story_m03_tiao", "zc_story_met_tiao"]],
@@ -27,7 +28,7 @@ const ZCQ_HOOKS = [ // [task id, quest key, [any of these tags], optional task?]
   ["252ABF53D5C6BC5E", "m08_ute", ["zc_note_note_bigode_ledger"], true],
   ["04C45F79144F9863", "m10", ["zc_quests_had_disjuntor_52_3", "zc_story_disjuntor_installed", "zc_story_grid_restored"]],
   ["4A4D65F05483E3D8", "m10", ["zc_quests_had_fusivel_industrial", "zc_story_ute_ready", "zc_story_grid_restored"]],
-  ["6BB9FF8991FEA31C", "m09_dente", ["zc_boss_dente_defeated", "zc_story_dente_spared", "zc_story_dente_killed", "zc_story_dente_ally"]],
+  ["6BB9FF8991FEA31C", "m09_dente", ["zc_boss_dente_defeated"]],
   ["604992A133D4AA98", "m09a", ["zc_story_dente_killed", "zc_dente_killed"]],
   ["25B4D6380BCB205D", "m09b", ["zc_story_dente_spared", "zc_story_dente_ally", "zc_dente_spared"]],
   ["3665120B9DD65A13", "m09b", ["zc_story_dente_taught", "zc_story_met_dente_done"], true],
@@ -361,52 +362,52 @@ const ZCQ_PRODUCIBLE = [
   "zc_note_tape_caio_1", "zc_note_tape_caio_10", "zc_note_tape_caio_2", "zc_note_tape_caio_3",
   "zc_note_tape_caio_4", "zc_note_tape_caio_5", "zc_note_tape_caio_6", "zc_note_tape_caio_7",
   "zc_note_tape_caio_8", "zc_note_tape_caio_9", "zc_note_tape_cftv_fila", "zc_note_tape_lidia_1",
-  "zc_quests_had_alianca_rafael", "zc_quests_had_amostra_primaria", "zc_quests_had_cartao_acesso_veridia", "zc_quests_had_cartao_lidia",
-  "zc_quests_had_chave_arsenal", "zc_quests_had_chave_casa_sampaio", "zc_quests_had_chave_portao_a", "zc_quests_had_chave_portao_b",
-  "zc_quests_had_chave_tunel_servico", "zc_quests_had_cracha_galeria", "zc_quests_had_cracha_seguranca_hospital", "zc_quests_had_disjuntor_52_3",
-  "zc_quests_had_formula_rimidax", "zc_quests_had_fragmento_codigo_1", "zc_quests_had_fragmento_codigo_2", "zc_quests_had_fragmento_codigo_3",
-  "zc_quests_had_fusivel_industrial", "zc_quests_had_manual_vbtp", "zc_quests_had_mapa_anotado", "zc_quests_had_megafone_arauto",
-  "zc_quests_had_pano_branco", "zc_quests_had_plaqueta_brandao", "zc_quests_had_radio_militar", "zc_quests_had_radio_portatil",
-  "zc_quests_visited_base_cerco", "zc_quests_visited_batalhao", "zc_quests_visited_bombeiros", "zc_quests_visited_campus_veridia",
-  "zc_quests_visited_eta", "zc_quests_visited_galeria", "zc_quests_visited_hospital", "zc_quests_visited_portao1",
-  "zc_quests_visited_presidio", "zc_quests_visited_safezone_colegio", "zc_quests_visited_safezone_galpao", "zc_quests_visited_safezone_matriz",
-  "zc_quests_visited_subestacao", "zc_quests_visited_tunel_servico", "zc_quests_visited_unidade4", "zc_quests_visited_ute",
-  "zc_story_act5", "zc_story_bigode_exposed", "zc_story_broadcast_helper", "zc_story_cida_library",
-  "zc_story_code_accepted", "zc_story_cofre_open", "zc_story_colegio_reached", "zc_story_coronel_contact",
-  "zc_story_coronel_listens", "zc_story_defended_colegio", "zc_story_defended_galpao", "zc_story_defended_matriz",
-  "zc_story_dente_ally", "zc_story_dente_killed", "zc_story_dente_killed_seen", "zc_story_dente_prisoner",
-  "zc_story_dente_spared", "zc_story_dente_taught", "zc_story_disjuntor_installed", "zc_story_door_cartao_acesso_veridia_opened",
-  "zc_story_door_chave_arsenal_opened", "zc_story_door_chave_tunel_servico_opened", "zc_story_ended", "zc_story_ending_entrega",
-  "zc_story_ending_os_poucos", "zc_story_ending_seen", "zc_story_ending_silencio", "zc_story_ending_transmissao",
-  "zc_story_ending_vote", "zc_story_escaped", "zc_story_formula_broadcast", "zc_story_formula_found",
-  "zc_story_formula_read", "zc_story_frag_1", "zc_story_frag_1_downloaded", "zc_story_frag_2",
-  "zc_story_frag_2_downloaded", "zc_story_frag_3", "zc_story_frag_3_downloaded", "zc_story_fragment_1_found",
-  "zc_story_fragment_2_found", "zc_story_fragment_3_found", "zc_story_gate_open", "zc_story_grid_off",
-  "zc_story_grid_restored", "zc_story_heard_cerco", "zc_story_heard_cerco_open", "zc_story_heard_cerco_prado",
-  "zc_story_heard_livre", "zc_story_heard_livre_cida", "zc_story_heard_livre_d21", "zc_story_heard_livre_d4",
-  "zc_story_heard_livre_lights", "zc_story_heard_livre_numbers", "zc_story_heard_livre_open", "zc_story_heard_numeros",
-  "zc_story_heard_sae", "zc_story_helena_recipe", "zc_story_intercom_used", "zc_story_intro_seen",
-  "zc_story_joana_down", "zc_story_job_r01_agua_done", "zc_story_job_r02_colheita_done", "zc_story_job_r03_lenha_done",
-  "zc_story_job_r05_ronda_done", "zc_story_job_r06_remedios_done", "zc_story_job_r08_encomenda_done", "zc_story_job_r08b_eletronicos_done",
-  "zc_story_job_r09_revezamento_done", "zc_story_job_r10_rua_morta_done", "zc_story_job_r11_combustivel_done", "zc_story_job_r12_limpeza_done",
-  "zc_story_job_r13_carga_done", "zc_story_job_r14_pilhas_done", "zc_story_keys_turned", "zc_story_lab_1_access",
-  "zc_story_lab_2_access", "zc_story_lab_3_access", "zc_story_m03_cida", "zc_story_m03_tiao",
-  "zc_story_m04_done", "zc_story_m04_met", "zc_story_m09b_done", "zc_story_m12_cida",
-  "zc_story_m13_cida", "zc_story_m22_joana", "zc_story_m22_silencio", "zc_story_met_bigode",
-  "zc_story_met_bigode_done", "zc_story_met_cida", "zc_story_met_civilian", "zc_story_met_coronel",
-  "zc_story_met_dente", "zc_story_met_dente_done", "zc_story_met_guard", "zc_story_met_helena",
-  "zc_story_met_helena_done", "zc_story_met_joana", "zc_story_met_joana_done", "zc_story_met_neide",
-  "zc_story_met_tiao", "zc_story_met_trader", "zc_story_radio_livre_found", "zc_story_rep_colegio_confiavel",
-  "zc_story_rep_colegio_conhecido", "zc_story_rep_colegio_desconhecido", "zc_story_rep_colegio_familia", "zc_story_rep_colegio_hostil",
-  "zc_story_rep_colegio_tolerado", "zc_story_rep_galpao_confiavel", "zc_story_rep_galpao_conhecido", "zc_story_rep_galpao_desconhecido",
-  "zc_story_rep_galpao_familia", "zc_story_rep_galpao_hostil", "zc_story_rep_galpao_tolerado", "zc_story_rep_matriz_confiavel",
-  "zc_story_rep_matriz_conhecido", "zc_story_rep_matriz_desconhecido", "zc_story_rep_matriz_familia", "zc_story_rep_matriz_hostil",
-  "zc_story_rep_matriz_tolerado", "zc_story_s07_exposed", "zc_story_s07_silence", "zc_story_safezone_colegio_fallen",
-  "zc_story_safezone_galpao_fallen", "zc_story_safezone_matriz_fallen", "zc_story_siege_active", "zc_story_siege_night",
-  "zc_story_siege_night_1", "zc_story_siege_night_2", "zc_story_siege_night_3", "zc_story_siege_started",
-  "zc_story_silencio_warning", "zc_story_soro_used", "zc_story_traded_colegio", "zc_story_traded_galpao",
-  "zc_story_traded_matriz", "zc_story_ute_ready", "zc_story_voted", "zc_story_water_off",
-  "zc_story_water_restored",
+  "zc_player_corpse_buried", "zc_player_corpse_searched", "zc_quests_had_alianca_rafael", "zc_quests_had_amostra_primaria",
+  "zc_quests_had_cartao_acesso_veridia", "zc_quests_had_cartao_lidia", "zc_quests_had_chave_arsenal", "zc_quests_had_chave_casa_sampaio",
+  "zc_quests_had_chave_portao_a", "zc_quests_had_chave_portao_b", "zc_quests_had_chave_tunel_servico", "zc_quests_had_cracha_galeria",
+  "zc_quests_had_cracha_seguranca_hospital", "zc_quests_had_disjuntor_52_3", "zc_quests_had_formula_rimidax", "zc_quests_had_fragmento_codigo_1",
+  "zc_quests_had_fragmento_codigo_2", "zc_quests_had_fragmento_codigo_3", "zc_quests_had_fusivel_industrial", "zc_quests_had_manual_vbtp",
+  "zc_quests_had_mapa_anotado", "zc_quests_had_megafone_arauto", "zc_quests_had_pano_branco", "zc_quests_had_plaqueta_brandao",
+  "zc_quests_had_radio_militar", "zc_quests_had_radio_portatil", "zc_quests_visited_base_cerco", "zc_quests_visited_batalhao",
+  "zc_quests_visited_bombeiros", "zc_quests_visited_campus_veridia", "zc_quests_visited_eta", "zc_quests_visited_galeria",
+  "zc_quests_visited_hospital", "zc_quests_visited_portao1", "zc_quests_visited_presidio", "zc_quests_visited_safezone_colegio",
+  "zc_quests_visited_safezone_galpao", "zc_quests_visited_safezone_matriz", "zc_quests_visited_subestacao", "zc_quests_visited_tunel_servico",
+  "zc_quests_visited_unidade4", "zc_quests_visited_ute", "zc_story_act5", "zc_story_bigode_exposed",
+  "zc_story_broadcast_helper", "zc_story_cida_library", "zc_story_code_accepted", "zc_story_cofre_open",
+  "zc_story_colegio_reached", "zc_story_coronel_contact", "zc_story_coronel_listens", "zc_story_defended_colegio",
+  "zc_story_defended_galpao", "zc_story_defended_matriz", "zc_story_dente_ally", "zc_story_dente_killed",
+  "zc_story_dente_killed_seen", "zc_story_dente_prisoner", "zc_story_dente_spared", "zc_story_dente_taught",
+  "zc_story_disjuntor_installed", "zc_story_door_cartao_acesso_veridia_opened", "zc_story_door_chave_arsenal_opened", "zc_story_door_chave_tunel_servico_opened",
+  "zc_story_ended", "zc_story_ending_entrega", "zc_story_ending_os_poucos", "zc_story_ending_seen",
+  "zc_story_ending_silencio", "zc_story_ending_transmissao", "zc_story_ending_vote", "zc_story_escaped",
+  "zc_story_formula_broadcast", "zc_story_formula_found", "zc_story_formula_read", "zc_story_frag_1",
+  "zc_story_frag_1_downloaded", "zc_story_frag_2", "zc_story_frag_2_downloaded", "zc_story_frag_3",
+  "zc_story_frag_3_downloaded", "zc_story_fragment_1_found", "zc_story_fragment_2_found", "zc_story_fragment_3_found",
+  "zc_story_gate_open", "zc_story_grid_off", "zc_story_grid_restored", "zc_story_heard_cerco",
+  "zc_story_heard_cerco_open", "zc_story_heard_cerco_prado", "zc_story_heard_livre", "zc_story_heard_livre_cida",
+  "zc_story_heard_livre_d21", "zc_story_heard_livre_d4", "zc_story_heard_livre_lights", "zc_story_heard_livre_numbers",
+  "zc_story_heard_livre_open", "zc_story_heard_numeros", "zc_story_heard_sae", "zc_story_helena_recipe",
+  "zc_story_intercom_used", "zc_story_intro_seen", "zc_story_joana_down", "zc_story_job_r01_agua_done",
+  "zc_story_job_r02_colheita_done", "zc_story_job_r03_lenha_done", "zc_story_job_r05_ronda_done", "zc_story_job_r06_remedios_done",
+  "zc_story_job_r08_encomenda_done", "zc_story_job_r08b_eletronicos_done", "zc_story_job_r09_revezamento_done", "zc_story_job_r10_rua_morta_done",
+  "zc_story_job_r11_combustivel_done", "zc_story_job_r12_limpeza_done", "zc_story_job_r13_carga_done", "zc_story_job_r14_pilhas_done",
+  "zc_story_keys_turned", "zc_story_lab_1_access", "zc_story_lab_2_access", "zc_story_lab_3_access",
+  "zc_story_m03_cida", "zc_story_m03_tiao", "zc_story_m04_done", "zc_story_m04_met",
+  "zc_story_m09b_done", "zc_story_m12_cida", "zc_story_m13_cida", "zc_story_m22_joana",
+  "zc_story_m22_silencio", "zc_story_met_bigode", "zc_story_met_bigode_done", "zc_story_met_cida",
+  "zc_story_met_civilian", "zc_story_met_coronel", "zc_story_met_dente", "zc_story_met_dente_done",
+  "zc_story_met_guard", "zc_story_met_helena", "zc_story_met_helena_done", "zc_story_met_joana",
+  "zc_story_met_joana_done", "zc_story_met_neide", "zc_story_met_tiao", "zc_story_met_trader",
+  "zc_story_radio_livre_found", "zc_story_rep_colegio_confiavel", "zc_story_rep_colegio_conhecido", "zc_story_rep_colegio_desconhecido",
+  "zc_story_rep_colegio_familia", "zc_story_rep_colegio_hostil", "zc_story_rep_colegio_tolerado", "zc_story_rep_galpao_confiavel",
+  "zc_story_rep_galpao_conhecido", "zc_story_rep_galpao_desconhecido", "zc_story_rep_galpao_familia", "zc_story_rep_galpao_hostil",
+  "zc_story_rep_galpao_tolerado", "zc_story_rep_matriz_confiavel", "zc_story_rep_matriz_conhecido", "zc_story_rep_matriz_desconhecido",
+  "zc_story_rep_matriz_familia", "zc_story_rep_matriz_hostil", "zc_story_rep_matriz_tolerado", "zc_story_s07_exposed",
+  "zc_story_s07_silence", "zc_story_safezone_colegio_fallen", "zc_story_safezone_galpao_fallen", "zc_story_safezone_matriz_fallen",
+  "zc_story_siege_active", "zc_story_siege_night", "zc_story_siege_night_1", "zc_story_siege_night_2",
+  "zc_story_siege_night_3", "zc_story_siege_started", "zc_story_silencio_warning", "zc_story_soro_used",
+  "zc_story_traded_colegio", "zc_story_traded_galpao", "zc_story_traded_matriz", "zc_story_ute_ready",
+  "zc_story_voted", "zc_story_water_off", "zc_story_water_restored",
 ]
 const ZCQ_ITEMS = [
   "binocularsmod:binoculars", "car:battery", "car:big_wheel", "car:bio_diesel_bucket",
@@ -476,7 +477,7 @@ const ZCQ_ITEMS = [
 
 let ZCQ_POLL_TICKS = 40
 const ZCQ_FALLBACK_RADIUS = 40
-let ZCQ_WORLD = {}          // tags valid for everybody (bosses defeated in this world)
+let ZCQ_WORLD = {}          // tags valid for everybody (none since 0.3.4: boss victories are per player)
 let zcqLocApi = undefined   // gg.zomboidcraft.world.api.ZcLocations or null
 let zcqLocMode = ''         // 'at' | 'all' | ''
 let zcqLastError = ''
@@ -500,24 +501,10 @@ function zcqLocations() {
   return zcqLocApi
 }
 
+// Boss victories are per player (zc_bosses squads, 0.3.4): the world remembers nothing. Old worlds may still carry
+// zcq_zc_boss_*_defeated marks in persistentData; they are ignored on purpose.
 function zcqLoadWorld(server) {
   ZCQ_WORLD = {}
-  try {
-    let zcqPd = server.persistentData
-    ZCQ_BOSSES.forEach(b => {
-      let tag = 'zc_boss_' + b + '_defeated'
-      if (zcqPd.getBoolean('zcq_' + tag)) ZCQ_WORLD[tag] = true
-    })
-  } catch (e) {
-    zcqWarn('persistentData: ' + e)
-  }
-}
-
-function zcqRemember(server, tag) {
-  if (ZCQ_WORLD[tag]) return
-  ZCQ_WORLD[tag] = true
-  try { server.persistentData.putBoolean('zcq_' + tag, true) } catch (e) { zcqWarn('persistentData: ' + e) }
-  console.info('[zc_story_quests] lembrado no mundo: ' + tag)
 }
 
 function zcqTagSet(player) {
@@ -582,11 +569,6 @@ function zcqTrack(server, player, tags) {
   } catch (e) {
     zcqWarn('inventário: ' + e)
   }
-  // bosses
-  ZCQ_BOSSES.forEach(b => {
-    let tag = 'zc_boss_' + b + '_defeated'
-    if (tags[tag]) zcqRemember(server, tag)
-  })
   return tags
 }
 
@@ -792,7 +774,7 @@ function zcqSelftest(server) {
   let missing = 0
   ZCQ_ITEMS.forEach(id => { if (!itemExists(id)) { missing++; warn.push('item não registrado: ' + id) } })
   out.push('itens referenciados: ' + ZCQ_ITEMS.length + ', ausentes: ' + missing)
-  out.push('ganchos: ' + ZCQ_HOOKS.length + ', bosses lembrados no mundo: ' + Object.keys(ZCQ_WORLD).length)
+  out.push('ganchos: ' + ZCQ_HOOKS.length + ', bosses: vitória por jogador (' + ZCQ_BOSSES.length + ' chefes)')
   return { out: out, err: err, warn: warn }
 }
 

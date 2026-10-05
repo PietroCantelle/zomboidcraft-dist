@@ -1,0 +1,209 @@
+{
+ "name": "Embaixadinha",
+ "author": "ZomboidCraft",
+ "description": "Embaixadinha com uma bola imaginária (pé direito, pé esquerdo...).",
+ "uuid": "5a1f2c3e-0b0c-4d6e-9a01-7c0e5aa10002",
+ "emote": {
+  "isLoop": "true",
+  "returnTick": 0,
+  "beginTick": 0,
+  "endTick": 40,
+  "stopTick": 43,
+  "degrees": true,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "InOutSine",
+    "head": {
+     "pitch": 35
+    },
+    "rightArm": {
+     "roll": 18
+    },
+    "leftArm": {
+     "roll": -18
+    }
+   },
+   {
+    "tick": 0,
+    "easing": "InQuad",
+    "rightLeg": {
+     "pitch": 0
+    },
+    "leftLeg": {
+     "pitch": 0
+    },
+    "body": {
+     "y": 0
+    }
+   },
+   {
+    "tick": 0,
+    "easing": "InOutSine",
+    "head": {
+     "pitch": 35
+    }
+   },
+   {
+    "tick": 5,
+    "easing": "OutQuad",
+    "rightLeg": {
+     "pitch": -55
+    },
+    "leftLeg": {
+     "pitch": 0
+    },
+    "body": {
+     "y": 0.6
+    }
+   },
+   {
+    "tick": 5,
+    "easing": "InOutSine",
+    "head": {
+     "pitch": 41
+    }
+   },
+   {
+    "tick": 10,
+    "easing": "InQuad",
+    "rightLeg": {
+     "pitch": 0
+    },
+    "leftLeg": {
+     "pitch": 0
+    },
+    "body": {
+     "y": 0
+    }
+   },
+   {
+    "tick": 10,
+    "easing": "InOutSine",
+    "head": {
+     "pitch": 35
+    }
+   },
+   {
+    "tick": 15,
+    "easing": "OutQuad",
+    "leftLeg": {
+     "pitch": -55
+    },
+    "rightLeg": {
+     "pitch": 0
+    },
+    "body": {
+     "y": 0.6
+    }
+   },
+   {
+    "tick": 15,
+    "easing": "InOutSine",
+    "head": {
+     "pitch": 41
+    }
+   },
+   {
+    "tick": 20,
+    "easing": "InQuad",
+    "rightLeg": {
+     "pitch": 0
+    },
+    "leftLeg": {
+     "pitch": 0
+    },
+    "body": {
+     "y": 0
+    }
+   },
+   {
+    "tick": 20,
+    "easing": "InOutSine",
+    "head": {
+     "pitch": 35
+    }
+   },
+   {
+    "tick": 25,
+    "easing": "OutQuad",
+    "rightLeg": {
+     "pitch": -55
+    },
+    "leftLeg": {
+     "pitch": 0
+    },
+    "body": {
+     "y": 0.6
+    }
+   },
+   {
+    "tick": 25,
+    "easing": "InOutSine",
+    "head": {
+     "pitch": 41
+    }
+   },
+   {
+    "tick": 30,
+    "easing": "InQuad",
+    "rightLeg": {
+     "pitch": 0
+    },
+    "leftLeg": {
+     "pitch": 0
+    },
+    "body": {
+     "y": 0
+    }
+   },
+   {
+    "tick": 30,
+    "easing": "InOutSine",
+    "head": {
+     "pitch": 35
+    }
+   },
+   {
+    "tick": 35,
+    "easing": "OutQuad",
+    "leftLeg": {
+     "pitch": -55
+    },
+    "rightLeg": {
+     "pitch": 0
+    },
+    "body": {
+     "y": 0.6
+    }
+   },
+   {
+    "tick": 35,
+    "easing": "InOutSine",
+    "head": {
+     "pitch": 41
+    }
+   },
+   {
+    "tick": 40,
+    "easing": "InQuad",
+    "rightLeg": {
+     "pitch": 0
+    },
+    "leftLeg": {
+     "pitch": 0
+    },
+    "body": {
+     "y": 0
+    }
+   },
+   {
+    "tick": 40,
+    "easing": "InOutSine",
+    "head": {
+     "pitch": 35
+    }
+   }
+  ]
+ }
+}
