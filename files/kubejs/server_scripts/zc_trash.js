@@ -21,7 +21,7 @@ const JUNK = [
   ['minecraft:glass_bottle', 4]
 ]
 const USEFUL = [
-  ['zc_survival:water_bottle', 8], ['minecraft:bread', 5], ['minecraft:iron_nugget', 8],
+  ['zc_survival:water_bottle', 8], ['zc_survival:glass_water_bottle', 4], ['minecraft:bread', 5], ['minecraft:iron_nugget', 8],
   ['minecraft:leather', 4], ['flashlightmod:battery', 3], ['farmersdelight:onion', 4], ['minecraft:apple', 4]
 ]
 const RARE = [

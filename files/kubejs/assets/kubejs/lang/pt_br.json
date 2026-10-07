@@ -90,5 +90,19 @@
   "key.zomboidcraft.zoom": "Zoom (segurar)",
   "key.categories.zomboidcraft": "ZomboidCraft",
   "hud.zomboidcraft.players_online": "%s jogadores online",
-  "hud.zomboidcraft.players_online.one": "%s jogador online"
+  "hud.zomboidcraft.players_online.one": "%s jogador online",
+  "block.kubejs.ad_guarana_itavera": "Cartaz: Guaraná Itaverá",
+  "block.kubejs.ad_cerveja_bambu": "Cartaz: Cerveja Bambu",
+  "block.kubejs.ad_sabao_brilha": "Cartaz: Sabão Brilha",
+  "block.kubejs.ad_telmais": "Cartaz: TelMais 4G",
+  "block.kubejs.ad_farmacia_popular": "Cartaz: Farmácia Popular",
+  "block.kubejs.ad_banco_itavera": "Cartaz: Banco Itaverá",
+  "block.kubejs.ad_loteria_sorte": "Cartaz: Sorte Grande",
+  "block.kubejs.ad_mercado_bom_preco": "Cartaz: Bom Preço",
+  "block.kubejs.ad_forro_itavera": "Cartaz: Forró da Praça",
+  "block.kubejs.ad_metro_mapa": "Cartaz: Mapa do Metrô",
+  "block.kubejs.ad_saude_fique_em_casa": "Cartaz: Fique em Casa",
+  "block.kubejs.ad_vacina": "Cartaz: Vacine-se",
+  "block.kubejs.ad_quarentena_aviso": "Cartaz: Área em Quarentena",
+  "block.kubejs.ad_procurado_dente": "Cartaz: Procurado: Dente"
 }

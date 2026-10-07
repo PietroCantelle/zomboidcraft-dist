@@ -1,0 +1,6 @@
+{
+  "parent": "kubejs:block/ad_poster",
+  "textures": {
+    "poster": "kubejs:block/ads/mercado_bom_preco"
+  }
+}

@@ -1,0 +1,9 @@
+# Supplementaries - client (ZomboidCraft 0.3.6). As telas de aviso do mod ao abrir o jogo ficam desligadas; o resto e preenchido
+# pelo proprio mod com os padroes na primeira abertura.
+[general]
+	#Tela "Amendments nao esta instalado" (os blocos movidos para o Amendments nao sao usados no pack)
+	no_amendments_screen = true
+	#Tela de mods incompativeis
+	no_incompatible_mods_screen = true
+	#Tela de aviso do OptiFine
+	no_optifine_warn_screen = true

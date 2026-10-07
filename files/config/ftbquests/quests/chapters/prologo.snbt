@@ -408,6 +408,7 @@
 			description: [
 				"Garrafa vazia + rio, lago ou poça (bloco de água) = &7Garrafa de Água Suja&r. Beber assim é pedir disenteria."
 				"Ferva: na &efogueira&r, na fornalha ou no defumador. Sai uma &bGarrafa de Água Fervida&r."
+				"A &egarrafa de vidro&r do Minecraft segue a mesma regra: cheia no rio é água suja; fervida vira &bGarrafa de Vidro com Água Fervida&r."
 				"Fogo faz fumaça e luz. À noite, luz chama atenção. Ferva de dia, ou com a janela tapada."
 			]
 			hide_until_deps_complete: true

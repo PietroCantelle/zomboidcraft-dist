@@ -72,6 +72,8 @@ ServerEvents.recipes(event => {
     Item.of('minecraft:potion', '{Potion:"minecraft:water"}').strongNBT(),
     'zc_survival:water_bottle',
     'zc_survival:boiled_water_bottle',
+    'zc_survival:glass_water_bottle',
+    'zc_survival:glass_boiled_water_bottle',
   ])
   event.shapeless('kubejs:coffee', ['kubejs:ground_coffee', WATER])
 })
