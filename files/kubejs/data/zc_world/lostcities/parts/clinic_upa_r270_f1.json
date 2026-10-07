@@ -1,0 +1,276 @@
+{
+ "xsize": 16,
+ "zsize": 16,
+ "slices": [
+  [
+   "一一一一一一一一一一一一一一  ",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁一  ",
+   "一丁丁丂   丁丁丁丁丁丁一  ",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁一  ",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁一  ",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁一  ",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁一  ",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁一  ",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁一七 ",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁一  ",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁一  ",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁一  ",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁一  ",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁一  ",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁一  ",
+   "一一一一一一一一一一一一一一  "
+  ],
+  [
+   "一一一一一一一一一一一一一一  ",
+   "一丄 丄丄   丄丄  丄一  ",
+   "一      丅丄丄丄  一  ",
+   "一 丅  丆   丄  万一  ",
+   "一    丄 一     一  ",
+   "一丈   丅 一三   上一  ",
+   "一 丄  丄 下     一  ",
+   "一  丄 丄一  丄丄丄一  ",
+   "一丄  丄  一    丄一七 ",
+   "一      一  与丏 一  ",
+   "一 丄丄丄丐一    丄一  ",
+   "一    丄 丑  丄  一  ",
+   "一  丄  丄一 丄丄丄 一  ",
+   "一 丄  丄一  与丏 一  ",
+   "一丄  丆丄 一丄 丄 丄一  ",
+   "一一一一一一一一一一一一一一  "
+  ],
+  [
+   "一一一一⑨一一⑨一一⑨一一一  ",
+   "⑨           丐一  ",
+   "⑨            ⑨  ",
+   "一            一  ",
+   "丒      一     ⑨  ",
+   "⑨      一     ⑨  ",
+   "一      专     一  ",
+   "⑨      一     ⑨  ",
+   "⑨      一     ⑨  ",
+   "一      一  且  一  ",
+   "⑨      一     ⑨  ",
+   "⑨      丕     ⑨  ",
+   "一      一     一  ",
+   "⑨      一  且  丒  ",
+   "一      一     丒  ",
+   "一一一⑨一一丒一一⑨一一一一  "
+  ],
+  [
+   "一一一一丒一一⑨一一丒一一一  ",
+   "丒            一  ",
+   "⑨            丒  ",
+   "一            一七 ",
+   "丒      一     ⑨  ",
+   "⑨      一     ⑨  ",
+   "一     世一     一  ",
+   "⑨      一     ⑨  ",
+   "⑨      一     丒  ",
+   "一      一     一  ",
+   "⑨      一     ⑨  ",
+   "⑨      一     丒  ",
+   "一      一     一  ",
+   "丒      一     丒  ",
+   "一      一     ⑨  ",
+   "一一一⑨一一⑨一一⑨一一一一  "
+  ],
+  [
+   "一一一一一一一一一一一一一一  ",
+   "一            一  ",
+   "一            一  ",
+   "一            一三 ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一一一一一一一一一一一一一一  "
+  ],
+  [
+   "一一一一一一一一一一一一一一  ",
+   "一            一  ",
+   "一            一  ",
+   "一            一三 ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一      一     一  ",
+   "一一一一一一一一一一一一一一  "
+  ]
+ ],
+ "palette": {
+  "palette": [
+   {
+    "char": "一",
+    "block": "minecraft:white_concrete"
+   },
+   {
+    "char": "丁",
+    "block": "minecraft:white_terracotta"
+   },
+   {
+    "char": "丂",
+    "block": "minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight]"
+   },
+   {
+    "char": "七",
+    "block": "minecraft:vine[west=true]"
+   },
+   {
+    "char": "丄",
+    "blocks": [
+     {
+      "random": 100,
+      "block": "minecraft:air"
+     },
+     {
+      "random": 6,
+      "block": "minecraft:moss_carpet"
+     },
+     {
+      "random": 5,
+      "block": "immersive_weathering:oak_leaf_pile[layers=1]"
+     },
+     {
+      "random": 8,
+      "block": "zc_world:litter"
+     },
+     {
+      "random": 4,
+      "block": "zc_world:blood"
+     },
+     {
+      "random": 3,
+      "block": "zc_world:broken_glass"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:cobweb"
+     }
+    ]
+   },
+   {
+    "char": "丅",
+    "blocks": [
+     {
+      "random": 51,
+      "block": "minecraft:oak_trapdoor[facing=west,half=bottom,open=false]"
+     },
+     {
+      "random": 38,
+      "block": "zc_world:litter"
+     },
+     {
+      "random": 26,
+      "block": "zc_world:broken_glass"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:white_carpet"
+     }
+    ]
+   },
+   {
+    "char": "丆",
+    "block": "zc_world:blood"
+   },
+   {
+    "char": "万",
+    "block": "refurbished_furniture:spruce_crate",
+    "loot": "zc_world:loot_clinic"
+   },
+   {
+    "char": "丈",
+    "block": "refurbished_furniture:birch_storage_cabinet[facing=west,hinge=left]",
+    "loot": "zc_world:loot_clinic"
+   },
+   {
+    "char": "三",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=false,up=false,west=true]"
+   },
+   {
+    "char": "上",
+    "block": "refurbished_furniture:oak_drawer[facing=east]",
+    "loot": "zc_world:loot_office"
+   },
+   {
+    "char": "下",
+    "block": "minecraft:oak_door[facing=east,half=lower,hinge=left,open=false]"
+   },
+   {
+    "char": "丌",
+    "block": "minecraft:white_bed[facing=west,part=head]"
+   },
+   {
+    "char": "不",
+    "block": "minecraft:white_bed[facing=west,part=foot]"
+   },
+   {
+    "char": "与",
+    "block": "refurbished_furniture:oak_desk[facing=west]"
+   },
+   {
+    "char": "丏",
+    "block": "refurbished_furniture:oak_chair[facing=east,tucked=false]"
+   },
+   {
+    "char": "丐",
+    "block": "immersive_weathering:ivy[down=false,east=true,north=false,south=false,up=false,west=false]"
+   },
+   {
+    "char": "丑",
+    "block": "minecraft:oak_door[facing=west,half=lower,hinge=left,open=false]"
+   },
+   {
+    "char": "丒",
+    "blocks": [
+     {
+      "random": 58,
+      "block": "minecraft:oak_planks"
+     },
+     {
+      "random": 38,
+      "block": "minecraft:spruce_planks"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:stripped_oak_log[axis=y]"
+     }
+    ]
+   },
+   {
+    "char": "专",
+    "block": "minecraft:oak_door[facing=east,half=upper,hinge=left,open=false]"
+   },
+   {
+    "char": "且",
+    "block": "refurbished_furniture:computer[facing=east,powered=false]"
+   },
+   {
+    "char": "丕",
+    "block": "minecraft:oak_door[facing=west,half=upper,hinge=left,open=false]"
+   },
+   {
+    "char": "世",
+    "block": "minecraft:vine[east=true]"
+   },
+   {
+    "char": "",
+    "block": "hospitals:hospital_bed[facing=west]"
+   }
+  ]
+ }
+}

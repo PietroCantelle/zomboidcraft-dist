@@ -1,0 +1,203 @@
+{
+ "xsize": 16,
+ "zsize": 16,
+ "slices": [
+  [
+   "                ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   "                ",
+   "                ",
+   "                "
+  ],
+  [
+   "                ",
+   " ③③③③③③③③③③③③③③ ",
+   " ③⑪⑪⑪   一    ③ ",
+   " ③⑪ ⑪   丁丁丂丁丁③ ",
+   " ③⑪七⑪丄  丁丁 丁丁 ③ ",
+   " ③           一③ ",
+   " ③           一③ ",
+   " ③ 丅    一     ③ ",
+   " ③      一     ③ ",
+   " ③丅 一    一    ③ ",
+   " ③  丅        丆③ ",
+   " ③丄 一      万  ③ ",
+   " ③③③③③③③③③③③③③③ ",
+   "                ",
+   "                ",
+   "                "
+  ],
+  [
+   "                ",
+   "                ",
+   "  ⑪⑪⑪           ",
+   "  ⑪丈⑪   三三丂三三   ",
+   "  ⑪上⑪丂  三三 三三   ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "             下  ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                "
+  ],
+  [
+   "                ",
+   "                ",
+   "  ⑪⑪⑪           ",
+   "  ⑪丌⑪           ",
+   "  ⑪⑪⑪丂          ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "             下  ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                "
+  ],
+  [
+   "                ",
+   "                ",
+   "  ⑪⑪⑪           ",
+   "  ⑪⑪⑪           ",
+   "  ⑪⑪⑪           ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "             不  ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                "
+  ],
+  [
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                "
+  ]
+ ],
+ "palette": {
+  "palette": [
+   {
+    "char": "一",
+    "block": "minecraft:moss_carpet"
+   },
+   {
+    "char": "丁",
+    "block": "minecraft:light_blue_concrete"
+   },
+   {
+    "char": "丂",
+    "block": "minecraft:vine[west=true]"
+   },
+   {
+    "char": "七",
+    "block": "minecraft:iron_door[facing=south,half=lower,hinge=left,open=false]"
+   },
+   {
+    "char": "丄",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=false,up=false,west=true]"
+   },
+   {
+    "char": "丅",
+    "blocks": [
+     {
+      "random": 32,
+      "block": "zc_world:trash_bags"
+     },
+     {
+      "random": 26,
+      "block": "minecraft:moss_carpet"
+     },
+     {
+      "random": 26,
+      "block": "createdeco:industrial_iron_hull[facing=up]"
+     },
+     {
+      "random": 26,
+      "block": "minecraft:cauldron"
+     },
+     {
+      "random": 1000,
+      "block": "refurbished_furniture:white_stool"
+     }
+    ]
+   },
+   {
+    "char": "丆",
+    "block": "minecraft:iron_bars[north=false,south=false,east=true,west=false]"
+   },
+   {
+    "char": "万",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=true,up=false,west=false]"
+   },
+   {
+    "char": "丈",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=true,south=false,up=false,west=false]"
+   },
+   {
+    "char": "三",
+    "block": "minecraft:smooth_stone_slab[type=bottom]"
+   },
+   {
+    "char": "上",
+    "block": "minecraft:iron_door[facing=south,half=upper,hinge=left,open=false]"
+   },
+   {
+    "char": "下",
+    "block": "minecraft:iron_bars[north=false,south=false,east=false,west=false]"
+   },
+   {
+    "char": "丌",
+    "block": "minecraft:vine[north=true]"
+   },
+   {
+    "char": "不",
+    "block": "minecraft:lightning_rod"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_gray[facing=north,part=head]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_gray[facing=north,part=foot]"
+   }
+  ]
+ }
+}

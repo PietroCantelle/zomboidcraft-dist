@@ -1,0 +1,207 @@
+{
+ "xsize": 16,
+ "zsize": 16,
+ "slices": [
+  [
+   "                ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   "一⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   "丁⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   " ⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬⑬ ",
+   "  丂             "
+  ],
+  [
+   "                ",
+   " 七七七七七七七七七七七七七七 ",
+   " 七         丄丄七 ",
+   " 七 丅      丆丄丄七 ",
+   " 七            七 ",
+   " 七      丆    丆七 ",
+   " 七丆    七七七七七七七七 ",
+   "一七     七七七七七七七七 ",
+   " 七     七七七七七七七七 ",
+   "一七   丆丁七七七七七七七七 ",
+   " 七         丂  七 ",
+   " 七  丄丄 万   万丄丄七 ",
+   " 七 丄丄      丄丄七 ",
+   " 七   丆丆丈     七 ",
+   " 七七七七七七七七七七七七七七 ",
+   "  丂             "
+  ],
+  [
+   "                ",
+   "                ",
+   "            三三  ",
+   "            三三  ",
+   "                ",
+   "             上  ",
+   "       七七七七七七七  ",
+   "       七七七七七七七  ",
+   "       七七七七七七七  ",
+   "       七七七七七七七下 ",
+   "           丌 丌  ",
+   "    三三      三三  ",
+   "    三三      三三  ",
+   "                ",
+   "                ",
+   "                "
+  ],
+  [
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "             上  ",
+   "       七七七七七七七  ",
+   "       七七七七七七七  ",
+   "       七七七七七七七  ",
+   "       七七七七七七七  ",
+   "             丌  ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                "
+  ],
+  [
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "             上  ",
+   "       ⑬⑬⑬⑬⑬⑬⑬  ",
+   "       ⑬⑬⑬⑬⑬⑬⑬  ",
+   "       ⑬⑬⑬⑬⑬⑬⑬  ",
+   "       ⑬⑬⑬⑬⑬⑬⑬  ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                "
+  ],
+  [
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                ",
+   "                "
+  ]
+ ],
+ "palette": {
+  "palette": [
+   {
+    "char": "一",
+    "block": "immersive_weathering:ivy[down=false,east=true,north=false,south=false,up=false,west=false]"
+   },
+   {
+    "char": "丁",
+    "block": "minecraft:vine[east=true]"
+   },
+   {
+    "char": "丂",
+    "block": "minecraft:vine[north=true]"
+   },
+   {
+    "char": "七",
+    "block": "minecraft:white_concrete"
+   },
+   {
+    "char": "丄",
+    "block": "minecraft:light_blue_concrete"
+   },
+   {
+    "char": "丅",
+    "block": "minecraft:lightning_rod"
+   },
+   {
+    "char": "丆",
+    "block": "minecraft:moss_carpet"
+   },
+   {
+    "char": "万",
+    "blocks": [
+     {
+      "random": 32,
+      "block": "zc_world:trash_bags"
+     },
+     {
+      "random": 26,
+      "block": "minecraft:moss_carpet"
+     },
+     {
+      "random": 26,
+      "block": "createdeco:industrial_iron_hull[facing=up]"
+     },
+     {
+      "random": 26,
+      "block": "minecraft:cauldron"
+     },
+     {
+      "random": 1000,
+      "block": "refurbished_furniture:white_stool"
+     }
+    ]
+   },
+   {
+    "char": "丈",
+    "block": "minecraft:vine[south=true]"
+   },
+   {
+    "char": "三",
+    "block": "minecraft:smooth_stone_slab[type=bottom]"
+   },
+   {
+    "char": "上",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=true,up=false,west=false]"
+   },
+   {
+    "char": "下",
+    "block": "minecraft:vine[west=true]"
+   },
+   {
+    "char": "丌",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=true,south=false,up=false,west=false]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_light_gray[facing=north,part=head]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_light_gray[facing=north,part=foot]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_black[facing=south,part=head]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_black[facing=south,part=foot]"
+   }
+  ]
+ }
+}

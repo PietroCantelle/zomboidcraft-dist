@@ -1,0 +1,310 @@
+{
+ "xsize": 16,
+ "zsize": 16,
+ "slices": [
+  [
+   "一一一一一一一一一一一一一一一一",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁丁丁一",
+   "一丁丂丂丂丂七七七七丂丂丂丂丁一",
+   "一丁丂丂丂丂七七七七丂丂丂丂丁一",
+   "一丁丂丂丂丂七七七七丂丂丂丂丁一",
+   "一丁丂丂丂丂七七七七丂丂丂丂丁一",
+   "一丁丂丂丂丂七七七七丂丂丂丂丁一",
+   "一丁丂丂丂丂七七七七丂丂丂丂丁一",
+   "一丁丂丂丂丂七七七七丂丂丂丂丁一",
+   "一丁丂丂丂丂七七七七丂丂丂丂丁一",
+   "一丁丂丂丂丂七七七七丂丂丂丂丁一",
+   "一丁丂丂丂丂七七七七丂丂丂丂丁一",
+   "一丁丂丂丂丂七七七七丂丂丂丂丁一",
+   "一丁丂丂丂丂七七七七丂丂丂丂丁一",
+   "一丁丁丁丁丁丁丁丁丁丁丁丁丁丁一",
+   "一一一一一一一一一一一一一一一一"
+  ],
+  [
+   " 丄       丄      ",
+   " 丁⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥丁 ",
+   " ⑥ 丅 丁丆 丁 万 ⑥ ",
+   " ⑥   丁丈 丁   ⑥三",
+   " ⑥上下下丁 丈  丁丌下下⑥ ",
+   " ⑥   丁 丈三 丁   ⑥ ",
+   "不⑥与  丁 丈三 丁   ⑥ ",
+   " ⑥   丁 丈  丁   ⑥ ",
+   " ⑥上下下丁    丁丌下下⑥三",
+   " ⑥   丁    丁   ⑥与",
+   " ⑥三  丁    丁   ⑥ ",
+   " ⑥   丁   丏丁   ⑥ ",
+   " ⑥  丁丑丑丑丒丁  ⑥ ",
+   " ⑥   丁专   丁   ⑥三",
+   " 丁且且丕⑥⑥世丗⑥⑥与且且丁 ",
+   "                "
+  ],
+  [
+   " 丘       丄      ",
+   " 丁⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥丁三",
+   " ⑥ 丅 丁    丁 万 ⑥ ",
+   " ⑥   丁 丆  丁   ⑥与",
+   " ⑥   丁 丈  丁  不⑥ ",
+   " ⑥   丁 丈与 丁   ⑥ ",
+   "不⑥三  丁 丈三 丁   ⑥ ",
+   " ⑥   丁 丈  丁   ⑥ ",
+   " ⑥   丁    丁   ⑥与",
+   "丕⑥   丁    丁   ⑥三",
+   " ⑥三  丁    丁   ⑥ ",
+   " ⑥   丁    丁   ⑥ ",
+   " ⑥   丁    丁   ⑥ ",
+   " ⑥   丁    丁   ⑥与",
+   " 丁且且丕⑥丙业丛丙⑥与且且丁 ",
+   "      东  东      "
+  ],
+  [
+   "                ",
+   " 丁⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥丁三",
+   " ⑥ 丅 丁    丁 丅 ⑥ ",
+   " ⑥   丁    丁   ⑥与",
+   " ⑥   丁 丆  丁   ⑥ ",
+   " ⑥   丁 丈三 丁   ⑥ ",
+   " ⑥   丁 丈与 丁   ⑥ ",
+   " ⑥   丁 丈  丁   ⑥ ",
+   " ⑥   丁    丁   ⑥三",
+   "不⑥   丁    丁   ⑥三",
+   " ⑥与  丁    丁   ⑥ ",
+   " ⑥   丁    丁   ⑥与",
+   " ⑥   丁    丁   ⑥ ",
+   " ⑥   丁  丘 丁   ⑥与",
+   " 丁且且且⑥丙⑥⑥丙⑥且且且丁 ",
+   "      东  东      "
+  ],
+  [
+   "        丄       ",
+   " 丁⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥丁三",
+   " ⑥ 丅 丁    丁 万 ⑥ ",
+   " ⑥   丁    丁   ⑥与",
+   " ⑥   丁    丁   ⑥ ",
+   " ⑥   丁 丆  丁   ⑥ ",
+   " ⑥   丁 丈三 丁   ⑥ ",
+   " ⑥   丁 丈  丁   ⑥ ",
+   " ⑥   丁    丁   ⑥ ",
+   "丕⑥   丁    丁   ⑥与",
+   " ⑥三  丁    丁   ⑥ ",
+   " ⑥   丁    丁   ⑥与",
+   " ⑥   丁    丁   ⑥ ",
+   " ⑥   丁    丁   ⑥ ",
+   " 丁⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥丁 ",
+   "                "
+  ],
+  [
+   "        丄       ",
+   " 丁⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥丁与",
+   " ⑥ 万 丁    丁 万 ⑥ ",
+   " ⑥   丁    丁   ⑥ ",
+   " ⑥   丁    丁   ⑥ ",
+   " ⑥   丁    丁   ⑥ ",
+   " ⑥ 丝 丁 丆  丁 丝 ⑥ ",
+   " ⑥   丁 丈  丁   ⑥ ",
+   " ⑥   丁    丁   ⑥ ",
+   "不⑥   丁    丁   ⑥与",
+   " ⑥三  丁    丁   ⑥ ",
+   " ⑥   丁 丝  丁   ⑥与",
+   " ⑥   丁    丁   ⑥三",
+   " ⑥   丁    丁   ⑥ ",
+   " 丁⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥丁 ",
+   "                "
+  ]
+ ],
+ "palette": {
+  "palette": [
+   {
+    "char": "一",
+    "blocks": [
+     {
+      "random": 120,
+      "block": "zc_world:calcada_portuguesa"
+     },
+     {
+      "random": 1000,
+      "block": "zc_world:sidewalk"
+     }
+    ]
+   },
+   {
+    "char": "丁",
+    "block": "minecraft:white_concrete"
+   },
+   {
+    "char": "丂",
+    "blocks": [
+     {
+      "random": 109,
+      "block": "minecraft:white_terracotta"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:smooth_stone"
+     }
+    ]
+   },
+   {
+    "char": "七",
+    "blocks": [
+     {
+      "random": 90,
+      "block": "minecraft:polished_granite"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:polished_diorite"
+     }
+    ]
+   },
+   {
+    "char": "丄",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=true,up=false,west=false]"
+   },
+   {
+    "char": "丅",
+    "block": "minecraft:vine[north=true]"
+   },
+   {
+    "char": "丆",
+    "block": "minecraft:polished_andesite_stairs[facing=south,half=bottom,shape=straight]"
+   },
+   {
+    "char": "万",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=true,south=false,up=false,west=false]"
+   },
+   {
+    "char": "丈",
+    "block": "minecraft:polished_andesite"
+   },
+   {
+    "char": "三",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=false,up=false,west=true]"
+   },
+   {
+    "char": "上",
+    "block": "refurbished_furniture:spruce_crate",
+    "loot": "zc_world:loot_clothes"
+   },
+   {
+    "char": "下",
+    "block": "handcrafted:spruce_shelf[facing=south,shape=single,type=1]"
+   },
+   {
+    "char": "丌",
+    "block": "refurbished_furniture:spruce_crate",
+    "loot": "zc_world:loot_mercado"
+   },
+   {
+    "char": "不",
+    "block": "minecraft:vine[east=true]"
+   },
+   {
+    "char": "与",
+    "block": "minecraft:vine[west=true]"
+   },
+   {
+    "char": "丏",
+    "block": "refurbished_furniture:oak_mail_box[facing=east,enabled=false]"
+   },
+   {
+    "char": "丐",
+    "block": "handcrafted:spruce_counter[counter=smooth_stone,facing=north,type=1]"
+   },
+   {
+    "char": "丑",
+    "blocks": [
+     {
+      "random": 38,
+      "block": "refurbished_furniture:oak_crate[open=false]"
+     },
+     {
+      "random": 26,
+      "block": "zc_world:sandbags"
+     },
+     {
+      "random": 19,
+      "block": "refurbished_furniture:gray_sofa[facing=north,shape=default]"
+     },
+     {
+      "random": 13,
+      "block": "minecraft:oak_planks"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:air"
+     }
+    ]
+   },
+   {
+    "char": "丒",
+    "block": "refurbished_furniture:oak_mail_box[facing=east,enabled=false]",
+    "loot": "zc_world:loot_living"
+   },
+   {
+    "char": "专",
+    "block": "minecraft:potted_fern"
+   },
+   {
+    "char": "且",
+    "block": "minecraft:iron_trapdoor[facing=south,half=bottom,open=true]"
+   },
+   {
+    "char": "丕",
+    "block": "immersive_weathering:ivy[down=false,east=true,north=false,south=false,up=false,west=false]"
+   },
+   {
+    "char": "世",
+    "block": "minecraft:spruce_door[facing=south,half=lower,hinge=left,open=false]"
+   },
+   {
+    "char": "丗",
+    "block": "minecraft:spruce_door[facing=south,half=lower,hinge=right,open=false]"
+   },
+   {
+    "char": "丘",
+    "block": "minecraft:vine[south=true]"
+   },
+   {
+    "char": "丙",
+    "block": "minecraft:glass",
+    "damaged": "minecraft:air"
+   },
+   {
+    "char": "业",
+    "block": "minecraft:spruce_door[facing=south,half=upper,hinge=left,open=false]"
+   },
+   {
+    "char": "丛",
+    "block": "minecraft:spruce_door[facing=south,half=upper,hinge=right,open=false]"
+   },
+   {
+    "char": "东",
+    "block": "minecraft:iron_bars[north=true,south=false,east=false,west=false]"
+   },
+   {
+    "char": "丝",
+    "block": "refurbished_furniture:light_ceiling_light[face=ceiling,facing=north,powered=false]"
+   },
+   {
+    "char": "",
+    "block": "handcrafted:spruce_counter[counter=smooth_stone,facing=west,type=1]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_green[facing=north,part=head]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_green[facing=north,part=foot]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_brown[facing=north,part=head]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_brown[facing=north,part=foot]"
+   }
+  ]
+ }
+}

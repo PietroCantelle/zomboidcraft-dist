@@ -1,0 +1,409 @@
+{
+ "xsize": 16,
+ "zsize": 16,
+ "slices": [
+  [
+   "                ",
+   "  ②②②②②②②②②②②②② ",
+   "  ②④④④④④④④④④④④② ",
+   "  ②④④④④④④④④④④④② ",
+   "  ②④④④④④④④④④④④② ",
+   "  ②④④④④④④④④④④④② ",
+   "  ②④④④④④④④④④④④② ",
+   "  ②④④④④④一   ④④② ",
+   "  ②④④④④④④④④④④④② ",
+   " 丁②④④④④④④④④④④④② ",
+   "  ②④④④④④④④④④④④② ",
+   "  ②④④④④④④④④④④④② ",
+   "  ②④④④④④④④④④④④② ",
+   "  ②④④④④④④④④④④④② ",
+   "  ②②②②②②②②②②②②② ",
+   "  丂 丂         七 "
+  ],
+  [
+   "                ",
+   "  ①①①①①①①①①①①①① ",
+   "  ①丄丅 丄丅 丄丅 丄 ① ",
+   "  ①丆 丅丆丅 丆 丅丆万① ",
+   "  ①   丅丈丅丅 丅丅丅① ",
+   "  ①丅三上丅 上丅丅上  ① ",
+   "  ①下下丌丌下下下下下下下① ",
+   "  ① 不       ① ",
+   "  ①与    丏丐丐丐丐丐① ",
+   " 丁①下下丌丌下下下下下下下① ",
+   "  ①丅丅上丅丅上丅丅上丅 ① ",
+   "  ① 丅丅丅丅丅丅 丅丅 ① ",
+   "  ①丑丅丈丑丅 丑丒 丑万① ",
+   "  ①专且 专 丅专丕丅专 ① ",
+   "  ①①①①①①①①①①①①① ",
+   "  丂 丂         七 "
+  ],
+  [
+   "                ",
+   "  ①①世①①世①①世①①世① ",
+   "  ①           ① ",
+   "  世           世 ",
+   "  世           世 ",
+   "  ①       丕   ① ",
+   "  ①下下丌丌下下下下下下下① ",
+   "  ①           世 ",
+   "  ①      丏丐丐丐丐① ",
+   "  ①下下丌丌下下下下下下下世 ",
+   "  ①           ① ",
+   "  世           ①丗",
+   "  世           世 ",
+   "  ①     丘 丕   世 ",
+   "  ①世①①世①①世①①世①① ",
+   "  丂             "
+  ],
+  [
+   "                ",
+   "  ①①世①①世①①世①①世① ",
+   "  ①           ① ",
+   "  世           世 ",
+   "  世           世 ",
+   "  ①           ① ",
+   "  ①下下丌丌下下下下下下下① ",
+   "  ① 丙         世 ",
+   "  ① 业     丏丐丐丐① ",
+   "  ①下下丌丌下下下下下下下世 ",
+   "  ①           ① ",
+   "  世           ①丗",
+   "  世           世 ",
+   "  ①     丘 丕   世 ",
+   "  ①世①①世①①世①①世①① ",
+   "  七             "
+  ],
+  [
+   "                ",
+   "  ①①①①①①①①①①①①① ",
+   "  ①          丛① ",
+   "  ①           ① ",
+   "  ①           ① ",
+   "  ①           ① ",
+   "  ①下下下下下下下下下下下① ",
+   "  ①           ① ",
+   "  ①        丏丐丐① ",
+   "  ①下下下下下下下下下下下① ",
+   "  ①           ① ",
+   "  ①           ①东",
+   "  ①           ① ",
+   " 丁①     丘 丕   ① ",
+   "  ①①①①①①①①①①①①① ",
+   "  丂  丂   丂      "
+  ],
+  [
+   "                ",
+   "  ①①①①①①①①①①①①① ",
+   "  ①          丛① ",
+   "  ①     丝     ① ",
+   "  ①           ① ",
+   "  ①           ① ",
+   "  ①下下下下下下下下下下下① ",
+   "  ① 丝         ① ",
+   "  ①         丏丐① ",
+   "  ①下下下下下下下下下下下① ",
+   "  ①           ① ",
+   "  ①           ①丗",
+   "  ①     丝     ① ",
+   " 丁①           ① ",
+   "  ①①①①①①①①①①①①① ",
+   "     七          "
+  ]
+ ],
+ "palette": {
+  "palette": [
+   {
+    "char": "一",
+    "block": "minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight]"
+   },
+   {
+    "char": "丁",
+    "block": "minecraft:vine[east=true]"
+   },
+   {
+    "char": "丂",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=true,south=false,up=false,west=false]"
+   },
+   {
+    "char": "七",
+    "block": "minecraft:vine[north=true]"
+   },
+   {
+    "char": "丄",
+    "block": "minecraft:white_bed[facing=north,part=head]"
+   },
+   {
+    "char": "丅",
+    "blocks": [
+     {
+      "random": 70,
+      "block": "minecraft:air"
+     },
+     {
+      "random": 32,
+      "block": "zc_world:blood"
+     },
+     {
+      "random": 13,
+      "block": "zc_world:litter"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:white_carpet"
+     }
+    ]
+   },
+   {
+    "char": "丆",
+    "block": "minecraft:white_bed[facing=north,part=foot]"
+   },
+   {
+    "char": "万",
+    "block": "refurbished_furniture:oak_crate",
+    "loot": "zc_world:loot_clinic"
+   },
+   {
+    "char": "丈",
+    "blocks": [
+     {
+      "random": 79,
+      "block": "minecraft:air"
+     },
+     {
+      "random": 10,
+      "block": "zc_world:litter"
+     },
+     {
+      "random": 6,
+      "block": "zc_world:blood"
+     },
+     {
+      "random": 5,
+      "block": "zc_world:broken_glass"
+     },
+     {
+      "random": 5,
+      "block": "handcrafted:stackable_book[books=1,facing=south,seed=42]"
+     },
+     {
+      "random": 6,
+      "block": "minecraft:white_carpet"
+     },
+     {
+      "random": 4,
+      "block": "handcrafted:white_plate[facing=west,pieces=1,waterlogged=false]"
+     },
+     {
+      "random": 4,
+      "block": "zc_world:trash_bags"
+     },
+     {
+      "random": 4,
+      "block": "handcrafted:gray_cushion"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:light_gray_carpet"
+     }
+    ]
+   },
+   {
+    "char": "三",
+    "block": "handcrafted:oak_chair[color=none,facing=west,waterlogged=false]"
+   },
+   {
+    "char": "上",
+    "blocks": [
+     {
+      "random": 77,
+      "block": "refurbished_furniture:white_stool"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:air"
+     }
+    ]
+   },
+   {
+    "char": "下",
+    "block": "minecraft:white_concrete"
+   },
+   {
+    "char": "丌",
+    "blocks": [
+     {
+      "random": 90,
+      "block": "minecraft:white_stained_glass"
+     },
+     {
+      "random": 26,
+      "block": "minecraft:white_wool"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:light_gray_wool"
+     }
+    ]
+   },
+   {
+    "char": "不",
+    "blocks": [
+     {
+      "random": 77,
+      "block": "handcrafted:stackable_book[books=3,facing=east,seed=9]"
+     },
+     {
+      "random": 1000,
+      "block": "zc_world:litter"
+     }
+    ]
+   },
+   {
+    "char": "与",
+    "block": "zc_world:sandbags"
+   },
+   {
+    "char": "丏",
+    "block": "minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight]"
+   },
+   {
+    "char": "丐",
+    "block": "minecraft:polished_andesite"
+   },
+   {
+    "char": "丑",
+    "block": "minecraft:white_bed[facing=south,part=foot]"
+   },
+   {
+    "char": "丒",
+    "block": "minecraft:oak_trapdoor[facing=south,half=bottom,open=true]"
+   },
+   {
+    "char": "专",
+    "block": "minecraft:white_bed[facing=south,part=head]"
+   },
+   {
+    "char": "且",
+    "blocks": [
+     {
+      "random": 58,
+      "block": "refurbished_furniture:oak_crate[open=false]"
+     },
+     {
+      "random": 32,
+      "block": "minecraft:barrel[facing=up,open=false]"
+     },
+     {
+      "random": 1000,
+      "block": "refurbished_furniture:spruce_crate[open=false]"
+     }
+    ],
+    "loot": "zc_world:loot_living"
+   },
+   {
+    "char": "丕",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=true,up=false,west=false]"
+   },
+   {
+    "char": "世",
+    "blocks": [
+     {
+      "random": 77,
+      "block": "minecraft:oak_planks"
+     },
+     {
+      "random": 32,
+      "block": "minecraft:spruce_planks"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:air"
+     }
+    ]
+   },
+   {
+    "char": "丗",
+    "block": "minecraft:vine[west=true]"
+   },
+   {
+    "char": "丘",
+    "block": "minecraft:vine[south=true]"
+   },
+   {
+    "char": "丙",
+    "block": "minecraft:birch_wall_sign[facing=south]",
+    "tag": {
+     "front_text": {
+      "messages": [
+       "{\"text\":\"QUARENTENA\"}",
+       "{\"text\":\"NAO ENTRE\"}",
+       "{\"text\":\"SECRETARIA DE\"}",
+       "{\"text\":\"SAUDE - ITAVERA\"}"
+      ],
+      "color": "red",
+      "has_glowing_text": false
+     },
+     "back_text": {
+      "messages": [
+       "{\"text\":\"QUARENTENA\"}",
+       "{\"text\":\"NAO ENTRE\"}",
+       "{\"text\":\"SECRETARIA DE\"}",
+       "{\"text\":\"SAUDE - ITAVERA\"}"
+      ],
+      "color": "red",
+      "has_glowing_text": false
+     },
+     "is_waxed": true
+    }
+   },
+   {
+    "char": "业",
+    "block": "minecraft:birch_wall_sign[facing=north]",
+    "tag": {
+     "front_text": {
+      "messages": [
+       "{\"text\":\"AREA ISOLADA\"}",
+       "{\"text\":\"USO OBRIGATORIO\"}",
+       "{\"text\":\"DE MASCARA\"}",
+       "{\"text\":\"\"}"
+      ],
+      "color": "red",
+      "has_glowing_text": false
+     },
+     "back_text": {
+      "messages": [
+       "{\"text\":\"AREA ISOLADA\"}",
+       "{\"text\":\"USO OBRIGATORIO\"}",
+       "{\"text\":\"DE MASCARA\"}",
+       "{\"text\":\"\"}"
+      ],
+      "color": "red",
+      "has_glowing_text": false
+     },
+     "is_waxed": true
+    }
+   },
+   {
+    "char": "丛",
+    "block": "immersive_weathering:ivy[down=false,east=true,north=false,south=false,up=false,west=false]"
+   },
+   {
+    "char": "东",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=false,up=false,west=true]"
+   },
+   {
+    "char": "丝",
+    "block": "refurbished_furniture:light_ceiling_light[face=ceiling,facing=east,powered=false]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_brown[facing=east,part=head]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_brown[facing=east,part=foot]"
+   }
+  ]
+ }
+}

@@ -1,0 +1,355 @@
+{
+ "xsize": 16,
+ "zsize": 16,
+ "slices": [
+  [
+   "⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥一一",
+   "⑥丁丁丁丁丁丁丁丁丁丁丁丁⑥一一",
+   "⑥丁丁丁丁丁丁丁丁丁丁丁丁⑥一一",
+   "⑥丁丁丁丁丁丁丁丁丁丁丁丁⑥一一",
+   "⑥丁丁丁丁丁丁丁丁丁丁丁丁⑥一一",
+   "⑥丁丁丁丁丁丁丁丁丁丁丁丁⑥一一",
+   "⑥丁丁丁丁丁丁丁丁丁丁丁丁⑥一一",
+   "⑥丁丁丁丁丁丁丁丁丁丁丁丁⑥一一",
+   "⑥丁丁丁丁丁丁丁丁丁丁丁丁⑥一一",
+   "⑥丁丁丁丁丁丁丁丁丁丁丁丁⑥一一",
+   "⑥丁丁丁丁丁丁丁丁丁丁丁丁⑥一一",
+   "⑥丁丁丁丁丁丁丁丁丁丁丁丁⑥一一",
+   "⑥丁丁丁丁丁丁丁丁丁丁丁丁⑥一一",
+   "⑥丁丁丁丁丁丁丁丁丁丁丁丁⑥一一",
+   "⑥丁丁丁丁丁丁丁丁丁丁丁丁⑥一一",
+   "⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥一一"
+  ],
+  [
+   "丂丂丂丂丂丂丂丂丂丂丂丂丂丂  ",
+   "丂七丄丅丆丄 万  丄  丂  ",
+   "丂  丈丈丈丈丈三 上  丂  ",
+   "丂  丄丄 万不与丄丄 丂  ",
+   "丂丄  丄丄丆丏 丐   丑  ",
+   "丂万万万万万万万 丐 上    ",
+   "丂七 丒丄  万专丐丄  丂  ",
+   "丂  丄丄且 万专专丄丄 丕  ",
+   "丂    专丏 丄上丄 世  ",
+   "丂    丄丄万 丗 丗丄丂  ",
+   "丂万万万万万万万 丗 丗 丑  ",
+   "丂七 丒 丄丘万 丗 丗    ",
+   "丂  丄丄且 丏 丗丄丗丄丂  ",
+   "丂     万 丗 丗专丂  ",
+   "丂丙  丄 丄万丄丄丆业丄丂  ",
+   "丂丂丂丂丂丂丂丂丂丂丂丂丂丂  "
+  ],
+  [
+   "万万万万⑨万万丛万万丛万万万  ",
+   "万  东丆  万     ⑨  ",
+   "万  丈丈丈丈三     ⑨  ",
+   "万      万不    万  ",
+   "万     业丝     丑  ",
+   "万万万万万万万万        ",
+   "万      万    万  ",
+   "万    且 万     丟  ",
+   "万      丝     丠  ",
+   "万      万     万  ",
+   "万万万万万万万万     丑  ",
+   "万     両万        ",
+   "万    且 丝     万  ",
+   "万丢     万     丛  ",
+   "万不     万  业丆 ⑨  ",
+   "万万万⑨万万⑨万万⑨万万万万  "
+  ],
+  [
+   "万万万万⑨万万⑨万万⑨万万万  ",
+   "万东 丣丆  万     ⑨  ",
+   "万  丈丈丈三      ⑨  ",
+   "万      万不    万  ",
+   "万     両万     丑  ",
+   "万万万万万万万万        ",
+   "万      万     万  ",
+   "万      万     ⑨  ",
+   "万      万     ⑨  ",
+   "万      万     万  ",
+   "万万万万万万万万     丑  ",
+   "万     丘万        ",
+   "万      万     万  ",
+   "万丢     万     ⑨  ",
+   "万   丆  万  业丆 ⑨  ",
+   "万万万⑨万万⑨万万⑨万万万万  "
+  ],
+  [
+   "万万万万万万万万万万万万万万  ",
+   "万东 东业  万     万  ",
+   "万  丈丈三       万  ",
+   "万      万丢    万  ",
+   "万     丘万     丑  ",
+   "万万万万万万万万        ",
+   "万      万     万  ",
+   "万      万     万  ",
+   "万      万     万不 ",
+   "万      万     万  ",
+   "万万万万万万万万     丑  ",
+   "万      万        ",
+   "万      万     万  ",
+   "万      万     万  ",
+   "万   丆  万  丆  万  ",
+   "万万万万万万万万万万万万万万  "
+  ],
+  [
+   "万万万万万万万万万万万万万万  ",
+   "万东 丣业  万     两  ",
+   "万  丈三        两  ",
+   "万  严   万     万  ",
+   "万      万     两  ",
+   "万万万万万万万万  严  两  ",
+   "万      万     两  ",
+   "万      万     万  ",
+   "万  严   万     两丢 ",
+   "万      万     两  ",
+   "万万万万万万万万     两  ",
+   "万      万  严  万  ",
+   "万      万     两  ",
+   "万  严   万     两  ",
+   "万   业  万     两  ",
+   "万万万万万万万万万万万万万万  "
+  ]
+ ],
+ "palette": {
+  "palette": [
+   {
+    "char": "一",
+    "blocks": [
+     {
+      "random": 102,
+      "block": "minecraft:smooth_stone"
+     },
+     {
+      "random": 15,
+      "block": "minecraft:andesite"
+     },
+     {
+      "random": 1000,
+      "block": "zc_world:asphalt_cracked"
+     }
+    ]
+   },
+   {
+    "char": "丁",
+    "block": "minecraft:white_terracotta"
+   },
+   {
+    "char": "丂",
+    "block": "minecraft:light_blue_concrete"
+   },
+   {
+    "char": "七",
+    "block": "refurbished_furniture:birch_storage_cabinet[facing=west,hinge=left]",
+    "loot": "zc_world:loot_clinic"
+   },
+   {
+    "char": "丄",
+    "blocks": [
+     {
+      "random": 100,
+      "block": "minecraft:air"
+     },
+     {
+      "random": 6,
+      "block": "minecraft:moss_carpet"
+     },
+     {
+      "random": 5,
+      "block": "immersive_weathering:oak_leaf_pile[layers=1]"
+     },
+     {
+      "random": 8,
+      "block": "zc_world:litter"
+     },
+     {
+      "random": 4,
+      "block": "zc_world:blood"
+     },
+     {
+      "random": 3,
+      "block": "zc_world:broken_glass"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:cobweb"
+     }
+    ]
+   },
+   {
+    "char": "丅",
+    "block": "refurbished_furniture:birch_desk[facing=east]"
+   },
+   {
+    "char": "丆",
+    "block": "minecraft:vine[south=true]"
+   },
+   {
+    "char": "万",
+    "block": "minecraft:white_concrete"
+   },
+   {
+    "char": "丈",
+    "block": "minecraft:polished_andesite"
+   },
+   {
+    "char": "三",
+    "block": "minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight]"
+   },
+   {
+    "char": "上",
+    "blocks": [
+     {
+      "random": 51,
+      "block": "minecraft:oak_trapdoor[facing=west,half=bottom,open=false]"
+     },
+     {
+      "random": 38,
+      "block": "zc_world:litter"
+     },
+     {
+      "random": 26,
+      "block": "zc_world:broken_glass"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:white_carpet"
+     }
+    ]
+   },
+   {
+    "char": "下",
+    "block": "minecraft:white_bed[facing=west,part=head]"
+   },
+   {
+    "char": "丌",
+    "block": "minecraft:white_bed[facing=west,part=foot]"
+   },
+   {
+    "char": "不",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=false,up=false,west=true]"
+   },
+   {
+    "char": "与",
+    "block": "refurbished_furniture:oak_drawer[facing=west]",
+    "loot": "zc_world:loot_clinic"
+   },
+   {
+    "char": "丏",
+    "block": "minecraft:oak_door[facing=west,half=lower,hinge=left,open=false]"
+   },
+   {
+    "char": "丐",
+    "block": "handcrafted:oak_counter[counter=quartz_block,facing=east,type=1]"
+   },
+   {
+    "char": "丑",
+    "block": "minecraft:glass",
+    "damaged": "minecraft:air"
+   },
+   {
+    "char": "丒",
+    "block": "refurbished_furniture:birch_desk[facing=north]"
+   },
+   {
+    "char": "专",
+    "block": "zc_world:blood"
+   },
+   {
+    "char": "且",
+    "block": "minecraft:white_stained_glass_pane[north=false,south=false,east=false,west=false]",
+    "damaged": "minecraft:air"
+   },
+   {
+    "char": "丕",
+    "block": "minecraft:spruce_door[facing=east,half=lower,hinge=left,open=false]"
+   },
+   {
+    "char": "世",
+    "block": "minecraft:spruce_door[facing=east,half=lower,hinge=right,open=false]"
+   },
+   {
+    "char": "丗",
+    "block": "refurbished_furniture:birch_chair[facing=west,tucked=false]"
+   },
+   {
+    "char": "丘",
+    "block": "minecraft:vine[east=true]"
+   },
+   {
+    "char": "丙",
+    "block": "refurbished_furniture:spruce_crate",
+    "loot": "zc_world:loot_clinic"
+   },
+   {
+    "char": "业",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=true,up=false,west=false]"
+   },
+   {
+    "char": "丛",
+    "blocks": [
+     {
+      "random": 58,
+      "block": "minecraft:oak_planks"
+     },
+     {
+      "random": 38,
+      "block": "minecraft:spruce_planks"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:stripped_oak_log[axis=y]"
+     }
+    ]
+   },
+   {
+    "char": "东",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=true,south=false,up=false,west=false]"
+   },
+   {
+    "char": "丝",
+    "block": "minecraft:oak_door[facing=west,half=upper,hinge=left,open=false]"
+   },
+   {
+    "char": "丞",
+    "block": "refurbished_furniture:computer[facing=east,powered=false]"
+   },
+   {
+    "char": "丟",
+    "block": "minecraft:spruce_door[facing=east,half=upper,hinge=left,open=false]"
+   },
+   {
+    "char": "丠",
+    "block": "minecraft:spruce_door[facing=east,half=upper,hinge=right,open=false]"
+   },
+   {
+    "char": "両",
+    "block": "immersive_weathering:ivy[down=false,east=true,north=false,south=false,up=false,west=false]"
+   },
+   {
+    "char": "丢",
+    "block": "minecraft:vine[west=true]"
+   },
+   {
+    "char": "丣",
+    "block": "minecraft:vine[north=true]"
+   },
+   {
+    "char": "两",
+    "block": "minecraft:red_concrete"
+   },
+   {
+    "char": "严",
+    "block": "refurbished_furniture:light_ceiling_light[face=ceiling,facing=west,powered=false]"
+   },
+   {
+    "char": "",
+    "block": "refurbished_furniture:computer[facing=west,powered=false]"
+   },
+   {
+    "char": "",
+    "block": "hospitals:hospital_bed[facing=west]"
+   }
+  ]
+ }
+}

@@ -1,0 +1,978 @@
+{
+ "style": "zc_world:zc_suburb",
+ "inherit": "citystyle_config",
+ "stuff_tags": [
+  "rubble"
+ ],
+ "streetblocks": {
+  "border": "Ṣ",
+  "wall": "w",
+  "street": "Ạ",
+  "streetbase": "b",
+  "streetvariant": "Ặ",
+  "parts": {
+   "straight": [
+    "zc_world:st_favela_straight_0",
+    "zc_world:st_favela_straight_1",
+    "zc_world:st_favela_straight_2"
+   ],
+   "end": [
+    "zc_world:st_favela_end_0",
+    "zc_world:st_favela_end_1"
+   ],
+   "bend": [
+    "zc_world:st_favela_bend_0",
+    "zc_world:st_favela_bend_1"
+   ],
+   "t": [
+    "zc_world:st_favela_t_0",
+    "zc_world:st_favela_t_1",
+    "zc_world:st_favela_t_2"
+   ],
+   "all": [
+    "zc_world:st_favela_all_0",
+    "zc_world:st_favela_all_1",
+    "zc_world:st_favela_all_2"
+   ],
+   "full": [
+    "zc_world:st_favela_full_0",
+    "zc_world:st_favela_full_1"
+   ],
+   "none": [
+    "zc_world:lot_favela_0",
+    "zc_world:lot_favela_1",
+    "zc_world:lot_favela_2",
+    "zc_world:lot_favela_0",
+    "zc_world:lot_favela_1",
+    "zc_world:lot_favela_2",
+    "zc_world:pk_favela_0"
+   ]
+  },
+  "fountainchance": 0,
+  "frontchance": 0
+ },
+ "parkblocks": {
+  "elevation": "Ẋ",
+  "parkchance": 0.02
+ },
+ "corridorblocks": {
+  "roof": "x",
+  "glass": "+",
+  "corridorchance": 0
+ },
+ "railblocks": {
+  "railmain": "y"
+ },
+ "sphereblocks": {
+  "glass": "Z",
+  "border": "9",
+  "inner": "b"
+ },
+ "buildingsettings": {
+  "buildingchance": 0.82,
+  "maxfloors": 5,
+  "maxcellars": 0
+ },
+ "selectors": {
+  "bridges": [
+   {
+    "factor": 1,
+    "value": "bridge_open"
+   },
+   {
+    "factor": 1,
+    "value": "bridge_covered"
+   }
+  ],
+  "fronts": [
+   {
+    "factor": 1,
+    "value": "building_front1"
+   },
+   {
+    "factor": 1,
+    "value": "building_front2"
+   }
+  ],
+  "stairs": [
+   {
+    "factor": 1,
+    "value": "stairs1"
+   },
+   {
+    "factor": 1,
+    "value": "stairsnormal"
+   },
+   {
+    "factor": 1,
+    "value": "stairsbig"
+   }
+  ],
+  "raildungeons": [
+   {
+    "factor": 1,
+    "value": "rail_dungeon1"
+   }
+  ],
+  "buildings": [
+   {
+    "factor": 0.0625,
+    "value": "zc_world:house_barricada_r0"
+   },
+   {
+    "factor": 0.0625,
+    "value": "zc_world:house_barricada_r90"
+   },
+   {
+    "factor": 0.0625,
+    "value": "zc_world:house_barricada_r180"
+   },
+   {
+    "factor": 0.0625,
+    "value": "zc_world:house_barricada_r270"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:house_esconderijo_r0"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:house_esconderijo_r90"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:house_esconderijo_r180"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:house_esconderijo_r270"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_geminadas_r0"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_geminadas_r90"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_geminadas_r180"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_geminadas_r270"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:house_puxadinho_r0"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:house_puxadinho_r90"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:house_puxadinho_r180"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:house_puxadinho_r270"
+   },
+   {
+    "factor": 0.1,
+    "value": "zc_world:shop_boteco_r0"
+   },
+   {
+    "factor": 0.1,
+    "value": "zc_world:shop_boteco_r90"
+   },
+   {
+    "factor": 0.1,
+    "value": "zc_world:shop_boteco_r180"
+   },
+   {
+    "factor": 0.1,
+    "value": "zc_world:shop_boteco_r270"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:church_evangelica_r0"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:church_evangelica_r90"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:church_evangelica_r180"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:church_evangelica_r270"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:shop_farmacia_saqueada_r0"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:shop_farmacia_saqueada_r90"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:shop_farmacia_saqueada_r180"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:shop_farmacia_saqueada_r270"
+   },
+   {
+    "factor": 0.325,
+    "value": "zc_world:house_favela_beco_r0"
+   },
+   {
+    "factor": 0.325,
+    "value": "zc_world:house_favela_beco_r90"
+   },
+   {
+    "factor": 0.325,
+    "value": "zc_world:house_favela_beco_r180"
+   },
+   {
+    "factor": 0.325,
+    "value": "zc_world:house_favela_beco_r270"
+   },
+   {
+    "factor": 0.3,
+    "value": "zc_world:house_favela_ladeira_r0"
+   },
+   {
+    "factor": 0.3,
+    "value": "zc_world:house_favela_ladeira_r90"
+   },
+   {
+    "factor": 0.3,
+    "value": "zc_world:house_favela_ladeira_r180"
+   },
+   {
+    "factor": 0.3,
+    "value": "zc_world:house_favela_ladeira_r270"
+   },
+   {
+    "factor": 0.225,
+    "value": "zc_world:house_favela_torre_r0"
+   },
+   {
+    "factor": 0.225,
+    "value": "zc_world:house_favela_torre_r90"
+   },
+   {
+    "factor": 0.225,
+    "value": "zc_world:house_favela_torre_r180"
+   },
+   {
+    "factor": 0.225,
+    "value": "zc_world:house_favela_torre_r270"
+   },
+   {
+    "factor": 0.25,
+    "value": "zc_world:house_favela_vila_r0"
+   },
+   {
+    "factor": 0.25,
+    "value": "zc_world:house_favela_vila_r90"
+   },
+   {
+    "factor": 0.25,
+    "value": "zc_world:house_favela_vila_r180"
+   },
+   {
+    "factor": 0.25,
+    "value": "zc_world:house_favela_vila_r270"
+   },
+   {
+    "factor": 0.2,
+    "value": "zc_world:shop_favela_birosca_r0"
+   },
+   {
+    "factor": 0.2,
+    "value": "zc_world:shop_favela_birosca_r90"
+   },
+   {
+    "factor": 0.2,
+    "value": "zc_world:shop_favela_birosca_r180"
+   },
+   {
+    "factor": 0.2,
+    "value": "zc_world:shop_favela_birosca_r270"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:church_favela_assembleia_r0"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:church_favela_assembleia_r90"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:church_favela_assembleia_r180"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:church_favela_assembleia_r270"
+   },
+   {
+    "factor": 0.2,
+    "value": "zc_world:house_favela_barracos_r0"
+   },
+   {
+    "factor": 0.2,
+    "value": "zc_world:house_favela_barracos_r90"
+   },
+   {
+    "factor": 0.2,
+    "value": "zc_world:house_favela_barracos_r180"
+   },
+   {
+    "factor": 0.2,
+    "value": "zc_world:house_favela_barracos_r270"
+   },
+   {
+    "factor": 0.225,
+    "value": "zc_world:house_favela_obra_r0"
+   },
+   {
+    "factor": 0.225,
+    "value": "zc_world:house_favela_obra_r90"
+   },
+   {
+    "factor": 0.225,
+    "value": "zc_world:house_favela_obra_r180"
+   },
+   {
+    "factor": 0.225,
+    "value": "zc_world:house_favela_obra_r270"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_laje_b_r0"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_laje_b_r90"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_laje_b_r180"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_laje_b_r270"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:house_laje_c_r0"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:house_laje_c_r90"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:house_laje_c_r180"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:house_laje_c_r270"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_kitnets_r0"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_kitnets_r90"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_kitnets_r180"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_kitnets_r270"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_comercio_r0"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_comercio_r90"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_comercio_r180"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:house_comercio_r270"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:shop_acougue_r0"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:shop_acougue_r90"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:shop_acougue_r180"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:shop_acougue_r270"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_borracharia_r0"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_borracharia_r90"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_borracharia_r180"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_borracharia_r270"
+   },
+   {
+    "factor": 0.1,
+    "value": "zc_world:shop_salao_r0"
+   },
+   {
+    "factor": 0.1,
+    "value": "zc_world:shop_salao_r90"
+   },
+   {
+    "factor": 0.1,
+    "value": "zc_world:shop_salao_r180"
+   },
+   {
+    "factor": 0.1,
+    "value": "zc_world:shop_salao_r270"
+   },
+   {
+    "factor": 0.1125,
+    "value": "zc_world:shop_lanhouse_r0"
+   },
+   {
+    "factor": 0.1125,
+    "value": "zc_world:shop_lanhouse_r90"
+   },
+   {
+    "factor": 0.1125,
+    "value": "zc_world:shop_lanhouse_r180"
+   },
+   {
+    "factor": 0.1125,
+    "value": "zc_world:shop_lanhouse_r270"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:shop_academia_r0"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:shop_academia_r90"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:shop_academia_r180"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:shop_academia_r270"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_material_r0"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_material_r90"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_material_r180"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_material_r270"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_pastelaria_r0"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_pastelaria_r90"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_pastelaria_r180"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_pastelaria_r270"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:civic_creche_r0"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:civic_creche_r90"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:civic_creche_r180"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:civic_creche_r270"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:church_paroquia_r0"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:church_paroquia_r90"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:church_paroquia_r180"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:church_paroquia_r270"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:civic_associacao_r0"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:civic_associacao_r90"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:civic_associacao_r180"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:civic_associacao_r270"
+   },
+   {
+    "factor": 0.0625,
+    "value": "zc_world:shop_lava_jato_r0"
+   },
+   {
+    "factor": 0.0625,
+    "value": "zc_world:shop_lava_jato_r90"
+   },
+   {
+    "factor": 0.0625,
+    "value": "zc_world:shop_lava_jato_r180"
+   },
+   {
+    "factor": 0.0625,
+    "value": "zc_world:shop_lava_jato_r270"
+   },
+   {
+    "factor": 0.1,
+    "value": "zc_world:shop_distribuidora_r0"
+   },
+   {
+    "factor": 0.1,
+    "value": "zc_world:shop_distribuidora_r90"
+   },
+   {
+    "factor": 0.1,
+    "value": "zc_world:shop_distribuidora_r180"
+   },
+   {
+    "factor": 0.1,
+    "value": "zc_world:shop_distribuidora_r270"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:ind_galpao_ruina_r0"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:ind_galpao_ruina_r90"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:ind_galpao_ruina_r180"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:ind_galpao_ruina_r270"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:civic_quadra_aberta_r0"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:civic_quadra_aberta_r90"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:civic_quadra_aberta_r180"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:civic_quadra_aberta_r270"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:civic_igreja_abrigo_r0"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:civic_igreja_abrigo_r90"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:civic_igreja_abrigo_r180"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:civic_igreja_abrigo_r270"
+   },
+   {
+    "factor": 0.0625,
+    "value": "zc_world:lazer_cassino_r0"
+   },
+   {
+    "factor": 0.0625,
+    "value": "zc_world:lazer_cassino_r90"
+   },
+   {
+    "factor": 0.0625,
+    "value": "zc_world:lazer_cassino_r180"
+   },
+   {
+    "factor": 0.0625,
+    "value": "zc_world:lazer_cassino_r270"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:lazer_karaoke_r0"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:lazer_karaoke_r90"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:lazer_karaoke_r180"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:lazer_karaoke_r270"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:lazer_bar_sinuca_r0"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:lazer_bar_sinuca_r90"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:lazer_bar_sinuca_r180"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:lazer_bar_sinuca_r270"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:ind_funilaria_r0"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:ind_funilaria_r90"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:ind_funilaria_r180"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:ind_funilaria_r270"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:civic_delegacia_bairro_r0"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:civic_delegacia_bairro_r90"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:civic_delegacia_bairro_r180"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:civic_delegacia_bairro_r270"
+   }
+  ],
+  "multibuildings": [
+   {
+    "factor": 0.075,
+    "value": "zc_world:civic_quadra_r0"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:civic_quadra_r90"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:civic_quadra_r180"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:civic_quadra_r270"
+   },
+   {
+    "factor": 0.225,
+    "value": "zc_world:house_favela_viela_r0"
+   },
+   {
+    "factor": 0.225,
+    "value": "zc_world:house_favela_viela_r90"
+   },
+   {
+    "factor": 0.225,
+    "value": "zc_world:house_favela_viela_r180"
+   },
+   {
+    "factor": 0.225,
+    "value": "zc_world:house_favela_viela_r270"
+   },
+   {
+    "factor": 0.2,
+    "value": "zc_world:house_favela_morro_r0"
+   },
+   {
+    "factor": 0.2,
+    "value": "zc_world:house_favela_morro_r90"
+   },
+   {
+    "factor": 0.2,
+    "value": "zc_world:house_favela_morro_r180"
+   },
+   {
+    "factor": 0.2,
+    "value": "zc_world:house_favela_morro_r270"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:house_favela_largo_r0"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:house_favela_largo_r90"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:house_favela_largo_r180"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:house_favela_largo_r270"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:house_vila_r0"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:house_vila_r90"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:house_vila_r180"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:house_vila_r270"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:civic_ubs_r0"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:civic_ubs_r90"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:civic_ubs_r180"
+   },
+   {
+    "factor": 0.0875,
+    "value": "zc_world:civic_ubs_r270"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:ind_ferro_velho_r0"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:ind_ferro_velho_r90"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:ind_ferro_velho_r180"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:ind_ferro_velho_r270"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:apartment_cohab_bloco_r0"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:apartment_cohab_bloco_r90"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:apartment_cohab_bloco_r180"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:apartment_cohab_bloco_r270"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:lazer_bingo_r0"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:lazer_bingo_r90"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:lazer_bingo_r180"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:lazer_bingo_r270"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:lazer_boate_r0"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:lazer_boate_r90"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:lazer_boate_r180"
+   },
+   {
+    "factor": 0.05,
+    "value": "zc_world:lazer_boate_r270"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:lazer_motel_r0"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:lazer_motel_r90"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:lazer_motel_r180"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:lazer_motel_r270"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:civic_ginasio_r0"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:civic_ginasio_r90"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:civic_ginasio_r180"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:civic_ginasio_r270"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:civic_terminal_onibus_r0"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:civic_terminal_onibus_r90"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:civic_terminal_onibus_r180"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:civic_terminal_onibus_r270"
+   }
+  ],
+  "parks": [
+   {
+    "factor": 1,
+    "value": "zc_world:pk_favela_0"
+   },
+   {
+    "factor": 1,
+    "value": "zc_world:pk_favela_1"
+   },
+   {
+    "factor": 1,
+    "value": "zc_world:pk_favela_2"
+   },
+   {
+    "factor": 1,
+    "value": "zc_world:pk_favela_3"
+   }
+  ],
+  "fountains": [
+   {
+    "factor": 1,
+    "value": "lostcities:fountain1"
+   }
+  ]
+ }
+}

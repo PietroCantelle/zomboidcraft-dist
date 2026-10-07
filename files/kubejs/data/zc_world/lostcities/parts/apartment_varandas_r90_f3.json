@@ -1,0 +1,404 @@
+{
+ "xsize": 16,
+ "zsize": 16,
+ "slices": [
+  [
+   "       一        ",
+   "   ⑪⑪⑪⑪⑪⑪⑪⑪⑪⑪⑪⑪ ",
+   " 丁丂⑪七七七七七七七七七七⑪ ",
+   "  丂⑪七七七七七七七七七七⑪ ",
+   "  丂⑪七七七七七七七七七七⑪ ",
+   "  丂⑪七七七七七七七七七七⑪ ",
+   "  丂⑪七七七七七七七七七七⑪ ",
+   "  丂⑪七七七七七七七七七七⑪ ",
+   "  丂⑪七七七七七七七七七七⑪ ",
+   "  丂⑪七七七七七七七七七七⑪ ",
+   "  丂⑪七七七七七七七七七七⑪ ",
+   "  丂⑪七七七七七七七七七七⑪ ",
+   "  丂⑪七七七七七七七七七七⑪ ",
+   "  丂⑪七七七七七七七七七七⑪ ",
+   "   ⑪⑪⑪⑪⑪⑪⑪⑪⑪⑪⑪⑪ ",
+   "                "
+  ],
+  [
+   "       丄        ",
+   "   ③③③③③③③③③③③③ ",
+   "  丅③   丆万丈丆 ③ ",
+   "   三 上上下 丌  不与③ ",
+   "  丅③上  丐丈丑  ③ ",
+   "  丅③丈丈专丈丈丈丈丈丈丈③ ",
+   "  丅③         一③ ",
+   "  且③丕世  丗丘丘丘丘丘③ ",
+   "  丅③丙     下 ③ ",
+   "  丅③          ③ ",
+   "  丅③丈丈业丈丈丈丈丈丈丈③ ",
+   "  丅③    万丈    ③ ",
+   "   三 上上下 丌  丛东③ ",
+   "  丅③丏上上 丐丈丑  丒③ ",
+   "   ③③③③③③③③③③③③ ",
+   "                "
+  ],
+  [
+   "     丄 一        ",
+   "   ⑨③③⑨③③⑨③③⑨③③ ",
+   "   ⑨     丈丝   ③ ",
+   "   丞     丟    ⑨ ",
+   "   ③     丈   丄⑨ ",
+   "   ⑨丈丈丠丈丈丈丈丈丈丈③ ",
+   "   ⑨         一⑨ ",
+   "   ③     丗丘丘丘丘③ ",
+   "   ③          ③ ",
+   "   ⑨          ⑨ ",
+   "   ⑨丈丈両丈丈丈丈丈丈丈③丢",
+   "   ③    丣丈    ⑨ ",
+   "   丞     丟    ⑨ ",
+   "   ⑨     丈   两③ ",
+   "   ⑨③⑨③③⑨③③⑨③③③ ",
+   "                "
+  ],
+  [
+   "     丄     一    ",
+   "   ⑨③③⑨③③⑨③③⑨③③ ",
+   "   ⑨     丈丆   ③丢",
+   "   ⑨    丣丈    ⑨ ",
+   "   ③     丈   丄⑨ ",
+   "   ⑨丈丈丈丈丈丈丈丈丈丈③ ",
+   "   ⑨         一⑨ ",
+   "   ③      丗丘丘丘③ ",
+   "   ③          ③ ",
+   "   ⑨          ⑨ ",
+   "   ⑨丈丈丈丈丈丈丈丈丈丈③丢",
+   "   ③    丣丈    ⑨ ",
+   "   ⑨     丈    ⑨ ",
+   "   ⑨     丈    ③ ",
+   "   ⑨③⑨③③⑨③③⑨③③③ ",
+   "                "
+  ],
+  [
+   "     一     一    ",
+   "   ③③③③③③③③③③③③严",
+   "   ③     丈丝   ③严",
+   "   ③     丈   丁③ ",
+   "   ③     丈   一③丢",
+   "   ③丈丈丈丈丈丈丈丈丈丈③ ",
+   "   ③         丄③ ",
+   "   ③       丗丘丘③ ",
+   "   ③          ③ ",
+   "   ③          ③ ",
+   "   ③丈丈丈丈丈丈丈丈丈丈③严",
+   "   ③     丈    ③ ",
+   "   ③     丈    ③ ",
+   "   ③    一丈    ③ ",
+   "   ③③③③③③③③③③③③ ",
+   "                "
+  ],
+  [
+   "     一     一    ",
+   "   ③③③③③③③③③③③③丢",
+   "   ③     丈丆   ③严",
+   "   ③     丈    ③ ",
+   "   ③     丈    ③严",
+   "   ③丈丈丈丈丈丈丈丈丈丈③ ",
+   "   ③          ③ ",
+   "   ③        丗丘③ ",
+   "   ③          ③ ",
+   "   ③          ③ ",
+   "   ③丈丈丈丈丈丈丈丈丈丈③丢",
+   "   ③     丈    ③ ",
+   "   ③     丈    ③ ",
+   "   ③    一丈    ③ ",
+   "   ③③③③③③③③③③③③ ",
+   "                "
+  ]
+ ],
+ "palette": {
+  "palette": [
+   {
+    "char": "一",
+    "block": "minecraft:vine[south=true]"
+   },
+   {
+    "char": "丁",
+    "block": "immersive_weathering:ivy[down=false,east=true,north=false,south=false,up=false,west=false]"
+   },
+   {
+    "char": "丂",
+    "block": "minecraft:smooth_stone_slab[type=top]"
+   },
+   {
+    "char": "七",
+    "blocks": [
+     {
+      "random": 96,
+      "block": "minecraft:white_terracotta"
+     },
+     {
+      "random": 19,
+      "block": "minecraft:smooth_stone"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:light_gray_terracotta"
+     }
+    ]
+   },
+   {
+    "char": "丄",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=true,up=false,west=false]"
+   },
+   {
+    "char": "丅",
+    "blocks": [
+     {
+      "random": 109,
+      "block": "minecraft:iron_bars"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:air"
+     }
+    ]
+   },
+   {
+    "char": "丆",
+    "block": "minecraft:vine[north=true]"
+   },
+   {
+    "char": "万",
+    "block": "refurbished_furniture:white_lamp[powered=false]"
+   },
+   {
+    "char": "丈",
+    "block": "minecraft:white_concrete"
+   },
+   {
+    "char": "三",
+    "block": "minecraft:spruce_door[facing=west,half=lower,hinge=left,open=false]"
+   },
+   {
+    "char": "上",
+    "blocks": [
+     {
+      "random": 51,
+      "block": "minecraft:red_carpet"
+     },
+     {
+      "random": 38,
+      "block": "minecraft:brown_carpet"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:light_gray_carpet"
+     }
+    ]
+   },
+   {
+    "char": "下",
+    "blocks": [
+     {
+      "random": 79,
+      "block": "minecraft:air"
+     },
+     {
+      "random": 10,
+      "block": "zc_world:litter"
+     },
+     {
+      "random": 6,
+      "block": "zc_world:blood"
+     },
+     {
+      "random": 5,
+      "block": "zc_world:broken_glass"
+     },
+     {
+      "random": 5,
+      "block": "handcrafted:stackable_book[books=1,facing=south,seed=42]"
+     },
+     {
+      "random": 6,
+      "block": "minecraft:white_carpet"
+     },
+     {
+      "random": 4,
+      "block": "handcrafted:white_plate[facing=west,pieces=1,waterlogged=false]"
+     },
+     {
+      "random": 4,
+      "block": "zc_world:trash_bags"
+     },
+     {
+      "random": 4,
+      "block": "handcrafted:gray_cushion"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:light_gray_carpet"
+     }
+    ]
+   },
+   {
+    "char": "丌",
+    "block": "minecraft:oak_door[facing=east,half=lower,hinge=left,open=false]"
+   },
+   {
+    "char": "不",
+    "block": "minecraft:light_blue_bed[facing=east,part=foot]"
+   },
+   {
+    "char": "与",
+    "block": "minecraft:light_blue_bed[facing=east,part=head]"
+   },
+   {
+    "char": "丏",
+    "block": "refurbished_furniture:brown_sofa[facing=west,shape=default]"
+   },
+   {
+    "char": "丐",
+    "block": "refurbished_furniture:oak_drawer[facing=east]",
+    "loot": "zc_world:loot_living"
+   },
+   {
+    "char": "丑",
+    "block": "handcrafted:oak_cupboard[facing=east,type=1]",
+    "loot": "zc_world:loot_wardrobe"
+   },
+   {
+    "char": "丒",
+    "block": "handcrafted:oak_nightstand[facing=west,color=none]"
+   },
+   {
+    "char": "专",
+    "block": "minecraft:oak_door[facing=north,half=lower,hinge=left,open=false]"
+   },
+   {
+    "char": "且",
+    "blocks": [
+     {
+      "random": 38,
+      "block": "refurbished_furniture:white_stool"
+     },
+     {
+      "random": 38,
+      "block": "minecraft:potted_fern"
+     },
+     {
+      "random": 26,
+      "block": "zc_world:litter"
+     },
+     {
+      "random": 1000,
+      "block": "minecraft:air"
+     }
+    ]
+   },
+   {
+    "char": "丕",
+    "block": "refurbished_furniture:white_kitchen_drawer[facing=west]",
+    "loot": "zc_world:loot_kitchen"
+   },
+   {
+    "char": "世",
+    "block": "minecraft:oak_trapdoor[facing=south,half=bottom,open=true]"
+   },
+   {
+    "char": "丗",
+    "block": "minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight]"
+   },
+   {
+    "char": "丘",
+    "block": "minecraft:polished_andesite"
+   },
+   {
+    "char": "丙",
+    "block": "refurbished_furniture:light_fridge[facing=west]",
+    "loot": "zc_world:loot_fridge"
+   },
+   {
+    "char": "业",
+    "block": "minecraft:oak_door[facing=south,half=lower,hinge=left,open=false]"
+   },
+   {
+    "char": "丛",
+    "block": "minecraft:light_gray_bed[facing=east,part=foot]"
+   },
+   {
+    "char": "东",
+    "block": "minecraft:light_gray_bed[facing=east,part=head]"
+   },
+   {
+    "char": "丝",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=true,south=false,up=false,west=false]"
+   },
+   {
+    "char": "丞",
+    "block": "minecraft:spruce_door[facing=west,half=upper,hinge=left,open=false]"
+   },
+   {
+    "char": "丟",
+    "block": "minecraft:oak_door[facing=east,half=upper,hinge=left,open=false]"
+   },
+   {
+    "char": "丠",
+    "block": "minecraft:oak_door[facing=north,half=upper,hinge=left,open=false]"
+   },
+   {
+    "char": "両",
+    "block": "minecraft:oak_door[facing=south,half=upper,hinge=left,open=false]"
+   },
+   {
+    "char": "丢",
+    "block": "minecraft:vine[west=true]"
+   },
+   {
+    "char": "丣",
+    "block": "minecraft:vine[east=true]"
+   },
+   {
+    "char": "两",
+    "blocks": [
+     {
+      "random": 58,
+      "block": "minecraft:air"
+     },
+     {
+      "random": 32,
+      "block": "minecraft:candle[candles=2,lit=false]"
+     },
+     {
+      "random": 1000,
+      "block": "handcrafted:stackable_book[books=2,facing=east,seed=17]"
+     }
+    ]
+   },
+   {
+    "char": "严",
+    "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=false,up=false,west=true]"
+   },
+   {
+    "char": "",
+    "block": "refurbished_furniture:brown_sofa[facing=south,shape=default]"
+   },
+   {
+    "char": "",
+    "block": "handcrafted:oak_nightstand[facing=north,color=none]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_green[facing=east,part=head]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_green[facing=east,part=foot]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_brown[facing=east,part=head]"
+   },
+   {
+    "char": "",
+    "block": "comforts:sleeping_bag_brown[facing=east,part=foot]"
+   }
+  ]
+ }
+}

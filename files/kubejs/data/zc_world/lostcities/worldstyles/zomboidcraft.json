@@ -1,0 +1,299 @@
+{
+ "outsidestyle": "zc_world:zc_outside",
+ "settings": {
+  "railwayavoidance": "ignore",
+  "railpartheight6": 1
+ },
+ "multisettings": {
+  "areasize": 6,
+  "minimum": 0,
+  "maximum": 3,
+  "correctstylefactor": 0.9,
+  "attempts": 60
+ },
+ "scattered": {
+  "areasize": 5,
+  "chance": 0.7,
+  "weightnone": 25,
+  "list": [
+   {
+    "name": "zc_world:rural_sitio_sc_r0",
+    "weight": 8,
+    "maxheightdiff": 4,
+    "biomes": {
+     "excluding": [
+      "#minecraft:is_ocean",
+      "#minecraft:is_river",
+      "#minecraft:is_beach",
+      "#zc_world:district/no_city"
+     ]
+    }
+   },
+   {
+    "name": "zc_world:rural_sitio_sc_r90",
+    "weight": 8,
+    "maxheightdiff": 4,
+    "biomes": {
+     "excluding": [
+      "#minecraft:is_ocean",
+      "#minecraft:is_river",
+      "#minecraft:is_beach",
+      "#zc_world:district/no_city"
+     ]
+    }
+   },
+   {
+    "name": "zc_world:rural_sitio_sc_r180",
+    "weight": 8,
+    "maxheightdiff": 4,
+    "biomes": {
+     "excluding": [
+      "#minecraft:is_ocean",
+      "#minecraft:is_river",
+      "#minecraft:is_beach",
+      "#zc_world:district/no_city"
+     ]
+    }
+   },
+   {
+    "name": "zc_world:rural_sitio_sc_r270",
+    "weight": 8,
+    "maxheightdiff": 4,
+    "biomes": {
+     "excluding": [
+      "#minecraft:is_ocean",
+      "#minecraft:is_river",
+      "#minecraft:is_beach",
+      "#zc_world:district/no_city"
+     ]
+    }
+   },
+   {
+    "name": "zc_world:rural_curral_sc_r0",
+    "weight": 6,
+    "maxheightdiff": 4,
+    "biomes": {
+     "excluding": [
+      "#minecraft:is_ocean",
+      "#minecraft:is_river",
+      "#minecraft:is_beach",
+      "#zc_world:district/no_city"
+     ]
+    }
+   },
+   {
+    "name": "zc_world:rural_curral_sc_r90",
+    "weight": 6,
+    "maxheightdiff": 4,
+    "biomes": {
+     "excluding": [
+      "#minecraft:is_ocean",
+      "#minecraft:is_river",
+      "#minecraft:is_beach",
+      "#zc_world:district/no_city"
+     ]
+    }
+   },
+   {
+    "name": "zc_world:rural_curral_sc_r180",
+    "weight": 6,
+    "maxheightdiff": 4,
+    "biomes": {
+     "excluding": [
+      "#minecraft:is_ocean",
+      "#minecraft:is_river",
+      "#minecraft:is_beach",
+      "#zc_world:district/no_city"
+     ]
+    }
+   },
+   {
+    "name": "zc_world:rural_curral_sc_r270",
+    "weight": 6,
+    "maxheightdiff": 4,
+    "biomes": {
+     "excluding": [
+      "#minecraft:is_ocean",
+      "#minecraft:is_river",
+      "#minecraft:is_beach",
+      "#zc_world:district/no_city"
+     ]
+    }
+   },
+   {
+    "name": "zc_world:rural_plantacao_sc_r0",
+    "weight": 10,
+    "maxheightdiff": 4,
+    "biomes": {
+     "excluding": [
+      "#minecraft:is_ocean",
+      "#minecraft:is_river",
+      "#minecraft:is_beach",
+      "#zc_world:district/no_city"
+     ]
+    }
+   },
+   {
+    "name": "zc_world:rural_plantacao_sc_r90",
+    "weight": 10,
+    "maxheightdiff": 4,
+    "biomes": {
+     "excluding": [
+      "#minecraft:is_ocean",
+      "#minecraft:is_river",
+      "#minecraft:is_beach",
+      "#zc_world:district/no_city"
+     ]
+    }
+   },
+   {
+    "name": "zc_world:rural_plantacao_sc_r180",
+    "weight": 10,
+    "maxheightdiff": 4,
+    "biomes": {
+     "excluding": [
+      "#minecraft:is_ocean",
+      "#minecraft:is_river",
+      "#minecraft:is_beach",
+      "#zc_world:district/no_city"
+     ]
+    }
+   },
+   {
+    "name": "zc_world:rural_plantacao_sc_r270",
+    "weight": 10,
+    "maxheightdiff": 4,
+    "biomes": {
+     "excluding": [
+      "#minecraft:is_ocean",
+      "#minecraft:is_river",
+      "#minecraft:is_beach",
+      "#zc_world:district/no_city"
+     ]
+    }
+   }
+  ]
+ },
+ "citybiomemultipliers": [
+  {
+   "multiplier": 0,
+   "biomes": {
+    "if_any": [
+     "#zc_world:district/no_city"
+    ]
+   }
+  },
+  {
+   "multiplier": 0.1,
+   "biomes": {
+    "if_any": [
+     "#minecraft:is_ocean"
+    ]
+   }
+  },
+  {
+   "multiplier": 0.5,
+   "biomes": {
+    "if_any": [
+     "#minecraft:is_river"
+    ]
+   }
+  }
+ ],
+ "citystyles": [
+  {
+   "factor": 1,
+   "citystyle": "zc_world:zc_centro"
+  },
+  {
+   "factor": 1,
+   "citystyle": "zc_world:zc_saude"
+  },
+  {
+   "factor": 1,
+   "citystyle": "zc_world:zc_acacias"
+  },
+  {
+   "factor": 1,
+   "citystyle": "zc_world:zc_operaria"
+  },
+  {
+   "factor": 1,
+   "citystyle": "zc_world:zc_boavista"
+  },
+  {
+   "factor": 1,
+   "citystyle": "zc_world:zc_industrial"
+  },
+  {
+   "factor": 1,
+   "citystyle": "zc_world:zc_rural"
+  },
+  {
+   "factor": 1,
+   "citystyle": "zc_world:zc_favela"
+  }
+ ],
+ "parts": {
+  "highways": {
+   "open": [
+    "zc_world:hw_open_0",
+    "zc_world:hw_open_0",
+    "zc_world:hw_open_0",
+    "zc_world:hw_open_1",
+    "zc_world:hw_open_2",
+    "zc_world:hw_open_3",
+    "zc_world:hw_open_4"
+   ],
+   "bridge": [
+    "zc_world:hw_bridge_0",
+    "zc_world:hw_bridge_0",
+    "zc_world:hw_bridge_0",
+    "zc_world:hw_bridge_1",
+    "zc_world:hw_bridge_2",
+    "zc_world:hw_bridge_4"
+   ],
+   "tunnel": [
+    "zc_world:hw_tunnel_0",
+    "zc_world:hw_tunnel_0",
+    "zc_world:hw_tunnel_1"
+   ],
+   "open_bi": [
+    "zc_world:hw_open_bi_0",
+    "zc_world:hw_open_bi_0",
+    "zc_world:hw_open_bi_1",
+    "zc_world:hw_open_bi_4"
+   ],
+   "bridge_bi": [
+    "zc_world:hw_bridge_bi_0",
+    "zc_world:hw_bridge_bi_0",
+    "zc_world:hw_bridge_bi_1"
+   ],
+   "tunnel_bi": [
+    "zc_world:hw_tunnel_bi_0"
+   ]
+  },
+  "railways": {
+   "stationunderground": [
+    "zc_world:metro_station_underground",
+    "zc_world:metro_station_underground",
+    "zc_world:metro_station_underground_trem"
+   ],
+   "stationopen": "zc_world:metro_station_open",
+   "stationopenroof": "zc_world:metro_station_openroof",
+   "stationundergroundstairs": "zc_world:metro_station_underground_stairs",
+   "stationstaircase": "zc_world:metro_station_staircase",
+   "stationstaircasesurface": "zc_world:metro_station_staircase_surface",
+   "railshorizontal": "zc_world:metro_rails_horizontal",
+   "railshorizontalend": "zc_world:metro_rails_horizontal_end",
+   "railshorizontalwater": "zc_world:metro_rails_horizontal_water",
+   "railsvertical": "zc_world:metro_rails_vertical",
+   "railsverticalwater": "zc_world:metro_rails_vertical_water",
+   "rails3split": "zc_world:metro_rails_3split",
+   "railsbend": "zc_world:metro_rails_bend",
+   "railsflat": "zc_world:metro_rails_flat",
+   "railsdown1": "zc_world:metro_rails_down1",
+   "railsdown2": "zc_world:metro_rails_down2"
+  }
+ }
+}

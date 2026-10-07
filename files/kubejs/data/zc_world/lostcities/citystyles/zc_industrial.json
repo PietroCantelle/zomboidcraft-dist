@@ -1,0 +1,550 @@
+{
+ "style": "zc_world:zc_industrial",
+ "inherit": "citystyle_config",
+ "stuff_tags": [
+  "rubble"
+ ],
+ "streetblocks": {
+  "border": "Ṣ",
+  "wall": "w",
+  "street": "Ạ",
+  "streetbase": "b",
+  "streetvariant": "Ặ",
+  "parts": {
+   "straight": [
+    "zc_world:st_industrial_straight_0",
+    "zc_world:st_industrial_straight_1",
+    "zc_world:st_industrial_straight_2"
+   ],
+   "end": [
+    "zc_world:st_industrial_end_0",
+    "zc_world:st_industrial_end_1"
+   ],
+   "bend": [
+    "zc_world:st_industrial_bend_0",
+    "zc_world:st_industrial_bend_1"
+   ],
+   "t": [
+    "zc_world:st_industrial_t_0",
+    "zc_world:st_industrial_t_1",
+    "zc_world:st_industrial_t_2"
+   ],
+   "all": [
+    "zc_world:st_industrial_all_0",
+    "zc_world:st_industrial_all_1",
+    "zc_world:st_industrial_all_2"
+   ],
+   "full": [
+    "zc_world:st_industrial_full_0",
+    "zc_world:st_industrial_full_1"
+   ],
+   "none": [
+    "zc_world:lot_industrial_0",
+    "zc_world:lot_industrial_1",
+    "zc_world:lot_industrial_2",
+    "zc_world:pk_industrial_0",
+    "zc_world:pk_industrial_1",
+    "zc_world:pk_industrial_2",
+    "zc_world:pk_industrial_3"
+   ]
+  },
+  "fountainchance": 0,
+  "frontchance": 0
+ },
+ "parkblocks": {
+  "elevation": "Ẋ",
+  "parkchance": 0.04
+ },
+ "corridorblocks": {
+  "roof": "x",
+  "glass": "+",
+  "corridorchance": 0
+ },
+ "railblocks": {
+  "railmain": "y"
+ },
+ "sphereblocks": {
+  "glass": "Z",
+  "border": "9",
+  "inner": "b"
+ },
+ "buildingsettings": {
+  "buildingchance": 0.5,
+  "maxfloors": 6,
+  "maxcellars": 0
+ },
+ "selectors": {
+  "bridges": [
+   {
+    "factor": 1,
+    "value": "bridge_open"
+   },
+   {
+    "factor": 1,
+    "value": "bridge_covered"
+   }
+  ],
+  "fronts": [
+   {
+    "factor": 1,
+    "value": "building_front1"
+   },
+   {
+    "factor": 1,
+    "value": "building_front2"
+   }
+  ],
+  "stairs": [
+   {
+    "factor": 1,
+    "value": "stairs1"
+   },
+   {
+    "factor": 1,
+    "value": "stairsnormal"
+   },
+   {
+    "factor": 1,
+    "value": "stairsbig"
+   }
+  ],
+  "raildungeons": [
+   {
+    "factor": 1,
+    "value": "rail_dungeon1"
+   }
+  ],
+  "buildings": [
+   {
+    "factor": 0.025,
+    "value": "zc_world:apartment_cohab_r0"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:apartment_cohab_r90"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:apartment_cohab_r180"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:apartment_cohab_r270"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:ind_containers_r0"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:ind_containers_r90"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:ind_containers_r180"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:ind_containers_r270"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:ind_serralheria_r0"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:ind_serralheria_r90"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:ind_serralheria_r180"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:ind_serralheria_r270"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:shop_boteco_r0"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:shop_boteco_r90"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:shop_boteco_r180"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:shop_boteco_r270"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:shop_oficina_r0"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:shop_oficina_r90"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:shop_oficina_r180"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:shop_oficina_r270"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:shop_posto_r0"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:shop_posto_r90"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:shop_posto_r180"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:shop_posto_r270"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:shop_borracharia_r0"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:shop_borracharia_r90"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:shop_borracharia_r180"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:shop_borracharia_r270"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:shop_material_r0"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:shop_material_r90"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:shop_material_r180"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:shop_material_r270"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_lava_jato_r0"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_lava_jato_r90"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_lava_jato_r180"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_lava_jato_r270"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_distribuidora_r0"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_distribuidora_r90"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_distribuidora_r180"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:shop_distribuidora_r270"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:ind_galpao_ruina_r0"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:ind_galpao_ruina_r90"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:ind_galpao_ruina_r180"
+   },
+   {
+    "factor": 0.175,
+    "value": "zc_world:ind_galpao_ruina_r270"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:lazer_bar_sinuca_r0"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:lazer_bar_sinuca_r90"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:lazer_bar_sinuca_r180"
+   },
+   {
+    "factor": 0.0375,
+    "value": "zc_world:lazer_bar_sinuca_r270"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:ind_funilaria_r0"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:ind_funilaria_r90"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:ind_funilaria_r180"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:ind_funilaria_r270"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:civic_bombeiros_posto_r0"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:civic_bombeiros_posto_r90"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:civic_bombeiros_posto_r180"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:civic_bombeiros_posto_r270"
+   },
+   {
+    "factor": 0.8,
+    "value": "zc_world:warehouse"
+   },
+   {
+    "factor": 0.25,
+    "value": "zc_world:gasstation"
+   },
+   {
+    "factor": 0.1,
+    "value": "zc_world:parking"
+   }
+  ],
+  "multibuildings": [
+   {
+    "factor": 0.025,
+    "value": "zc_world:civic_quadra_r0"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:civic_quadra_r90"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:civic_quadra_r180"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:civic_quadra_r270"
+   },
+   {
+    "factor": 0.3,
+    "value": "zc_world:ind_galpao_r0"
+   },
+   {
+    "factor": 0.3,
+    "value": "zc_world:ind_galpao_r90"
+   },
+   {
+    "factor": 0.3,
+    "value": "zc_world:ind_galpao_r180"
+   },
+   {
+    "factor": 0.3,
+    "value": "zc_world:ind_galpao_r270"
+   },
+   {
+    "factor": 0.1375,
+    "value": "zc_world:ind_metalurgica_r0"
+   },
+   {
+    "factor": 0.1375,
+    "value": "zc_world:ind_metalurgica_r90"
+   },
+   {
+    "factor": 0.1375,
+    "value": "zc_world:ind_metalurgica_r180"
+   },
+   {
+    "factor": 0.1375,
+    "value": "zc_world:ind_metalurgica_r270"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:ind_patio_ferroviario_r0"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:ind_patio_ferroviario_r90"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:ind_patio_ferroviario_r180"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:ind_patio_ferroviario_r270"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:ind_ferro_velho_r0"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:ind_ferro_velho_r90"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:ind_ferro_velho_r180"
+   },
+   {
+    "factor": 0.15,
+    "value": "zc_world:ind_ferro_velho_r270"
+   },
+   {
+    "factor": 0.25,
+    "value": "zc_world:ind_galpao_doca_r0"
+   },
+   {
+    "factor": 0.25,
+    "value": "zc_world:ind_galpao_doca_r90"
+   },
+   {
+    "factor": 0.25,
+    "value": "zc_world:ind_galpao_doca_r180"
+   },
+   {
+    "factor": 0.25,
+    "value": "zc_world:ind_galpao_doca_r270"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:apartment_cohab_bloco_r0"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:apartment_cohab_bloco_r90"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:apartment_cohab_bloco_r180"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:apartment_cohab_bloco_r270"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:lazer_motel_r0"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:lazer_motel_r90"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:lazer_motel_r180"
+   },
+   {
+    "factor": 0.075,
+    "value": "zc_world:lazer_motel_r270"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:shop_atacadista_r0"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:shop_atacadista_r90"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:shop_atacadista_r180"
+   },
+   {
+    "factor": 0.125,
+    "value": "zc_world:shop_atacadista_r270"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:civic_terminal_onibus_r0"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:civic_terminal_onibus_r90"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:civic_terminal_onibus_r180"
+   },
+   {
+    "factor": 0.025,
+    "value": "zc_world:civic_terminal_onibus_r270"
+   },
+   {
+    "factor": 0.6,
+    "value": "zc_world:warehouse_row"
+   },
+   {
+    "factor": 0.1,
+    "value": "zc_world:parking_block"
+   }
+  ],
+  "parks": [
+   {
+    "factor": 1,
+    "value": "zc_world:pk_industrial_0"
+   },
+   {
+    "factor": 1,
+    "value": "zc_world:pk_industrial_1"
+   },
+   {
+    "factor": 1,
+    "value": "zc_world:pk_industrial_2"
+   },
+   {
+    "factor": 1,
+    "value": "zc_world:pk_industrial_3"
+   }
+  ],
+  "fountains": [
+   {
+    "factor": 1,
+    "value": "lostcities:fountain1"
+   }
+  ]
+ }
+}
