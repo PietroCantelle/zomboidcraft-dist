@@ -25,8 +25,12 @@
 	#10 - 12 = Early/Mid/Late Winter
 	starting_sub_season = 5
 	#The duration of a sub season in days.
+	#ZomboidCraft 0.3.4: Serene Seasons follows the dayTime differences of the zc_world clock (6 h in-game days, frozen
+	#with nobody online). 5 days x 12 = a 60-day year = the ~45 real day campaign: start MID_SUMMER (DQ 0), autumn DQ 10-25,
+	#winter DQ 25-40 (real weeks ~3-4), spring DQ 40-55, summer again DQ 55+.
 	sub_season_duration = 5
 	#If the season should progress on a server with no players online
+	#(kept true: the zc_world clock itself is paused when the server is empty, and /zcworld time simulate works for tests)
 	progress_season_while_offline = true
 	#The duration of a Minecraft day in ticks.
 	#This only adjusts the internal length of a day used by the season cycle.

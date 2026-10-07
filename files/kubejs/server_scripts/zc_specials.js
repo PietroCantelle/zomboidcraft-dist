@@ -10,6 +10,8 @@
 // This script keeps "zcday" = the quarantine day: zc_story's ZcStoryApi.getDay() (the same "Dia N" the radio/HUD use,
 // admins can move it with /zcstory day set) or, without zc_story, overworld dayTime / 24000. It also sets In Control's own
 // day counter (`incontrol days`) so `mindaycount` in spawn.json would mean the same thing.
+// 0.3.4 time model: an in-game day lasts 6 real hours (zc_world clock, paused with nobody online) and the spawner.json
+// thresholds are quarantine days as tuned in the 0.3.5 playtest (pack/tools/gen_incontrol.py).
 
 const ZC_SPECIALS_SYNC_TICKS = 200   // every 10 s
 let zcSpecialsDay = -1

@@ -734,7 +734,7 @@
 				"&7&oRádio de pilha, SAE, Dia 1: \"...pessoas feridas por mordida devem se isolar e amarrar um pano branco na janela. Uma equipe de saúde irá até você.\"&r"
 				""
 				"Nenhuma equipe vem. A mordida tem chance alta de passar o &cKnox&r. Arranhão quase nunca."
-				"0–24 h: nada. Você se sente bem. Você quer acreditar nisso. 24–48 h: febre, sede, paranoia. 48–72 h: tosse com sangue, fraqueza. Depois: você levanta."
+				"0–24 h: nada. Você se sente bem. Você quer acreditar nisso. 24–48 h: febre, sede, paranoia. 48–72 h: tosse com sangue, fraqueza. Depois: você levanta. &8(No jogo isso corre em tempo real: de 40 a 60 minutos jogando, não dias do calendário.)&r"
 				"Não existe remédio na farmácia para isso. Antibiótico não cura Knox. Se for mordido, avise o grupo. Mordida não se esconde."
 			]
 			hide_until_deps_complete: true

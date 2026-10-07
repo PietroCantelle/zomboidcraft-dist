@@ -20,7 +20,7 @@
 			hide_until_deps_complete: true
 			icon: "zc_survival:water_bottle"
 			id: "5710E3DD28FD36C4"
-			repeat_cooldown: 2400
+			repeat_cooldown: 129600
 			rewards: [
 				{
 					count: 2
@@ -65,7 +65,7 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:potato"
 			id: "7E7345799EDB047F"
-			repeat_cooldown: 3600
+			repeat_cooldown: 194400
 			rewards: [
 				{
 					id: "1753F2702F1D1E5D"
@@ -167,7 +167,7 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:oak_log"
 			id: "1C160AE2404532EC"
-			repeat_cooldown: 2400
+			repeat_cooldown: 129600
 			rewards: [
 				{
 					id: "38F70D16F0C2552E"
@@ -237,7 +237,7 @@
 			hide_until_deps_complete: true
 			icon: "zc_survival:disinfectant"
 			id: "1B1446C395194BA9"
-			repeat_cooldown: 8400
+			repeat_cooldown: 453600
 			rewards: [
 				{
 					count: 4
@@ -271,7 +271,7 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:lantern"
 			id: "6C1A7312D8FE602B"
-			repeat_cooldown: 3600
+			repeat_cooldown: 194400
 			rewards: [
 				{
 					id: "32C1B6E839D2A6C7"
@@ -308,7 +308,7 @@
 			hide_until_deps_complete: true
 			icon: "zc_survival:antibiotics"
 			id: "27AA2EE65D0A0F1D"
-			repeat_cooldown: 3600
+			repeat_cooldown: 194400
 			rewards: [
 				{
 					id: "5ED9665667132F79"
@@ -348,7 +348,7 @@
 			hide_until_deps_complete: true
 			icon: "car:wheel"
 			id: "6A84D90048712C15"
-			repeat_cooldown: 2400
+			repeat_cooldown: 129600
 			rewards: [
 				{
 					id: "38047B4C230867BA"
@@ -419,7 +419,7 @@
 			hide_until_deps_complete: true
 			icon: "immersiveengineering:wirecoil_copper"
 			id: "3F9773E67ED9524B"
-			repeat_cooldown: 6000
+			repeat_cooldown: 324000
 			rewards: [
 				{
 					count: 4
@@ -466,7 +466,7 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:compass"
 			id: "0FAA433C2F8B03E6"
-			repeat_cooldown: 1200
+			repeat_cooldown: 64800
 			rewards: [
 				{
 					count: 2
@@ -500,7 +500,7 @@
 			hide_until_deps_complete: true
 			icon: "car:canister"
 			id: "74CCC52F9E6167EF"
-			repeat_cooldown: 2400
+			repeat_cooldown: 129600
 			rewards: [
 				{
 					count: 2
@@ -539,7 +539,7 @@
 			hide_until_deps_complete: true
 			icon: "marbledsmelees:sledgehammer"
 			id: "190391A4D302681F"
-			repeat_cooldown: 2400
+			repeat_cooldown: 129600
 			rewards: [
 				{
 					count: 2

@@ -16,7 +16,11 @@
 	hordeStartTime = 18000
 	#Amount of days between horde spawns.
 	#Range: > 1
-	hordeSpawnDays = 7
+	#ZomboidCraft 0.3.4: with hordeEventByPlayerTime=true a "day" here is dayLength (24000) ticks of the player's OWN play
+	#time = 20 real minutes, so 6 = a horde for each player after every 2 h they play, at the first in-game midnight
+	#(hordeStartTime, world clock: once per 6 h cycle) they are online. dayLength must stay 24000: it is also used for the
+	#world time of day of hordeStartTime.
+	hordeSpawnDays = 6
 	#Amount of days a horde event can be randomly delayed by
 	hordeSpawnVariation = 0
 	#Max cap for the number of entities that can exist from the horde at once.

@@ -17,7 +17,7 @@
 				"&7&oITAVERÁ. DIA 0.&r"
 				"&7&oHoje de manhã, a rádio mudou. Não falou mais de evacuação. Não falou mais de quando. Lá fora, alguém está batendo numa porta. Devagar. Sem parar. Não é na sua. Ainda."
 				""
-				"Beba, arrume alguma coisa para bater, tape as janelas e passe a primeira noite inteira vivo."
+				"Beba, arrume alguma coisa para bater, tape as janelas e fique vivo. Um dia aqui dura 3 horas e a noite mais 3: a primeira noite chega depois de umas horas de jogo, e é longa."
 				"A mochila é bônus: com ela, sair de casa deixa de ser uma aposta."
 			]
 			hide_until_deps_complete: true
@@ -188,9 +188,9 @@
 				{
 					id: "29BA8A844095C6D2"
 					stat: "minecraft:time_since_death"
-					title: "Sobreviva um dia inteiro sem morrer"
+					title: "Sobreviva 1 hora (real) sem morrer"
 					type: "stat"
-					value: 24000
+					value: 72000
 				}
 				{
 					count: 1L
@@ -216,7 +216,7 @@
 				""
 				"Quem fala no rádio chama-se &eJoana&r. Para sair atrás de gente viva você precisa de luz, pilhas e um jeito de ser ouvido."
 				""
-				"&eRádio Livre 98.3:&r um &eRádio portátil&r (gaveta de casa, loja de ferragens, ou na bancada: ferro, tábuas, redstone e cobre) com carga. &eShift + clique direito&r abre o sintonizador; clique direito liga e desliga; com uma &ePilha AA&r na outra mão, troca a pilha. A Joana só entra no ar &ea partir do Dia 4, às 19h&r (até umas 20h45). Fique ouvindo até a transmissão acabar."
+				"&eRádio Livre 98.3:&r um &eRádio portátil&r (gaveta de casa, loja de ferragens, ou na bancada: ferro, tábuas, redstone e cobre) com carga. &eShift + clique direito&r abre o sintonizador; clique direito liga e desliga; com uma &ePilha AA&r na outra mão, troca a pilha. A Joana só entra no ar &ea partir do Dia 4, às 19h&r (até umas 20h45 — uns 27 minutos reais). Um dia do jogo dura 6 h reais e o relógio para com o servidor vazio: o Dia 4 chega depois de ~24 h de servidor com gente. Perdeu? A primeira mensagem dela se repete nas noites seguintes até você ouvir. Fique ouvindo até a transmissão acabar."
 			]
 			hide_until_deps_complete: true
 			icon: "flashlightmod:flashlight"

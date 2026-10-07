@@ -258,7 +258,7 @@ const ZCQ_QUESTS = [ // [quest id, key, [dependency ids], 'all'|'one', optional 
   ["1B1446C395194BA9", "r04", ["24D695EA2FDBC08A"], "all", false],
   ["6C1A7312D8FE602B", "r05", ["2F5928A6CC48A2FB"], "all", false],
   ["27AA2EE65D0A0F1D", "r06", ["2F5928A6CC48A2FB"], "all", false],
-  ["6A84D90048712C15", "r08", ["4728AEAACAC9E3B7"], "all", false],
+  ["6A84D90048712C15", "r08", ["36396B5F2474FE87"], "all", false],
   ["3F9773E67ED9524B", "r09", ["46CFA91DF41CA224"], "all", false],
   ["0FAA433C2F8B03E6", "r10", ["46CFA91DF41CA224"], "all", false],
   ["74CCC52F9E6167EF", "r11", ["751A2E985FDDD2F1"], "all", false],
