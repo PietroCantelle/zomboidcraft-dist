@@ -1,8 +1,8 @@
 {
  "formatVersion": 1,
  "name": "ZomboidCraft",
- "version": "0.3.3",
- "generatedAt": "2026-10-05T20:07:52.958Z",
+ "version": "0.3.4",
+ "generatedAt": "2026-10-07T06:37:10.463Z",
  "minecraft": "1.20.1",
  "forge": "47.4.23",
  "java": {
@@ -29,12 +29,12 @@
  "files": [
   {
    "path": "config/alexsmobs.toml",
-   "size": 35482,
-   "sha1": "a590d03af89af4d6bf0be8928a2f10fb38d86513",
+   "size": 35463,
+   "sha1": "78598ca97d335475ad416666dd1eeba410426ad5",
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/alexsmobs.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/alexsmobs.toml"
    ]
   },
   {
@@ -44,7 +44,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/biome_replacer.properties"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/biome_replacer.properties"
    ]
   },
   {
@@ -54,7 +54,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/cameraoverhaul.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/cameraoverhaul.toml"
    ]
   },
   {
@@ -64,7 +64,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/craftpresence.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/craftpresence.json"
    ]
   },
   {
@@ -74,7 +74,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/crash_assistant/config.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/crash_assistant/config.toml"
    ]
   },
   {
@@ -84,7 +84,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/crash_assistant/modlist.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/crash_assistant/modlist.json"
    ]
   },
   {
@@ -94,7 +94,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/create-client.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/create-client.toml"
    ]
   },
   {
@@ -104,7 +104,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/defaultoptions/keybindings.txt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/defaultoptions/keybindings.txt"
    ]
   },
   {
@@ -114,7 +114,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/defaultoptions/options.txt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/defaultoptions/options.txt"
    ]
   },
   {
@@ -124,7 +124,7 @@
    "side": "both",
    "policy": "once",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/DistantHorizons.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/DistantHorizons.toml"
    ]
   },
   {
@@ -134,7 +134,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/entity_texture_features.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/entity_texture_features.json"
    ]
   },
   {
@@ -144,7 +144,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/bar_bg.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/bar_bg.png"
    ]
   },
   {
@@ -154,7 +154,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/bar_fill.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/bar_fill.png"
    ]
   },
   {
@@ -164,7 +164,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/btn_mods_hover.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/btn_mods_hover.png"
    ]
   },
   {
@@ -174,7 +174,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/btn_mods.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/btn_mods.png"
    ]
   },
   {
@@ -184,7 +184,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/btn_multiplayer_hover.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/btn_multiplayer_hover.png"
    ]
   },
   {
@@ -194,7 +194,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/btn_multiplayer.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/btn_multiplayer.png"
    ]
   },
   {
@@ -204,7 +204,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/btn_options_hover.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/btn_options_hover.png"
    ]
   },
   {
@@ -214,7 +214,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/btn_options.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/btn_options.png"
    ]
   },
   {
@@ -224,7 +224,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/btn_quit_hover.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/btn_quit_hover.png"
    ]
   },
   {
@@ -234,7 +234,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/btn_quit.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/btn_quit.png"
    ]
   },
   {
@@ -244,7 +244,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/btn_singleplayer_hover.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/btn_singleplayer_hover.png"
    ]
   },
   {
@@ -254,7 +254,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/btn_singleplayer.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/btn_singleplayer.png"
    ]
   },
   {
@@ -264,7 +264,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/dim.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/dim.png"
    ]
   },
   {
@@ -274,7 +274,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/list_bar.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/list_bar.png"
    ]
   },
   {
@@ -284,7 +284,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/logo.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/logo.png"
    ]
   },
   {
@@ -294,7 +294,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/menu_bg.jpg"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/menu_bg.jpg"
    ]
   },
   {
@@ -304,7 +304,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/panel_left.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/panel_left.png"
    ]
   },
   {
@@ -314,7 +314,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/pause_vignette.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/pause_vignette.png"
    ]
   },
   {
@@ -324,7 +324,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/assets/zomboidcraft/screen_bg.jpg"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/assets/zomboidcraft/screen_bg.jpg"
    ]
   },
   {
@@ -334,7 +334,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/customizablemenus.txt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/customizablemenus.txt"
    ]
   },
   {
@@ -344,7 +344,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/customization/zomboidcraft_loading_screen.txt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/customization/zomboidcraft_loading_screen.txt"
    ]
   },
   {
@@ -354,7 +354,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/customization/zomboidcraft_pause_screen.txt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/customization/zomboidcraft_pause_screen.txt"
    ]
   },
   {
@@ -364,7 +364,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/customization/zomboidcraft_screens.txt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/customization/zomboidcraft_screens.txt"
    ]
   },
   {
@@ -374,7 +374,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/customization/zomboidcraft_title_screen.txt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/customization/zomboidcraft_title_screen.txt"
    ]
   },
   {
@@ -384,7 +384,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fancymenu/options.txt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fancymenu/options.txt"
    ]
   },
   {
@@ -394,7 +394,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/firstjoinmessage.json5"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/firstjoinmessage.json5"
    ]
   },
   {
@@ -404,7 +404,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/flan/flan_config.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/flan/flan_config.json"
    ]
   },
   {
@@ -414,7 +414,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/fml.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/fml.toml"
    ]
   },
   {
@@ -424,117 +424,117 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/ftbquests/quests/chapter_groups.snbt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/ftbquests/quests/chapter_groups.snbt"
    ]
   },
   {
    "path": "config/ftbquests/quests/chapters/ato1.snbt",
-   "size": 10081,
-   "sha1": "abe3a578bdf1378aff5c5c2dcec995fc54786b7f",
+   "size": 10385,
+   "sha1": "4b48bbdc407580ccff269ad8013fbab89a73a96b",
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/ftbquests/quests/chapters/ato1.snbt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/ftbquests/quests/chapters/ato1.snbt"
    ]
   },
   {
    "path": "config/ftbquests/quests/chapters/ato2.snbt",
-   "size": 12059,
-   "sha1": "2023ba1fae33edb02f5e51fcd54e476507130489",
+   "size": 12500,
+   "sha1": "ac3718613547dbb7a13ae0d40127be46b5af621c",
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/ftbquests/quests/chapters/ato2.snbt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/ftbquests/quests/chapters/ato2.snbt"
    ]
   },
   {
    "path": "config/ftbquests/quests/chapters/ato3.snbt",
-   "size": 12252,
-   "sha1": "7ecda606d65ad79dd3c6bb2e850d4e5694fa7921",
+   "size": 12606,
+   "sha1": "5de0339ba52abf7a924d64e70f6af08db22bf395",
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/ftbquests/quests/chapters/ato3.snbt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/ftbquests/quests/chapters/ato3.snbt"
    ]
   },
   {
    "path": "config/ftbquests/quests/chapters/ato4.snbt",
-   "size": 9241,
-   "sha1": "1e8cf3c7fe555cc6f6785e4f4ad811a0754c12da",
+   "size": 9706,
+   "sha1": "750f15fce9345c0525ddbd6215ccd8700bfc8fb1",
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/ftbquests/quests/chapters/ato4.snbt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/ftbquests/quests/chapters/ato4.snbt"
    ]
   },
   {
    "path": "config/ftbquests/quests/chapters/ato5.snbt",
-   "size": 11530,
-   "sha1": "c4f8685248a267e6dbe4280ee35dd8f6ff4f75b9",
+   "size": 12077,
+   "sha1": "68b2291fe208cb2393450bc1e546583acc342bc6",
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/ftbquests/quests/chapters/ato5.snbt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/ftbquests/quests/chapters/ato5.snbt"
    ]
   },
   {
    "path": "config/ftbquests/quests/chapters/ato6.snbt",
-   "size": 11120,
-   "sha1": "5ed2c44b23b858f698a5acac34f77bc0ce20a277",
+   "size": 11531,
+   "sha1": "726638471c1dec0a4add6637141c0e11178e1cc4",
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/ftbquests/quests/chapters/ato6.snbt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/ftbquests/quests/chapters/ato6.snbt"
    ]
   },
   {
    "path": "config/ftbquests/quests/chapters/final.snbt",
-   "size": 4529,
-   "sha1": "83e2b393479e47904cb453d03abea7831a033986",
+   "size": 4773,
+   "sha1": "6f5f2872c06f724314bab99e9583a659be435166",
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/ftbquests/quests/chapters/final.snbt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/ftbquests/quests/chapters/final.snbt"
    ]
   },
   {
    "path": "config/ftbquests/quests/chapters/paralelas.snbt",
-   "size": 14499,
-   "sha1": "9772cb5b3c86bb51d72bf64bb49b6a238c4a9c32",
+   "size": 15048,
+   "sha1": "10092e8ef2a2de7a31b338289cc3466fbc50f5b9",
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/ftbquests/quests/chapters/paralelas.snbt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/ftbquests/quests/chapters/paralelas.snbt"
    ]
   },
   {
    "path": "config/ftbquests/quests/chapters/prologo.snbt",
-   "size": 23996,
-   "sha1": "9393489d4a1a03f1a3ce8b1ddf40e1cd12c34c44",
+   "size": 25221,
+   "sha1": "afa0350fa2e4e5b3767fe3b059e92d3c168d09de",
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/ftbquests/quests/chapters/prologo.snbt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/ftbquests/quests/chapters/prologo.snbt"
    ]
   },
   {
    "path": "config/ftbquests/quests/chapters/registros.snbt",
-   "size": 37513,
-   "sha1": "404d7fe773e2b923c84629d99ba8bb0a55461d93",
+   "size": 37500,
+   "sha1": "b5afca0a29985e23aabfeaf56c079736778d2b66",
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/ftbquests/quests/chapters/registros.snbt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/ftbquests/quests/chapters/registros.snbt"
    ]
   },
   {
    "path": "config/ftbquests/quests/chapters/safezones.snbt",
-   "size": 22675,
-   "sha1": "5e7d8de01823bf98f6adc1b45a7a40a4f49c5a55",
+   "size": 23491,
+   "sha1": "6e258e7a1ee40bd17b1833805a9f0c5f4358e3c3",
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/ftbquests/quests/chapters/safezones.snbt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/ftbquests/quests/chapters/safezones.snbt"
    ]
   },
   {
@@ -544,7 +544,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/ftbquests/quests/data.snbt"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/ftbquests/quests/data.snbt"
    ]
   },
   {
@@ -554,7 +554,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/gib_list.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/gib_list.json"
    ]
   },
   {
@@ -564,7 +564,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/gibconfig.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/gibconfig.json"
    ]
   },
   {
@@ -574,7 +574,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/hordes-common.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/hordes-common.toml"
    ]
   },
   {
@@ -584,7 +584,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/incontrol/areas.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/incontrol/areas.json"
    ]
   },
   {
@@ -594,7 +594,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/incontrol/spawn.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/incontrol/spawn.json"
    ]
   },
   {
@@ -604,7 +604,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/incontrol/spawner.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/incontrol/spawner.json"
    ]
   },
   {
@@ -614,7 +614,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/localizedchat-common.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/localizedchat-common.toml"
    ]
   },
   {
@@ -624,7 +624,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/lootr-common.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/lootr-common.toml"
    ]
   },
   {
@@ -634,7 +634,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/notreepunching.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/notreepunching.toml"
    ]
   },
   {
@@ -644,7 +644,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/QuantifiedAPI/quantified_config.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/QuantifiedAPI/quantified_config.json"
    ]
   },
   {
@@ -654,7 +654,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/regions_unexplored/ru-common.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/regions_unexplored/ru-common.toml"
    ]
   },
   {
@@ -664,7 +664,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/rubber_duck-common.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/rubber_duck-common.toml"
    ]
   },
   {
@@ -674,7 +674,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/scaling_mobs/main.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/scaling_mobs/main.toml"
    ]
   },
   {
@@ -684,7 +684,7 @@
    "side": "both",
    "policy": "once",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/securitycraft-client.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/securitycraft-client.toml"
    ]
   },
   {
@@ -694,7 +694,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/sereneseasons/seasons.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/sereneseasons/seasons.toml"
    ]
   },
   {
@@ -704,7 +704,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/sidebar_buttons.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/sidebar_buttons.json"
    ]
   },
   {
@@ -714,7 +714,7 @@
    "side": "server",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/simplebackups-common.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/simplebackups-common.toml"
    ]
   },
   {
@@ -724,7 +724,7 @@
    "side": "both",
    "policy": "once",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/sound_physics_remastered/soundphysics.properties"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/sound_physics_remastered/soundphysics.properties"
    ]
   },
   {
@@ -734,7 +734,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/supplementaries-common.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/supplementaries-common.toml"
    ]
   },
   {
@@ -744,7 +744,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/tips.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/tips.json"
    ]
   },
   {
@@ -754,7 +754,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/toastcontrol-common.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/toastcontrol-common.toml"
    ]
   },
   {
@@ -764,7 +764,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/Undead_mobs.toml"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/Undead_mobs.toml"
    ]
   },
   {
@@ -774,7 +774,7 @@
    "side": "both",
    "policy": "once",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/voicechat/voicechat-client.properties"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/voicechat/voicechat-client.properties"
    ]
   },
   {
@@ -784,7 +784,7 @@
    "side": "server",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/voicechat/voicechat-server.properties"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/voicechat/voicechat-server.properties"
    ]
   },
   {
@@ -794,7 +794,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/xaero/minimap/client.cfg"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/xaero/minimap/client.cfg"
    ]
   },
   {
@@ -804,7 +804,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/xaero/minimap/profiles/default.cfg"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/xaero/minimap/profiles/default.cfg"
    ]
   },
   {
@@ -814,7 +814,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/config/zombies_plus.json5"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/config/zombies_plus.json5"
    ]
   },
   {
@@ -824,7 +824,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/emotes/zc_aviaozinho.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/emotes/zc_aviaozinho.json"
    ]
   },
   {
@@ -834,7 +834,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/emotes/zc_embaixadinha.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/emotes/zc_embaixadinha.json"
    ]
   },
   {
@@ -844,7 +844,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/emotes/zc_passinho.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/emotes/zc_passinho.json"
    ]
   },
   {
@@ -854,7 +854,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/assets/emi/index/stacks/zomboidcraft.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/assets/emi/index/stacks/zomboidcraft.json"
    ]
   },
   {
@@ -864,7 +864,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/assets/kubejs/lang/en_us.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/assets/kubejs/lang/en_us.json"
    ]
   },
   {
@@ -874,7 +874,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/assets/kubejs/lang/pt_br.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/assets/kubejs/lang/pt_br.json"
    ]
   },
   {
@@ -884,7 +884,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/assets/kubejs/textures/item/military_electronics.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/assets/kubejs/textures/item/military_electronics.png"
    ]
   },
   {
@@ -894,7 +894,57 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/assets/kubejs/textures/item/weapon_parts.png"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/assets/kubejs/textures/item/weapon_parts.png"
+   ]
+  },
+  {
+   "path": "kubejs/assets/notreepunching/lang/pt_br.json",
+   "size": 3409,
+   "sha1": "2211ed90c6ba2c4439526e0541b05623ac8c06f4",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/assets/notreepunching/lang/pt_br.json"
+   ]
+  },
+  {
+   "path": "kubejs/assets/zc_story/lang/pt_br.json",
+   "size": 1002,
+   "sha1": "27bccc7caeaeeb595303d70d8dee9117050f2dfd",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/assets/zc_story/lang/pt_br.json"
+   ]
+  },
+  {
+   "path": "kubejs/assets/zc_story/textures/entity/survivor/guard_f1.png",
+   "size": 1377,
+   "sha1": "94ee99ef6f452f351649728e0967dc22febb8e26",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/assets/zc_story/textures/entity/survivor/guard_f1.png"
+   ]
+  },
+  {
+   "path": "kubejs/assets/zc_story/textures/entity/survivor/guard_f2.png",
+   "size": 1296,
+   "sha1": "a302c4a6b753f9d201f73f085af355f07016bcbb",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/assets/zc_story/textures/entity/survivor/guard_f2.png"
+   ]
+  },
+  {
+   "path": "kubejs/assets/zc_story/textures/entity/survivor/guard_f3.png",
+   "size": 1383,
+   "sha1": "d863197830459da864bb96601f68bba2e9fab785",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/assets/zc_story/textures/entity/survivor/guard_f3.png"
    ]
   },
   {
@@ -904,7 +954,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/client_scripts/zc_jei.js"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/client_scripts/zc_jei.js"
    ]
   },
   {
@@ -914,7 +964,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/aiycrates/loot_tables/blocks/blue_filum_table.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/aiycrates/loot_tables/blocks/blue_filum_table.json"
    ]
   },
   {
@@ -924,7 +974,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/enhancedcelestials/enhancedcelestials/lunar/event/blood_moon.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/enhancedcelestials/enhancedcelestials/lunar/event/blood_moon.json"
    ]
   },
   {
@@ -934,7 +984,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/jeffsgibbing/tags/entity_types/guard.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/jeffsgibbing/tags/entity_types/guard.json"
    ]
   },
   {
@@ -944,7 +994,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/jeffsgibbing/tags/entity_types/npcs.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/jeffsgibbing/tags/entity_types/npcs.json"
    ]
   },
   {
@@ -954,7 +1004,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/jeffsgibbing/tags/entity_types/zombie.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/jeffsgibbing/tags/entity_types/zombie.json"
    ]
   },
   {
@@ -964,7 +1014,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/abandoned_car_advanced_vics.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/abandoned_car_advanced_vics.json"
    ]
   },
   {
@@ -974,7 +1024,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/abandoned_car_basic_vics.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/abandoned_car_basic_vics.json"
    ]
   },
   {
@@ -984,7 +1034,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/abandoned_car_emergency_vics.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/abandoned_car_emergency_vics.json"
    ]
   },
   {
@@ -994,7 +1044,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/apartment_bathroom_vics.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/apartment_bathroom_vics.json"
    ]
   },
   {
@@ -1004,7 +1054,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/vics_point_blank_ammochest.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/vics_point_blank_ammochest.json"
    ]
   },
   {
@@ -1014,17 +1064,17 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/vics_point_blank_gunchest.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/keerdm_zombie_essentials/loot_tables/chests/vics_point_blank_gunchest.json"
    ]
   },
   {
    "path": "kubejs/data/notreepunching/tags/blocks/loose_rock_placeable_on.json",
-   "size": 323,
-   "sha1": "71f035ee86826fc8a9c2e15a89573b3ecbe9e972",
+   "size": 474,
+   "sha1": "bbbed846e30d3c638250178fb0e0a128e5651fd0",
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/notreepunching/tags/blocks/loose_rock_placeable_on.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/notreepunching/tags/blocks/loose_rock_placeable_on.json"
    ]
   },
   {
@@ -1034,7 +1084,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/sophisticatedbackpacks/recipes/backpack.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/sophisticatedbackpacks/recipes/backpack.json"
    ]
   },
   {
@@ -1044,7 +1094,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/sophisticatedbackpacks/recipes/copper_backpack.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/sophisticatedbackpacks/recipes/copper_backpack.json"
    ]
   },
   {
@@ -1054,7 +1104,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/sophisticatedbackpacks/recipes/gold_backpack.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/sophisticatedbackpacks/recipes/gold_backpack.json"
    ]
   },
   {
@@ -1064,7 +1114,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/sophisticatedbackpacks/recipes/iron_backpack_from_copper.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/sophisticatedbackpacks/recipes/iron_backpack_from_copper.json"
    ]
   },
   {
@@ -1074,7 +1124,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/sophisticatedbackpacks/recipes/iron_backpack.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/sophisticatedbackpacks/recipes/iron_backpack.json"
    ]
   },
   {
@@ -1084,7 +1134,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/spring_to_life/forge/biome_modifier/camel_desert_spawns.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/spring_to_life/forge/biome_modifier/camel_desert_spawns.json"
    ]
   },
   {
@@ -1094,7 +1144,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/terralith/functions/toast.mcfunction"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/terralith/functions/toast.mcfunction"
    ]
   },
   {
@@ -1104,7 +1154,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/arapholia_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/arapholia_biome_modifier.json"
    ]
   },
   {
@@ -1114,7 +1164,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/bigsucker_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/bigsucker_biome_modifier.json"
    ]
   },
   {
@@ -1124,7 +1174,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/bohut_1_feature_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/bohut_1_feature_biome_modifier.json"
    ]
   },
   {
@@ -1134,7 +1184,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/bohutlush_feature_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/bohutlush_feature_biome_modifier.json"
    ]
   },
   {
@@ -1144,7 +1194,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/bohutunderao_feature_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/bohutunderao_feature_biome_modifier.json"
    ]
   },
   {
@@ -1154,7 +1204,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/bomber_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/bomber_biome_modifier.json"
    ]
   },
   {
@@ -1164,7 +1214,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/bostrokestone_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/bostrokestone_biome_modifier.json"
    ]
   },
   {
@@ -1174,7 +1224,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/bostroxore_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/bostroxore_biome_modifier.json"
    ]
   },
   {
@@ -1184,7 +1234,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/bricksore_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/bricksore_biome_modifier.json"
    ]
   },
   {
@@ -1194,7 +1244,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/cloggerspawn_feature_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/cloggerspawn_feature_biome_modifier.json"
    ]
   },
   {
@@ -1204,7 +1254,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/darkoakinducerinactive_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/darkoakinducerinactive_biome_modifier.json"
    ]
   },
   {
@@ -1214,7 +1264,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/dunzhongbiggeneration_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/dunzhongbiggeneration_biome_modifier.json"
    ]
   },
   {
@@ -1224,7 +1274,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/dunzhongsmallgeneratge_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/dunzhongsmallgeneratge_biome_modifier.json"
    ]
   },
   {
@@ -1234,7 +1284,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/empthpillar_1_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/empthpillar_1_biome_modifier.json"
    ]
   },
   {
@@ -1244,7 +1294,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/flowertomb_feature_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/flowertomb_feature_biome_modifier.json"
    ]
   },
   {
@@ -1254,7 +1304,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/goldenblocktomb_feature_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/goldenblocktomb_feature_biome_modifier.json"
    ]
   },
   {
@@ -1264,7 +1314,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/goldentomb_feature_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/goldentomb_feature_biome_modifier.json"
    ]
   },
   {
@@ -1274,7 +1324,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/inducer_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/inducer_biome_modifier.json"
    ]
   },
   {
@@ -1284,7 +1334,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/invisiblebidy_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/invisiblebidy_biome_modifier.json"
    ]
   },
   {
@@ -1294,7 +1344,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/invisiimmortal_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/invisiimmortal_biome_modifier.json"
    ]
   },
   {
@@ -1304,7 +1354,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/irontomb_feature_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/irontomb_feature_biome_modifier.json"
    ]
   },
   {
@@ -1314,7 +1364,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/neocrorines_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/neocrorines_biome_modifier.json"
    ]
   },
   {
@@ -1324,7 +1374,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/oakinducerinactive_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/oakinducerinactive_biome_modifier.json"
    ]
   },
   {
@@ -1334,7 +1384,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/pliesdripstone_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/pliesdripstone_biome_modifier.json"
    ]
   },
   {
@@ -1344,7 +1394,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/possesivehome_1_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/possesivehome_1_biome_modifier.json"
    ]
   },
   {
@@ -1354,7 +1404,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/possesivesmallhome_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/possesivesmallhome_biome_modifier.json"
    ]
   },
   {
@@ -1364,7 +1414,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/protected_biomes_remove_clogger_ambush.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/protected_biomes_remove_clogger_ambush.json"
    ]
   },
   {
@@ -1374,7 +1424,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/protected_biomes_remove_undead_spawns.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/protected_biomes_remove_undead_spawns.json"
    ]
   },
   {
@@ -1384,7 +1434,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/skellytomb_feature_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/skellytomb_feature_biome_modifier.json"
    ]
   },
   {
@@ -1394,7 +1444,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/slaveman_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/slaveman_biome_modifier.json"
    ]
   },
   {
@@ -1404,7 +1454,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/somenohives_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/somenohives_biome_modifier.json"
    ]
   },
   {
@@ -1414,7 +1464,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/somenolencesdome_2_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/somenolencesdome_2_biome_modifier.json"
    ]
   },
   {
@@ -1424,7 +1474,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/somnohivetree_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/somnohivetree_biome_modifier.json"
    ]
   },
   {
@@ -1434,7 +1484,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/somnolencesdome_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/somnolencesdome_biome_modifier.json"
    ]
   },
   {
@@ -1444,7 +1494,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/spawnpillar_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/spawnpillar_biome_modifier.json"
    ]
   },
   {
@@ -1454,7 +1504,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/spwposses_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/spwposses_biome_modifier.json"
    ]
   },
   {
@@ -1464,7 +1514,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/sucker_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/sucker_biome_modifier.json"
    ]
   },
   {
@@ -1474,7 +1524,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/the_moonflower_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/the_moonflower_biome_modifier.json"
    ]
   },
   {
@@ -1484,7 +1534,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/thebeartamer_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/thebeartamer_biome_modifier.json"
    ]
   },
   {
@@ -1494,7 +1544,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/thebidy_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/thebidy_biome_modifier.json"
    ]
   },
   {
@@ -1504,7 +1554,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/thegliter_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/thegliter_biome_modifier.json"
    ]
   },
   {
@@ -1514,7 +1564,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/theheavy_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/theheavy_biome_modifier.json"
    ]
   },
   {
@@ -1524,7 +1574,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/thehorrors_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/thehorrors_biome_modifier.json"
    ]
   },
   {
@@ -1534,7 +1584,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/thehorrorsdecoys_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/thehorrorsdecoys_biome_modifier.json"
    ]
   },
   {
@@ -1544,7 +1594,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/thehunter_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/thehunter_biome_modifier.json"
    ]
   },
   {
@@ -1554,7 +1604,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/theordure_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/theordure_biome_modifier.json"
    ]
   },
   {
@@ -1564,7 +1614,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/thepregnant_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/thepregnant_biome_modifier.json"
    ]
   },
   {
@@ -1574,7 +1624,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/therabidus_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/therabidus_biome_modifier.json"
    ]
   },
   {
@@ -1584,7 +1634,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/therod_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/therod_biome_modifier.json"
    ]
   },
   {
@@ -1594,7 +1644,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/theskeeper_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/theskeeper_biome_modifier.json"
    ]
   },
   {
@@ -1604,7 +1654,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/thesmoker_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/thesmoker_biome_modifier.json"
    ]
   },
   {
@@ -1614,7 +1664,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/thesomnolence_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/thesomnolence_biome_modifier.json"
    ]
   },
   {
@@ -1624,7 +1674,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/thespectre_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/thespectre_biome_modifier.json"
    ]
   },
   {
@@ -1634,7 +1684,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/thespitter_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/thespitter_biome_modifier.json"
    ]
   },
   {
@@ -1644,7 +1694,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/theswarmer_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/theswarmer_biome_modifier.json"
    ]
   },
   {
@@ -1654,7 +1704,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/forge/biome_modifier/thewolf_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/forge/biome_modifier/thewolf_biome_modifier.json"
    ]
   },
   {
@@ -1664,7 +1714,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/worldgen/structure/terraindrip_1.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/worldgen/structure/terraindrip_1.json"
    ]
   },
   {
@@ -1674,7 +1724,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/worldgen/structure/terraindrip_2.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/worldgen/structure/terraindrip_2.json"
    ]
   },
   {
@@ -1684,7 +1734,157 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/undead_revamp2/worldgen/structure/terraindrip_3.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/undead_revamp2/worldgen/structure/terraindrip_3.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_bosses/loot_tables/bosses/arauto.json",
+   "size": 1371,
+   "sha1": "29a596d60ee2e3b83aa6ac1fa8ee27f779b4f43a",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_bosses/loot_tables/bosses/arauto.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_bosses/loot_tables/bosses/dente.json",
+   "size": 1326,
+   "sha1": "117731e52f4b5d80771dfffebddaf1050ccfda3c",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_bosses/loot_tables/bosses/dente.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_bosses/loot_tables/bosses/escafandro.json",
+   "size": 1272,
+   "sha1": "11e7504bbb95c9dc99616cae5f9358d0ab0cb360",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_bosses/loot_tables/bosses/escafandro.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_bosses/loot_tables/bosses/major.json",
+   "size": 1165,
+   "sha1": "38188eff3242e83651dce4c70fdc56a6cbb0f3d7",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_bosses/loot_tables/bosses/major.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_story/loot_modifiers/story_base_cerco.json",
+   "size": 562,
+   "sha1": "1c2f7582193aeb4ab27f28183b0d740b51902240",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_story/loot_modifiers/story_base_cerco.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_story/loot_modifiers/story_batalhao.json",
+   "size": 411,
+   "sha1": "7b65bbe59a62b66c6ee3eae4afe8843bd4ef6072",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_story/loot_modifiers/story_batalhao.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_story/loot_modifiers/story_campus_veridia.json",
+   "size": 430,
+   "sha1": "924d8f35e43fa54866e88dd156b59675471aaf6b",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_story/loot_modifiers/story_campus_veridia.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_story/loot_modifiers/story_galeria.json",
+   "size": 202,
+   "sha1": "425d96b5c7dd61971ddedb0da305bc43a15a7d52",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_story/loot_modifiers/story_galeria.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_story/loot_modifiers/story_hospital.json",
+   "size": 409,
+   "sha1": "541cf6161a61a202e8e1911177c9b4171025a02f",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_story/loot_modifiers/story_hospital.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_story/loot_modifiers/story_portao1.json",
+   "size": 493,
+   "sha1": "a98a4566d1e82b69d0fe0781dacca2d1202588b2",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_story/loot_modifiers/story_portao1.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_story/loot_modifiers/story_presidio.json",
+   "size": 201,
+   "sha1": "fbb067feda5114e5d9be7b7a67d49c6e338d037e",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_story/loot_modifiers/story_presidio.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_story/loot_modifiers/story_safezone_colegio.json",
+   "size": 212,
+   "sha1": "87ba04fe0a734ef6083f17883f27828265233bb8",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_story/loot_modifiers/story_safezone_colegio.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_story/loot_modifiers/story_tunel_servico.json",
+   "size": 492,
+   "sha1": "be051682cba0d4d3f62fd0fb058af9a505616bae",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_story/loot_modifiers/story_tunel_servico.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_story/loot_modifiers/story_unidade4.json",
+   "size": 355,
+   "sha1": "32fe28eb631cb3467a20a80b9ddc23cf07bb606c",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_story/loot_modifiers/story_unidade4.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zc_story/loot_modifiers/story_ute.json",
+   "size": 491,
+   "sha1": "ff5a53c25588e4fd00f3afdac983c95d21b755da",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zc_story/loot_modifiers/story_ute.json"
    ]
   },
   {
@@ -1694,7 +1894,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/assasin_black_ops_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/assasin_black_ops_biome_modifier.json"
    ]
   },
   {
@@ -1704,7 +1904,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/boomer_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/boomer_biome_modifier.json"
    ]
   },
   {
@@ -1714,7 +1914,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/burning_land_oil_shale_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/burning_land_oil_shale_biome_modifier.json"
    ]
   },
   {
@@ -1724,7 +1924,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/chainsaw_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/chainsaw_biome_modifier.json"
    ]
   },
   {
@@ -1734,7 +1934,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/clicker_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/clicker_biome_modifier.json"
    ]
   },
   {
@@ -1744,7 +1944,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/crawler_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/crawler_biome_modifier.json"
    ]
   },
   {
@@ -1754,7 +1954,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/deepslate_aluminum_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/deepslate_aluminum_biome_modifier.json"
    ]
   },
   {
@@ -1764,7 +1964,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/deepslate_lead_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/deepslate_lead_biome_modifier.json"
    ]
   },
   {
@@ -1774,7 +1974,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/deepslate_ruby_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/deepslate_ruby_biome_modifier.json"
    ]
   },
   {
@@ -1784,7 +1984,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/deepslate_steel_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/deepslate_steel_biome_modifier.json"
    ]
   },
   {
@@ -1794,7 +1994,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/deepslate_thorium_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/deepslate_thorium_biome_modifier.json"
    ]
   },
   {
@@ -1804,7 +2004,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/deepslate_tin_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/deepslate_tin_biome_modifier.json"
    ]
   },
   {
@@ -1814,7 +2014,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/deepslate_titan_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/deepslate_titan_biome_modifier.json"
    ]
   },
   {
@@ -1824,7 +2024,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/demolisher_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/demolisher_biome_modifier.json"
    ]
   },
   {
@@ -1834,7 +2034,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/devestated_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/devestated_biome_modifier.json"
    ]
   },
   {
@@ -1844,7 +2044,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/divided_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/divided_biome_modifier.json"
    ]
   },
   {
@@ -1854,7 +2054,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/explosive_infected_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/explosive_infected_biome_modifier.json"
    ]
   },
   {
@@ -1864,7 +2064,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/faceless_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/faceless_biome_modifier.json"
    ]
   },
   {
@@ -1874,7 +2074,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/fetus_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/fetus_biome_modifier.json"
    ]
   },
   {
@@ -1884,7 +2084,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/goon_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/goon_biome_modifier.json"
    ]
   },
   {
@@ -1894,7 +2094,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/infected_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/infected_biome_modifier.json"
    ]
   },
   {
@@ -1904,7 +2104,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/infected_hazmat_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/infected_hazmat_biome_modifier.json"
    ]
   },
   {
@@ -1914,7 +2114,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/infected_juggernaut_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/infected_juggernaut_biome_modifier.json"
    ]
   },
   {
@@ -1924,7 +2124,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/infected_military_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/infected_military_biome_modifier.json"
    ]
   },
   {
@@ -1934,7 +2134,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/infected_police_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/infected_police_biome_modifier.json"
    ]
   },
   {
@@ -1944,7 +2144,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/inflated_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/inflated_biome_modifier.json"
    ]
   },
   {
@@ -1954,7 +2154,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/military_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/military_biome_modifier.json"
    ]
   },
   {
@@ -1964,7 +2164,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/night_hunter_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/night_hunter_biome_modifier.json"
    ]
   },
   {
@@ -1974,7 +2174,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/oil_shale_sand_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/oil_shale_sand_biome_modifier.json"
    ]
   },
   {
@@ -1984,7 +2184,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/ore_aluminum_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/ore_aluminum_biome_modifier.json"
    ]
   },
   {
@@ -1994,7 +2194,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/ore_lead_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/ore_lead_biome_modifier.json"
    ]
   },
   {
@@ -2004,7 +2204,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/ore_ruby_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/ore_ruby_biome_modifier.json"
    ]
   },
   {
@@ -2014,7 +2214,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/ore_steel_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/ore_steel_biome_modifier.json"
    ]
   },
   {
@@ -2024,7 +2224,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/ore_tin_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/ore_tin_biome_modifier.json"
    ]
   },
   {
@@ -2034,7 +2234,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/ore_titan_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/ore_titan_biome_modifier.json"
    ]
   },
   {
@@ -2044,7 +2244,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/parasite_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/parasite_biome_modifier.json"
    ]
   },
   {
@@ -2054,7 +2254,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/ram_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/ram_biome_modifier.json"
    ]
   },
   {
@@ -2064,7 +2264,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/rat_king_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/rat_king_biome_modifier.json"
    ]
   },
   {
@@ -2074,7 +2274,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/revived_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/revived_biome_modifier.json"
    ]
   },
   {
@@ -2084,7 +2284,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/runner_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/runner_biome_modifier.json"
    ]
   },
   {
@@ -2094,7 +2294,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/thorium_ore_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/thorium_ore_biome_modifier.json"
    ]
   },
   {
@@ -2104,7 +2304,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/forge/biome_modifier/zero_patient_biome_modifier.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/forge/biome_modifier/zero_patient_biome_modifier.json"
    ]
   },
   {
@@ -2114,7 +2314,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/worldgen/structure/build_1.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/worldgen/structure/build_1.json"
    ]
   },
   {
@@ -2124,7 +2324,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/worldgen/structure/caffe.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/worldgen/structure/caffe.json"
    ]
   },
   {
@@ -2134,7 +2334,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/worldgen/structure/gas_station_1.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/worldgen/structure/gas_station_1.json"
    ]
   },
   {
@@ -2144,7 +2344,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/worldgen/structure/light_house.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/worldgen/structure/light_house.json"
    ]
   },
   {
@@ -2154,7 +2354,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/worldgen/structure/modern_house_1.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/worldgen/structure/modern_house_1.json"
    ]
   },
   {
@@ -2164,7 +2364,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/worldgen/structure/ruin_1.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/worldgen/structure/ruin_1.json"
    ]
   },
   {
@@ -2174,7 +2374,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/worldgen/structure/ruin_2.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/worldgen/structure/ruin_2.json"
    ]
   },
   {
@@ -2184,7 +2384,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/worldgen/structure/ruin_3.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/worldgen/structure/ruin_3.json"
    ]
   },
   {
@@ -2194,7 +2394,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/worldgen/structure/ruin_4.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/worldgen/structure/ruin_4.json"
    ]
   },
   {
@@ -2204,7 +2404,17 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zombie_extreme/worldgen/structure/ruin_5.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zombie_extreme/worldgen/structure/ruin_5.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zomboidcraft/forge/biome_modifier/street_loose_rocks.json",
+   "size": 159,
+   "sha1": "5d2a29c92916c941d1a103bc2033688f348c113d",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zomboidcraft/forge/biome_modifier/street_loose_rocks.json"
    ]
   },
   {
@@ -2214,7 +2424,27 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/data/zomboidcraft/tags/entity_types/infectious.json"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zomboidcraft/tags/entity_types/infectious.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zomboidcraft/worldgen/configured_feature/street_loose_rocks.json",
+   "size": 486,
+   "sha1": "0fa2fa9ad14777431c62404ddb29c073be7e7658",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zomboidcraft/worldgen/configured_feature/street_loose_rocks.json"
+   ]
+  },
+  {
+   "path": "kubejs/data/zomboidcraft/worldgen/placed_feature/street_loose_rocks.json",
+   "size": 731,
+   "sha1": "9dd11ebeaf1852d133c6879fca822f459fe1c08e",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/data/zomboidcraft/worldgen/placed_feature/street_loose_rocks.json"
    ]
   },
   {
@@ -2224,7 +2454,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/server_scripts/zc_armor.js"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/server_scripts/zc_armor.js"
    ]
   },
   {
@@ -2234,7 +2464,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/server_scripts/zc_crafting.js"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/server_scripts/zc_crafting.js"
    ]
   },
   {
@@ -2244,7 +2474,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/server_scripts/zc_extras.js"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/server_scripts/zc_extras.js"
    ]
   },
   {
@@ -2254,17 +2484,47 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/server_scripts/zc_gamerules.js"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/server_scripts/zc_gamerules.js"
    ]
   },
   {
    "path": "kubejs/server_scripts/zc_loot.js",
-   "size": 3934,
-   "sha1": "c9e94b720106c839ed557a80c56e32234918a402",
+   "size": 5082,
+   "sha1": "41dcddcf44206c00b7f8de38aae3c11f4780d6bf",
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/server_scripts/zc_loot.js"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/server_scripts/zc_loot.js"
+   ]
+  },
+  {
+   "path": "kubejs/server_scripts/zc_no_fantasy_mobs.js",
+   "size": 1000,
+   "sha1": "34168a0d498a85ae8b4075fdd215dca069e4efd3",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/server_scripts/zc_no_fantasy_mobs.js"
+   ]
+  },
+  {
+   "path": "kubejs/server_scripts/zc_npc_skins.js",
+   "size": 2278,
+   "sha1": "e7aa4a734214e53ec02338c8eaf4817c5b990b46",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/server_scripts/zc_npc_skins.js"
+   ]
+  },
+  {
+   "path": "kubejs/server_scripts/zc_quest_fixes.js",
+   "size": 2367,
+   "sha1": "81074bcbb3686276aa123f591f7b6f13ffc2a664",
+   "side": "both",
+   "policy": "always",
+   "downloads": [
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/server_scripts/zc_quest_fixes.js"
    ]
   },
   {
@@ -2274,7 +2534,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/server_scripts/zc_quests.js"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/server_scripts/zc_quests.js"
    ]
   },
   {
@@ -2284,7 +2544,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/server_scripts/zc_specials.js"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/server_scripts/zc_specials.js"
    ]
   },
   {
@@ -2294,7 +2554,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/server_scripts/zc_story_quests.js"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/server_scripts/zc_story_quests.js"
    ]
   },
   {
@@ -2304,7 +2564,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/startup_scripts/zc_items.js"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/startup_scripts/zc_items.js"
    ]
   },
   {
@@ -2314,7 +2574,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/kubejs/startup_scripts/zc_no_scorched_earth.js"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/kubejs/startup_scripts/zc_no_scorched_earth.js"
    ]
   },
   {
@@ -6119,7 +6379,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/mods/zc_bosses.jar"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/mods/zc_bosses.jar"
    ]
   },
   {
@@ -6129,7 +6389,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/mods/zc_clothing.jar"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/mods/zc_clothing.jar"
    ]
   },
   {
@@ -6139,7 +6399,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/mods/zc_player.jar"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/mods/zc_player.jar"
    ]
   },
   {
@@ -6149,7 +6409,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/mods/zc_skills.jar"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/mods/zc_skills.jar"
    ]
   },
   {
@@ -6159,7 +6419,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/mods/zc_story.jar"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/mods/zc_story.jar"
    ]
   },
   {
@@ -6169,7 +6429,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/mods/zc_survival.jar"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/mods/zc_survival.jar"
    ]
   },
   {
@@ -6179,7 +6439,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/mods/zc_vehicles.jar"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/mods/zc_vehicles.jar"
    ]
   },
   {
@@ -6189,7 +6449,7 @@
    "side": "both",
    "policy": "always",
    "downloads": [
-    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/f50863f40ca3a341a2f031a723fc87056e9b8a80/files/mods/zc_world.jar"
+    "https://raw.githubusercontent.com/PietroCantelle/zomboidcraft-dist/58520a42145162e17c2be9b51e38534f3cc19d54/files/mods/zc_world.jar"
    ]
   },
   {
