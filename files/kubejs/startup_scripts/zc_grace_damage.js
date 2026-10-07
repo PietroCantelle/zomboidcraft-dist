@@ -32,13 +32,13 @@ ForgeEvents.onEvent('net.minecraftforge.event.entity.living.LivingHurtEvent', ev
 if (Platform.isClientEnvironment()) {
   var ZC_HIDDEN_EFFECTS = ['xaerominimap:no_minimap', 'xaerominimap:no_waypoints',
     'xaerominimap:no_minimap_harmful', 'xaerominimap:no_waypoints_harmful']
-  var ZcMinecraft = Java.loadClass('net.minecraft.client.Minecraft')
+  var ZcGraceMinecraft = Java.loadClass('net.minecraft.client.Minecraft')
   var ZcForgeRegistries = Java.loadClass('net.minecraftforge.registries.ForgeRegistries')
   var zcStashed = []
 
   function zcHideMapEffects() {
     zcStashed = []
-    var player = ZcMinecraft.getInstance().player
+    var player = ZcGraceMinecraft.getInstance().player
     if (!player) return
     var map = player.getActiveEffectsMap()
     var it = map.entrySet().iterator()
@@ -53,7 +53,7 @@ if (Platform.isClientEnvironment()) {
   }
 
   function zcRestoreMapEffects() {
-    var player = ZcMinecraft.getInstance().player
+    var player = ZcGraceMinecraft.getInstance().player
     if (player && zcStashed.length) {
       var map = player.getActiveEffectsMap()
       for (var i = 0; i < zcStashed.length; i++) {

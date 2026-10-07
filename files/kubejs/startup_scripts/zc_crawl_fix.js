@@ -18,7 +18,7 @@ function zcCrawlTick(event) {
   var player = event.player
   if (!player.isSprinting()) return
   var phase = String(event.phase)
-  if (player.level().isClientSide()) {
+  if (player.level.isClientSide()) {
     if (phase == 'END' && player.getForcedPose() == ZcPose.SWIMMING && !player.isInWater()) player.setSprinting(false)
   } else if (phase == 'START' && ZcCrawlManager && ZcCrawlManager.isCrawling(player)) {
     player.setSprinting(false)

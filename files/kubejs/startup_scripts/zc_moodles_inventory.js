@@ -4,7 +4,8 @@
 // existe aqui; so roda no cliente. No criativo nao desenha (igual ao HUD do mod).
 // Usa os nomes SRG do 1.20.1 (m_280163_ = blit, m_280246_ = setColor, m_280677_ = renderTooltip).
 
-if (Platform.isClientEnvironment()) {
+// wrapped in a function: Rhino rejects top-level const inside an if block ("redeclaration of var")
+function zcMoodlesInventoryInit() {
   const PLATE = 20, ICON = 16, SPACING = 22, GAP = 26
   // mesmas cores do HUD (MoodleHud.LEVEL_COLORS), por nivel 1..4
   const LEVEL_COLORS = [0, 0x9C9460, 0xA87A3C, 0x9A442F, 0x6E1E1B]
@@ -97,3 +98,4 @@ if (Platform.isClientEnvironment()) {
     }
   })
 }
+if (Platform.isClientEnvironment()) zcMoodlesInventoryInit()

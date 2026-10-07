@@ -7,11 +7,11 @@
 //   - vida maxima, fome e saturacao cheias, apaga fogo, ar cheio, sem congelamento
 //   - Fumante: zera o tempo sem fumar (a abstinencia some)
 //   - zc_voice: termina os 5 min deitado depois de morrer
-const SurvivalAPI = Java.loadClass('gg.zomboidcraft.survival.api.SurvivalAPI')
+const ZcReviveSurvivalAPI = Java.loadClass('gg.zomboidcraft.survival.api.SurvivalAPI')
 const MobEffectCategory = Java.loadClass('net.minecraft.world.effect.MobEffectCategory')
 
 function zcRevive(player) {
-  SurvivalAPI.resetAll(player, false)
+  ZcReviveSurvivalAPI.resetAll(player, false)
 
   var bad = []
   player.getActiveEffects().forEach(inst => {

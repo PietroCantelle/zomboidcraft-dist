@@ -74,16 +74,26 @@ function zccCamp(level, chunkX, chunkZ) {
   }
 }
 
+// Any exception here would crash world generation, so the whole handler is guarded.
+// (Rhino note: on a KubeJS level, "dimension" and "isClientSide" are properties, not callable methods.)
 ForgeEvents.onEvent('net.minecraftforge.event.level.ChunkEvent$Load', event => {
-  if (!event.isNewChunk()) return
-  const level = event.getLevel()
-  if (level.isClientSide() || String(level.dimension().location()) != 'minecraft:overworld') return
-  if (Math.random() >= ZCC_CHANCE) return
-  const pos = event.getChunk().getPos()
-  const server = level.getServer()
-  // never place blocks while the chunk is still being loaded: do it on the next server tick
-  const TickTask = Java.loadClass('net.minecraft.server.TickTask')
-  server.tell(new TickTask(server.getTickCount() + 1, () => {
-    try { zccCamp(level, pos.x, pos.z) } catch (e) { console.warn('[zc_camps] ' + e) }
-  }))
+  try {
+    if (!event.isNewChunk()) return
+    if (Math.random() >= ZCC_CHANCE) return
+    const level = event.getLevel()
+    const ServerLevel = Java.loadClass('net.minecraft.server.level.ServerLevel')
+    if (!(level instanceof ServerLevel)) return
+    const server = level.getServer()
+    const overworld = server.getLevel(Java.loadClass('net.minecraft.world.level.Level').OVERWORLD)
+    if (!overworld || !overworld.equals(level)) return
+    const pos = event.getChunk().getPos()
+    const cx = pos.x, cz = pos.z
+    // never place blocks while the chunk is still being loaded: do it on the next server tick
+    const TickTask = Java.loadClass('net.minecraft.server.TickTask')
+    server.tell(new TickTask(server.getTickCount() + 1, () => {
+      try { zccCamp(level, cx, cz) } catch (e) { console.warn('[zc_camps] ' + e) }
+    }))
+  } catch (e) {
+    console.warn('[zc_camps] chunk handler: ' + e)
+  }
 })

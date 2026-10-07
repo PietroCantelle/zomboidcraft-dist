@@ -24,13 +24,13 @@ ServerEvents.recipes(event => {
 // "O Escudo" (act 4): the quest says the Batalhão arsenal opens with the arsenal key in hand, but the arsenal
 // doors are plain iron doors with no lock. With the key in hand, right-clicking an iron door inside the
 // Batalhão opens or closes it. Outside the Batalhão nothing changes.
-let zcqLocations = null
-try { zcqLocations = Java.loadClass('gg.zomboidcraft.world.api.ZcLocations') } catch (e) { console.warn('[zc_quest_fixes] ZcLocations: ' + e) }
+let zcqfLocationsApi = null
+try { zcqfLocationsApi = Java.loadClass('gg.zomboidcraft.world.api.ZcLocations') } catch (e) { console.warn('[zc_quest_fixes] ZcLocations: ' + e) }
 
 BlockEvents.rightClicked('minecraft:iron_door', event => {
-  if (event.hand != 'MAIN_HAND' || event.item.id != 'zc_story:chave_arsenal' || !zcqLocations) return
+  if (event.hand != 'MAIN_HAND' || event.item.id != 'zc_story:chave_arsenal' || !zcqfLocationsApi) return
   const block = event.block
-  if (!zcqLocations.isInside(event.level, 'batalhao', block.pos)) return
+  if (!zcqfLocationsApi.isInside(event.level, 'batalhao', block.pos)) return
   const state = block.blockState
   const open = String(block.properties.get('open')) == 'true'
   state.block.setOpen(event.player, event.level, state, block.pos, !open)
