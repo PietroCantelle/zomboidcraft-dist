@@ -1,0 +1,20 @@
+{
+  "feature": "zomboidcraft:street_loose_rocks",
+  "placement": [
+    { "type": "minecraft:count", "count": 8 },
+    { "type": "minecraft:in_square" },
+    { "type": "minecraft:heightmap", "heightmap": "WORLD_SURFACE" },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          { "type": "minecraft:matching_blocks", "blocks": "minecraft:air" },
+          { "type": "minecraft:matching_block_tag", "offset": [0, -1, 0], "tag": "notreepunching:loose_rock_placeable_on" },
+          { "type": "minecraft:would_survive", "state": { "Name": "notreepunching:stone_loose_rock" } }
+        ]
+      }
+    },
+    { "type": "minecraft:biome" }
+  ]
+}

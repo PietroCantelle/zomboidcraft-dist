@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "name": "cartao_lidia",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "zc_bosses:optional_item",
+          "name": "zc_story:cartao_lidia"
+        }
+      ]
+    },
+    {
+      "name": "plaqueta_lidia",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "zc_bosses:optional_item",
+          "name": "zc_story:plaqueta_lidia"
+        }
+      ]
+    },
+    {
+      "name": "radio_capacete",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "zc_bosses:optional_item",
+          "name": "zc_story:radio_capacete"
+        }
+      ]
+    },
+    {
+      "name": "pistola_9mm",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "zc_bosses:optional_item",
+          "name": [
+            "zc_story:pistola_9mm",
+            "kubejs:weapon_parts"
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.6
+        }
+      ]
+    }
+  ],
+  "random_sequence": "zc_bosses:bosses/major"
+}

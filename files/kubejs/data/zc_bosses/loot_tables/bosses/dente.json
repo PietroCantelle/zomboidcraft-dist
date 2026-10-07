@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "name": "chave_ute",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "zc_bosses:optional_item",
+          "name": "zc_story:chave_ute"
+        }
+      ]
+    },
+    {
+      "name": "chaves_presidio",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "zc_bosses:optional_item",
+          "name": "zc_story:chaves_presidio"
+        }
+      ]
+    },
+    {
+      "name": "espingarda_serrada",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "zc_bosses:optional_item",
+          "name": [
+            "zc_story:espingarda_serrada",
+            "kubejs:weapon_parts"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "caderno_dente",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "zc_bosses:optional_item",
+          "name": "zc_story:caderno_dente"
+        }
+      ]
+    },
+    {
+      "name": "cartucho_12",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "zc_bosses:optional_item",
+          "name": [
+            "zc_story:cartucho_12",
+            "kubejs:weapon_parts"
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "zc_bosses:bosses/dente"
+}

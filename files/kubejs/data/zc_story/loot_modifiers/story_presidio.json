@@ -1,0 +1,13 @@
+{
+  "type": "zc_story:story_loot",
+  "conditions": [],
+  "tables": [
+    "zc_world:chests/story/presidio"
+  ],
+  "entries": [
+    {
+      "item": "zc_story:note_corvo_2",
+      "chance": 1
+    }
+  ]
+}

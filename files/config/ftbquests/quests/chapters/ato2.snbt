@@ -18,7 +18,9 @@
 				"A Rádio Livre sai da torre da Igreja Matriz, no Centro. O transmissor de Joana come pilha. A nave da igreja está cheia deles: silêncio é a solução. A escada em caracol sobe pelo fundo da torre até a sala de rádio."
 				"&eOnde:&r a Igreja Matriz de N. Sra. da Pedra, no coração do Centro: a torre mais alta da cidade, com uma antena torta no topo. Joana fica na sala de rádio, lá em cima."
 				"Leve &e12 Pilhas AA&r (bancada: lingote de cobre + redstone + pepita de ferro = 2 pilhas) e fale com ela. Em troca ela te dá o &emapa anotado&r e um rádio portátil."
+				"&8Se alguém do servidor já entregou as pilhas, ela não dá outro de graça: o mapa anotado sai na troca com a Torre (reputação Tolerado)."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:bell"
 			id: "46CFA91DF41CA224"
 			rewards: [
@@ -62,6 +64,7 @@
 				"Clique direito no &emapa anotado&r para ler: ele lista onde ficam o Refúgio, o Galpão, a Matriz, a Galeria, o hospital, o batalhão, os bombeiros, a usina, a subestação, a ETA, o presídio e o Portão 1 — com coordenadas."
 				"É o mais perto de um GPS que esta cidade tem. Copie para o Atlas, divida com o grupo."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:filled_map"
 			id: "590E3D690731F9C8"
 			rewards: [
@@ -97,8 +100,9 @@
 			description: [
 				"&7&oDona Cida: \"Casa é onde tem alguém acordado de noite. Organiza turno de vigia. Vocês vão brigar por isso. Briga. Mas organiza.\""
 				""
-				"Escolham uma base e segurem ela: coletor de chuva, fogão, gerador, camas, arame. Proteja o terreno com o &eFlan&r (pá de ouro no chão marca a área: ninguém de fora quebra nada)."
+				"Escolham uma base e segurem ela: coletor de chuva, fogão, gerador, camas, arame. Proteja o terreno com o &eFlan&r (&eenxada de ouro&r no chão marca a área: ninguém de fora quebra nada)."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:cauldron"
 			id: "4728AEAACAC9E3B7"
 			rewards: [
@@ -169,6 +173,7 @@
 				""
 				"Plante, espere, colha. Entregue a colheita e uma panela de sopa feita por vocês."
 			]
+			hide_until_deps_complete: true
 			icon: "farmersdelight:cabbage"
 			id: "6E121DE44D61FE4E"
 			rewards: [
@@ -261,6 +266,7 @@
 				""
 				"Antes de entrar na Galeria Itaverá, conheça o Centro: olhe de longe, conte quantos são, limpe a rua."
 			]
+			hide_until_deps_complete: true
 			icon: "binocularsmod:binoculars"
 			id: "057ECA1AB47B10EE"
 			rewards: [
@@ -303,8 +309,9 @@
 				"&eOnde:&r o shopping de dois andares no Centro, uns 350 m a leste-sudeste da Matriz, com a claraboia rachada sobre o átrio."
 				"&cBoss:&r O Arauto acorda quando alguém entra no átrio (debaixo da claraboia). O grito tem 3 s de preparo: um golpe forte na cabeça interrompe. Cada grito puxa infectados dos corredores; depois ele grita em cone (empurra e enjoa) e derruba painéis da claraboia. Cabeça e garganta levam o triplo. Se ninguém fizer barulho perto, ele para para escutar."
 				"&eRegra dos chefes:&r cada sobrevivente enfrenta cada chefe uma vez, com o seu &eesquadrão&r (tecla &e]&r ou &e/grupo&r). Quem estiver no esquadrão e na arena quando ele cair recebe a vitória, e para essa pessoa ele não volta. Quem ainda não lutou encontra o chefe lá, esperando (se outro esquadrão estiver lutando: arena ocupada, espere)."
-				"Ele larga o &emegafone&r e o &ecrachá da segurança&r da Galeria. Na sala de CFTV há a gravação do Dia -3."
+				"Ele larga o &emegafone&r e o &ecrachá da segurança&r da Galeria. A gravação do CFTV do Dia -3 está no baú da Galeria."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:goat_horn"
 			id: "69DDA5E6275BA04E"
 			rewards: [
@@ -361,6 +368,7 @@
 				""
 				"A Usina Termelétrica é dos &8Corvos&r. Antes de pisar lá, aprenda o básico de energia: o martelo de engenheiro faz placas, o alicate corta fio, o manual explica o resto."
 			]
+			hide_until_deps_complete: true
 			icon: "immersiveengineering:hammer"
 			id: "5A3ADF3FD43853AE"
 			rewards: [
@@ -407,6 +415,7 @@
 				"Entre na casa de máquinas sem chamar atenção. Na sala de controle envidraçada (passarela a 6 blocos do chão) fica o &edisjuntor geral&r da usina. Nos baús da usina: o &emanual anotado do Dente&r (#33), a carta do Pena (#21) e o &elivro-caixa do Bigode&r (#22) — documentos únicos: se outro grupo pegou, peça emprestado."
 				"O Dente está lá dentro. Ainda não é hora de brigar com ele (Ato III)."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:black_dye"
 			id: "46532C9EBDEEDD45"
 			rewards: [

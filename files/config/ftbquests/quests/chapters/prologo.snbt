@@ -12,7 +12,7 @@
 			description: [
 				"&7&oBilhete com a sua própria letra, preso na geladeira com um ímã de farmácia:"
 				""
-				"&f\"1. Agachado não faz barulho. 2. Eles vêm pelo som. 3. Não gasta a água da banheira à toa. 4. A porta de cima tranca por dentro. 5. Se eu for sair: de dia, devagar, e volta antes de escurecer.\""
+				"&f\"1. Agachado não faz barulho. 2. Eles vêm pelo som. 3. Não gasta a água da banheira à toa. 4. A porta de cima tranca por dentro. 5. Se eu for sair: de dia, devagar, e volta antes de escurecer. 6. O rádio: 98.3, às sete da noite.\""
 				""
 				"Este caderno é o seu diário de missões. Abre com &eJ&r ou pelo botão no canto do inventário."
 				"O progresso é do seu &egrupo&r (FTB Teams): quem estiver no mesmo grupo divide as missões. Crie ou entre num grupo pelo botão de equipe no inventário (ou &e/ftbteams party create <nome>&r). Cada um resgata a própria recompensa."
@@ -44,9 +44,10 @@
 			]
 			description: [
 				"Soco não derruba árvore, nem tira pedra do chão. Você não tem ferramenta nenhuma."
-				"Procure &epedras soltas&r no chão: em parques, terrenos, na terra e até no asfalto e na calçada rachados. Cavando terra ou grama com a mão às vezes sai uma."
+				"Procure &epedras soltas&r no chão: em parques, terrenos, na terra e até no asfalto e na calçada rachados. Cavando terra, grama ou cascalho com a mão às vezes sai uma (areia dá pedra de arenito)."
 				"&eCascalho&r sai com a mão: 3 cascalhos = 2 &esílex&r na mesa (e às vezes sai sílex direto)."
 			]
+			hide_until_deps_complete: true
 			icon: "notreepunching:stone_loose_rock"
 			id: "1B72477A19EBE0FF"
 			rewards: [ ]
@@ -102,6 +103,7 @@
 				"Segure um &esílex&r e clique direito numa superfície de &epedra&r (concreto, tijolo, rocha) para &elascar&r. Às vezes quebra à toa; às vezes saem &eLascas de Sílex&r."
 				"Sem sílex: cascalho (3 = 2 sílex) ou a sorte de achar uma lasca na casa onde você acordou."
 			]
+			hide_until_deps_complete: true
 			icon: "notreepunching:flint_shard"
 			id: "36041C4F2AD3CFF0"
 			rewards: [ ]
@@ -126,6 +128,7 @@
 				"Graveto: quebre &efolhas&r com a mão (às vezes cai um) ou procure nas casas."
 				"A faca corta mato e grama (sai &efibra vegetal&r), lã, teia e couro."
 			]
+			hide_until_deps_complete: true
 			icon: "notreepunching:flint_knife"
 			id: "2AFE46F2E9B5E268"
 			rewards: [ ]
@@ -146,9 +149,11 @@
 				"2AFE46F2E9B5E268"
 			]
 			description: [
-				"Com a faca na mão, quebre &egrama alta&r, folhas, mudas, flores ou cana: sai &eFibra Vegetal&r."
+				"Com a faca na mão, quebre &egrama&r ou &egrama alta&r: às vezes sai &eFibra Vegetal&r (com a mão não sai nada)."
+				"Ou na mesa: &efaca + folhas, mudas, flores ou cana&r dá fibra (a faca gasta um pouco)."
 				"Fibras viram &eBarbante Vegetal&r na mesa. Barbante amarra ferramenta no cabo."
 			]
+			hide_until_deps_complete: true
 			icon: "notreepunching:plant_fiber"
 			id: "0AD458CFE4198318"
 			rewards: [ ]
@@ -178,6 +183,7 @@
 				"Toda ferramenta precisa de cabo. &eFolhas&r quebradas com a mão às vezes soltam gravetos."
 				"Depois que tiver machado ou serra: tora ou tábua vira um monte de gravetos."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:stick"
 			id: "7D6A3E2213C4A524"
 			rewards: [ ]
@@ -201,6 +207,7 @@
 				"&eLasca + barbante + graveto&r = &eMachado de Sílex&r. Agora árvore cai."
 				"Também há &epicareta&r (tira pedra e minério fraco), &epá&r e &eenxada&r de sílex."
 			]
+			hide_until_deps_complete: true
 			icon: "notreepunching:flint_axe"
 			id: "4DED20677FF9DBF6"
 			rewards: [ ]
@@ -223,6 +230,7 @@
 			description: [
 				"Derrube uma árvore com o machado. Lenha é casa, fogo e ferramenta."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:oak_log"
 			id: "28B49AA33B789149"
 			rewards: [ ]
@@ -253,6 +261,7 @@
 				"Na mesa, &etora + machado&r dá poucas tábuas (o machado gasta). Com uma &eserra&r rende mais."
 				"A serra pede metal: mais para frente. Por enquanto, machado."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:oak_planks"
 			id: "6E1F04D8556CD7B4"
 			rewards: [ ]
@@ -282,6 +291,7 @@
 			description: [
 				"Quatro tábuas: &eBancada de Trabalho&r. Quase tudo daqui em diante passa por ela."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:crafting_table"
 			id: "28F3C8C1757E3254"
 			rewards: [ ]
@@ -304,6 +314,7 @@
 			description: [
 				"&eGravetos + barbante + lasca de sílex&r = &eAcendedor&r (arco de fogo). Pega fogo de vez em quando — insista."
 			]
+			hide_until_deps_complete: true
 			icon: "notreepunching:fire_starter"
 			id: "12DB359C77C6ADB6"
 			rewards: [ ]
@@ -327,6 +338,7 @@
 				"Jogue no chão &e1 tora&r e &e3 gravetos/folhas/fibra&r (gravetos, mudas, folhas, barbante, fibra) e use o &eacendedor&r em cima: vira uma &efogueira&r."
 				"Fogueira ferve água, assa comida e esquenta. E faz luz e fumaça: à noite, chama atenção."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:campfire"
 			id: "6BF299D8A142F308"
 			rewards: [
@@ -360,6 +372,7 @@
 				"Sede zerada mata. Antes disso vêm os avisos: &7Com sede → Sedento → Desidratado → Morrendo de sede&r."
 				"Água limpa: garrafas lacradas, latas, água fervida. Guarde água antes que as torneiras sequem — elas vão secar."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_survival:water_bottle"
 			id: "4DE9EEBA3667A845"
 			rewards: [
@@ -393,10 +406,11 @@
 				"4DE9EEBA3667A845"
 			]
 			description: [
-				"Garrafa vazia + rio, poça ou chuva = &7Garrafa de Água Suja&r. Beber assim é pedir disenteria."
+				"Garrafa vazia + rio, lago ou poça (bloco de água) = &7Garrafa de Água Suja&r. Beber assim é pedir disenteria."
 				"Ferva: na &efogueira&r, na fornalha ou no defumador. Sai uma &bGarrafa de Água Fervida&r."
 				"Fogo faz fumaça e luz. À noite, luz chama atenção. Ferva de dia, ou com a janela tapada."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_survival:boiled_water_bottle"
 			id: "08A5F8CA9B8866CF"
 			rewards: [
@@ -427,6 +441,7 @@
 				"Você contou as latas. Duas vezes. A fome continua sendo a barra de sempre, mas comida cai de valor: cru e estragado fazem mal (intoxicação alimentar)."
 				"Enlatados não estragam. Guarde para os dias ruins; coma o que apodrece primeiro."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_survival:canned_beans"
 			id: "3CF0FFC55BD76EFB"
 			rewards: [
@@ -464,7 +479,9 @@
 				"Esfria com noite, altitude, chuva, vento e roupa molhada. Esquenta com fogueira, fornalha, abrigo e roupa seca."
 				"Frio demais: &7Com frio → Hipotermia → Congelando&r. Calor demais também mata. O painel de saúde (&eH&r) mostra a temperatura exata."
 				"Uma fogueira acesa dentro de casa é a diferença entre dormir e não acordar."
+				"&eFogueira&r na mesa: acendedor no meio, gravetos dos lados e três toras embaixo."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:campfire"
 			id: "6C71BA1E71C09E9F"
 			rewards: [
@@ -496,6 +513,7 @@
 				"Cada peça tem &eaquecimento&r, proteção contra &echuva&r e &evento&r, e chance de segurar &cmordida&r e arranhão na parte do corpo que cobre. Segure Shift no item para ver os números."
 				"Roupa rasga, suja e encharca de sangue. Jeans e couro seguram mordida; algodão não segura nada."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_clothing:tshirt_old"
 			id: "0F8C1C38F0D4808D"
 			rewards: [
@@ -530,9 +548,10 @@
 			]
 			description: [
 				"Roupa rasgada protege menos. Conserto na mesa de trabalho: &epeça + agulha + linha + remendo&r (tecido, jeans ou tiras de couro, conforme o material)."
-				"&eAgulha&r: duas pepitas de ferro. Não é gasta na costura (desgasta um pouco). &eLinha&r: de barbante. &eTecido&r: de trapos ou de lã."
+				"&eAgulha&r: duas pepitas de ferro. Não é gasta na costura (desgasta um pouco). &eLinha&r: de barbante (o vegetal também serve). &eTecido&r: de trapos ou de lã."
 				"Também dá para lavar (água) e tingir (corante) roupas na mesa de trabalho."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_clothing:needle"
 			id: "56F5C4BAF649E87A"
 			rewards: [
@@ -576,6 +595,7 @@
 				"Uma &emochila&r no espaço das &ecostas&r libera fileiras: couro +9, ferro +18, ouro ou melhor +27 — além do que cabe dentro dela. Para tirar a mochila, esvazie antes as fileiras que ela liberou."
 				"Mochila de escola, de trilha, de soldado: procure em quartos, lojas e quartéis."
 			]
+			hide_until_deps_complete: true
 			icon: "sophisticatedbackpacks:backpack"
 			id: "2A0E1C87E69C2915"
 			rewards: [
@@ -608,6 +628,7 @@
 				"Há um limite por personagem. Morrer não tira: o personagem continua o mesmo, e as pochetes com ele."
 				"Receita: barbante e três couros. Couro de verdade é raro; carne podre vira couro devagar (defumar duas vezes)."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_player:fanny_pack"
 			id: "4ADD9D7A514F3471"
 			rewards: [
@@ -640,6 +661,7 @@
 				"&eDesinfetante (álcool)&r: limpa o ferimento e evita infecção. Arde."
 				"Para tratar outra pessoa: &eagachado + clique&r nela com o item na mão."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_survival:bandage"
 			id: "2B0049BFD44569DE"
 			rewards: [
@@ -683,6 +705,7 @@
 				"Sangramento sem curativo mata em minutos. Curativo sujo infecciona. Antibióticos seguram infecção de ferida por um tempo. Analgésicos tiram a dor e baixam a febre."
 				"Segure um item médico e clique na parte do corpo, no painel."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_survival:splint"
 			id: "3FD95D7CA6A0651A"
 			rewards: [
@@ -714,6 +737,7 @@
 				"0–24 h: nada. Você se sente bem. Você quer acreditar nisso. 24–48 h: febre, sede, paranoia. 48–72 h: tosse com sangue, fraqueza. Depois: você levanta."
 				"Não existe remédio na farmácia para isso. Antibiótico não cura Knox. Se for mordido, avise o grupo. Mordida não se esconde."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:rotten_flesh"
 			id: "337BF1AEEFC5432C"
 			rewards: [ ]
@@ -740,6 +764,7 @@
 				"A &eInjeção de Reversão&r não traz ninguém de volta. Ela segura o &cKnox&r antes de ele terminar o serviço: segure o clique direito para aplicar em você, ou clique direito em alguém. É raríssima."
 				"&8Por isso ninguém anda sozinho: alguém precisa voltar lá para buscar o que você deixou."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_player:reversal_injection"
 			id: "498745CEE37C4EAA"
 			rewards: [ ]
@@ -769,8 +794,8 @@
 			description: [
 				"Tudo o que você faz ensina alguma coisa. A tela de &ehabilidades&r abre com &eK&r."
 				"Carpintaria, primeiros socorros, mecânica, elétrica... quem o servidor precisa no fim da história se forma fazendo."
-				"&8(As habilidades vêm no módulo zc_skills. Se a tecla K ainda não abrir nada, a sua versão do pack não tem ele.)"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:book"
 			id: "45577CCED3C69D92"
 			rewards: [ ]
@@ -794,6 +819,7 @@
 				"&eAgachado&r você anda sem barulho. Correndo, a rua inteira escuta. &7Anda, não corre."
 				"Sem espaço em cima, você não levanta. Olhe antes de deitar."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:cobweb"
 			id: "287AC4008176B886"
 			rewards: [ ]
@@ -816,8 +842,9 @@
 				"Não existe minimapa na cabeça de ninguém. O mapa é o que você carrega: o &eAtlas&r."
 				"Ele junta mapas de papel enquanto você anda. Sem atlas, sem mapa. Perdeu o atlas, perdeu tudo o que desenhou."
 				"&eM&r abre o mapa do atlas; &e,&r (vírgula) marca um alfinete. Anote onde tem água, remédio e horda."
-				"O minimapa no canto da tela só funciona com um &eGPS&r no inventário. Achou um? Guarde com a vida."
+				"O minimapa no canto da tela só funciona com um &eGPS&r no inventário, &eligado&r (clique direito) e com bateria (recarrega com redstone na mesa). Achou um? Guarde com a vida."
 			]
+			hide_until_deps_complete: true
 			icon: "map_atlases:atlas"
 			id: "0356B17C04CE392C"
 			rewards: [
@@ -850,6 +877,7 @@
 				"Para falar com quem está longe: &eWalkie-Talkie&r. Mesmo canal que o grupo, e fale com Caps Lock."
 				"Rádio é a única coisa nessa cidade que chega longe sem fazer barulho."
 			]
+			hide_until_deps_complete: true
 			icon: "walkietalkie:wooden_walkietalkie"
 			id: "23FD6584127878D6"
 			rewards: [
@@ -912,6 +940,7 @@
 				"Mire na cabeça. Bata e recue. Nunca brigue com três de uma vez dentro de um corredor."
 				"Tiro resolve um e chama vinte. Arma de fogo é para quando já deu errado."
 			]
+			hide_until_deps_complete: true
 			icon: "marbledsmelees:baseball_bat"
 			id: "7982E7275FBC77D8"
 			rewards: [

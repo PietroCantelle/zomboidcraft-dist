@@ -19,6 +19,7 @@
 				"&e• Os Poucos&r — de 1 a 4 jogadores no heliponto (hospital ou Base Cerco) quando a votação fechar."
 				"Todos que estiverem no servidor (e quem entrar depois) veem o final."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:writable_book"
 			id: "5B54687436D6495A"
 			rewards: [ ]
@@ -43,6 +44,7 @@
 				"&7&o\"...Torres, cessar fogo. Abram a eclusa.\""
 				"A receita é de todo mundo agora."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_story:radio_portatil"
 			id: "5506AEB55F2F3174"
 			optional: true
@@ -65,8 +67,9 @@
 				"5B54687436D6495A"
 			]
 			description: [
-				"O Ativo LÁZARO vai para o outro lado do muro, em caixa térmica. O portão abre para quem entregou."
+				"O Ativo LÁZARO vai para o outro lado do muro, em caixa térmica. Na eclusa, os militares recebem a carga, e todo mundo passa sob custódia."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_story:amostra_primaria"
 			id: "7E4197F08B3C0EC9"
 			optional: true
@@ -91,6 +94,7 @@
 			description: [
 				"Quatro lugares no helicóptero. O resto fica com a cidade."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:feather"
 			id: "2DC104C768867D88"
 			optional: true
@@ -124,6 +128,7 @@
 				""
 				"O final de quem não abre o portão a tempo. &8Opcional e desligado por padrão: só existe se o servidor tiver um prazo (config do zc_story, silencioDeadlineDay). Nos últimos dias, a frequência da Rede Cerco avisa."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:tnt"
 			id: "06942BDC0AE7CD97"
 			optional: true
@@ -158,6 +163,7 @@
 				"Os créditos levam o nome de todo mundo que passou por Itaverá: quantas vezes morreu, em que dia chegou."
 				"&8Anda, não corre."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:clock"
 			id: "0F901F7EA1341237"
 			rewards: [ ]

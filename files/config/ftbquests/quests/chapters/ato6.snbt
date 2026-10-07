@@ -15,10 +15,10 @@
 			]
 			description: [
 				"&7&oCoronel, no rádio militar: \"Aqui é o Comandante da Operação Cerco. Não usem nomes. Vocês estão numa frequência gravada. Vocês têm uma coisa que me interessa. Eu tenho uma porta que interessa a vocês.\""
-				"&7&oJoana, na torre: \"Ele é meu pai. Todo dia ele pede mais um dia. Eu sei porque todo dia a cidade continua aqui.\""
 				""
 				"Para Joana transmitir longe, a antena da Matriz precisa de conserto: eletrônica militar, cabo, aço e um rádio forte."
 			]
+			hide_until_deps_complete: true
 			icon: "walkietalkie:diamond_walkietalkie"
 			id: "09352AB67C1BF92B"
 			rewards: [
@@ -68,9 +68,10 @@
 			]
 			description: [
 				"No alto da torre da Matriz, a &eestação de rádio&r da Joana (clique direito) tem um botão para chamar a &eRede Cerco&r. Precisa de luz: a rede da cidade religada."
-				"O Coronel quer o Ativo LÁZARO (a amostra e a fórmula) em troca do Portão 1. Com a ordem do Protocolo Silêncio (#24) ou a fita 9 do Caio na cabeça, ele não consegue negar."
+				"O Coronel quer o Ativo LÁZARO (a amostra e a fórmula) em troca do Portão 1. Com a ordem do Protocolo Silêncio (#24: baús da Base Cerco ou cofre da torre do Portão 1) ou a fita 9 do Caio na cabeça, ele não consegue negar."
 				"Depois, desça a escada e pergunte à Joana quem é o homem do rádio."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:bell"
 			id: "2717F8176C95299F"
 			rewards: [
@@ -121,6 +122,7 @@
 				""
 				"Com a rede religada, a &efórmula do RIMIDAX&r na mão e a Joana viva: peça a ela para transmitir (ou use o botão da estação de rádio da torre). É a condição do final &eTransmissão&r. Pode ser feito antes ou depois de abrir o portão; uma vez por mundo."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_story:radio_portatil"
 			id: "65F79ECC9D677376"
 			optional: true
@@ -153,8 +155,10 @@
 				""
 				"&eOnde:&r a Muralha, no extremo leste (siga o nascer do sol): o único portão que ainda funciona, com a torre de controle de 60 m."
 				"&cBoss:&r no topo da torre de controle (sala envidraçada e passarela externa). Armadura pesada: explosão e bala quase não entram; lâmina curta nas costuras das costas entra. O visor quebra com golpes na cabeça. Ele empurra para a beirada e arrasta jogadores até ela (outro jogador solta). A cada 15 s ele para 2 s, ofegante."
-				"Ele larga a &echave A&r e o diário dele. O diário tem a combinação do &ecofre da torre&r (4 dígitos): lá estão a &echave B&r e a ordem do Protocolo Silêncio."
+				"Ele larga as &echaves A e B&r do portão e o diário dele. Cada esquadrão que derruba o Escafandro sai com o seu par de chaves."
+				"O diário tem a combinação do &ecofre da torre&r (4 dígitos): lá estão outra &echave B&r e a ordem do Protocolo Silêncio."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:netherite_helmet"
 			id: "755A49A546576576"
 			rewards: [
@@ -194,7 +198,7 @@
 				{
 					icon: "zc_story:chave_portao_b"
 					id: "6415C2F79D795AB4"
-					title: "Chave B do Portão 1 (cofre da torre)"
+					title: "Chave B do Portão 1"
 					type: "custom"
 				}
 				{
@@ -216,7 +220,9 @@
 			description: [
 				"No pátio do Portão 1, duas fechaduras em pilares a &e22 blocos&r uma da outra. Precisa de luz (rede religada)."
 				"Dois jogadores, cada um com uma chave na mão, giram (clique direito) &eno mesmo segundo&r. Uma chave girada sozinha volta. Combinem pelo rádio."
+				"&8Precisa de duas pessoas online. (O admin pode liberar o modo solo na config do zc_story: allowSamePlayerSync e syncWindowTicks.)"
 			]
+			hide_until_deps_complete: true
 			icon: "zc_story:chave_portao_a"
 			id: "47E3E081D3C7B013"
 			rewards: [
@@ -249,6 +255,7 @@
 				"&cO código certo começa o cerco:&r o mecanismo hidráulico pressuriza por três noites, e a cidade inteira ouve."
 				"Antes de digitar: muros, armadilhas, munição, curativos, injeções e &eferro&r (o painel se conserta com ferro)."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:stone_button"
 			id: "42ABDEFF3FCC8F9F"
 			rewards: [
@@ -285,6 +292,7 @@
 				"Hordas vêm do lado da cidade direto para o console. Infectados colados no console estragam o &epainel&r; clique direito no console com &elingote de ferro (+25)&r ou &ebloco de ferro (+225)&r para consertar. Se o painel quebrar, a pressão cai e a contagem de noites volta a zero."
 				"A primeira madrugada que passar com o painel de pé conta."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:iron_ingot"
 			id: "0D644D8D610584C6"
 			rewards: [
@@ -320,6 +328,7 @@
 				"Hordas vêm do lado da cidade direto para o console. Infectados colados no console estragam o &epainel&r; clique direito no console com &elingote de ferro (+25)&r ou &ebloco de ferro (+225)&r para consertar. Se o painel quebrar, a pressão cai e a contagem de noites volta a zero."
 				"A segunda noite manda mais gente, em mais ondas."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:iron_block"
 			id: "5E4DE1CC865D0F34"
 			rewards: [
@@ -356,6 +365,7 @@
 				"Hordas vêm do lado da cidade direto para o console. Infectados colados no console estragam o &epainel&r; clique direito no console com &elingote de ferro (+25)&r ou &ebloco de ferro (+225)&r para consertar. Se o painel quebrar, a pressão cai e a contagem de noites volta a zero."
 				"Na terceira madrugada, se o painel aguentar, o portão abre."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:bell"
 			id: "59123D32F8B67BD0"
 			rewards: [
@@ -382,10 +392,11 @@
 				"59123D32F8B67BD0"
 			]
 			description: [
-				"&7&o\"...quarenta e sete. Fim da receita. Pra quem tiver ouvindo em qualquer lugar: isso aqui é de vocês agora. Anota. Passa pra frente. (pausa) Pai. Abre o portão.\""
+				"&7&oJoana, na Rádio Livre: \"O portão tá aberto. Eu nunca achei que ia dizer isso no ar...\""
 				""
 				"Na terceira madrugada o portão abre. Do outro lado, a escolha (capítulo &eFinal&r)."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_world:quarantine_gate"
 			id: "484C67B32FA9F528"
 			rewards: [ ]
@@ -404,7 +415,7 @@
 		}
 	]
 	subtitle: [
-		"Pai. Abre o portão."
+		"Segurem três noites."
 	]
 	title: "Ato VI — Portão"
 }

@@ -18,6 +18,7 @@
 				"Numa casa com pano branco na janela ainda tem luz acesa. Dentro, um senhor alimenta a esposa, virada, presa na cama com cintos. Ele não quer sair. Ele está sem comida."
 				"Deixe comida e água na porta. Não entre no quarto."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:white_banner"
 			id: "499825CA76D33820"
 			rewards: [
@@ -78,6 +79,7 @@
 				"Um pastor-alemão magro, desconfiado. Não corra perto dele. Alimente, espere, volte amanhã."
 				"&8Cachorro não tomou a vacina da fila. Se ele morrer, ele não levanta."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:bone"
 			id: "7BADE17E3437523E"
 			rewards: [
@@ -120,6 +122,7 @@
 				""
 				"Vá até a Muralha e olhe para ela. Sessenta metros de concreto. De perto, dá para ouvir o rádio das torres."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_world:quarantine_concrete"
 			id: "46E5CDAD91799E3C"
 			rewards: [
@@ -165,6 +168,7 @@
 				"O Portão Leste. Onde a fila dobrava o quarteirão. Onde, na noite do Dia -3, alguém na fila virou — e os soldados abriram fogo. Vá até um portão da Muralha e fique ali um pouco."
 				"No pátio do Portão 1 e na Base Cerco, as caixas do lote de vacinas ainda estão lá."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_world:quarantine_gate"
 			id: "2EB709D7D65F86F7"
 			rewards: [ ]
@@ -195,9 +199,10 @@
 			]
 			description: [
 				"Barulho na biblioteca do Colégio (regra 5 do mural: ninguém desce na biblioteca)."
-				"Pergunte à &eDona Cida&r sobre a biblioteca. Ela vai contar do Seu Jorge, e do jornal velho que ela lê para ele todo dia."
+				"Pergunte à &eDona Cida&r sobre a biblioteca. Ela não vai explicar. Repare na chave do porão no avental dela, e no jornal velho debaixo do braço."
 				"&8Depois da Receita, ninguém precisa explicar para ela que a injeção não funciona fora da janela. Ela já sabe."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:book"
 			id: "5DAFF7B7C34F1DA8"
 			rewards: [
@@ -229,6 +234,7 @@
 				"A mãe dele está viva: &eDona Neide&r, no pátio do Refúgio, procurando o filho no mural de desaparecidos."
 				"Leia a carta e fale com ela."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:feather"
 			id: "2BBD99F5A450492F"
 			rewards: [
@@ -265,6 +271,7 @@
 				"Pichação no muro interno da Rodoviária, no Centro: \"O ÔNIBUS DAS 18H PRA BH NÃO SAIU.\""
 				"A pichação aparece copiada em papel nas lojas e lanchonetes do Centro (#28). Leve a notícia ao mural do Refúgio: fale com qualquer morador."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:name_tag"
 			id: "436FDFA3C3660DDB"
 			rewards: [
@@ -301,6 +308,7 @@
 				"Um boletim de ocorrência da 3ª Delegacia (#05), e o bilhete de alguém que \"foi na fila da vacina\" (#01). A fila levou todo mundo: quem ficou, ficou esperando."
 				"Ache os dois papéis: delegacias, batalhão, cozinhas e geladeiras."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:iron_nugget"
 			id: "379E73DF3800DE79"
 			rewards: [
@@ -339,6 +347,7 @@
 				"&e• Expor no mural&r: entregue à Dona Cida. O Galpão inteiro fica sabendo e a sua reputação lá despenca."
 				"Nenhuma escolha é limpa."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:writable_book"
 			id: "6128268768FCEA0C"
 			rewards: [
@@ -371,9 +380,10 @@
 				"34829CCC4C633000"
 			]
 			description: [
-				"No campanário do hospital, há quarenta dias, com água de chuva e hóstias. Ela não fala de Deus. Fala de pontos e gaze."
-				"A oração dela (#30) está na capela do São Lucas; o prontuário do Paciente 114 (#29) mostra que ela pediu para não ir para a Ala C."
+				"Escondida no hospital São Lucas há quarenta dias, com água de chuva e hóstias. Ela não fala de Deus. Fala de pontos e gaze."
+				"A oração dela (#30) está nos baús do subsolo do hospital; o prontuário do Paciente 114 (#29) mostra que ela pediu para não ir para a Ala C."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:candle"
 			id: "0FE53A7DAFDF7177"
 			rewards: [
@@ -411,6 +421,7 @@
 				"&eOnde:&r o noroeste, isolado, a mais de 2 km do Centro: muro alto, quatro guaritas, portão aberto por dentro."
 				"O diário de um Corvo arrependido (#38) conta o resto."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:iron_bars"
 			id: "1F0533432293CDFD"
 			rewards: [
@@ -446,6 +457,7 @@
 				"\"A senha é o aniversário de casamento dela. Está na parede, em foto.\" (folha solta da Major Lídia, #20)"
 				"Uma &efoto de casamento&r dos Sampaio (casas, quartos, o Campus, a Unidade 4) tem a data. Ela abre o terminal do B3 sem invasão."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:clock"
 			id: "5AE32383E058A39F"
 			rewards: [
@@ -483,6 +495,7 @@
 				"&7&oFita nº 6 do Caio: \"Funcionou. Macaco 14. (...) Voltou! Pegou a banana da minha mão.\""
 				"No biotério do B2, as gaiolas. A prova de que a Janela existe — e de que ela é curta. Ouça as fitas 6 e 7 do Caio (elas saem do terminal do B2)."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:cocoa_beans"
 			id: "2E73FEB9536925C2"
 			rewards: [
@@ -519,6 +532,7 @@
 				"Perto da casa dela, na Vila Operária, uma infectada de uniforme de enfermagem."
 				"O diário dela (#04) e o da vizinha, Dona Zulmira (#02, #03), estão nas casas da Vila Operária."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_clothing:nurse_dress"
 			id: "70F79AC351BFBA52"
 			rewards: [
@@ -555,6 +569,7 @@
 				"No rádio portátil (Shift + clique direito), sintonize a &eEstação dos Números&r de madrugada (3h) ou à tarde (15h) e ouça até o fim: a transcrição (#27) fica com você."
 				"&8Os grupos de números são proporções. É a receita, lida em voz alta, para quem sobrar."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:note_block"
 			id: "6C2B0828C84C65A2"
 			rewards: [

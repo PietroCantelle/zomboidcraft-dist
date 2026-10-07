@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "name": "chave_portao_a",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "zc_bosses:optional_item",
+          "name": "zc_story:chave_portao_a"
+        }
+      ]
+    },
+    {
+      "name": "chave_portao_b",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "zc_bosses:optional_item",
+          "name": "zc_story:chave_portao_b"
+        }
+      ]
+    },
+    {
+      "name": "diario_tavares",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "zc_bosses:optional_item",
+          "name": "zc_story:diario_tavares"
+        }
+      ]
+    },
+    {
+      "name": "fita_tavares",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "zc_bosses:optional_item",
+          "name": "zc_story:fita_tavares"
+        }
+      ]
+    },
+    {
+      "name": "capacete_eod",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "zc_bosses:optional_item",
+          "name": [
+            "zc_story:capacete_eod",
+            "minecraft:iron_helmet"
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "zc_bosses:bosses/escafandro"
+}

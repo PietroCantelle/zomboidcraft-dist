@@ -1,0 +1,25 @@
+{
+  "type": "zc_story:story_loot",
+  "conditions": [],
+  "tables": [
+    "zc_world:chests/story/campus_veridia"
+  ],
+  "entries": [
+    {
+      "item": "zc_story:tape_caio_3",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:pendrive_rafael",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:foto_casamento",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:cartao_acesso_veridia",
+      "chance": 1
+    }
+  ]
+}

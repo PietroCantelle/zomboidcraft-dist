@@ -18,6 +18,7 @@
 				"O Hospital Regional São Lucas foi o primeiro lugar a cair. Quem entra precisa sair com o próprio sangue dentro do corpo."
 				"&eOnde:&r o Bairro Saúde, centro-norte, uns 750 m ao norte da Matriz: três andares, heliponto, ambulâncias e tendas de triagem na frente."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_survival:suture_kit"
 			id: "34829CCC4C633000"
 			rewards: [
@@ -73,6 +74,7 @@
 				"&cBoss:&r aura de gás (máscara de gás protege), vômito de bile, e o gás da sala sobe com o tempo. &cFogo, explosão e tiro dentro do gás explodem tudo&r. Ele chama pacientes batendo nas gavetas. Ao morrer solta uma nuvem venenosa por 20 s: recue."
 				"Ele larga a &echave do túnel de serviço&r e o &ecrachá da segurança&r do hospital."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:slime_ball"
 			id: "1B66F017ABD3BE31"
 			rewards: [
@@ -126,11 +128,13 @@
 				"1B66F017ABD3BE31"
 			]
 			description: [
-				"&7&oVoz de mulher, pelo interfone: \"...quem está no B1? Identifique-se. (pausa) Vocês não são Veridia. Vocês não são Exército. (pausa longa) Não desçam para o B2 com luz branca. Ela odeia luz branca. Usem vermelha.\""
+				"&7&oBilhete colado no interfone do B1, letra de mulher: \"...quem está no B1? Identifique-se. (pausa) Vocês não são Veridia. Vocês não são Exército. (pausa longa) Não desçam para o B2 com luz branca. Ela odeia luz branca. Usem vermelha.\""
+				"&8(Assinado: H. S.)"
 				""
-				"No necrotério, a &eporta de serviço&r trancada abre com a chave do túnel na mão. O túnel é longo (mais de um quilômetro e meio), escuro, com trilhos de carrinho de amostras e luz vermelha de emergência. O rádio morre lá embaixo. No meio do caminho, o que sobrou do esquadrão da Major."
+				"No necrotério, a &eporta de serviço&r trancada abre com a chave do túnel na mão. O túnel é longo (quase dois quilômetros), escuro, com trilhos de carrinho de amostras e luz vermelha de emergência. O rádio morre lá embaixo. No meio do caminho, o que sobrou do esquadrão da Major."
 				"Leve luz, pilha e luz vermelha."
 			]
+			hide_until_deps_complete: true
 			icon: "flashlightmod:flashlight"
 			id: "0C4BD8AD40BD1593"
 			rewards: [
@@ -158,7 +162,7 @@
 					count: 2L
 					id: "38B3A87603226764"
 					item: "car:canister"
-					title: "Diesel (2 galões)"
+					title: "2 galões (encha de diesel antes de descer)"
 					type: "item"
 				}
 				{
@@ -182,7 +186,7 @@
 					type: "custom"
 				}
 			]
-			title: "Novecentos Metros"
+			title: "O Túnel de Serviço"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -195,6 +199,7 @@
 				"&eTerminal do posto de segurança:&r clique direito. Com o &ecartão de acesso Veridia&r (túnel, Campus) o acesso é direto; sem ele, &einvasão&r: a tela mostra 12 palavras, uma é a senha; cada erro diz quantas letras estão na posição certa. 4 tentativas, depois 1 minuto bloqueado."
 				"Com acesso, &ebaixe&r o arquivo: sai o &eFragmento de código 1/3&r (4 dígitos do código do Portão 1)."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:iron_door"
 			id: "515C2FDBCB80366C"
 			rewards: [
@@ -247,12 +252,13 @@
 				"515C2FDBCB80366C"
 			]
 			description: [
-				"&7&oHelena, pelo interfone, depois: \"...Farias. O nome dela era Lídia Farias. Ela pediu. Eu quero que vocês saibam que ela pediu. (pausa) Não que isso mude alguma coisa.\""
+				"&7&oNo vidro da sala de observação, escrito com batom: \"...Farias. O nome dela era Lídia Farias. Ela pediu. Eu quero que vocês saibam que ela pediu. (pausa) Não que isso mude alguma coisa.\""
 				""
 				"B2: doze laboratórios, biotério, a sala de observação de vidro escuro (terminal do B2) e os dutos acima do teto."
 				"&cBoss:&r Experimento L-8. Caça quem está mais sozinho; se o grupo anda junto, ela some nos dutos (escute o barulho no teto). Abre e fecha portas. Puxa os disjuntores (escuridão). &eLanterna na cara dela por meio segundo a atordoa.&r"
 				"Ela larga o &ecartão de Lídia&r. O terminal do B2 (cartão Veridia ou invasão) dá o &eFragmento 2/3&r."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:red_candle"
 			id: "70F74A858BDB2181"
 			rewards: [
@@ -306,12 +312,14 @@
 				"70F74A858BDB2181"
 			]
 			description: [
-				"&7&oHelena: \"Não me perguntem se valeu a pena. Me perguntem o que vocês precisam.\""
+				"&7&oNa porta do cofre do B3, papel colado por dentro: \"Não me perguntem se valeu a pena. Me perguntem o que vocês precisam. — H.\""
 				""
 				"B3: celas B3-01 a 12. A B3-07 abre para o anfiteatro. Rafael Sampaio está acorrentado lá dentro."
 				"&cBoss:&r cinco placas de osso que só quebram com arma de impacto, explosão ou tiro forte (lâmina não adianta; fogo também não). A nuca leva o triplo. Ele quebra as correntes, investe, arremessa macas, agarra (outro jogador solta batendo nas costas). O &einterfone&r do pilar (ou o botão no terminal do B3) põe a voz da Helena no ar: ele para e escuta por 3 s. Três vezes."
-				"&eTerminal do B3:&r a senha é uma data de 4 dígitos (o aniversário de casamento dela — tem foto) ou invasão (3 tentativas). Baixar abre o cofre: &eFragmento 3/3&r, a &efórmula do RIMIDAX&r, a última página do diário, a fita 10 e duas doses de soro diluído."
+				"&eTerminal do B3:&r a senha é uma data de 4 dígitos (o aniversário de casamento dela — tem foto) ou invasão (3 tentativas). Baixar abre o cofre: &eFragmento 3/3&r, a &efórmula do RIMIDAX&r, a última página do diário, a fita 10 e duas doses de soro diluído (o soro do cofre sai uma vez por mundo)."
+				"Ele larga a &eamostra primária&r e a aliança dele. A amostra mais a fórmula são o &eAtivo LÁZARO&r que o Coronel quer."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:writable_book"
 			id: "06A034B0A8F904CA"
 			rewards: [
@@ -370,6 +378,7 @@
 				"RIMIDAX, adrenalina, glicose, um carreador de oxigênio. A &eInjeção de Reversão&r não traz ninguém de volta da morte: segura o Knox &eantes&r de ele terminar o serviço. Aplicada depois que a pessoa levanta, não serve para nada. É muito menos. É tudo."
 				"Leia a fórmula (clique direito) e fabrique a primeira injeção do grupo (veja a receita no EMI)."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_player:reversal_injection"
 			id: "2FF8DEA8B43B57C4"
 			rewards: [

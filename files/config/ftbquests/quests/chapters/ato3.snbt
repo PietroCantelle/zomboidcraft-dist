@@ -21,6 +21,7 @@
 				"&e• Fusível industrial&r (bancada: ferro, cobre, vidro e bloco de redstone; às vezes nos baús da usina e de lojas de ferragens). Vai no disjuntor geral da usina."
 				"Se outro grupo já instalou a peça, a tarefa conta: a rede é uma só."
 			]
+			hide_until_deps_complete: true
 			icon: "immersiveengineering:coil_mv"
 			id: "29A7509C57BEC8D4"
 			rewards: [
@@ -69,6 +70,7 @@
 				"&e• Executar:&r bata de novo. Loot completo, e o Refúgio não gosta (Os Corvos)."
 				"As duas rotas seguem a história. O destino do Dente é um só por mundo: vale a primeira rendição ou execução. Esquadrões que chegarem depois ainda enfrentam o Dente (a vitória conta para eles), mas o mundo mantém o destino já escrito."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:iron_bars"
 			id: "53317F5316D7CB51"
 			rewards: [
@@ -105,6 +107,7 @@
 				"&7&o(Dona Cida, depois: \"A gente não é eles.\" — o Refúgio perde um pouco de confiança em quem estava lá.)"
 				"&8Rota alternativa a Pedágio: só uma das duas acontece por mundo."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:iron_bars"
 			id: "0FF7982D3CB5255E"
 			optional: true
@@ -134,11 +137,12 @@
 				"53317F5316D7CB51"
 			]
 			description: [
-				"&7&oDente: \"Vocês entraram na minha casa, leram meu caderno e saíram sem atirar em ninguém. Ou vocês são muito bons ou muito burros. Senta.\""
+				"&7&oDente, preso no Refúgio: \"A velha me dá comida e não me olha. Justo.\""
 				""
 				"Rota de quem poupou. O Dente fica preso no Refúgio do Colégio, perto do mural. Fale com ele: ele ensina os atalhos da usina e entrega o caderno dele."
 				"&8Rota alternativa a Os Corvos: só uma das duas acontece por mundo."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:white_banner"
 			id: "196ED0FED80412A1"
 			optional: true
@@ -187,8 +191,10 @@
 				"&e1. Usina:&r na sala de controle envidraçada da casa de máquinas, clique direito no &edisjuntor geral&r com o &eFusível industrial&r na mão."
 				"&e2. Subestação Ferrugem:&r o Distrito Industrial Norte, uns 1,5 km ao norte do Centro, a oeste da usina: pátio de brita com seis transformadores. Clique direito numa das duas &echaves de manobra&r com o &eDisjuntor 52-3&r na mão para instalar."
 				"&e3. Sincronia:&r as duas chaves ficam a uns 40 blocos uma da outra (vão do disjuntor e casa de controle). &cDois jogadores&r fecham cada um a sua no &emesmo segundo&r — combinem pelo rádio: \"três, dois, um, agora\". Uma chave fechada sozinha volta depois de 1 s."
+				"&8Não dá para fazer sozinho: precisa de duas pessoas online. (O admin pode liberar o modo solo na config do zc_story: allowSamePlayerSync e syncWindowTicks.)"
 				"Quando a rede volta, as luzes elétricas dos lugares da história acendem, e a cidade inteira fica sabendo."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:clock"
 			id: "737EDB245F2A7E39"
 			rewards: [
@@ -251,6 +257,7 @@
 				""
 				"A rede da cidade só chega aos lugares da história. Na base, cada grupo faz a sua luz: gerador, capacitor, fio e um holofote na rua. Luz à noite chama eles. Luz à noite também deixa você ver eles chegando."
 			]
+			hide_until_deps_complete: true
 			icon: "immersiveengineering:floodlight"
 			id: "751A2E985FDDD2F1"
 			rewards: [
@@ -299,6 +306,7 @@
 				"Volte ao Refúgio do Colégio e conte para a Dona Cida. Ela vai querer ouvir de vocês, não do rádio."
 				"&8A Joana também tem coisa nova no ar depois que a luz volta (Rádio Livre, 19h)."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:redstone_lamp"
 			id: "6CFF551CC674B3DF"
 			rewards: [
@@ -339,10 +347,9 @@
 				"751A2E985FDDD2F1"
 			]
 			description: [
-				"&7&oDona Cida, abrindo a torneira da cozinha: \"...(ela não diz nada; deixa a água correr na mão por um tempo)... Fecha. Fecha que gasta.\" (sorri pela primeira vez)"
-				""
 				"Bomba, cano e produto para tratar a água: a base passa a ter água que não precisa ferver."
 			]
+			hide_until_deps_complete: true
 			icon: "create:mechanical_pump"
 			id: "24D695EA2FDBC08A"
 			rewards: [
@@ -388,7 +395,9 @@
 				"&eOnde:&r a Estação de Tratamento de Água, no nordeste do Distrito Industrial (uns 1,4 km ao norte, a leste da usina): tanques circulares de decantação."
 				"Com a rede religada (Sincronismo), clique direito no &eregistro&r da casa de bombas. Os tanques de decantação estão cheios de gente que caiu lá dentro: cuidado onde pisa."
 				"Depois, a Dona Cida abre a torneira da cozinha do Colégio."
+				"&7&o\"...(ela não diz nada; deixa a água correr na mão por um tempo)... Fecha. Fecha que gasta.\" (sorri pela primeira vez)"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:water_bucket"
 			id: "575AAC5C7195BF52"
 			rewards: [

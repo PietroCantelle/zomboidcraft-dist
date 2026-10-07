@@ -1,0 +1,25 @@
+{
+  "type": "zc_story:story_loot",
+  "conditions": [],
+  "tables": [
+    "zc_world:chests/story/hospital"
+  ],
+  "entries": [
+    {
+      "item": "zc_story:tape_caio_1",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:tape_caio_5",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:note_p114",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:note_irma_graca",
+      "chance": 1
+    }
+  ]
+}

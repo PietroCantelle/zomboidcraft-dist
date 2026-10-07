@@ -1,0 +1,21 @@
+{
+  "type": "zc_story:story_loot",
+  "conditions": [],
+  "tables": [
+    "zc_world:chests/story/unidade4"
+  ],
+  "entries": [
+    {
+      "item": "zc_story:foto_casamento",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:radio_capacete",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:soro_rimidax_diluido",
+      "chance": 0.1
+    }
+  ]
+}

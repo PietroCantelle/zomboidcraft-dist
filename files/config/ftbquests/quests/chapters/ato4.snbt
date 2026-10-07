@@ -15,8 +15,10 @@
 			description: [
 				"O 14º Batalhão de Polícia Militar foi a última resistência organizada. Sacos de areia, cartuchos no chão, viaturas atravessadas no pátio."
 				"&eOnde:&r o centro-oeste, uns 650 m a oeste da Matriz: muro com arame, quartel de dois andares, viaturas atravessadas no pátio."
-				"Dentro dos armários ainda tem colete, e peças de arma espalhadas. Entre preparado: o pátio não está vazio."
+				"Nos baús do quartel ainda tem colete (às vezes), e peças de arma espalhadas. Entre preparado: o pátio não está vazio."
+				"&8Sem colete nos baús? O arsenal (O Escudo), a Base Cerco e o Portão 1 também guardam."
 			]
+			hide_until_deps_complete: true
 			icon: "marbledsarsenal:riot_armor_helmet"
 			id: "69E789C22DC868F3"
 			rewards: [
@@ -89,8 +91,9 @@
 			description: [
 				"Na garagem do arsenal, um homem de escudo e capacete ainda segura a porta. Na plaqueta: \"Sgt. W. Brandão — 'Aqui ninguém passa'.\""
 				"&cBoss:&r o escudo balístico segura tudo pela frente — flanqueie (ele vira devagar) ou gaste o escudo com golpes pesados e explosões. Quando ele investe e bate na parede, fica tonto. A lata de gás no colete estoura no primeiro golpe no tronco (máscara de gás ajuda). No fim ele bate no portão e chama reforço."
-				"Ele larga a &echave do arsenal&r: a grade do arsenal (porta trancada) abre com ela na mão. Lá dentro: armas, coletes e &erádios militares&r (os únicos que pegam a frequência da Rede Cerco)."
+				"Ele larga a &echave do arsenal&r: as portas de ferro do arsenal abrem com ela na mão (clique direito). Lá dentro: armas, coletes e &erádios militares&r (os únicos que pegam a frequência da Rede Cerco)."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:shield"
 			id: "781649AD2E61E9A0"
 			rewards: [
@@ -148,6 +151,7 @@
 				""
 				"Três veículos funcionando, um deles caminhão para o diesel. Motor, rodas, bateria, tanque cheio — monte na oficina."
 			]
+			hide_until_deps_complete: true
 			icon: "car:engine_truck"
 			id: "67EAE6AFE1F56700"
 			rewards: [
@@ -211,6 +215,7 @@
 				"&eOnde:&r o Setor Muralha, no extremo leste, pouco antes do Portão 1: tendas, blindados, heliporto."
 				"O heliporto da base é o mesmo que, no fim, pode levar quatro pessoas embora (final Os Poucos)."
 			]
+			hide_until_deps_complete: true
 			icon: "car:big_wheel"
 			id: "5C087BB4BE44246A"
 			rewards: [
@@ -258,10 +263,12 @@
 				"67EAE6AFE1F56700"
 			]
 			description: [
-				"No Alto da Boa Vista, numa garagem com a luz queimada, um bilhete: &7&o\"Rafa, não briga com eles de novo por telefone, por favor. Tua pressão.\"&r"
+				"Numa garagem com a luz queimada, um bilhete (#26): &7&o\"Rafa, não briga com eles de novo por telefone, por favor. Tua pressão.\"&r"
 				""
-				"Na sala tem um cofre. A combinação é uma data. Quem não acha a data, fura — e fura fazendo barulho por um minuto inteiro, com a rua escutando."
+				"A casa dos Sampaio já foi aberta: alguém furou o cofre antes de você, fazendo barulho por um minuto inteiro, e a rua inteira veio. O que tinha lá dentro foi parar no pendrive do Rafael (Campus Veridia)."
+				"Você vai precisar do mesmo serviço mais à frente. Arrume uma &efuradeira&r e aprenda a segurar a rua enquanto faz barulho."
 			]
+			hide_until_deps_complete: true
 			icon: "immersiveengineering:drill"
 			id: "2AA8F751178D9592"
 			rewards: [
@@ -312,8 +319,9 @@
 				"O arquivo é do Dia -12. A planta do muro: o override do Portão 1 é da Veridia. A Unidade 4 passa a ter endereço."
 				""
 				"&eOnde:&r o extremo norte da cidade, a noroeste da usina: sede de vidro de cinco andares e prédio de laboratórios."
-				"O pendrive e o bilhete da garagem aparecem em casas, garagens e escritórios (e nos baús do Campus). Documento único: se outro grupo achou, peça para ler."
+				"O pendrive está nos baús do Campus (cada sobrevivente acha o seu). O bilhete da garagem (#26) aparece em casas e garagens."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:paper"
 			id: "700A4BB948C9CC35"
 			rewards: [

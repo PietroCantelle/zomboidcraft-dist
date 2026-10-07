@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        { "weight": 6, "data": { "Name": "notreepunching:stone_loose_rock" } },
+        { "weight": 2, "data": { "Name": "notreepunching:andesite_loose_rock" } },
+        { "weight": 1, "data": { "Name": "notreepunching:granite_loose_rock" } },
+        { "weight": 1, "data": { "Name": "notreepunching:diorite_loose_rock" } }
+      ]
+    }
+  }
+}

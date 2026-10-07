@@ -1,0 +1,13 @@
+{
+  "type": "zc_story:story_loot",
+  "conditions": [],
+  "tables": [
+    "zc_world:chests/story/safezone_colegio"
+  ],
+  "entries": [
+    {
+      "item": "zc_story:note_cida_mural",
+      "chance": 1
+    }
+  ]
+}

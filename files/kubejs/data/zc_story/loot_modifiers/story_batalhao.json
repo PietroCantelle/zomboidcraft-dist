@@ -1,0 +1,25 @@
+{
+  "type": "zc_story:story_loot",
+  "conditions": [],
+  "tables": [
+    "zc_world:chests/story/batalhao"
+  ],
+  "entries": [
+    {
+      "item": "zc_story:note_bo_2217",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:note_brandao",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:manual_vbtp",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:radio_militar",
+      "chance": 1
+    }
+  ]
+}

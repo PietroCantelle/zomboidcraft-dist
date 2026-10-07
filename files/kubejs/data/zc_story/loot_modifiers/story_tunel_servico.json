@@ -1,0 +1,29 @@
+{
+  "type": "zc_story:story_loot",
+  "conditions": [],
+  "tables": [
+    "zc_world:chests/story/tunel_servico"
+  ],
+  "entries": [
+    {
+      "item": "zc_story:tape_caio_2",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:tape_caio_8",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:tape_caio_9",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:tape_lidia_1",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:cartao_acesso_veridia",
+      "chance": 1
+    }
+  ]
+}

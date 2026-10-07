@@ -17,6 +17,7 @@
 				"&7&oMural, letra da Dona Cida: \"ÁGUA. Qualquer uma que não mate. Vinte garrafas.\""
 				"Entregue água limpa. Repetível a cada 2 dias."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_survival:water_bottle"
 			id: "5710E3DD28FD36C4"
 			repeat_cooldown: 2400
@@ -61,6 +62,7 @@
 			description: [
 				"\"Quem planta come duas vezes: quando colhe e quando troca.\" Entregue 24 alimentos colhidos. A cada 3 dias."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:potato"
 			id: "7E7345799EDB047F"
 			repeat_cooldown: 3600
@@ -162,6 +164,7 @@
 			description: [
 				"\"No inverno a lenha vale o dobro. Lenha molhada não vale nada.\" 64 toras. A cada 2 dias."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:oak_log"
 			id: "1C160AE2404532EC"
 			repeat_cooldown: 2400
@@ -231,6 +234,7 @@
 			description: [
 				"Sem produto, a água da torneira volta a ser água de rio. Quatro frascos a cada 7 dias."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_survival:disinfectant"
 			id: "1B1446C395194BA9"
 			repeat_cooldown: 8400
@@ -264,6 +268,7 @@
 				"&7&oTião: \"Vigia é de dois. Um olha, outro escuta.\""
 				"[COOP] Segurem o muro da noite: 30 infectados. A cada 3 dias."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:lantern"
 			id: "6C1A7312D8FE602B"
 			repeat_cooldown: 3600
@@ -300,6 +305,7 @@
 			description: [
 				"A enfermaria do Refúgio gasta mais do que recebe. Cinco itens médicos. A cada 3 dias."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_survival:antibiotics"
 			id: "27AA2EE65D0A0F1D"
 			repeat_cooldown: 3600
@@ -333,12 +339,13 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4728AEAACAC9E3B7"
+				"36396B5F2474FE87"
 			]
 			description: [
 				"&7&oBigode: \"Meu amigo! Peça boa, preço bom, sem perguntas. Duas peças de carro e a gente conversa.\""
 				"A cada 2 dias."
 			]
+			hide_until_deps_complete: true
 			icon: "car:wheel"
 			id: "6A84D90048712C15"
 			repeat_cooldown: 2400
@@ -409,6 +416,7 @@
 				"&7&oJoana: \"Cada repetidor num telhado é uma rua a mais que me ouve.\""
 				"Fio e pilhas para os repetidores. A cada 5 dias."
 			]
+			hide_until_deps_complete: true
 			icon: "immersiveengineering:wirecoil_copper"
 			id: "3F9773E67ED9524B"
 			repeat_cooldown: 6000
@@ -455,6 +463,7 @@
 				"&7&oJoana: \"Rua morta é onde eu vi horda passar. Alguém confirma pra mim?\""
 				"Limpe o caminho: 15 infectados. Todo dia."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:compass"
 			id: "0FAA433C2F8B03E6"
 			repeat_cooldown: 1200
@@ -488,6 +497,7 @@
 				"&7&oDente, pelo rádio: \"Diesel é luz. Quem traz diesel, tem luz.\""
 				"Quatro baldes de biodiesel. A cada 2 dias."
 			]
+			hide_until_deps_complete: true
 			icon: "car:canister"
 			id: "74CCC52F9E6167EF"
 			repeat_cooldown: 2400
@@ -526,6 +536,7 @@
 				"[COOP] Cem num quarteirão só. O mural anota; a reposição ali cai pela metade — um dia."
 				"A cada 2 dias."
 			]
+			hide_until_deps_complete: true
 			icon: "marbledsmelees:sledgehammer"
 			id: "190391A4D302681F"
 			repeat_cooldown: 2400
@@ -565,6 +576,7 @@
 				"Uma senhora passa o dia no pátio do Refúgio, perto do mural de desaparecidos: &eDona Neide&r. Ela procura o filho, Mateus. Fale com ela. (A carta dele está com os Corvos: Histórias paralelas, Cartas do Pena.)"
 				"&eOnde:&r o Colégio Estadual Dom Pedro II, no Jardim das Acácias, cerca de 1 km a noroeste da Igreja Matriz: muro de contêineres com arame, ônibus escolar atravessado no portão leste, duas torres de vigia."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:paper"
 			id: "5192A5B0BC94D463"
 			rewards: [
@@ -600,6 +612,7 @@
 				"&7&oDona Cida: \"Quem trabalha, come. Quem não pode trabalhar, come também.\""
 				"Fale com o NPC (clique direito) e escolha &eTrabalhos&r: entregas e caçadas com prazo, uma de cada vez. Entregar dá itens do estoque e reputação. No Refúgio: a &eDona Cida&r (água, colheita, lenha, remédios) e o &eTião&r (ronda, limpeza)."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:wooden_hoe"
 			id: "11058138529C45A8"
 			rewards: [
@@ -643,6 +656,7 @@
 				"Reputação (por safezone, 0 a 2000): &7Hostil < 0 · Desconhecido 0 · &fTolerado 100&7 (comércio, cama) · &fConhecido 300&7 (trabalhos nível 2, preço melhor) · &fConfiável 700&7 (estoque raro) · &fFamília 1500&7 (o menor preço)&r. Sobe com trabalhos, entregas e missões; cai roubando, agredindo ou mentindo."
 				"Chegue a &eConhecido&r (300) com o Refúgio do Colégio."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:bread"
 			id: "648424B9E7E4BE37"
 			rewards: [
@@ -673,6 +687,7 @@
 				"Reputação (por safezone, 0 a 2000): &7Hostil < 0 · Desconhecido 0 · &fTolerado 100&7 (comércio, cama) · &fConhecido 300&7 (trabalhos nível 2, preço melhor) · &fConfiável 700&7 (estoque raro) · &fFamília 1500&7 (o menor preço)&r. Sobe com trabalhos, entregas e missões; cai roubando, agredindo ou mentindo."
 				"Chegue a &eConfiável&r (700) com o Refúgio do Colégio."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:cake"
 			id: "4A80E6798CB34D16"
 			optional: true
@@ -708,6 +723,7 @@
 				"Reputação (por safezone, 0 a 2000): &7Hostil < 0 · Desconhecido 0 · &fTolerado 100&7 (comércio, cama) · &fConhecido 300&7 (trabalhos nível 2, preço melhor) · &fConfiável 700&7 (estoque raro) · &fFamília 1500&7 (o menor preço)&r. Sobe com trabalhos, entregas e missões; cai roubando, agredindo ou mentindo."
 				"Chegue a &eFamília&r (1500) com o Refúgio do Colégio."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:red_bed"
 			id: "049C764C2631DC26"
 			optional: true
@@ -738,6 +754,7 @@
 			description: [
 				"De tempos em tempos uma horda vem contra uma safezone (a Rádio Livre avisa; a barra aparece na tela). Se os moradores caírem, a safezone cai junto. Estar lá dentro e segurar o muro até o fim do ataque conta."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:shield"
 			id: "214C1AFC1A30EFA6"
 			optional: true
@@ -775,6 +792,7 @@
 				"&eOnde:&r o depósito do Mercado Central, no Centro, poucos quarteirões a nordeste da Igreja Matriz: galpão de chapa com pátio murado de contêineres e caminhões."
 				"O Bigode fica no escritório do mezanino. Nas bancas de baixo, comerciantes. Tudo é &eescambo&r: o valor do que você oferece contra o que você leva, com o markup da sua reputação."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:chest"
 			id: "36396B5F2474FE87"
 			rewards: [
@@ -821,6 +839,7 @@
 			description: [
 				"Fale com o NPC (clique direito) e escolha &eTrabalhos&r: entregas e caçadas com prazo, uma de cada vez. Entregar dá itens do estoque e reputação. O &eBigode&r paga por peças, sucata eletrônica, combustível e por limpar o caminho das cargas."
 			]
+			hide_until_deps_complete: true
 			icon: "car:wheel"
 			id: "1C77CF04AB68EEF4"
 			rewards: [
@@ -850,6 +869,7 @@
 				"Reputação (por safezone, 0 a 2000): &7Hostil < 0 · Desconhecido 0 · &fTolerado 100&7 (comércio, cama) · &fConhecido 300&7 (trabalhos nível 2, preço melhor) · &fConfiável 700&7 (estoque raro) · &fFamília 1500&7 (o menor preço)&r. Sobe com trabalhos, entregas e missões; cai roubando, agredindo ou mentindo."
 				"Chegue a &eConhecido&r (300) com o Galpão. &8(Expor o livro-caixa do Bigode derruba essa reputação.)"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:gold_nugget"
 			id: "1B057FD01462F46C"
 			optional: true
@@ -880,6 +900,7 @@
 				"Reputação (por safezone, 0 a 2000): &7Hostil < 0 · Desconhecido 0 · &fTolerado 100&7 (comércio, cama) · &fConhecido 300&7 (trabalhos nível 2, preço melhor) · &fConfiável 700&7 (estoque raro) · &fFamília 1500&7 (o menor preço)&r. Sobe com trabalhos, entregas e missões; cai roubando, agredindo ou mentindo."
 				"Chegue a &eConfiável&r (700) com o Galpão."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:gold_ingot"
 			id: "35AB6B20D9B9EC2F"
 			optional: true
@@ -911,6 +932,7 @@
 				"&7&oJoana: \"Eu não tenho comida pra trocar. Eu tenho rádio, pilha e informação. Informação é o que mais vale aqui.\""
 				"A Joana troca rádios, pilhas e o mapa anotado por componentes, fio e pilhas."
 			]
+			hide_until_deps_complete: true
 			icon: "zc_story:radio_portatil"
 			id: "7A2FF93B2430BDC3"
 			rewards: [
@@ -953,6 +975,7 @@
 				"Reputação (por safezone, 0 a 2000): &7Hostil < 0 · Desconhecido 0 · &fTolerado 100&7 (comércio, cama) · &fConhecido 300&7 (trabalhos nível 2, preço melhor) · &fConfiável 700&7 (estoque raro) · &fFamília 1500&7 (o menor preço)&r. Sobe com trabalhos, entregas e missões; cai roubando, agredindo ou mentindo."
 				"Chegue a &eConhecido&r (300) com a Torre da Matriz."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:lightning_rod"
 			id: "174700288494D3C2"
 			rewards: [
@@ -983,6 +1006,7 @@
 				"Reputação (por safezone, 0 a 2000): &7Hostil < 0 · Desconhecido 0 · &fTolerado 100&7 (comércio, cama) · &fConhecido 300&7 (trabalhos nível 2, preço melhor) · &fConfiável 700&7 (estoque raro) · &fFamília 1500&7 (o menor preço)&r. Sobe com trabalhos, entregas e missões; cai roubando, agredindo ou mentindo."
 				"Chegue a &eConfiável&r (700) com a Torre da Matriz."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:spyglass"
 			id: "2B72BD62B5EA98EE"
 			optional: true

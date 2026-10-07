@@ -6,7 +6,8 @@
 LootJS.modifiers(event => {
   // LootJS matches the WHOLE loot-table id against the regex (matches(), not find()) - hence the .* around it.
   // (Before 0.2.4 it had no .* and silently never matched: only the 3%/1% "any chest" rolls were working.)
-  const MILITARY = /.*(military|militar|army|police|policia|armory|arsenal|bunker|weapon|gun|soldier).*/
+  // v0.3.4: + the story military places (Batalhão, Base Cerco, Portão 1), whose quests promise vests and gun parts.
+  const MILITARY = /.*(military|militar|army|police|policia|armory|arsenal|bunker|weapon|gun|soldier|batalhao|base_cerco|portao1).*/
 
   event.addLootTableModifier(MILITARY)
     .randomChance(0.45)
@@ -14,6 +15,12 @@ LootJS.modifiers(event => {
   event.addLootTableModifier(MILITARY)
     .randomChance(0.20)
     .addLoot('kubejs:military_electronics')
+
+  // v0.3.4: "O Batalhão" / "O Escudo" say the lockers still hold vests. Story military chests now do.
+  event.addLootTableModifier(/.*chests.story.(batalhao|base_cerco|portao1).*/)
+    .randomChance(0.35)
+    .addWeightedLoot(['riot_armor_chestplate', 'swat_armor_chestplate', 'black_plate_carrier_light', 'olive_plate_carrier_light']
+      .map(i => LootEntry.of('marbledsarsenal:' + i)))
 
   // any other chest (houses, shops, ruins, mineshafts...)
   event.addLootTypeModifier(LootType.CHEST)
@@ -66,7 +73,16 @@ LootJS.modifiers(event => {
   event.addBlockLootModifier('#minecraft:leaves')
     .randomChance(0.08)
     .addLoot('minecraft:stick')
-  event.addBlockLootModifier(['minecraft:dirt', 'minecraft:grass_block', 'minecraft:coarse_dirt', 'minecraft:rooted_dirt'])
-    .randomChance(0.05)
+  // v0.3.4 - players could not find loose rocks in the city. Digging by hand now turns one up more often,
+  // and gravel/sand also give one (this works in chunks that were generated before v0.3.4, unlike worldgen).
+  // New chunks also get zomboidcraft:street_loose_rocks (rocks on asphalt, sidewalk, dirt, grass).
+  event.addBlockLootModifier(['minecraft:dirt', 'minecraft:grass_block', 'minecraft:coarse_dirt', 'minecraft:rooted_dirt', 'minecraft:dirt_path'])
+    .randomChance(0.15)
     .addLoot('notreepunching:stone_loose_rock')
+  event.addBlockLootModifier('minecraft:gravel')
+    .randomChance(0.12)
+    .addLoot('notreepunching:stone_loose_rock')
+  event.addBlockLootModifier(['minecraft:sand', 'minecraft:red_sand'])
+    .randomChance(0.08)
+    .addLoot('notreepunching:sandstone_loose_rock')
 })

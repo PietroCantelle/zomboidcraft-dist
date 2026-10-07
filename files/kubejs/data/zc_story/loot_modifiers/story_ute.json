@@ -1,0 +1,29 @@
+{
+  "type": "zc_story:story_loot",
+  "conditions": [],
+  "tables": [
+    "zc_world:chests/story/ute"
+  ],
+  "entries": [
+    {
+      "item": "zc_story:note_pena",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:note_bigode_ledger",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:note_dente_manual",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:caderno_dente",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:fusivel_industrial",
+      "chance": 1
+    }
+  ]
+}

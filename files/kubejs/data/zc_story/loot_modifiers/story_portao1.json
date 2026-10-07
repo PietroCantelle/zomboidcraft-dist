@@ -1,0 +1,29 @@
+{
+  "type": "zc_story:story_loot",
+  "conditions": [],
+  "tables": [
+    "zc_world:chests/story/portao1"
+  ],
+  "entries": [
+    {
+      "item": "zc_story:note_triagem_folheto",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:note_torre",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:note_triagem_lote",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:diario_tavares",
+      "chance": 1
+    },
+    {
+      "item": "zc_story:fita_tavares",
+      "chance": 1
+    }
+  ]
+}

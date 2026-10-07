@@ -1,0 +1,13 @@
+{
+  "type": "zc_story:story_loot",
+  "conditions": [],
+  "tables": [
+    "zc_world:chests/story/galeria"
+  ],
+  "entries": [
+    {
+      "item": "zc_story:tape_cftv_fila",
+      "chance": 1
+    }
+  ]
+}

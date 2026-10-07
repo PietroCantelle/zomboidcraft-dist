@@ -105,8 +105,8 @@
 			description: [
 				"&8Onde: Casa de Débora, Vila Operária"
 				""
-				"&fDia 8. Ele me mordeu. O Dr. Rafael, que tava morto. A Dra. Helena disse que é reflexo, que ele não sabe o que faz. Eu passei álcool, fiz curativo, tá só roxo. Não vou contar pro Nilton. Não vou contar pra ninguém. Se eu contar ela perde tudo e eu perco o emprego e a mãe perde o tratamento."
-				"&fDia 9. Febre de 39,4. Tomei dipirona. Tô com uma sede que não passa. O Nilton tá dormindo do meu lado e eu tô ouvindo o coração dele. Eu nunca tinha ouvido o coração de ninguém sem estetoscópio."
+				"&fDia -8. Ele me mordeu. O Dr. Rafael, que tava morto. A Dra. Helena disse que é reflexo, que ele não sabe o que faz. Eu passei álcool, fiz curativo, tá só roxo. Não vou contar pro Nilton. Não vou contar pra ninguém. Se eu contar ela perde tudo e eu perco o emprego e a mãe perde o tratamento."
+				"&fDia -7. Febre de 39,4. Tomei dipirona. Tô com uma sede que não passa. O Nilton tá dormindo do meu lado e eu tô ouvindo o coração dele. Eu nunca tinha ouvido o coração de ninguém sem estetoscópio."
 				""
 				"&8&oO documento é um item: clique direito para ler. A tarefa se marca sozinha quando alguém do grupo lê."
 			]
@@ -225,7 +225,7 @@
 				"34829CCC4C633000"
 			]
 			description: [
-				"&8Onde: Hospital, sala de descanso médica"
+				"&8Onde: Hospital, baús do subsolo"
 				""
 				"&f[chiado] Dia... Dia menos nove. Caio Ferraz, LÁZARO. Eu não devia estar gravando isso. Cheguei às sete e a sala B3-07 tava trancada com a doutora dentro. Tinha um homem na maca. Tinha um homem na maca que eu... eu vi o laudo, gente. Óbito às 23h40. E ele tava respirando. Não, espera. Ele não tava respirando. O peito não mexia. Ele tava... ele tava virando a cabeça pra mim. [pausa longa] Ela disse \"fecha a porta, Caio\". Eu fechei."
 				""
@@ -345,7 +345,7 @@
 				"34829CCC4C633000"
 			]
 			description: [
-				"&8Onde: Heliponto do hospital"
+				"&8Onde: Hospital, baús do subsolo"
 				""
 				"&fDia menos um. Os helicópteros. Levaram as caixas térmicas, levaram os HDs, levaram o diretor. Eu tava na lista. A doutora não tava. Eu desci do heliponto. Não sei por quê. Acho que porque se eu subisse eu ia ser o homem calmo no telefone daqui a dez anos."
 				""
@@ -495,7 +495,7 @@
 				"09352AB67C1BF92B"
 			]
 			description: [
-				"&8Onde: Cofre B3 (entregue por Helena)"
+				"&8Onde: Cofre B3"
 				""
 				"&fDoutora, se a senhora ouvir isso: eu contei pra eles. Fui eu. Eu achei que eles iam mandar ajuda. Me desculpa. E obrigado por me deixar fechar a porta aquele dia. Eu teria feito a mesma coisa. Com minha mãe, eu teria feito a mesma coisa."
 				""
@@ -736,7 +736,7 @@
 				"2AA8F751178D9592"
 			]
 			description: [
-				"&8Onde: Cofre na casa dos Sampaio"
+				"&8Onde: Pendrive de Rafael (Campus Veridia)"
 				""
 				"&fANEL DE CONTENÇÃO — LOTE LESTE — REV. 14. Classe de contenção: BIO-4 (!!). Portão 1: eclusa dupla, descontaminação por névoa, acionamento hidráulico (rede municipal 13,8 kV, fallback: NENHUM). Override remoto: Veridia/Unidade 4 (???). Torres: setor de tiro 360°, prioridade interna."
 				"&f&o(À caneta, letra de Rafael:) Muro contra enchente não precisa de linha de tiro pra dentro. Amanhã falo com o repórter. Não conto pra Helena ainda."
