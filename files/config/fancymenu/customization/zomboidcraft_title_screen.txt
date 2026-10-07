@@ -214,7 +214,7 @@ vanilla_button {
   height = 14
   stay_on_screen = false
   enable_parallax = false
-  is_hidden = false
+  is_hidden = true
   label = 
   backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/btn_mods.png
   backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/btn_mods_hover.png

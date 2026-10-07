@@ -1,0 +1,19 @@
+{
+  "name": "item.zc_survival.rag",
+  "icon": "zc_survival:rag",
+  "category": "zc_hair:saude",
+  "advancement": "zc_recipes:learned/zc_survival_rag",
+  "secret": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zc_survival:rag_from_clothing",
+      "recipe2": "zc_survival:rag_from_string"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.saude"
+    }
+  ]
+}

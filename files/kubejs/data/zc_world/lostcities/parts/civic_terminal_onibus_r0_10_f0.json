@@ -1,0 +1,394 @@
+{
+  "xsize": 16,
+  "zsize": 16,
+  "slices": [
+    [
+      "一一一一一一一一一一一一一一一一",
+      "一一一一一一一一一一一一一丁一一",
+      "一一一一一一一丁一一一一一一一一",
+      "丂丂丂丂丂丂丂丂丂丂丂丂丁丂丂一",
+      "丂丂丂丂丂丂丂丂丂丂丂丂丂丂丂一",
+      "一一一一一一一一一一一一一一一一",
+      "一一一一一一一丁一一一一一一一一",
+      "一一丁一一一一一一一一一丁一一一",
+      "一一一一一一一一一一一一一一一一",
+      "丂丂丂丂丂丂丂丂丂丂丂丂丂丂丂丁",
+      "丂丂丂丂丂丁丂丂丂丂丂丂丂丂丂一",
+      "七一一一一一一一一一一一一一一丁",
+      "一一一一一一一一一一一一一一一一",
+      "一一七一一一一一一一一一一一一一",
+      "七一一一一一一一一一一一一一一一",
+      "一一一一一一一一一一一一一一一一"
+    ],
+    [
+      "丄丄丄丄丄丄丄丄丄丄丄丄丄丄丄丅",
+      "             丆  ",
+      "       丆  万     ",
+      "丈三丈上下     下 丆 丈 ",
+      "丌丌  丈 丌丌丈   丌丌  ",
+      "                ",
+      "       丆        ",
+      "  丆      不  丆   ",
+      " 不   与          ",
+      "   上下丏    下  丈 丆",
+      "丐丐三丈 丆丐丐三丈  丐丐丈 ",
+      "     丑         丆",
+      "                ",
+      " 丒 丒    下   下   ",
+      "        专       ",
+      "    且丄丄丄丄丄丄丄丄丄丄丅"
+    ],
+    [
+      "                ",
+      "                ",
+      "          丕     ",
+      "   世下     下     ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "   上下丏    下     ",
+      "                ",
+      "                ",
+      "                ",
+      "        下   下   ",
+      "        专       ",
+      "    且           "
+    ],
+    [
+      "                ",
+      "                ",
+      "          万     ",
+      "   上下     下     ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "   世下丗    下     ",
+      "                ",
+      "                ",
+      "                ",
+      "        下   下   ",
+      "        丘       ",
+      "    且           "
+    ],
+    [
+      "                ",
+      "                ",
+      "          丕     ",
+      "    下     下     ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "   上下丏    下     ",
+      "                ",
+      "                ",
+      "                ",
+      "        下   下   ",
+      "丙               ",
+      "且且且且且           "
+    ],
+    [
+      "                ",
+      "                ",
+      "业业业业业业业业业业业业业业业 ",
+      "丛丛丛丛丛丛丛丛丛丛丛丛丛丛丛 ",
+      "丛丛丛丛丛丛丛丛丛丛丛丛丛丛丛 ",
+      "业业业业业业业业业业业业业业业 ",
+      "                ",
+      "                ",
+      "业业业业业业业业业业业业业业业 ",
+      "丛丛丛丛丛丛丛丛丛丛丛丛丛丛丛 ",
+      "丛丛丛丛丛丛丛丛丛丛丛丛丛丛丛 ",
+      "业业业业业业业业业业业业业业业 ",
+      "                ",
+      "        东   东   ",
+      "                ",
+      "                "
+    ]
+  ],
+  "palette": {
+    "palette": [
+      {
+        "char": "一",
+        "blocks": [
+          {
+            "random": 109,
+            "block": "zc_world:asphalt"
+          },
+          {
+            "random": 1000,
+            "block": "zc_world:asphalt_cracked"
+          }
+        ]
+      },
+      {
+        "char": "丁",
+        "blocks": [
+          {
+            "random": 58,
+            "block": "minecraft:coarse_dirt"
+          },
+          {
+            "random": 38,
+            "block": "minecraft:rooted_dirt"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:moss_block"
+          }
+        ]
+      },
+      {
+        "char": "丂",
+        "block": "zc_world:sidewalk"
+      },
+      {
+        "char": "七",
+        "block": "minecraft:coarse_dirt"
+      },
+      {
+        "char": "丄",
+        "block": "minecraft:iron_bars[north=false,south=false,east=true,west=true]"
+      },
+      {
+        "char": "丅",
+        "block": "minecraft:iron_bars[north=false,south=false,east=false,west=true]"
+      },
+      {
+        "char": "丆",
+        "blocks": [
+          {
+            "random": 28,
+            "block": "minecraft:grass[]"
+          },
+          {
+            "random": 18,
+            "block": "regions_unexplored:medium_grass"
+          },
+          {
+            "random": 15,
+            "block": "spring_to_life:short_dry_grass"
+          },
+          {
+            "random": 15,
+            "block": "immersive_weathering:weeds[age=7]"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:fern"
+          },
+          {
+            "random": 8,
+            "block": "minecraft:dead_bush"
+          },
+          {
+            "random": 8,
+            "block": "regions_unexplored:clover[facing=south,flower_amount=2]"
+          },
+          {
+            "random": 6,
+            "block": "spring_to_life:bush"
+          },
+          {
+            "random": 5,
+            "block": "regions_unexplored:dead_steppe_shrub"
+          },
+          {
+            "random": 5,
+            "block": "minecraft:dandelion"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "万",
+        "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=true,up=false,west=false]"
+      },
+      {
+        "char": "丈",
+        "blocks": [
+          {
+            "random": 65,
+            "block": "minecraft:air"
+          },
+          {
+            "random": 13,
+            "block": "minecraft:grass[]"
+          },
+          {
+            "random": 8,
+            "block": "regions_unexplored:medium_grass"
+          },
+          {
+            "random": 8,
+            "block": "spring_to_life:short_dry_grass"
+          },
+          {
+            "random": 8,
+            "block": "immersive_weathering:weeds[age=7]"
+          },
+          {
+            "random": 8,
+            "block": "spring_to_life:leaf_litter[facing=north,segment_amount=2]"
+          },
+          {
+            "random": 6,
+            "block": "zc_world:litter"
+          },
+          {
+            "random": 4,
+            "block": "minecraft:fern"
+          },
+          {
+            "random": 4,
+            "block": "spring_to_life:bush"
+          },
+          {
+            "random": 3,
+            "block": "regions_unexplored:fireweed"
+          },
+          {
+            "random": 1000,
+            "block": "zc_world:trash_bags"
+          }
+        ]
+      },
+      {
+        "char": "三",
+        "blocks": [
+          {
+            "random": 51,
+            "block": "minecraft:oak_trapdoor[facing=north,half=bottom,open=false]"
+          },
+          {
+            "random": 38,
+            "block": "zc_world:litter"
+          },
+          {
+            "random": 26,
+            "block": "zc_world:broken_glass"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:white_carpet"
+          }
+        ]
+      },
+      {
+        "char": "上",
+        "block": "immersive_weathering:ivy[down=false,east=true,north=false,south=false,up=false,west=false]"
+      },
+      {
+        "char": "下",
+        "block": "create:cut_andesite_wall[north=none,south=none,east=none,west=none,up=true]"
+      },
+      {
+        "char": "丌",
+        "block": "handcrafted:spruce_bench[color=none,facing=south,shape=single]"
+      },
+      {
+        "char": "不",
+        "blocks": [
+          {
+            "random": 51,
+            "block": "zc_world:trash_bags"
+          },
+          {
+            "random": 38,
+            "block": "zc_world:litter"
+          },
+          {
+            "random": 1000,
+            "block": "zc_world:blood"
+          }
+        ]
+      },
+      {
+        "char": "与",
+        "block": "zc_world:blood"
+      },
+      {
+        "char": "丏",
+        "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=false,up=false,west=true]"
+      },
+      {
+        "char": "丐",
+        "block": "handcrafted:spruce_bench[color=none,facing=north,shape=single]"
+      },
+      {
+        "char": "丑",
+        "blocks": [
+          {
+            "random": 32,
+            "block": "zc_world:car_spot[facing=east]"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "丒",
+        "block": "minecraft:iron_bars[north=false,south=false,east=false,west=false]"
+      },
+      {
+        "char": "专",
+        "block": "minecraft:vine[north=true]"
+      },
+      {
+        "char": "且",
+        "block": "minecraft:light_gray_concrete"
+      },
+      {
+        "char": "丕",
+        "block": "minecraft:vine[south=true]"
+      },
+      {
+        "char": "世",
+        "block": "minecraft:vine[east=true]"
+      },
+      {
+        "char": "丗",
+        "block": "minecraft:vine[west=true]"
+      },
+      {
+        "char": "丘",
+        "block": "immersive_weathering:ivy[down=false,east=false,north=true,south=false,up=false,west=false]"
+      },
+      {
+        "char": "丙",
+        "block": "kubejs:sign_terminal[facing=north]"
+      },
+      {
+        "char": "业",
+        "blocks": [
+          {
+            "random": 109,
+            "block": "createdeco:zinc_sheet_metal[axis=y]"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "丛",
+        "block": "createdeco:zinc_sheet_metal[axis=y]"
+      },
+      {
+        "char": "东",
+        "block": "createdeco:yellow_iron_lamp[facing=up,lit=false]"
+      }
+    ]
+  }
+}

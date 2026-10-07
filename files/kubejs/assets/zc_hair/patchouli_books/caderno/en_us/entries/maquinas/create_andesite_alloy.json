@@ -1,0 +1,18 @@
+{
+  "name": "item.create.andesite_alloy",
+  "icon": "create:andesite_alloy",
+  "category": "zc_hair:maquinas",
+  "advancement": "zc_recipes:learned/create_andesite_alloy",
+  "secret": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "create:crafting/materials/andesite_alloy"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.maquinas"
+    }
+  ]
+}

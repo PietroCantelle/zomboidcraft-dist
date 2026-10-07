@@ -76,6 +76,20 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: 'minecraft:rail' }, 'minecraft:iron_ingot', IRON_PLATE)
   event.replaceInput({ id: 'minecraft:powered_rail' }, 'minecraft:gold_ingot', GOLD_PLATE)
 
+  // Atlas (Map Atlases): the mod's recipe is book + a "sticky" item (#map_atlases:sticky_crafting_items =
+  // slime ball / honey bottle) + a filled map. Slimes are denied above y=30 by In Control, so the sticky
+  // item becomes string: the survivor ties the maps into the book. The filled map is NOT listed in
+  // "ingredients" - the recipe class (MapAtlasCreateRecipe) looks for it in the grid by itself, exactly
+  // like the mod's own craft_atlas.json.
+  event.remove({ id: 'map_atlases:craft_atlas' })
+  event.custom({
+    type: 'map_atlases:crafting_atlas',
+    ingredients: [
+      { item: 'minecraft:string' },
+      { item: 'minecraft:book' }
+    ]
+  }).id('zomboidcraft:craft_atlas')
+
   // ------------------------------------------------------------------ 3. firearms (TaCZ)
   // Gun Smith Table: wood + plates + military electronics + a Create precision mechanism.
   event.remove({ id: 'tacz:gun_smith_table' })

@@ -1,0 +1,7 @@
+{
+  "name": "zc.recipes.cat.maquinas",
+  "description": "zc.recipes.cat.maquinas.desc",
+  "icon": "create:cogwheel",
+  "sortnum": 5,
+  "secret": true
+}

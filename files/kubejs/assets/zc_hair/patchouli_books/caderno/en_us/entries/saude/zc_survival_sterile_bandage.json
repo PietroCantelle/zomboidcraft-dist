@@ -1,0 +1,22 @@
+{
+  "name": "item.zc_survival.sterile_bandage",
+  "icon": "zc_survival:sterile_bandage",
+  "category": "zc_hair:saude",
+  "advancement": "zc_recipes:learned/zc_survival_sterile_bandage",
+  "secret": true,
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:campfire",
+      "recipe": "zc_survival:sterile_bandage_campfire"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "zc_survival:sterile_bandage_smelting"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.saude"
+    }
+  ]
+}

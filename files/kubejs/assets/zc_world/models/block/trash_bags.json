@@ -1,0 +1,1184 @@
+{
+  "credit": "ZomboidCraft - trash bag pile (hitbox 16x8x16 in LowBlock)",
+  "parent": "minecraft:block/block",
+  "texture_size": [
+    16,
+    16
+  ],
+  "textures": {
+    "bag": "zc_world:block/trash_bag",
+    "particle": "zc_world:block/trash_bag"
+  },
+  "elements": [
+    {
+      "name": "bag1",
+      "from": [
+        0.5,
+        0,
+        0.5
+      ],
+      "to": [
+        9,
+        5,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            5,
+            9.5,
+            10
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            6,
+            5,
+            14.5,
+            10
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            2,
+            6,
+            10,
+            11
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            7,
+            6,
+            15,
+            11
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            4,
+            0,
+            12.5,
+            8
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            1,
+            0,
+            9.5,
+            8
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          5,
+          0,
+          4.5
+        ],
+        "axis": "y",
+        "angle": 22.5
+      }
+    },
+    {
+      "name": "bag1_top",
+      "from": [
+        1.5,
+        5,
+        1.5
+      ],
+      "to": [
+        8,
+        6.5,
+        7.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.5,
+            4.5,
+            15,
+            6
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            4,
+            4.5,
+            10.5,
+            6
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            0,
+            5.5,
+            6,
+            7
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            5,
+            5.5,
+            11,
+            7
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            2,
+            1,
+            8.5,
+            7
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            8.5,
+            3,
+            15,
+            9
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          5,
+          0,
+          4.5
+        ],
+        "axis": "y",
+        "angle": 22.5
+      }
+    },
+    {
+      "name": "bag1_neck",
+      "from": [
+        3,
+        6.5,
+        2.75
+      ],
+      "to": [
+        6.5,
+        8,
+        6.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            13.5,
+            15,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            13.5,
+            15,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            11.5,
+            13.5,
+            15,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            11.5,
+            13.5,
+            15,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            12,
+            15,
+            15.5
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            3.5,
+            7,
+            7
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          5,
+          0,
+          4.5
+        ],
+        "axis": "y",
+        "angle": 22.5
+      }
+    },
+    {
+      "name": "bag1_knot",
+      "from": [
+        3.5,
+        8,
+        3.25
+      ],
+      "to": [
+        6,
+        9.5,
+        5.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            13.5,
+            5,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            2,
+            13.5,
+            4.5,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            12,
+            7,
+            13.5
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            4,
+            12,
+            6.5,
+            13.5
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            13,
+            5,
+            15.5
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            13,
+            5,
+            15.5
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          5,
+          0,
+          4.5
+        ],
+        "axis": "y",
+        "angle": 22.5
+      }
+    },
+    {
+      "name": "bag2",
+      "from": [
+        7,
+        0,
+        5
+      ],
+      "to": [
+        15.5,
+        4.5,
+        15.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            6.5,
+            13.5,
+            11
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            6.5,
+            11,
+            11
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            10.5,
+            4.5
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            5,
+            0,
+            15.5,
+            4.5
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            0,
+            9,
+            10.5
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            5,
+            0.5,
+            13.5,
+            11
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          11,
+          0,
+          10
+        ],
+        "axis": "y",
+        "angle": -22.5
+      }
+    },
+    {
+      "name": "bag2_top",
+      "from": [
+        8,
+        4.5,
+        6
+      ],
+      "to": [
+        14.5,
+        6,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            6.5,
+            9.5,
+            8
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            8,
+            6.5,
+            14.5,
+            8
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            7.5,
+            10,
+            9
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            7.5,
+            15,
+            9
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            6,
+            0,
+            12.5,
+            8.5
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            3,
+            3,
+            9.5,
+            11.5
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          11,
+          0,
+          10
+        ],
+        "axis": "y",
+        "angle": -22.5
+      }
+    },
+    {
+      "name": "bag2_neck",
+      "from": [
+        9.75,
+        6,
+        8.75
+      ],
+      "to": [
+        12.75,
+        7.5,
+        11.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            13.5,
+            13,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            10,
+            13.5,
+            13,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            10,
+            13.5,
+            13,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            10,
+            13.5,
+            13,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            10,
+            12,
+            13,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            7,
+            3,
+            10,
+            6
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          11,
+          0,
+          10
+        ],
+        "axis": "y",
+        "angle": -22.5
+      }
+    },
+    {
+      "name": "bag2_knot",
+      "from": [
+        10.25,
+        7.5,
+        9.25
+      ],
+      "to": [
+        12.25,
+        9,
+        11.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            13.5,
+            2,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            5,
+            13.5,
+            7,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            2,
+            12,
+            4,
+            13.5
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            1,
+            12,
+            3,
+            13.5
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            0,
+            12,
+            2,
+            14
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            0,
+            12,
+            2,
+            14
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          11,
+          0,
+          10
+        ],
+        "axis": "y",
+        "angle": -22.5
+      }
+    },
+    {
+      "name": "bag3",
+      "from": [
+        0.5,
+        0,
+        8.5
+      ],
+      "to": [
+        7.5,
+        3.5,
+        15.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            0,
+            14,
+            3.5
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            3,
+            0,
+            10,
+            3.5
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            0,
+            1,
+            7,
+            4.5
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            5,
+            1,
+            12,
+            4.5
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            8,
+            8
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            7,
+            2,
+            14,
+            9
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          4,
+          0,
+          12
+        ],
+        "axis": "y",
+        "angle": -22.5
+      }
+    },
+    {
+      "name": "bag3_top",
+      "from": [
+        1.5,
+        3.5,
+        9.5
+      ],
+      "to": [
+        6.5,
+        5,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            9.5,
+            10,
+            11
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            10,
+            9.5,
+            15,
+            11
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            7,
+            0,
+            12,
+            1.5
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            1,
+            0,
+            6,
+            1.5
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            8,
+            3,
+            13,
+            8
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            5,
+            6,
+            10,
+            11
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          4,
+          0,
+          12
+        ],
+        "axis": "y",
+        "angle": -22.5
+      }
+    },
+    {
+      "name": "bag3_neck",
+      "from": [
+        2.5,
+        5,
+        10.5
+      ],
+      "to": [
+        5.5,
+        6.5,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            13.5,
+            13,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            10,
+            13.5,
+            13,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            10,
+            13.5,
+            13,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            10,
+            13.5,
+            13,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            10,
+            12,
+            13,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            12,
+            3,
+            15,
+            6
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          4,
+          0,
+          12
+        ],
+        "axis": "y",
+        "angle": -22.5
+      }
+    },
+    {
+      "name": "bag3_knot",
+      "from": [
+        3,
+        6.5,
+        11
+      ],
+      "to": [
+        5,
+        7.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            13,
+            7,
+            14
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            4,
+            13,
+            6,
+            14
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            1,
+            14,
+            3,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            0,
+            14,
+            2,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            5,
+            12,
+            7,
+            14
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            5,
+            12,
+            7,
+            14
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          4,
+          0,
+          12
+        ],
+        "axis": "y",
+        "angle": -22.5
+      }
+    },
+    {
+      "name": "bag4",
+      "from": [
+        4.5,
+        4.5,
+        4.5
+      ],
+      "to": [
+        11.5,
+        7.5,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            4,
+            11,
+            7
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            0,
+            4,
+            7,
+            7
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            4,
+            5,
+            10,
+            8
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            9,
+            5,
+            15,
+            8
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            7,
+            5,
+            14,
+            11
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            4,
+            1,
+            11,
+            7
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          6.5,
+          7.5
+        ],
+        "axis": "z",
+        "angle": 22.5
+      }
+    },
+    {
+      "name": "bag4_top",
+      "from": [
+        5.5,
+        7.5,
+        5.5
+      ],
+      "to": [
+        10.5,
+        8.5,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            5,
+            7,
+            6
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            7,
+            5,
+            12,
+            6
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            2,
+            6,
+            6,
+            7
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            7,
+            6,
+            11,
+            7
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            5,
+            4,
+            10,
+            8
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            7,
+            4
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          6.5,
+          7.5
+        ],
+        "axis": "z",
+        "angle": 22.5
+      }
+    },
+    {
+      "name": "bag4_knot",
+      "from": [
+        11.5,
+        5.5,
+        6.5
+      ],
+      "to": [
+        13.5,
+        7.5,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            12,
+            3,
+            14
+          ],
+          "texture": "#bag"
+        },
+        "south": {
+          "uv": [
+            0,
+            12,
+            2,
+            14
+          ],
+          "texture": "#bag"
+        },
+        "west": {
+          "uv": [
+            3,
+            13,
+            5,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "east": {
+          "uv": [
+            2,
+            13,
+            4,
+            15
+          ],
+          "texture": "#bag"
+        },
+        "up": {
+          "uv": [
+            1,
+            12,
+            3,
+            14
+          ],
+          "texture": "#bag"
+        },
+        "down": {
+          "uv": [
+            1,
+            12,
+            3,
+            14
+          ],
+          "texture": "#bag"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          6.5,
+          7.5
+        ],
+        "axis": "z",
+        "angle": 22.5
+      }
+    }
+  ]
+}

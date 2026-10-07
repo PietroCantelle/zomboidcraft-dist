@@ -1,0 +1,18 @@
+{
+  "name": "block.create.water_wheel",
+  "icon": "create:water_wheel",
+  "category": "zc_hair:maquinas",
+  "advancement": "zc_recipes:learned/create_water_wheel",
+  "secret": true,
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "create:crafting/kinetics/water_wheel"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.maquinas"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "block.create.shaft",
+  "icon": "create:shaft",
+  "category": "zc_hair:maquinas",
+  "advancement": "zc_recipes:learned/create_shaft",
+  "secret": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "create:crafting/kinetics/shaft"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.maquinas"
+    }
+  ]
+}

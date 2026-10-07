@@ -1,0 +1,344 @@
+{
+  "xsize": 16,
+  "zsize": 16,
+  "slices": [
+    [
+      "一一一一一一一一一一一一一一一一",
+      "一一一一一一一一一一一一一一一一",
+      "一一⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥一一",
+      "一一⑥丁丁丁丁丁丁丁丁丁丁⑥一一",
+      "一一⑥丁丁丁丁丁丁丁丁丁丁⑥一一",
+      "一一⑥丁丁丁丁丁丁丁丁丁丁⑥一一",
+      "一一⑥丁丁丁丁丁丁丁丁丁丁⑥一一",
+      "一一⑥丁丁丁丁丁丁丁丁丁丁⑥一一",
+      "一一⑥丁丁丁丁丁丁丁丁丁丁⑥一一",
+      "一一⑥丁丁丁丁丁丁丁丁丁丁⑥一一",
+      "一一⑥丁丁丁丁丁丁丁丁丁丁⑥一一",
+      "一一⑥丁丁丁丁丁丁丁丁丁丁⑥一一",
+      "一一⑥丁丁丁丁丁丁丁丁丁丁⑥一一",
+      "一一⑥丁丁丁丁丁丁丁丁丁丁⑥一一",
+      "一一⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥一一",
+      "一一一一一一一一一一一一一一一一"
+    ],
+    [
+      "                ",
+      "   丂     七      ",
+      "  ②②②②②丄丅②②②②②  ",
+      "  ②      丆   ②  ",
+      "  ② 万万万万万万万万 ②  ",
+      "  ② 丈丈丈丈丈丈丈丈 ②  ",
+      "  ②三三三三上 三三三三②  ",
+      "  ②下    上 丆 丌②  ",
+      "  ②三三三三 上三三三三②  ",
+      "  ②不  丆  上上 与②  ",
+      "  ②三三三三  三三三三②  ",
+      " 丏②丐        丐②  ",
+      "  ②丑丒丒丒丒丒丒丒丒 ②  ",
+      "  ② 丒丒丒丒丒丒丒丒 ②  ",
+      "  ②②②②②②②②②②②②  ",
+      "       专  且  且  "
+    ],
+    [
+      "                ",
+      "   七     丂      ",
+      "  ①①⑨⑨①丕世①⑨⑨①①  ",
+      "  ①          ①  ",
+      "  ①          ①  ",
+      "  ①          ①  ",
+      "  ①          ①  ",
+      "  ①下        丏①  ",
+      "  ①          ①  ",
+      "  ①          ①  ",
+      "  ①          ①  ",
+      " 丏①          ①  ",
+      "  ①     丗    ①  ",
+      "  ①          ①  ",
+      "  ①①①①①①①①①①①①  ",
+      "      专专  且  专  "
+    ],
+    [
+      "                ",
+      "   丂     丂      ",
+      "  ①①⑨⑨①⑨⑨①⑨⑨①①  ",
+      "  ①          ⑨  ",
+      "  ⑨          ⑨  ",
+      "  ⑨          ①  ",
+      "  ①          ①  ",
+      "  ①丘         ⑨  ",
+      "  ⑨          ⑨  ",
+      "  ⑨          ①  ",
+      "  ①          ①  ",
+      "  ①          ⑨  ",
+      "  ⑨          ⑨  ",
+      "  ⑨   丙  业   ①  ",
+      "  ①①①①①①①①①①①①  ",
+      "      专      且  "
+    ],
+    [
+      "                ",
+      "   七    丂丂      ",
+      "  ①①①①①①①①①①①①  ",
+      "  ①          ⑨  ",
+      "  ⑨          ⑨  ",
+      "  ⑨          ①  ",
+      "  ①          ①  ",
+      "  ①          ⑨  ",
+      "  ⑨          ⑨  ",
+      "  ⑨          ①  ",
+      "  ①          ①  ",
+      "  ①          ⑨  ",
+      "  ⑨          ⑨  ",
+      "  ⑨    七     ①  ",
+      "  ①①①①①①①①①①①①  ",
+      "      且      专  "
+    ],
+    [
+      "                ",
+      "   丂     丂      ",
+      "  ①①①①①①①①①①①①  ",
+      "  ①          ①  ",
+      "  ①          ①  ",
+      "  ①          ①  ",
+      "  ①          ①  ",
+      "  ①          ①  ",
+      "  ①          ①  ",
+      "  ①          ①  ",
+      "  ①          ①  ",
+      "  ①          ①  ",
+      "  ①          ①  ",
+      "  ①    丂     ①  ",
+      "  ①①①①①①①①①①①①  ",
+      "      专         "
+    ]
+  ],
+  "palette": {
+    "palette": [
+      {
+        "char": "一",
+        "blocks": [
+          {
+            "random": 109,
+            "block": "minecraft:smooth_stone"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:andesite"
+          }
+        ]
+      },
+      {
+        "char": "丁",
+        "block": "minecraft:polished_andesite"
+      },
+      {
+        "char": "丂",
+        "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=true,up=false,west=false]"
+      },
+      {
+        "char": "七",
+        "block": "minecraft:vine[south=true]"
+      },
+      {
+        "char": "丄",
+        "block": "minecraft:spruce_door[facing=north,half=lower,hinge=right,open=false]"
+      },
+      {
+        "char": "丅",
+        "block": "minecraft:spruce_door[facing=north,half=lower,hinge=left,open=false]"
+      },
+      {
+        "char": "丆",
+        "blocks": [
+          {
+            "random": 56,
+            "block": "minecraft:air"
+          },
+          {
+            "random": 13,
+            "block": "zc_world:litter"
+          },
+          {
+            "random": 10,
+            "block": "zc_world:blood"
+          },
+          {
+            "random": 8,
+            "block": "zc_world:broken_glass"
+          },
+          {
+            "random": 8,
+            "block": "refurbished_furniture:oak_chair[facing=east,tucked=false]"
+          },
+          {
+            "random": 6,
+            "block": "refurbished_furniture:dark_oak_chair[facing=west,tucked=false]"
+          },
+          {
+            "random": 6,
+            "block": "refurbished_furniture:white_stool"
+          },
+          {
+            "random": 8,
+            "block": "minecraft:white_carpet"
+          },
+          {
+            "random": 5,
+            "block": "zc_world:trash_bags"
+          },
+          {
+            "random": 5,
+            "block": "handcrafted:stackable_book[books=2,facing=south,seed=7]"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:cobweb"
+          }
+        ]
+      },
+      {
+        "char": "万",
+        "block": "handcrafted:spruce_dining_bench[facing=north,shape=single]"
+      },
+      {
+        "char": "丈",
+        "blocks": [
+          {
+            "random": 38,
+            "block": "refurbished_furniture:oak_crate[open=false]"
+          },
+          {
+            "random": 26,
+            "block": "zc_world:sandbags"
+          },
+          {
+            "random": 19,
+            "block": "refurbished_furniture:gray_sofa[facing=south,shape=default]"
+          },
+          {
+            "random": 13,
+            "block": "minecraft:oak_planks"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "三",
+        "blocks": [
+          {
+            "random": 45,
+            "block": "minecraft:white_carpet"
+          },
+          {
+            "random": 32,
+            "block": "minecraft:light_gray_carpet"
+          },
+          {
+            "random": 26,
+            "block": "minecraft:blue_carpet"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:brown_carpet"
+          }
+        ]
+      },
+      {
+        "char": "上",
+        "block": "zc_world:blood"
+      },
+      {
+        "char": "下",
+        "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=false,up=false,west=true]"
+      },
+      {
+        "char": "丌",
+        "block": "immersive_weathering:ivy[down=false,east=true,north=false,south=false,up=false,west=false]"
+      },
+      {
+        "char": "不",
+        "block": "minecraft:chest[facing=east]",
+        "loot": "zc_world:loot_church"
+      },
+      {
+        "char": "与",
+        "block": "minecraft:chest[facing=west]",
+        "loot": "zc_world:loot_church"
+      },
+      {
+        "char": "丏",
+        "block": "minecraft:vine[east=true]"
+      },
+      {
+        "char": "丐",
+        "block": "refurbished_furniture:oak_crate",
+        "loot": "zc_world:loot_supermarket"
+      },
+      {
+        "char": "丑",
+        "block": "minecraft:campfire[lit=false,facing=north]"
+      },
+      {
+        "char": "丒",
+        "block": "minecraft:spruce_planks"
+      },
+      {
+        "char": "专",
+        "block": "immersive_weathering:ivy[down=false,east=false,north=true,south=false,up=false,west=false]"
+      },
+      {
+        "char": "且",
+        "block": "minecraft:vine[north=true]"
+      },
+      {
+        "char": "丕",
+        "block": "minecraft:spruce_door[facing=north,half=upper,hinge=right,open=false]"
+      },
+      {
+        "char": "世",
+        "block": "minecraft:spruce_door[facing=north,half=upper,hinge=left,open=false]"
+      },
+      {
+        "char": "丗",
+        "block": "minecraft:lectern[facing=north]"
+      },
+      {
+        "char": "丘",
+        "block": "minecraft:vine[west=true]"
+      },
+      {
+        "char": "丙",
+        "block": "minecraft:spruce_wall_sign[facing=north]",
+        "tag": {
+          "front_text": {
+            "messages": [
+              "{\"text\":\"IRMAOS, NAO\"}",
+              "{\"text\":\"ABRAM A PORTA\"}",
+              "{\"text\":\"PARA NINGUEM\"}",
+              "{\"text\":\"\"}"
+            ],
+            "color": "black",
+            "has_glowing_text": false
+          },
+          "back_text": {
+            "messages": [
+              "{\"text\":\"IRMAOS, NAO\"}",
+              "{\"text\":\"ABRAM A PORTA\"}",
+              "{\"text\":\"PARA NINGUEM\"}",
+              "{\"text\":\"\"}"
+            ],
+            "color": "black",
+            "has_glowing_text": false
+          },
+          "is_waxed": true
+        }
+      },
+      {
+        "char": "业",
+        "block": "kubejs:sign_igreja_abrigo[facing=north]"
+      }
+    ]
+  }
+}

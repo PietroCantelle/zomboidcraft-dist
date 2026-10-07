@@ -1,0 +1,8 @@
+#ZomboidCraft - Better Light: only the belt lantern + pickup. Dynamic light comes from the pack's Dynamic Lights mod,
+#and the "monsters react to light" feature stays off so it does not change the zombie AI silently.
+[general]
+	dynamicLightEnabled = false
+	instantTorchPickup = true
+
+[monsterLightEffect]
+	monsterLightEffectEnabled = false

@@ -18,7 +18,7 @@ key_key.mute_microphone:key.keyboard.unknown
 key_key.disable_voice_chat:key.keyboard.unknown
 key_key.hide_icons:key.keyboard.unknown
 key_key.walkietalkie.activate:key.keyboard.l
-key_key.toolbelt.open:key.keyboard.x
+key_key.toolbelt.open:key.keyboard.b
 key_key.toolbelt.slot:key.keyboard.unknown
 key_key.tacz.inspect.desc:key.keyboard.i
 key_key.car_horn:key.keyboard.z
@@ -35,7 +35,9 @@ key_gui.xaero_new_waypoint:key.keyboard.u:SHIFT
 key_gui.xaero_enlarge_map:key.keyboard.period
 key_gui.xaero_minimap_settings:key.keyboard.f12
 key_gui.xaero_instant_waypoint:key.keyboard.unknown
-key_key.emotecraft.fastchoose:key.keyboard.minus
+key_key.emotecraft.fastchoose:key.keyboard.f3
 key_key.emotecraft.stop:key.keyboard.unknown
 key_key.emotecraft.debug:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.v
+key_key.zomboidcraft.zoom:key.keyboard.x
+key_key.zc_voice.mode:key.keyboard.left.alt

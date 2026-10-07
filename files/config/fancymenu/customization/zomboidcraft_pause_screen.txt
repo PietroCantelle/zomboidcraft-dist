@@ -80,3 +80,38 @@ element {
   interactable = false
 }
 
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_pausescreen_advancements_button
+  anchor_point = vanilla
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_pausescreen_stats_button
+  anchor_point = vanilla
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_pausescreen_feedback_button
+  anchor_point = vanilla
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_pausescreen_report_bugs_button
+  anchor_point = vanilla
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_pausescreen_lan_button
+  anchor_point = vanilla
+  is_hidden = true
+}

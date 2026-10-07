@@ -1,0 +1,18 @@
+{
+  "name": "item.zc_clothing.wool_beanie",
+  "icon": "zc_clothing:wool_beanie",
+  "category": "zc_hair:roupas",
+  "advancement": "zc_recipes:learned/zc_clothing_wool_beanie",
+  "secret": true,
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zc_clothing:wool_beanie"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.roupas"
+    }
+  ]
+}

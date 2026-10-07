@@ -1,0 +1,18 @@
+{
+  "name": "item.zc_clothing.work_boots",
+  "icon": "zc_clothing:work_boots",
+  "category": "zc_hair:roupas",
+  "advancement": "zc_recipes:learned/zc_clothing_work_boots",
+  "secret": true,
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zc_clothing:work_boots"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.roupas"
+    }
+  ]
+}

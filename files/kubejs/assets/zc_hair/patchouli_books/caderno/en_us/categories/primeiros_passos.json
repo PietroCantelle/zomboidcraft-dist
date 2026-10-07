@@ -1,0 +1,7 @@
+{
+  "name": "zc.recipes.cat.primeiros_passos",
+  "description": "zc.recipes.cat.primeiros_passos.desc",
+  "icon": "notreepunching:flint_knife",
+  "sortnum": 0,
+  "secret": true
+}

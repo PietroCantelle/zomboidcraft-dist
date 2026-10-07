@@ -1,0 +1,354 @@
+{
+  "xsize": 16,
+  "zsize": 16,
+  "slices": [
+    [
+      "一一丁丂丂丂丂丂丂丂丂丂丂丁一一",
+      "一一丁丂丂丂丂丂丂丂丂丂丂丁一一",
+      "一一丁丂丂丂丂丂丂丂丂丂丂丁一一",
+      "一一丁丂丂丂丂丂丂丂丂丂丂丁一一",
+      "一一丁丂丂丂丂丂丂丂丂丂丂丁一一",
+      "一一丁丂丂丂丂丂丂丂丂丂丂丁一一",
+      "一一丁丂丂丂丂丂丂丂丂丂丂丁一一",
+      "一一丁丂丂丂丂丂丂丂丂丂丂丁一一",
+      "一一丁丂丂丂丂丂丂丂丂丂丂丁一一",
+      "一一丁丂丂丂丂丂丂丂丂丂丂丁一一",
+      "一一丁丁丁丁丁丁丁丁丁丁丁丁丁七",
+      "一一丁丁丁丁丁丁丁丁丁丁丁丁丁七",
+      "一一丁丁丁丁丁丁丁丁丁丁丁丁丁七",
+      "一一丁丁丁丁丁丁丁丁丁丁丁丁丁七",
+      "一一丁丁丁丁丁丁丁丁丁丁丁丁丁七",
+      "一一七七七七七七七七七七七七七七"
+    ],
+    [
+      "丄丅丅          丅丅丄",
+      " 丅丆 万万万  万万万 丆丅 ",
+      "丄丅丈          丈丅丄",
+      "丄丅三 万万万  万万万 上丅丄",
+      "丄丅丅          丅丅丄",
+      "丄 丅 万万万上 万万万 丅丄丄",
+      " 丄丅    上     丅丄 ",
+      "丄丄丅下万万万上 万万万丌丅丄丄",
+      "丄丄丅 不不    不不 丅丄 ",
+      "丄丄丅    上     丅丄丄",
+      "丄丅  丅丅 三三 丅丅上 丅 ",
+      "丄丅  丅丅    丅丅  丅 ",
+      "丄丅  丅丅    丅丅  丅 ",
+      "丄丅 与丅丅    丅丅与 丅 ",
+      "丄丅丏丅丅 丏丐丏丐 丅丅丏丅 ",
+      " 丄              "
+    ],
+    [
+      " 丅丅          丅丅 ",
+      " 丅            丅 ",
+      " 丁            丁 ",
+      " 丅            丅 ",
+      " 丅丅          丅丅 ",
+      "  丅          丅  ",
+      "  丅          丅  ",
+      "  丅          丅  ",
+      "  丅          丅  ",
+      "  丅          丅  ",
+      " 丅  丅丅    丅丅  丅 ",
+      " 丅  丅丅    丅丅  丅 ",
+      " 丅  丅丅    丅丅  丅 ",
+      " 丅 与丅丅    丅丅与 丅 ",
+      " 丅丑丅丅 丑丒丑丒 丅丅丑丅 ",
+      "                "
+    ],
+    [
+      " 丅丅          丅丅 ",
+      " 丅            丅 ",
+      " 丅            丅 ",
+      " 丅            丅 ",
+      " 丅丅          丅丅 ",
+      "  丅          丅  ",
+      "  丅          丅  ",
+      "  丅          丅  ",
+      "  丅          丅  ",
+      "  丅          丅  ",
+      " 丅丅丅丅丅    丅丅丅丅丅 ",
+      " 丅  丅丅    丅丅  丅 ",
+      " 丅  丅丅    丅丅  丅 ",
+      " 丅 与丅丅    丅丅与 丅 ",
+      " 丅丅丅丅丅    丅丅丅丅丅 ",
+      "     专          "
+    ],
+    [
+      " 丅丅          丅丅 ",
+      " 丅            丅 ",
+      " 丅            丅 ",
+      " 丅            丅 ",
+      " 丅丅          丅丅 ",
+      "  丅          丅  ",
+      "  且          且  ",
+      "  且          且  ",
+      "  丅          丅  ",
+      "  丅          丅  ",
+      " 丅丅丅丅丅丅丅丅丅丅丅丅丅丅 ",
+      " 丅  丅丅    丅丅  丅 ",
+      " 丅  丅丅    丅丅  丅 ",
+      " 丅 与丅丅    丅丅与 丅 ",
+      " 丅丅丅丅丅丅丅丅丅丅丅丅丅丅 ",
+      "                "
+    ],
+    [
+      " 丅丅          丅丅 ",
+      " 丅丅          丅丅 ",
+      " 丅丅          丅丅 ",
+      " 丅丅          丅丅 ",
+      " 丅丅          丅丅 ",
+      "  丅          丅  ",
+      "  且          且  ",
+      "  且          且  ",
+      "  丅          丅  ",
+      "  丅          丅  ",
+      " 丅丅丅丅丅丅丅丅丅丅丅丅丅丅 ",
+      " 丅  丅丅    丅丅  丅 ",
+      " 丅  丅丅    丅丅  丅 ",
+      " 丅 与丅丅    丅丅与 丅 ",
+      " 丅丅丅丅丅且且且且丅丅丅丅丅 ",
+      "                "
+    ]
+  ],
+  "palette": {
+    "palette": [
+      {
+        "char": "一",
+        "blocks": [
+          {
+            "random": 90,
+            "block": "minecraft:grass_block"
+          },
+          {
+            "random": 26,
+            "block": "minecraft:moss_block"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:coarse_dirt"
+          }
+        ]
+      },
+      {
+        "char": "丁",
+        "block": "minecraft:polished_andesite"
+      },
+      {
+        "char": "丂",
+        "blocks": [
+          {
+            "random": 64,
+            "block": "minecraft:polished_diorite"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:polished_andesite"
+          }
+        ]
+      },
+      {
+        "char": "七",
+        "blocks": [
+          {
+            "random": 102,
+            "block": "minecraft:smooth_stone"
+          },
+          {
+            "random": 15,
+            "block": "minecraft:andesite"
+          },
+          {
+            "random": 1000,
+            "block": "zc_world:asphalt_cracked"
+          }
+        ]
+      },
+      {
+        "char": "丄",
+        "blocks": [
+          {
+            "random": 38,
+            "block": "minecraft:grass[]"
+          },
+          {
+            "random": 19,
+            "block": "regions_unexplored:medium_grass"
+          },
+          {
+            "random": 15,
+            "block": "spring_to_life:tall_dry_grass"
+          },
+          {
+            "random": 15,
+            "block": "minecraft:fern"
+          },
+          {
+            "random": 13,
+            "block": "immersive_weathering:weeds[age=7]"
+          },
+          {
+            "random": 10,
+            "block": "spring_to_life:bush"
+          },
+          {
+            "random": 6,
+            "block": "regions_unexplored:steppe_shrub"
+          },
+          {
+            "random": 5,
+            "block": "regions_unexplored:fireweed"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "丅",
+        "blocks": [
+          {
+            "random": 109,
+            "block": "minecraft:smooth_quartz"
+          },
+          {
+            "random": 1000,
+            "block": "create:cut_calcite"
+          }
+        ]
+      },
+      {
+        "char": "丆",
+        "blocks": [
+          {
+            "random": 64,
+            "block": "minecraft:white_carpet"
+          },
+          {
+            "random": 1000,
+            "block": "zc_world:blood"
+          }
+        ]
+      },
+      {
+        "char": "万",
+        "blocks": [
+          {
+            "random": 109,
+            "block": "handcrafted:dark_oak_dining_bench[facing=north,shape=single]"
+          },
+          {
+            "random": 1000,
+            "block": "zc_world:litter"
+          }
+        ]
+      },
+      {
+        "char": "丈",
+        "block": "minecraft:candle[candles=3,lit=false]"
+      },
+      {
+        "char": "三",
+        "blocks": [
+          {
+            "random": 51,
+            "block": "minecraft:oak_trapdoor[facing=north,half=bottom,open=false]"
+          },
+          {
+            "random": 38,
+            "block": "zc_world:litter"
+          },
+          {
+            "random": 26,
+            "block": "zc_world:broken_glass"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:white_carpet"
+          }
+        ]
+      },
+      {
+        "char": "上",
+        "block": "zc_world:blood"
+      },
+      {
+        "char": "下",
+        "block": "refurbished_furniture:spruce_crate",
+        "loot": "zc_world:loot_house"
+      },
+      {
+        "char": "丌",
+        "block": "refurbished_furniture:white_cooler[facing=east]",
+        "loot": "zc_world:loot_church"
+      },
+      {
+        "char": "不",
+        "blocks": [
+          {
+            "random": 77,
+            "block": "minecraft:white_carpet"
+          },
+          {
+            "random": 32,
+            "block": "minecraft:light_gray_carpet"
+          },
+          {
+            "random": 1000,
+            "block": "zc_world:blood"
+          }
+        ]
+      },
+      {
+        "char": "与",
+        "block": "minecraft:ladder[facing=north]"
+      },
+      {
+        "char": "丏",
+        "block": "minecraft:dark_oak_door[facing=south,half=lower,hinge=left,open=false]"
+      },
+      {
+        "char": "丐",
+        "block": "minecraft:dark_oak_door[facing=south,half=lower,hinge=right,open=false]"
+      },
+      {
+        "char": "丑",
+        "block": "minecraft:dark_oak_door[facing=south,half=upper,hinge=left,open=false]"
+      },
+      {
+        "char": "丒",
+        "block": "minecraft:dark_oak_door[facing=south,half=upper,hinge=right,open=false]"
+      },
+      {
+        "char": "专",
+        "block": "kubejs:sign_matriz[facing=south]"
+      },
+      {
+        "char": "且",
+        "blocks": [
+          {
+            "random": 32,
+            "block": "minecraft:yellow_stained_glass"
+          },
+          {
+            "random": 32,
+            "block": "minecraft:blue_stained_glass"
+          },
+          {
+            "random": 32,
+            "block": "minecraft:red_stained_glass"
+          },
+          {
+            "random": 13,
+            "block": "minecraft:purple_stained_glass"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:air"
+          }
+        ]
+      }
+    ]
+  }
+}

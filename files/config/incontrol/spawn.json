@@ -564,6 +564,294 @@
     "result": "allow"
   },
   {
+    "mob": "zombie_extreme:infected",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected",
+    "incontrol": true,
+    "area": "zc_d_saude",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected",
+    "incontrol": true,
+    "area": "zc_d_acacias",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected",
+    "incontrol": true,
+    "area": "zc_d_boavista",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected",
+    "incontrol": true,
+    "area": "zc_d_operaria",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected",
+    "incontrol": true,
+    "area": "zc_galeria",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:crawler",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:crawler",
+    "incontrol": true,
+    "area": "zc_d_saude",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:crawler",
+    "incontrol": true,
+    "area": "zc_d_acacias",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:crawler",
+    "incontrol": true,
+    "area": "zc_d_boavista",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:crawler",
+    "incontrol": true,
+    "area": "zc_d_operaria",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:crawler",
+    "incontrol": true,
+    "area": "zc_galeria",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:runner",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:runner",
+    "incontrol": true,
+    "area": "zc_d_saude",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:runner",
+    "incontrol": true,
+    "area": "zc_d_acacias",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:runner",
+    "incontrol": true,
+    "area": "zc_d_boavista",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:runner",
+    "incontrol": true,
+    "area": "zc_d_operaria",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:runner",
+    "incontrol": true,
+    "area": "zc_galeria",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:goon",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:goon",
+    "incontrol": true,
+    "area": "zc_d_saude",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:goon",
+    "incontrol": true,
+    "area": "zc_d_acacias",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:goon",
+    "incontrol": true,
+    "area": "zc_d_boavista",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:goon",
+    "incontrol": true,
+    "area": "zc_d_operaria",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:goon",
+    "incontrol": true,
+    "area": "zc_galeria",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_police",
+    "incontrol": true,
+    "area": "zc_galeria",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_hazmat",
+    "incontrol": true,
+    "area": "zc_d_saude",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_hazmat",
+    "incontrol": true,
+    "area": "zc_d_centro",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:infected_hazmat",
+    "incontrol": true,
+    "area": "zc_d_operaria",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thesmoker",
+    "incontrol": true,
+    "area": "zc_galeria",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:theswarmer",
+    "incontrol": true,
+    "area": "zc_d_saude",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:theswarmer",
+    "incontrol": true,
+    "area": "zc_d_acacias",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:theswarmer",
+    "incontrol": true,
+    "area": "zc_d_boavista",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:theswarmer",
+    "incontrol": true,
+    "area": "zc_d_operaria",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:theswarmer",
+    "incontrol": true,
+    "area": "zc_galeria",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:bomber",
+    "incontrol": true,
+    "area": "zc_d_acacias",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:bomber",
+    "incontrol": true,
+    "area": "zc_d_boavista",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:bomber",
+    "incontrol": true,
+    "area": "zc_d_operaria",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:clicker",
+    "incontrol": true,
+    "area": "zc_d_saude",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:clicker",
+    "incontrol": true,
+    "area": "zc_d_acacias",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:clicker",
+    "incontrol": true,
+    "area": "zc_d_boavista",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:clicker",
+    "incontrol": true,
+    "area": "zc_d_operaria",
+    "result": "allow"
+  },
+  {
+    "mob": "zombie_extreme:clicker",
+    "incontrol": true,
+    "area": "zc_galeria",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thespitter",
+    "incontrol": true,
+    "area": "zc_d_saude",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thespitter",
+    "incontrol": true,
+    "area": "zc_d_acacias",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thespitter",
+    "incontrol": true,
+    "area": "zc_d_boavista",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:thespitter",
+    "incontrol": true,
+    "area": "zc_d_operaria",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:therod",
+    "incontrol": true,
+    "area": "zc_d_saude",
+    "result": "allow"
+  },
+  {
+    "mob": "undead_revamp2:therod",
+    "incontrol": true,
+    "area": "zc_d_operaria",
+    "result": "allow"
+  },
+  {
     "mod": [
       "undead_revamp2",
       "zombie_extreme"

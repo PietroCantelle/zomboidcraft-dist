@@ -1,0 +1,7 @@
+#ZomboidCraft - Better Light client side: the lantern on the belt swings with movement.
+#World (hanging) lanterns are animated by Swinging Lanterns instead, so Better Light's own physics for them is off.
+[swing]
+	swingEnabled = true
+
+[hangingLanterns]
+	hangingLanternPhysicsEnabled = false

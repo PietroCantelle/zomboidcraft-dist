@@ -332,57 +332,11 @@
    },
    {
     "char": "丙",
-    "block": "minecraft:birch_wall_sign[facing=south]",
-    "tag": {
-     "front_text": {
-      "messages": [
-       "{\"text\":\"QUARENTENA\"}",
-       "{\"text\":\"NAO ENTRE\"}",
-       "{\"text\":\"SECRETARIA DE\"}",
-       "{\"text\":\"SAUDE - ITAVERA\"}"
-      ],
-      "color": "red",
-      "has_glowing_text": false
-     },
-     "back_text": {
-      "messages": [
-       "{\"text\":\"QUARENTENA\"}",
-       "{\"text\":\"NAO ENTRE\"}",
-       "{\"text\":\"SECRETARIA DE\"}",
-       "{\"text\":\"SAUDE - ITAVERA\"}"
-      ],
-      "color": "red",
-      "has_glowing_text": false
-     },
-     "is_waxed": true
-    }
+    "block": "kubejs:sign_quarentena[facing=south]"
    },
    {
     "char": "业",
-    "block": "minecraft:birch_wall_sign[facing=north]",
-    "tag": {
-     "front_text": {
-      "messages": [
-       "{\"text\":\"AREA ISOLADA\"}",
-       "{\"text\":\"USO OBRIGATORIO\"}",
-       "{\"text\":\"DE MASCARA\"}",
-       "{\"text\":\"\"}"
-      ],
-      "color": "red",
-      "has_glowing_text": false
-     },
-     "back_text": {
-      "messages": [
-       "{\"text\":\"AREA ISOLADA\"}",
-       "{\"text\":\"USO OBRIGATORIO\"}",
-       "{\"text\":\"DE MASCARA\"}",
-       "{\"text\":\"\"}"
-      ],
-      "color": "red",
-      "has_glowing_text": false
-     },
-     "is_waxed": true
-    }
+    "block": "kubejs:sign_area_isolada[facing=north]"
    },
    {
     "char": "丛",

@@ -1,0 +1,7 @@
+{
+  "name": "zc.recipes.cat.saude",
+  "description": "zc.recipes.cat.saude.desc",
+  "icon": "zc_survival:bandage",
+  "sortnum": 2,
+  "secret": true
+}

@@ -430,30 +430,7 @@
    },
    {
     "char": "丢",
-    "block": "minecraft:spruce_wall_sign[facing=west]",
-    "tag": {
-     "front_text": {
-      "messages": [
-       "{\"text\":\"UBS ITAVERA\"}",
-       "{\"text\":\"NAO HA MAIS\"}",
-       "{\"text\":\"VACINAS\"}",
-       "{\"text\":\"PROCURE A UPA\"}"
-      ],
-      "color": "black",
-      "has_glowing_text": false
-     },
-     "back_text": {
-      "messages": [
-       "{\"text\":\"UBS ITAVERA\"}",
-       "{\"text\":\"NAO HA MAIS\"}",
-       "{\"text\":\"VACINAS\"}",
-       "{\"text\":\"PROCURE A UPA\"}"
-      ],
-      "color": "black",
-      "has_glowing_text": false
-     },
-     "is_waxed": true
-    }
+    "block": "kubejs:sign_ubs[facing=west]"
    },
    {
     "char": "丣",

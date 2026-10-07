@@ -1,0 +1,371 @@
+{
+  "xsize": 16,
+  "zsize": 16,
+  "slices": [
+    [
+      "一一一一一一一一一一一一一一一一",
+      "一⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥",
+      "一⑥丁丁丁丁丁丁丁丁丁丁丁丁丁丁",
+      "一⑥丁丁丁丁丁丁丁丁丁丁丁丁丁丁",
+      "一⑥丁丁丁丁丁丁丁丁丁丁丁丁丁丁",
+      "一⑥丁丁丁丁丁丁丁丁丁丁丁丁丁丁",
+      "一⑥丁丁丁丁丁丁丁丁丁丁丁丁丁丁",
+      "一⑥丁丁丁丁丁丁丁丁丁丁丁丁丁丁",
+      "一⑥丁丁丁丁丁丁丁丁丁丁丁丁丁丁",
+      "一⑥丁丁丁丁丁丁丁丁丁丁丁丁丁丁",
+      "一⑥丁丁丁丁丁丁丁丁丁丁丁丁丁丁",
+      "一⑥丁丁丁丁丁丁丁丁丁丁丁丁丁丁",
+      "一⑥丁丁丁丁丁丁丁丁丁丁丁丁丁丁",
+      "一⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥⑥",
+      "一一一一一一一丂一一一一七一一一",
+      "一一一丂丂丂一丂丂丂一一一一一一"
+    ],
+    [
+      "                ",
+      " ⑧⑧⑧⑧⑧⑧⑧⑧⑧⑧⑧⑧⑧⑧⑧",
+      " ⑧  丄丄丄丄丄丄丄丄丄丄丄丄",
+      "丅⑧  丄丄丄丄丄丄丄丄丄丄丄丄",
+      " ⑧     丆        ",
+      " ⑧   万万万万万万万万 万万",
+      " ⑧  丈三三三三三三三上 丈三",
+      " ⑧  下下下  下下 下  下",
+      " ⑧  万万万万万万万万  万万",
+      " ⑧  丈三三三三三三三上 丈三",
+      " ⑧  下下下下下下下下下 丌 ",
+      " ⑧            丌 ",
+      " ⑧不        与  与 ",
+      " ⑧⑧⑧⑧⑧⑧⑧⑧⑧⑧⑧丏丐⑧⑧",
+      "       丑  丆     ",
+      "   丑丑丑 丑丑丑      "
+    ],
+    [
+      "                ",
+      " ①①①⑨①①①①①①①①①①①",
+      " ①      丒 专 专且 丒",
+      "丅①        丕 世   ",
+      " ⑨              ",
+      " ①              ",
+      " 丗    丘丘 丘 丘丘 丘丘",
+      " ①              ",
+      " ⑨              ",
+      " ①   丘丘丘丘 丘 丘 丘 ",
+      " ⑨              ",
+      " ①              ",
+      " ①         丙  丙 ",
+      " ①①丗⑨①⑨⑨①⑨⑨①业丛①⑨",
+      "                ",
+      "                "
+    ],
+    [
+      "           丙    ",
+      " ①①①⑨东丝东丝东丝东丝东丝东",
+      " ①        丆     ",
+      " ①          丞   ",
+      " ⑨              ",
+      " ①              ",
+      " ⑨              ",
+      " ①              ",
+      " ⑨              ",
+      " ①              ",
+      " 丗              ",
+      " ①              ",
+      " ①         与  丙 ",
+      " ①①丗丗①⑨丗①⑨⑨①⑨⑨①丗",
+      "                ",
+      "                "
+    ],
+    [
+      "           与    ",
+      " ①①①①丝东丝东丝东丝东丝东丝",
+      " ①              ",
+      " ①              ",
+      " ①              ",
+      " ①              ",
+      " ①              ",
+      " ①              ",
+      " ①              ",
+      " ①              ",
+      " ①              ",
+      " ①              ",
+      " ①         与    ",
+      " ①①①①①①①①①①①①①①①",
+      "              丟 ",
+      "                "
+    ],
+    [
+      "           与    ",
+      " ①①①①①①①①①①①①①①①",
+      " ①              ",
+      " ①              ",
+      " ①              ",
+      " ①   丠    丠    丠",
+      " ①              ",
+      " ①              ",
+      " ①              ",
+      " ①              ",
+      " ①   丠    丠    丠",
+      " ①              ",
+      " ①         与    ",
+      " ①①①①①①①①①①①①①①①",
+      "                ",
+      "                "
+    ]
+  ],
+  "palette": {
+    "palette": [
+      {
+        "char": "一",
+        "blocks": [
+          {
+            "random": 113,
+            "block": "zc_world:sidewalk"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:smooth_stone"
+          },
+          {
+            "random": 1000,
+            "block": "zc_world:asphalt_cracked"
+          }
+        ]
+      },
+      {
+        "char": "丁",
+        "blocks": [
+          {
+            "random": 102,
+            "block": "minecraft:white_terracotta"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:light_gray_terracotta"
+          }
+        ]
+      },
+      {
+        "char": "丂",
+        "blocks": [
+          {
+            "random": 58,
+            "block": "minecraft:coarse_dirt"
+          },
+          {
+            "random": 38,
+            "block": "minecraft:rooted_dirt"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:moss_block"
+          }
+        ]
+      },
+      {
+        "char": "七",
+        "block": "minecraft:coarse_dirt"
+      },
+      {
+        "char": "丄",
+        "block": "minecraft:dark_oak_planks"
+      },
+      {
+        "char": "丅",
+        "block": "minecraft:vine[east=true]"
+      },
+      {
+        "char": "丆",
+        "block": "minecraft:vine[north=true]"
+      },
+      {
+        "char": "万",
+        "blocks": [
+          {
+            "random": 102,
+            "block": "refurbished_furniture:birch_chair[facing=north,tucked=false]"
+          },
+          {
+            "random": 1000,
+            "block": "refurbished_furniture:white_stool"
+          }
+        ]
+      },
+      {
+        "char": "丈",
+        "block": "refurbished_furniture:birch_table[north=false,south=false,east=true,west=false]"
+      },
+      {
+        "char": "三",
+        "block": "refurbished_furniture:birch_table[north=false,south=false,east=true,west=true]"
+      },
+      {
+        "char": "上",
+        "block": "refurbished_furniture:birch_table[north=false,south=false,east=false,west=true]"
+      },
+      {
+        "char": "下",
+        "blocks": [
+          {
+            "random": 102,
+            "block": "refurbished_furniture:birch_chair[facing=south,tucked=false]"
+          },
+          {
+            "random": 1000,
+            "block": "refurbished_furniture:white_stool"
+          }
+        ]
+      },
+      {
+        "char": "丌",
+        "block": "zc_world:blood"
+      },
+      {
+        "char": "不",
+        "block": "refurbished_furniture:oak_storage_cabinet[facing=west,hinge=left]",
+        "loot": "zc_world:loot_casino"
+      },
+      {
+        "char": "与",
+        "block": "minecraft:vine[south=true]"
+      },
+      {
+        "char": "丏",
+        "block": "minecraft:spruce_door[facing=south,half=lower,hinge=left,open=false]"
+      },
+      {
+        "char": "丐",
+        "block": "minecraft:spruce_door[facing=south,half=lower,hinge=right,open=false]"
+      },
+      {
+        "char": "丑",
+        "blocks": [
+          {
+            "random": 28,
+            "block": "minecraft:grass[]"
+          },
+          {
+            "random": 18,
+            "block": "regions_unexplored:medium_grass"
+          },
+          {
+            "random": 15,
+            "block": "spring_to_life:short_dry_grass"
+          },
+          {
+            "random": 15,
+            "block": "immersive_weathering:weeds[age=7]"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:fern"
+          },
+          {
+            "random": 8,
+            "block": "minecraft:dead_bush"
+          },
+          {
+            "random": 8,
+            "block": "regions_unexplored:clover[facing=south,flower_amount=2]"
+          },
+          {
+            "random": 6,
+            "block": "spring_to_life:bush"
+          },
+          {
+            "random": 5,
+            "block": "regions_unexplored:dead_steppe_shrub"
+          },
+          {
+            "random": 5,
+            "block": "minecraft:dandelion"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "丒",
+        "block": "minecraft:note_block"
+      },
+      {
+        "char": "专",
+        "block": "immersive_weathering:ivy[down=false,east=false,north=true,south=false,up=false,west=false]"
+      },
+      {
+        "char": "且",
+        "block": "refurbished_furniture:dark_oak_chair[facing=north,tucked=false]"
+      },
+      {
+        "char": "丕",
+        "block": "minecraft:lightning_rod[facing=up]"
+      },
+      {
+        "char": "世",
+        "block": "handcrafted:dark_oak_table[color=red,shape=single]"
+      },
+      {
+        "char": "丗",
+        "blocks": [
+          {
+            "random": 58,
+            "block": "minecraft:oak_planks"
+          },
+          {
+            "random": 38,
+            "block": "minecraft:spruce_planks"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:stripped_oak_log[axis=y]"
+          }
+        ]
+      },
+      {
+        "char": "丘",
+        "blocks": [
+          {
+            "random": 90,
+            "block": "minecraft:white_carpet"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "丙",
+        "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=true,up=false,west=false]"
+      },
+      {
+        "char": "业",
+        "block": "minecraft:spruce_door[facing=south,half=upper,hinge=left,open=false]"
+      },
+      {
+        "char": "丛",
+        "block": "minecraft:spruce_door[facing=south,half=upper,hinge=right,open=false]"
+      },
+      {
+        "char": "东",
+        "block": "minecraft:redstone_lamp[lit=false]"
+      },
+      {
+        "char": "丝",
+        "block": "minecraft:black_concrete"
+      },
+      {
+        "char": "丞",
+        "block": "minecraft:cauldron"
+      },
+      {
+        "char": "丟",
+        "block": "kubejs:sign_bingo[facing=south]"
+      },
+      {
+        "char": "丠",
+        "block": "refurbished_furniture:light_ceiling_light[face=ceiling,facing=north,powered=false]"
+      }
+    ]
+  }
+}

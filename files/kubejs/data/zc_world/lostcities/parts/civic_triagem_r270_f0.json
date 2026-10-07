@@ -1,0 +1,339 @@
+{
+  "xsize": 16,
+  "zsize": 16,
+  "slices": [
+    [
+      "一丁一一一一丁一一一一丁一一一一",
+      "一一一丁一一一一一一一一一一一一",
+      "一一一一丁一一一一一一丂丂丂丂一",
+      "一一一一一一一一一一一一一一一一",
+      "一一一一一一一一一一一一一一一一",
+      "一一一一一一一一一一一丂丂丂丂一",
+      "一一一一一一一一一一一一一一一一",
+      "一一一一一一一一一一一一一一一一",
+      "一丁一一一一一一一丁一丂丂丂丂丁",
+      "丁一一一一一一一一一一一一一一一",
+      "一一一一一一一一一一一一一一一一",
+      "一一一一一一一一一丁一丂丂丂丂一",
+      "一一一一一一一一一一一一一一一一",
+      "一一一一一一一一一一一一一一一一",
+      "一一丁一一一一丁丁一一丂丂丂丂一",
+      "一一一一一一一一丁丁一一丁一一一"
+    ],
+    [
+      " 七    七    七    ",
+      "   七      丄丅    ",
+      "  丆 七丆  丆 丄  万  ",
+      "     丈三   丄     ",
+      "  上下    丆 丄     ",
+      "  丌不   与丏丐丄 万万万 ",
+      "             丑  ",
+      "  上下   丒丆丐      ",
+      " 七丌不   专 七且    七",
+      "七      丕  世     ",
+      "  上下    丆 且丗    ",
+      "  丌不   与丏七 万    ",
+      "     丈丕   丄  丑  ",
+      "  丆  丆  丆 丄  丑  ",
+      "  七    七七 丄 万 万 ",
+      "        七七  七   "
+    ],
+    [
+      "                ",
+      "           丅    ",
+      "  丆  丆  丆       ",
+      "                ",
+      "  上下    丆 丘     ",
+      "          丘     ",
+      "                ",
+      "  上下    丆       ",
+      "                ",
+      "          丙     ",
+      "  上下    丆       ",
+      "                ",
+      "                ",
+      "  丆  丆  丆       ",
+      "          丘     ",
+      "                "
+    ],
+    [
+      "                ",
+      "           业丛   ",
+      "  东东东东东东东       ",
+      "  东东东东东东东       ",
+      "  东东东东东东东       ",
+      "  东东东东东东东       ",
+      "  东东东东东东东       ",
+      "  东东丝丝丝东东       ",
+      "  东东丝丝丝东东       ",
+      "  东东东东东东东       ",
+      "  东东东东东东东       ",
+      "  东东东东东东东       ",
+      "  东东东东东东东       ",
+      "  东东东东东东东       ",
+      "                ",
+      "                "
+    ],
+    [
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                "
+    ],
+    [
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                "
+    ]
+  ],
+  "palette": {
+    "palette": [
+      {
+        "char": "一",
+        "blocks": [
+          {
+            "random": 109,
+            "block": "zc_world:asphalt"
+          },
+          {
+            "random": 1000,
+            "block": "zc_world:asphalt_cracked"
+          }
+        ]
+      },
+      {
+        "char": "丁",
+        "blocks": [
+          {
+            "random": 58,
+            "block": "minecraft:coarse_dirt"
+          },
+          {
+            "random": 38,
+            "block": "minecraft:rooted_dirt"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:moss_block"
+          }
+        ]
+      },
+      {
+        "char": "丂",
+        "block": "zc_world:road_line_white"
+      },
+      {
+        "char": "七",
+        "blocks": [
+          {
+            "random": 28,
+            "block": "minecraft:grass[]"
+          },
+          {
+            "random": 18,
+            "block": "regions_unexplored:medium_grass"
+          },
+          {
+            "random": 15,
+            "block": "spring_to_life:short_dry_grass"
+          },
+          {
+            "random": 15,
+            "block": "immersive_weathering:weeds[age=7]"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:fern"
+          },
+          {
+            "random": 8,
+            "block": "minecraft:dead_bush"
+          },
+          {
+            "random": 8,
+            "block": "regions_unexplored:clover[facing=east,flower_amount=2]"
+          },
+          {
+            "random": 6,
+            "block": "spring_to_life:bush"
+          },
+          {
+            "random": 5,
+            "block": "regions_unexplored:dead_steppe_shrub"
+          },
+          {
+            "random": 5,
+            "block": "minecraft:dandelion"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "丄",
+        "block": "zc_world:sandbags"
+      },
+      {
+        "char": "丅",
+        "block": "minecraft:spruce_fence[north=false,south=false,east=false,west=false]"
+      },
+      {
+        "char": "丆",
+        "block": "minecraft:iron_bars[north=false,south=false,east=false,west=false]"
+      },
+      {
+        "char": "万",
+        "blocks": [
+          {
+            "random": 90,
+            "block": "minecraft:air"
+          },
+          {
+            "random": 15,
+            "block": "zc_world:litter"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:white_carpet"
+          },
+          {
+            "random": 6,
+            "block": "zc_world:blood"
+          },
+          {
+            "random": 1000,
+            "block": "zc_world:broken_glass"
+          }
+        ]
+      },
+      {
+        "char": "丈",
+        "block": "refurbished_furniture:birch_crate",
+        "loot": "zc_world:loot_clinic"
+      },
+      {
+        "char": "三",
+        "block": "minecraft:chest[facing=south]",
+        "loot": "zc_world:loot_hospital"
+      },
+      {
+        "char": "上",
+        "block": "minecraft:iron_bars[north=false,south=false,east=true,west=false]"
+      },
+      {
+        "char": "下",
+        "block": "minecraft:iron_bars[north=false,south=false,east=false,west=true]"
+      },
+      {
+        "char": "丌",
+        "block": "minecraft:white_bed[facing=west,part=head]"
+      },
+      {
+        "char": "不",
+        "block": "minecraft:white_bed[facing=west,part=foot]"
+      },
+      {
+        "char": "与",
+        "block": "minecraft:light_gray_bed[facing=east,part=foot]"
+      },
+      {
+        "char": "丏",
+        "block": "minecraft:light_gray_bed[facing=east,part=head]"
+      },
+      {
+        "char": "丐",
+        "block": "zc_world:blood"
+      },
+      {
+        "char": "丑",
+        "block": "minecraft:black_wool"
+      },
+      {
+        "char": "丒",
+        "block": "minecraft:chest[facing=west]",
+        "loot": "zc_world:loot_hospital"
+      },
+      {
+        "char": "专",
+        "block": "minecraft:white_carpet"
+      },
+      {
+        "char": "且",
+        "block": "minecraft:green_concrete"
+      },
+      {
+        "char": "丕",
+        "block": "handcrafted:birch_table[color=white,shape=single]"
+      },
+      {
+        "char": "世",
+        "block": "refurbished_furniture:spruce_drawer[facing=west]",
+        "loot": "zc_world:loot_military"
+      },
+      {
+        "char": "丗",
+        "block": "refurbished_furniture:white_stool"
+      },
+      {
+        "char": "丘",
+        "blocks": [
+          {
+            "random": 77,
+            "block": "zc_world:sandbag_slab[type=bottom]"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "丙",
+        "block": "minecraft:green_carpet"
+      },
+      {
+        "char": "业",
+        "block": "minecraft:spruce_planks"
+      },
+      {
+        "char": "丛",
+        "block": "kubejs:sign_triagem[facing=east]"
+      },
+      {
+        "char": "东",
+        "block": "minecraft:white_wool"
+      },
+      {
+        "char": "丝",
+        "block": "minecraft:red_wool"
+      }
+    ]
+  }
+}

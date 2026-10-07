@@ -1,0 +1,18 @@
+{
+  "name": "item.notreepunching.macuahuitl",
+  "icon": "notreepunching:macuahuitl",
+  "category": "zc_hair:primeiros_passos",
+  "advancement": "zc_recipes:learned/notreepunching_macuahuitl",
+  "secret": true,
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "notreepunching:macuahuitl"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.primeiros_passos"
+    }
+  ]
+}

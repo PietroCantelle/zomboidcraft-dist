@@ -1,0 +1,7 @@
+{
+  "name": "zc.recipes.cat.abrigo",
+  "description": "zc.recipes.cat.abrigo.desc",
+  "icon": "minecraft:chest",
+  "sortnum": 1,
+  "secret": true
+}

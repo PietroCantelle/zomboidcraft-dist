@@ -1,0 +1,6 @@
+{
+  "parent": "kubejs:block/sign_style_pendurada",
+  "textures": {
+    "sign": "kubejs:block/signs/brinquedos"
+  }
+}

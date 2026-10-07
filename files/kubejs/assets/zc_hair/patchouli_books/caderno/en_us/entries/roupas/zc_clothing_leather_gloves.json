@@ -1,0 +1,18 @@
+{
+  "name": "item.zc_clothing.leather_gloves",
+  "icon": "zc_clothing:leather_gloves",
+  "category": "zc_hair:roupas",
+  "advancement": "zc_recipes:learned/zc_clothing_leather_gloves",
+  "secret": true,
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zc_clothing:leather_gloves"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.roupas"
+    }
+  ]
+}

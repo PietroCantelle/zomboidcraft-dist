@@ -1,0 +1,19 @@
+#ZomboidCraft - Fog Looks Good Now (port): soft fog without shaders.
+#globalfogstart / fogend are fractions of the render distance. Fog begins at 15% and is fully opaque at 80%.
+[Client]
+	#Defines the global default fog start value
+	globalfogstart = 0.15
+	#Defines the global default fog end value, as a percentage of render distance. At 1.0, the fog end is at render distance. At 0, there is no fog
+	fogend = 0.8
+	#Defines if fog will darken and get more dense when underground.
+	usecavefog = true
+	#Defines the density of fog in caves. If cave fog is active, this will be multiplied with the current fog end.
+	cavefogdensity = 0.6
+	#Defines the color of cave fog, in the decimal color format. If cave fog is active, this will be multiplied with the current fog color.
+	caveFogColor = 3355443
+	#Defines a specific fog start, fog end, and cave fog end per biome. Entries are comma separated, structured like "<biomeid>,<fog start>,<fog end>,<cave fog color>"
+	#Example: ["minecraft:plains,0.1,1.2,5066351", "minecraft:nether_wastes,0,0.5,5056548"]
+	biomeFogMap = []
+	#If true, sets the fog shape to the cylindrical shape used in vanilla
+	#Otherwise uses the old spherical shape
+	cylindricalFog = true

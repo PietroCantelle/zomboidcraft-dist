@@ -3,7 +3,7 @@
     "mob": "zombie_extreme:infected_police",
     "number": {
       "name": "zcday",
-      "expression": "ge(2)"
+      "expression": "ge(1)"
     },
     "persecond": 0.1,
     "attempts": 25,
@@ -29,7 +29,7 @@
     "mob": "undead_revamp2:thesmoker",
     "number": {
       "name": "zcday",
-      "expression": "ge(7)"
+      "expression": "ge(2)"
     },
     "persecond": 0.1,
     "attempts": 25,
@@ -55,7 +55,7 @@
     "mob": "undead_revamp2:bomber",
     "number": {
       "name": "zcday",
-      "expression": "ge(7)"
+      "expression": "ge(6)"
     },
     "persecond": 0.1,
     "attempts": 25,
@@ -108,7 +108,7 @@
     "mob": "undead_revamp2:therod",
     "number": {
       "name": "zcday",
-      "expression": "ge(12)"
+      "expression": "ge(10)"
     },
     "persecond": 0.1,
     "attempts": 25,
@@ -188,7 +188,7 @@
     "mob": "undead_revamp2:theswarmer",
     "number": {
       "name": "zcday",
-      "expression": "ge(10)"
+      "expression": "ge(5)"
     },
     "persecond": 0.1,
     "attempts": 25,
@@ -214,7 +214,7 @@
     "mob": "zombie_extreme:clicker",
     "number": {
       "name": "zcday",
-      "expression": "ge(12)"
+      "expression": "ge(8)"
     },
     "persecond": 0.1,
     "attempts": 25,
@@ -240,7 +240,7 @@
     "mob": "undead_revamp2:thespitter",
     "number": {
       "name": "zcday",
-      "expression": "ge(12)"
+      "expression": "ge(8)"
     },
     "persecond": 0.1,
     "attempts": 25,
@@ -343,7 +343,7 @@
     "mob": "zombie_extreme:infected_hazmat",
     "number": {
       "name": "zcday",
-      "expression": "ge(4)"
+      "expression": "ge(3)"
     },
     "persecond": 0.2,
     "attempts": 25,
@@ -575,7 +575,7 @@
     "mob": "zombie_extreme:goon",
     "number": {
       "name": "zcday",
-      "expression": "ge(8)"
+      "expression": "ge(3)"
     },
     "persecond": 0.15,
     "attempts": 25,
@@ -893,7 +893,8 @@
       "maxheight": 320,
       "maxlocal": 16,
       "and": {
-        "maxlight": 5
+        "maxlight": 5,
+        "incity": true
       }
     }
   },
@@ -918,7 +919,320 @@
       "maxheight": 320,
       "maxlocal": 16,
       "and": {
-        "maxlight": 5
+        "maxlight": 5,
+        "incity": true
+      }
+    }
+  },
+  {
+    "mob": "zombie_extreme:runner",
+    "number": {
+      "name": "zcday",
+      "expression": "ge(1)"
+    },
+    "persecond": 0.08,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 128,
+      "minheight": 45,
+      "maxheight": 320,
+      "maxlocal": 6,
+      "and": {
+        "maxlight": 5,
+        "incity": true
+      }
+    }
+  },
+  {
+    "mob": "zombies_plus:slow_zombie",
+    "number": {
+      "name": "zcday",
+      "expression": "ge(0)"
+    },
+    "persecond": 0.12,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 128,
+      "minheight": 45,
+      "maxheight": 320,
+      "maxlocal": 10,
+      "and": {
+        "maxlight": 5,
+        "incity": true
+      }
+    }
+  },
+  {
+    "mob": "zombies_plus:weak_zombie",
+    "number": {
+      "name": "zcday",
+      "expression": "ge(0)"
+    },
+    "persecond": 0.12,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 128,
+      "minheight": 45,
+      "maxheight": 320,
+      "maxlocal": 10,
+      "and": {
+        "maxlight": 5,
+        "incity": true
+      }
+    }
+  },
+  {
+    "mob": "zombies_plus:crawler_zombie",
+    "number": {
+      "name": "zcday",
+      "expression": "ge(0)"
+    },
+    "persecond": 0.08,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 128,
+      "minheight": 45,
+      "maxheight": 320,
+      "maxlocal": 6,
+      "and": {
+        "maxlight": 5,
+        "incity": true
+      }
+    }
+  },
+  {
+    "mob": "zombies_plus:cave_zombie",
+    "number": {
+      "name": "zcday",
+      "expression": "ge(1)"
+    },
+    "persecond": 0.1,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 128,
+      "minheight": 45,
+      "maxheight": 320,
+      "maxlocal": 8,
+      "and": {
+        "maxlight": 5,
+        "incity": true
+      }
+    }
+  },
+  {
+    "mob": "zombies_plus:vile_zombie",
+    "number": {
+      "name": "zcday",
+      "expression": "ge(3)"
+    },
+    "persecond": 0.06,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 128,
+      "minheight": 45,
+      "maxheight": 320,
+      "maxlocal": 4,
+      "and": {
+        "maxlight": 5,
+        "incity": true
+      }
+    }
+  },
+  {
+    "mob": "zombies_plus:axe_zombie",
+    "number": {
+      "name": "zcday",
+      "expression": "ge(4)"
+    },
+    "persecond": 0.05,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 128,
+      "minheight": 45,
+      "maxheight": 320,
+      "maxlocal": 3,
+      "and": {
+        "maxlight": 5,
+        "incity": true
+      }
+    }
+  },
+  {
+    "mob": "zombies_plus:sword_zombie",
+    "number": {
+      "name": "zcday",
+      "expression": "ge(4)"
+    },
+    "persecond": 0.05,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 128,
+      "minheight": 45,
+      "maxheight": 320,
+      "maxlocal": 3,
+      "and": {
+        "maxlight": 5,
+        "incity": true
+      }
+    }
+  },
+  {
+    "mob": "zombies_plus:runner_zombie",
+    "number": {
+      "name": "zcday",
+      "expression": "ge(2)"
+    },
+    "persecond": 0.05,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 128,
+      "minheight": 45,
+      "maxheight": 320,
+      "maxlocal": 4,
+      "and": {
+        "maxlight": 5,
+        "incity": true
+      }
+    }
+  },
+  {
+    "mob": "zombies_plus:brute_zombie",
+    "number": {
+      "name": "zcday",
+      "expression": "ge(5)"
+    },
+    "persecond": 0.04,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 128,
+      "minheight": 45,
+      "maxheight": 320,
+      "maxlocal": 2,
+      "and": {
+        "maxlight": 5,
+        "incity": true
+      }
+    }
+  },
+  {
+    "mob": "zombies_plus:shrieker_zombie",
+    "number": {
+      "name": "zcday",
+      "expression": "ge(10)"
+    },
+    "persecond": 0.02,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 128,
+      "minheight": 45,
+      "maxheight": 320,
+      "maxlocal": 1,
+      "and": {
+        "maxlight": 5,
+        "incity": true
+      }
+    }
+  },
+  {
+    "mob": "zombies_plus:leaper_zombie",
+    "number": {
+      "name": "zcday",
+      "expression": "ge(12)"
+    },
+    "persecond": 0.02,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 128,
+      "minheight": 45,
+      "maxheight": 320,
+      "maxlocal": 1,
+      "and": {
+        "maxlight": 5,
+        "incity": true
       }
     }
   }

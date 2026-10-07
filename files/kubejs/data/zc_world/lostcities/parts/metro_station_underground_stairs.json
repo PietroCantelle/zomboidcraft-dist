@@ -1,0 +1,308 @@
+{
+  "xsize": 16,
+  "zsize": 16,
+  "slices": [
+    [
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy"
+    ],
+    [
+      "yyyyyyyyyyyyyyyy",
+      "QQQQQQQQQQQQQQQQ",
+      "QQQQQQQQQQQQQQQQ",
+      "ŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸ",
+      "yyyyyyyyyyyyyyyy",
+      "eeeeeeefeeeeeeee",
+      "yyyyyyygyyyyyyyy",
+      "eeeeeeefeeeeeeee",
+      "yyyyyyygyyyyyyyy",
+      "eeeeeeefeeeeeeee",
+      "yyyyyyyyyyyyyyyy",
+      "ŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸ",
+      "QQQQQQQQQQQQQQQQ",
+      "QQQQQQQQQQQQQQQQ",
+      "QQQQQQQQQQQQQQQQ",
+      "yyyyyyyyyyyyyyyy"
+    ],
+    [
+      "yyyyyyyyyyyyyyyy",
+      "~~~ƁƁ~~~~~~ƁƁ~~~",
+      "~~~~~~Ƶ~~~~~~Ʀ~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~ǨǨ~~~~~ǨǨ~~~~",
+      "~~~~~yyyyy~~~~~~",
+      "~~~~~=yyyy~~~~~~",
+      "~~~~~=yyyy~~~~~~",
+      "yyyyyyyyyyyyyyyy"
+    ],
+    [
+      "yyyyyyyyyyyyyyyy",
+      "~~Ǳ~~~~ǰ~~~~~ǲ~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~yyyyy~~~~~~",
+      "~~~~~~=yyy~~~~~~",
+      "~~~~~~=yyy~~~~~~",
+      "yyyyyyyyyyyyyyyy"
+    ],
+    [
+      "yyhyyyyyyyyyyhyy",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~~~~~~~~~~~~",
+      "~~~~~yyyyy~~~~~~",
+      "~~~~~~~=yy~~~~~~",
+      "~~~~~~~=yy~~~~~~",
+      "yyhyyyyyyyyyyhyy"
+    ],
+    [
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyyyyyyyyyyyyyy",
+      "yyyy~~~~=yyyyyyy",
+      "yyyy~~~~=yyyyyyy",
+      "yyyyyyyyyyyyyyyy"
+    ]
+  ],
+  "palette": {
+    "palette": [
+      {
+        "char": "k",
+        "block": "minecraft:rail[shape=north_south]"
+      },
+      {
+        "char": "e",
+        "block": "minecraft:rail[shape=east_west]"
+      },
+      {
+        "char": "j",
+        "block": "minecraft:rail[shape=ascending_east]"
+      },
+      {
+        "char": "q",
+        "block": "minecraft:rail[shape=south_east]"
+      },
+      {
+        "char": "s",
+        "block": "minecraft:rail[shape=south_west]"
+      },
+      {
+        "char": "r",
+        "block": "minecraft:rail[shape=north_west]"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:rail[shape=north_east]"
+      },
+      {
+        "char": "g",
+        "block": "minecraft:stone"
+      },
+      {
+        "char": "f",
+        "block": "minecraft:powered_rail[powered=false,shape=east_west]"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:powered_rail[powered=false,shape=north_south]"
+      },
+      {
+        "char": "E",
+        "block": "minecraft:powered_rail[powered=false,shape=ascending_south]"
+      },
+      {
+        "char": "H",
+        "block": "minecraft:powered_rail[powered=false,shape=ascending_north]"
+      },
+      {
+        "char": "i",
+        "block": "minecraft:powered_rail[powered=false,shape=ascending_east]"
+      },
+      {
+        "char": "T",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "y",
+        "blocks": [
+          {
+            "random": 70,
+            "block": "zc_world:pastilha_white"
+          },
+          {
+            "random": 12,
+            "block": "minecraft:white_terracotta"
+          },
+          {
+            "random": 6,
+            "block": "minecraft:light_gray_terracotta"
+          },
+          {
+            "random": 1000,
+            "block": "zc_world:pastilha_white"
+          }
+        ],
+        "damaged": "minecraft:air"
+      },
+      {
+        "char": "Q",
+        "blocks": [
+          {
+            "random": 80,
+            "block": "minecraft:polished_granite"
+          },
+          {
+            "random": 1000,
+            "block": "create:polished_cut_granite"
+          }
+        ]
+      },
+      {
+        "block": "minecraft:yellow_concrete",
+        "char": "Ÿ"
+      },
+      {
+        "block": "minecraft:spruce_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+        "char": "Ɓ"
+      },
+      {
+        "block": "minecraft:spruce_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "char": "Ƅ"
+      },
+      {
+        "block": "minecraft:iron_bars[east=false,north=false,south=false,west=false,waterlogged=false]",
+        "char": "Ǩ"
+      },
+      {
+        "block": "minecraft:iron_block",
+        "char": "Ǝ"
+      },
+      {
+        "block": "minecraft:white_concrete",
+        "char": "Ɛ"
+      },
+      {
+        "block": "minecraft:blue_concrete",
+        "char": "Ɗ"
+      },
+      {
+        "block": "minecraft:glass_pane[east=true,north=false,south=false,west=true,waterlogged=false]",
+        "damaged": "minecraft:air",
+        "char": "Ƨ"
+      },
+      {
+        "block": "zc_world:litter",
+        "char": "Ƶ"
+      },
+      {
+        "block": "zc_world:blood",
+        "char": "Ʀ"
+      },
+      {
+        "char": "ǰ",
+        "block": "kubejs:sign_metro[facing=south]"
+      },
+      {
+        "char": "Ǳ",
+        "block": "minecraft:dark_oak_wall_sign[facing=south,waterlogged=false]",
+        "tag": {
+          "front_text": {
+            "messages": [
+              "{\"text\":\"LINHA 1 - AZUL\"}",
+              "{\"text\":\"\"}",
+              "{\"text\":\"\"}",
+              "{\"text\":\"\"}"
+            ],
+            "color": "white",
+            "has_glowing_text": false
+          },
+          "back_text": {
+            "messages": [
+              "{\"text\":\"LINHA 1 - AZUL\"}",
+              "{\"text\":\"\"}",
+              "{\"text\":\"\"}",
+              "{\"text\":\"\"}"
+            ],
+            "color": "white",
+            "has_glowing_text": false
+          },
+          "is_waxed": true
+        }
+      },
+      {
+        "char": "ǲ",
+        "block": "minecraft:dark_oak_wall_sign[facing=south,waterlogged=false]",
+        "tag": {
+          "front_text": {
+            "messages": [
+              "{\"text\":\"ESTACAO VILA OPERARIA\"}",
+              "{\"text\":\"\"}",
+              "{\"text\":\"\"}",
+              "{\"text\":\"\"}"
+            ],
+            "color": "white",
+            "has_glowing_text": false
+          },
+          "back_text": {
+            "messages": [
+              "{\"text\":\"ESTACAO VILA OPERARIA\"}",
+              "{\"text\":\"\"}",
+              "{\"text\":\"\"}",
+              "{\"text\":\"\"}"
+            ],
+            "color": "white",
+            "has_glowing_text": false
+          },
+          "is_waxed": true
+        }
+      }
+    ]
+  }
+}

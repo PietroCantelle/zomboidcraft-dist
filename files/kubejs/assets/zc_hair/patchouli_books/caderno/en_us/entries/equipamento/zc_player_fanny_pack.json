@@ -1,0 +1,18 @@
+{
+  "name": "item.zc_player.fanny_pack",
+  "icon": "zc_player:fanny_pack",
+  "category": "zc_hair:equipamento",
+  "advancement": "zc_recipes:learned/zc_player_fanny_pack",
+  "secret": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zc_player:fanny_pack"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.equipamento"
+    }
+  ]
+}

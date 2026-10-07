@@ -13,7 +13,7 @@
 			// The type of zombie.
 			"zombieType": "runner_zombie",
 			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
-			"spawnWeight": 3,
+			"spawnWeight": 6,
 			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
 			"minGroupSize": 1,
 			// Maximum number of zombies in a spawn group. Range: 1 - 1000
@@ -23,7 +23,7 @@
 			// The type of zombie.
 			"zombieType": "brute_zombie",
 			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
-			"spawnWeight": 2,
+			"spawnWeight": 5,
 			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
 			"minGroupSize": 1,
 			// Maximum number of zombies in a spawn group. Range: 1 - 1000
@@ -33,7 +33,7 @@
 			// The type of zombie.
 			"zombieType": "crawler_zombie",
 			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
-			"spawnWeight": 25,
+			"spawnWeight": 20,
 			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
 			"minGroupSize": 1,
 			// Maximum number of zombies in a spawn group. Range: 1 - 1000
@@ -73,7 +73,7 @@
 			// The type of zombie.
 			"zombieType": "axe_zombie",
 			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
-			"spawnWeight": 8,
+			"spawnWeight": 10,
 			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
 			"minGroupSize": 1,
 			// Maximum number of zombies in a spawn group. Range: 1 - 1000
@@ -83,7 +83,7 @@
 			// The type of zombie.
 			"zombieType": "sword_zombie",
 			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
-			"spawnWeight": 4,
+			"spawnWeight": 8,
 			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
 			"minGroupSize": 1,
 			// Maximum number of zombies in a spawn group. Range: 1 - 1000
@@ -93,7 +93,7 @@
 			// The type of zombie.
 			"zombieType": "weak_zombie",
 			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
-			"spawnWeight": 60,
+			"spawnWeight": 25,
 			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
 			"minGroupSize": 2,
 			// Maximum number of zombies in a spawn group. Range: 1 - 1000
@@ -103,7 +103,7 @@
 			// The type of zombie.
 			"zombieType": "slow_zombie",
 			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
-			"spawnWeight": 80,
+			"spawnWeight": 30,
 			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
 			"minGroupSize": 3,
 			// Maximum number of zombies in a spawn group. Range: 1 - 1000
@@ -123,7 +123,7 @@
 			// The type of zombie.
 			"zombieType": "cave_zombie",
 			// Spawn weight determines the probability of this zombie type spawning. Range: 1 - 1000
-			"spawnWeight": 20,
+			"spawnWeight": 25,
 			// Minimum number of zombies in a spawn group. Range: 1 - 1000. Advised to keep it less than maxGroupSize.
 			"minGroupSize": 2,
 			// Maximum number of zombies in a spawn group. Range: 1 - 1000

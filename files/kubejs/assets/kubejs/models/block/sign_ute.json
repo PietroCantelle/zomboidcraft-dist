@@ -1,0 +1,6 @@
+{
+  "parent": "kubejs:block/sign_style_oficial",
+  "textures": {
+    "sign": "kubejs:block/signs/ute"
+  }
+}

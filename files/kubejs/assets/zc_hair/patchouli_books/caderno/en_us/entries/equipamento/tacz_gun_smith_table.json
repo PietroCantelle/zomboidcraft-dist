@@ -1,0 +1,18 @@
+{
+  "name": "block.tacz.gun_smith_table",
+  "icon": "tacz:gun_smith_table",
+  "category": "zc_hair:equipamento",
+  "advancement": "zc_recipes:learned/tacz_gun_smith_table",
+  "secret": true,
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zomboidcraft:gun_smith_table"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.equipamento"
+    }
+  ]
+}

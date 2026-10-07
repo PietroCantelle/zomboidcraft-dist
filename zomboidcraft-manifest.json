@@ -11173,6 +11173,21 @@
    }
   },
   {
+   "path": "mods/Better-Light-1.20.1.jar",
+   "size": 78405,
+   "sha1": "934d4231d227c82cd3e4f2c6c669dbdaa88a5c84",
+   "side": "both",
+   "downloads": [
+    "https://mediafilez.forgecdn.net/files/8845/975/Better-Light-1.20.1.jar",
+    "https://edge.forgecdn.net/files/8845/975/Better-Light-1.20.1.jar"
+   ],
+   "name": "Better Light",
+   "curseforge": {
+    "projectId": 1552501,
+    "fileId": 8845975
+   }
+  },
+  {
    "path": "mods/betterbiomereblend-1.5.3.jar",
    "size": 226772,
    "sha1": "80d2e5e3bc88c610244d449859c4e3480f3edae1",
@@ -12280,6 +12295,20 @@
    "curseforge": {
     "projectId": 1604184,
     "fileId": 8453760
+   }
+  },
+  {
+   "path": "mods/foglooksgoodnow-1.0.1.jar",
+   "size": 1334645,
+   "sha1": "f9f237e96146f3a4a11527e901733f6446247f20",
+   "side": "client",
+   "downloads": [
+    "https://cdn.modrinth.com/data/BiVApO4O/versions/Au4nr4iP/foglooksgoodnow-1.0.1.jar"
+   ],
+   "name": "Fog Looks Good Now (port)",
+   "modrinth": {
+    "projectId": "BiVApO4O",
+    "versionId": "Au4nr4iP"
    }
   },
   {
@@ -14245,6 +14274,20 @@
    "curseforge": {
     "projectId": 412082,
     "fileId": 7884611
+   }
+  },
+  {
+   "path": "mods/swinginglanterns-neoforge-1.20.1-2.0.2.jar",
+   "size": 868744,
+   "sha1": "b4b88f68aa77c282afb78caee1c761f281da46fd",
+   "side": "both",
+   "downloads": [
+    "https://cdn.modrinth.com/data/3IOcW74j/versions/Tn3G8X5O/swinginglanterns-neoforge-1.20.1-2.0.2.jar"
+   ],
+   "name": "Swinging Lanterns",
+   "modrinth": {
+    "projectId": "3IOcW74j",
+    "versionId": "Tn3G8X5O"
    }
   },
   {

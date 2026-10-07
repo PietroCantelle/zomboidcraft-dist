@@ -1,0 +1,22 @@
+{
+  "name": "item.zc_survival.boiled_water_bottle",
+  "icon": "zc_survival:boiled_water_bottle",
+  "category": "zc_hair:saude",
+  "advancement": "zc_recipes:learned/zc_survival_boiled_water_bottle",
+  "secret": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:campfire",
+      "recipe": "zc_survival:boiled_water_campfire"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "zc_survival:boiled_water_smelting"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.saude"
+    }
+  ]
+}

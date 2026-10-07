@@ -1,0 +1,18 @@
+{
+  "name": "block.farmersdelight.cooking_pot",
+  "icon": "farmersdelight:cooking_pot",
+  "category": "zc_hair:abrigo",
+  "advancement": "zc_recipes:learned/farmersdelight_cooking_pot",
+  "secret": true,
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "farmersdelight:cooking_pot"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.abrigo"
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "xsize": 16,
+  "zsize": 16,
+  "slices": [
+    [
+      " 一丁丁丁丁丁   丁丁丁丁丁一",
+      " 一丁丁丁丁丁   丁丁丁丁丁一",
+      " 一丁丁丁丁丁   丁丁丁丁丁一",
+      "丂一丁丁丁丁丁   丁丁丁丁丁一",
+      " 一丁丁丁丁丁丁丁丁丁丁丁丁丁一",
+      " 一丁丁丁丁丁丁丁丁丁丁丁丁丁一",
+      " 一丁丁丁丁丁丁丁丁丁丁丁丁丁一",
+      " 一丁丁丁丁丁丁丁丁丁丁丁丁丁一",
+      " 一丁丁丁丁丁丁丁丁丁丁丁丁丁一",
+      " 一丁丁丁丁丁丁丁丁丁丁丁丁丁一",
+      " 一丁丁丁丁丁丁丁丁丁丁丁丁丁一",
+      " 一丁丁丁丁丁丁丁丁丁丁丁丁丁一",
+      " 一丁丁丁丁丁丁丁丁丁丁丁丁丁一",
+      " 一丁丁丁丁丁丁丁丁丁丁丁丁丁一",
+      " 一丁丁丁丁丁丁丁丁丁丁丁丁丁一",
+      " 一一一一一一一一一一一一一一一"
+    ],
+    [
+      " 七  丄 丅   丅 丆 万①",
+      " ⑩  丈 丅   丅 三  ①",
+      " ⑩  上 丅   丅 丆 下①",
+      " ⑩    丌   丌 丆  ①",
+      " ⑩     不与丏     ①",
+      " ⑩      丄   丆 丐①",
+      " ⑩  丄   丈   三  ①",
+      " ⑩  丈   上   丆 下①",
+      " ⑩  上       丆  ①",
+      " ⑩      丄      ①",
+      " ⑩  丄   丈   丆 万①",
+      " 七  丈   上   三  ①",
+      " ⑩  上       丆 下①",
+      " ⑩          丆  ①",
+      " ⑩      丑      ①",
+      " ①①①①①①①①①①①①①①①"
+    ],
+    [
+      " ⑩             ①",
+      " ⑩             ⑨",
+      " ⑩             ①",
+      " 七             ①",
+      " ⑩             ⑨",
+      " 七             ①",
+      " ⑩             ①",
+      " ⑩             ⑨",
+      " ⑩             ①",
+      " ⑩             ①",
+      " ⑩             ⑨",
+      " 七             ①",
+      " ⑩             ①",
+      " ⑩             七",
+      " ⑩  丒   丑      ①",
+      " ①①⑨①①⑨①①⑨①①⑨①①①"
+    ],
+    [
+      " ⑩             ①",
+      " ⑩             七",
+      " 七             ①",
+      " ⑩             ①",
+      " ⑩             ⑨",
+      " ⑩             ①",
+      " 七             ①",
+      " ⑩             ⑨",
+      " ⑩             ①",
+      " ⑩             ①",
+      " ⑩             七",
+      " ⑩             ①",
+      " ⑩             ①",
+      " 七             ⑨",
+      " ⑩  丑   丑     丒①",
+      " ①①⑨①①七①①七①①七①①①"
+    ],
+    [
+      " ⑩             ①",
+      " ⑩            专①",
+      " ⑩             ①",
+      " 七             ①",
+      " ⑩             ①",
+      " 七             ①",
+      " ⑩            且①",
+      " 七             ①",
+      " ⑩             ①",
+      " 七             ①",
+      " 七             ①",
+      " ⑩            丕①",
+      " ⑩             ①",
+      " ⑩             ①",
+      " ⑩       丒    丒①",
+      " ①①①①①①①①①①①①①①①"
+    ],
+    [
+      " ①             ①",
+      " ①             ①",
+      " ①世     丗      ①",
+      " ①             ①",
+      " ①             ①",
+      " ①             ①",
+      " ①             ①",
+      " ①      丗      ①",
+      " ①             ①",
+      " ①             ①",
+      " ①             ①",
+      " ①             ①",
+      " ①      丗      ①",
+      " ①             ①",
+      " ①            丑①",
+      " ①①①①①①①①①①①①①①①"
+    ]
+  ],
+  "palette": {
+    "palette": [
+      {
+        "char": "一",
+        "block": "minecraft:white_concrete"
+      },
+      {
+        "char": "丁",
+        "blocks": [
+          {
+            "random": 90,
+            "block": "minecraft:polished_diorite"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:white_terracotta"
+          }
+        ]
+      },
+      {
+        "char": "丂",
+        "block": "minecraft:vine[east=true]"
+      },
+      {
+        "char": "七",
+        "blocks": [
+          {
+            "random": 58,
+            "block": "minecraft:oak_planks"
+          },
+          {
+            "random": 38,
+            "block": "minecraft:spruce_planks"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:stripped_oak_log[axis=y]"
+          }
+        ]
+      },
+      {
+        "char": "丄",
+        "block": "refurbished_furniture:birch_chair[facing=north,tucked=false]"
+      },
+      {
+        "char": "丅",
+        "block": "minecraft:iron_bars[north=true,south=true,east=false,west=false]"
+      },
+      {
+        "char": "丆",
+        "block": "handcrafted:oak_counter[counter=smooth_stone,facing=west,type=1]"
+      },
+      {
+        "char": "万",
+        "block": "refurbished_furniture:light_fridge[facing=east]",
+        "loot": "zc_world:loot_fridge"
+      },
+      {
+        "char": "丈",
+        "block": "refurbished_furniture:birch_table[north=false,south=false,east=false,west=false]"
+      },
+      {
+        "char": "三",
+        "block": "refurbished_furniture:oak_drawer[facing=east]",
+        "loot": "zc_world:loot_boteco"
+      },
+      {
+        "char": "上",
+        "blocks": [
+          {
+            "random": 77,
+            "block": "refurbished_furniture:birch_chair[facing=south,tucked=false]"
+          },
+          {
+            "random": 1000,
+            "block": "zc_world:litter"
+          }
+        ]
+      },
+      {
+        "char": "下",
+        "block": "refurbished_furniture:red_cooler[facing=east]",
+        "loot": "zc_world:loot_padaria"
+      },
+      {
+        "char": "丌",
+        "block": "minecraft:iron_bars[north=true,south=false,east=false,west=false]"
+      },
+      {
+        "char": "不",
+        "block": "minecraft:iron_bars[north=false,south=false,east=true,west=false]"
+      },
+      {
+        "char": "与",
+        "block": "minecraft:iron_bars[north=false,south=false,east=true,west=true]"
+      },
+      {
+        "char": "丏",
+        "block": "minecraft:iron_bars[north=false,south=false,east=false,west=true]"
+      },
+      {
+        "char": "丐",
+        "block": "refurbished_furniture:light_stove[facing=east]"
+      },
+      {
+        "char": "丑",
+        "block": "minecraft:vine[south=true]"
+      },
+      {
+        "char": "丒",
+        "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=true,up=false,west=false]"
+      },
+      {
+        "char": "专",
+        "block": "kubejs:sign_burger[facing=west]"
+      },
+      {
+        "char": "且",
+        "block": "kubejs:sign_acai[facing=west]"
+      },
+      {
+        "char": "丕",
+        "block": "kubejs:sign_prato_feito[facing=west]"
+      },
+      {
+        "char": "世",
+        "block": "immersive_weathering:ivy[down=false,east=false,north=false,south=false,up=false,west=true]"
+      },
+      {
+        "char": "丗",
+        "block": "refurbished_furniture:light_ceiling_light[face=ceiling,facing=east,powered=false]"
+      }
+    ]
+  }
+}

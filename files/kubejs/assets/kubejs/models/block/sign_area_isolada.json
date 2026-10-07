@@ -1,0 +1,6 @@
+{
+  "parent": "kubejs:block/sign_style_aviso",
+  "textures": {
+    "sign": "kubejs:block/signs/area_isolada"
+  }
+}

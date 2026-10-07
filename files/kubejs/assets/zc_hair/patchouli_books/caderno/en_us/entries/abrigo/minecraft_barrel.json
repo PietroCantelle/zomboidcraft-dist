@@ -1,0 +1,18 @@
+{
+  "name": "block.minecraft.barrel",
+  "icon": "minecraft:barrel",
+  "category": "zc_hair:abrigo",
+  "advancement": "zc_recipes:learned/minecraft_barrel",
+  "secret": true,
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zomboidcraft:barrel_with_nails"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.abrigo"
+    }
+  ]
+}

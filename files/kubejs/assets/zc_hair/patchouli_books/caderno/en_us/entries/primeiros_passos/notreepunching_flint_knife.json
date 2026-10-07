@@ -1,0 +1,18 @@
+{
+  "name": "item.notreepunching.flint_knife",
+  "icon": "notreepunching:flint_knife",
+  "category": "zc_hair:primeiros_passos",
+  "advancement": "zc_recipes:learned/notreepunching_flint_knife",
+  "secret": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "notreepunching:flint_knife"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.primeiros_passos"
+    }
+  ]
+}

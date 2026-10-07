@@ -1,0 +1,19 @@
+{
+  "name": "item.zc_clothing.fabric",
+  "icon": "zc_clothing:fabric",
+  "category": "zc_hair:roupas",
+  "advancement": "zc_recipes:learned/zc_clothing_fabric",
+  "secret": true,
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zc_clothing:fabric_from_rags",
+      "recipe2": "zc_clothing:fabric_from_wool"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.roupas"
+    }
+  ]
+}

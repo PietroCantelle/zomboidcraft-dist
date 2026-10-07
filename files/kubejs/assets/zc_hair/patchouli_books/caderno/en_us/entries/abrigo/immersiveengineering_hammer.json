@@ -1,0 +1,18 @@
+{
+  "name": "item.immersiveengineering.hammer",
+  "icon": "immersiveengineering:hammer",
+  "category": "zc_hair:abrigo",
+  "advancement": "zc_recipes:learned/immersiveengineering_hammer",
+  "secret": true,
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "immersiveengineering:crafting/hammer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.abrigo"
+    }
+  ]
+}

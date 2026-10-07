@@ -1,0 +1,18 @@
+{
+  "name": "item.notreepunching.plant_string",
+  "icon": "notreepunching:plant_string",
+  "category": "zc_hair:primeiros_passos",
+  "advancement": "zc_recipes:learned/notreepunching_plant_string",
+  "secret": true,
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "notreepunching:plant_string"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.primeiros_passos"
+    }
+  ]
+}

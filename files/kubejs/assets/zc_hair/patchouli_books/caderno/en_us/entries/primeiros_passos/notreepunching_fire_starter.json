@@ -1,0 +1,18 @@
+{
+  "name": "item.notreepunching.fire_starter",
+  "icon": "notreepunching:fire_starter",
+  "category": "zc_hair:primeiros_passos",
+  "advancement": "zc_recipes:learned/notreepunching_fire_starter",
+  "secret": true,
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "notreepunching:fire_starter"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.primeiros_passos"
+    }
+  ]
+}

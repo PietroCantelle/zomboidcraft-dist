@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "zc_story:survivor",
+    "minecraft:villager",
+    "minecraft:wandering_trader"
+  ]
+}

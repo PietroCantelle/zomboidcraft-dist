@@ -1,0 +1,7 @@
+{
+  "name": "zc.recipes.cat.roupas",
+  "description": "zc.recipes.cat.roupas.desc",
+  "icon": "zc_clothing:hoodie",
+  "sortnum": 3,
+  "secret": true
+}
