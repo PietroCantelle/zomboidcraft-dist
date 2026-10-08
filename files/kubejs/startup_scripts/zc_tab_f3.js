@@ -4,6 +4,7 @@
 // o menu de emotes do Emotecraft (key.emotecraft.fastchoose). Quem ainda tem a tecla antiga
 // (- do pack ou B padrao do Emotecraft) e trocado para F3 uma vez ao abrir o jogo.
 // Tudo em try/catch: uma excecao escapando de um handler do ForgeEvents derruba o jogo.
+// 0.3.6: funcoes do bloco cliente viraram 'var nome = function' - declaracoes dentro de if nao existiam na hora dos eventos
 if (Platform.isClientEnvironment()) {
   var ZcTabMc = Java.loadClass('net.minecraft.client.Minecraft')
   var ZcTabComponent = Java.loadClass('net.minecraft.network.chat.Component')
@@ -13,13 +14,13 @@ if (Platform.isClientEnvironment()) {
   var ZC_EMOTE_OLD = ['key.keyboard.minus', 'key.keyboard.b', 'key.keyboard.unknown']
   var zcEmoteKeyChecked = false
 
-  function zcTabCount(mc) {
+  var zcTabCount = function(mc) {
     var conn = mc.getConnection()
     if (conn == null) return 0
     return conn.getListedOnlinePlayers().size()
   }
 
-  function zcTabDraw(event) {
+  var zcTabDraw = function(event) {
     var mc = ZcTabMc.getInstance()
     if (mc.player == null || !mc.options.keyPlayerList.isDown()) return
     var count = zcTabCount(mc)

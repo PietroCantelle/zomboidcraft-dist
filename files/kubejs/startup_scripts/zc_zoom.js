@@ -1,6 +1,7 @@
 // ZomboidCraft (v0.3.5) - zoom: segure X para aproximar a visao; a rodinha do mouse ajusta o zoom enquanto segura.
 // Tecla registrada como "Zoom" (categoria ZomboidCraft) em Opcoes > Controles, pode ser trocada pelo jogador.
 // So mexe no FOV da camera (nao no da mao) e volta suave ao soltar. Lado do cliente apenas.
+// 0.3.6: funcoes do bloco cliente viraram 'var nome = function' - declaracoes dentro de if nao existiam na hora dos eventos
 if (Platform.isClientEnvironment()) {
   var ZcKeyMapping = Java.loadClass('net.minecraft.client.KeyMapping')
   var ZcZoomMc = Java.loadClass('net.minecraft.client.Minecraft')
@@ -15,7 +16,7 @@ if (Platform.isClientEnvironment()) {
     event.register(zcZoomKey)
   })
 
-  function zcZoomHeld() {
+  var zcZoomHeld = function() {
     return ZcZoomMc.getInstance().screen == null && zcZoomKey.isDown()
   }
 

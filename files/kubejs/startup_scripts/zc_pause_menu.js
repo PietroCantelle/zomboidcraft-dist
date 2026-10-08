@@ -4,6 +4,7 @@
 // (config/fancymenu/customization/zomboidcraft_pause_screen.txt) tambem esconde os botoes vanilla conhecidos.
 // "Sair" e o botao vanilla: "Salvar e sair para o titulo" no mundo local, "Desconectar" no servidor.
 // Tudo em try/catch: uma excecao escapando de um handler do ForgeEvents derruba o jogo.
+// 0.3.6: funcoes do bloco cliente viraram 'var nome = function' - declaracoes dentro de if nao existiam na hora dos eventos
 if (Platform.isClientEnvironment()) {
   var ZcPauseScreen = Java.loadClass('net.minecraft.client.gui.screens.PauseScreen')
   var ZcAbstractWidget = Java.loadClass('net.minecraft.client.gui.components.AbstractWidget')
@@ -11,12 +12,12 @@ if (Platform.isClientEnvironment()) {
   // ordem de cima para baixo
   var ZC_PAUSE_KEEP = ['menu.returnToGame', 'menu.options', 'menu.returnToMenu', 'menu.disconnect']
 
-  function zcPauseKey(widget) {
+  var zcPauseKey = function(widget) {
     var contents = widget.getMessage().getContents()
     return contents instanceof ZcTranslatable ? String(contents.getKey()) : ''
   }
 
-  function zcPauseMenu(event) {
+  var zcPauseMenu = function(event) {
     var screen = event.getScreen()
     if (!(screen instanceof ZcPauseScreen) || !screen.showsPauseMenu()) return
     var kept = []
