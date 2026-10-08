@@ -1,4 +1,9 @@
-/** EMI Config - ZomboidCraft: sem o botao de configuracao do EMI no inventario (o resto fica no padrao do EMI). */
+/** EMI Config - ZomboidCraft: sem o botao de configuracao e sem o cabecalho "EMI" das barras laterais do inventario
+ *  (o indice de itens e a busca continuam; o resto fica no padrao do EMI). */
 #ui {
 	emi-config-button-visibility: never;
+	left-sidebar-header: invisible;
+	right-sidebar-header: invisible;
+	top-sidebar-header: invisible;
+	bottom-sidebar-header: invisible;
 }
