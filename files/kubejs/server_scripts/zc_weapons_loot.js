@@ -1,4 +1,4 @@
-// ZomboidCraft 0.3.6 - weapons in EVERY chest (LootJS 2.13, Forge 1.20.1). The zc_world chest tables already follow these
+// ZomboidCraft 0.3.7 - weapons in EVERY chest (LootJS 2.13, Forge 1.20.1). The zc_world chest tables already follow these
 // rules (forge/zc_world/tools/loot_weapons.py); this script covers the rest: Lost Cities, vanilla structures, Keerdm's cars
 // and gun chests, Lootr-wrapped tables, other mods.
 //   * no potions (healing or any other) - only plain water bottles stay (they are the "dirty glass water" of the pack);
@@ -58,12 +58,16 @@ LootJS.modifiers(event => {
   event.addLootTableModifier(/.*vics_point_blank_gunchest.*/)
     .randomChance(0.75)
     .removeLoot(ItemFilter.custom(s => isGun(s)))
-  // 5. a stray box of rounds anywhere (zc_world tables already have their own rounds: skip them)
-  event.addLootTableModifier(/^(?!zc_world:).*/)
+  // 5. a stray box of rounds in any CHEST (zc_world tables already have their own rounds: skip them).
+  //    0.3.7: the old regex /^(?!zc_world:).*/ matched every loot table, so rounds also dropped from broken blocks,
+  //    killed mobs and fishing. Only table ids containing "chest" count now, and blocks/ and entities/ tables never
+  //    (minecraft:blocks/chest is the chest block itself).
+  const CHEST_TABLE = /^(?!zc_world:)(?!.*:(blocks|entities)\/).*chest.*/
+  event.addLootTableModifier(CHEST_TABLE)
     .randomChance(0.08)
     .addWeightedLoot(AMMO.map(a => LootEntry.of(ammoStack(a, 1)).withWeight(a[1])))
   // 6. military / police / gun chests of OTHER mods and Lost Cities: more rounds, a rare gun (the zc_world ones are built in)
-  const OTHER_MILITARY = /^(?!zc_world:).*(military|militar|army|police|policia|armory|arsenal|bunker|weapon|gun|soldier).*/
+  const OTHER_MILITARY = /^(?!zc_world:)(?!.*:(blocks|entities)\/)(?=.*chest).*(military|militar|army|police|policia|armory|arsenal|bunker|weapon|gun|soldier).*/
   event.addLootTableModifier(OTHER_MILITARY)
     .randomChance(0.5)
     .addWeightedLoot(AMMO.map(a => LootEntry.of(ammoStack(a, 1.8)).withWeight(a[1])))

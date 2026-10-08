@@ -1,9 +1,14 @@
 [
   {
-    "dimension": "minecraft:overworld",
     "mob": [
       "minecraft:creeper",
-      "minecraft:skeleton",
+      "minecraft:skeleton"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
       "minecraft:spider",
       "minecraft:witch",
       "minecraft:enderman",
@@ -20,7 +25,7 @@
     "dimension": "minecraft:overworld",
     "hostile": true,
     "mincount": {
-      "amount": 8,
+      "amount": 10,
       "hostile": true,
       "perchunk": true
     },
@@ -30,7 +35,7 @@
     "dimension": "minecraft:overworld",
     "hostile": true,
     "mincount": {
-      "amount": 300,
+      "amount": 400,
       "hostile": true
     },
     "result": "deny"
@@ -825,6 +830,19 @@
     "mob": "undead_revamp2:clogger",
     "incontrol": true,
     "area": "zc_ute",
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "undead_revamp2:thesmoker",
+      "zombie_extreme:clicker",
+      "zombie_extreme:crawler",
+      "zombie_extreme:infected",
+      "zombie_extreme:runner"
+    ],
+    "incontrol": true,
+    "dimension": "minecraft:overworld",
+    "maxheight": 44,
     "result": "allow"
   },
   {
