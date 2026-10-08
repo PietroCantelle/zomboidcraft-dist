@@ -14,7 +14,9 @@ const ZC_GRACE_HALVED = {
 function zcGraceHurt(event) {
   var entity = event.getEntity()
   if (!entity.isPlayer() || !entity.getTags().contains('zc_grace')) return
-  if (!ZC_GRACE_HALVED[String(event.getSource().getMsgId())]) return
+  var src = event.getSource(), kind = ''
+  try { kind = String(src.getMsgId()) } catch (e1) { try { kind = String(src.type().msgId()) } catch (e2) { return } }
+  if (!ZC_GRACE_HALVED[kind]) return
   event.setAmount(event.getAmount() * 0.5)
 }
 

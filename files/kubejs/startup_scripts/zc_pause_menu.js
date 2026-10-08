@@ -19,7 +19,8 @@ if (Platform.isClientEnvironment()) {
 
   var zcPauseMenu = function(event) {
     var screen = event.getScreen()
-    if (!(screen instanceof ZcPauseScreen) || !screen.showsPauseMenu()) return
+    if (!(screen instanceof ZcPauseScreen)) return
+    try { if (!screen.showsPauseMenu()) return } catch (e) { }
     var kept = []
     var drop = []
     event.getListenersList().forEach(l => {

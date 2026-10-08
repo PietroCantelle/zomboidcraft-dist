@@ -6,7 +6,7 @@
 // Why server-side particles: the block has no animateTick in Java. The server scans the blocks around each
 // player every 2 s, caches the piles it found, and sends a few "fly" particles to them every 4 ticks.
 
-const TRASH_BLOCK = 'zc_world:trash_bags'
+var TRASH_BLOCK = 'zc_world:trash_bags'
 
 // ------------------------------------------------------------------ drops
 // Tearing a pile open always gives ONE random thing out of what people throw away. Three tiers:
@@ -31,18 +31,18 @@ const RARE = [
 ]
 
 function weighted(table) {
-  let total = 0
+  var total = 0
   table.forEach(e => { total += e[1] })
-  let r = Math.random() * total
-  for (const e of table) { r -= e[1]; if (r < 0) return e[0] }
+  var r = Math.random() * total
+  for (var e of table) { r -= e[1]; if (r < 0) return e[0] }
   return table[table.length - 1][0]
 }
 
 BlockEvents.broken(TRASH_BLOCK, event => {
-  const who = event.entity
+  var who = event.entity
   if (who && who.isCreative && who.isCreative()) return
-  const block = event.block
-  const r = Math.random()
+  var block = event.block
+  var r = Math.random()
   if (r < 0.05) {
     block.popItem(Item.of(weighted(RARE)))
   } else if (r < 0.25) {
@@ -62,22 +62,22 @@ const SCAN_EVERY = 40     // ticks between scans (2 s)
 const SPAWN_EVERY = 4     // ticks between particle bursts
 const MAX_PILES = 24      // piles per player that get flies (closest ones win)
 
-let tick = 0
+var tick = 0
 const piles = new Map()   // player uuid -> [[x, y, z], ...]
 
 ServerEvents.tick(event => {
   tick++
   if (tick % SPAWN_EVERY !== 0) return
-  const rescan = tick % SCAN_EVERY === 0
+  var rescan = tick % SCAN_EVERY === 0
   event.server.players.forEach(player => {
-    const level = player.level
-    const key = String(player.uuid)
+    var level = player.level
+    var key = String(player.uuid)
     if (rescan || !piles.has(key)) {
-      const found = []
-      const px = Math.floor(player.x), py = Math.floor(player.y), pz = Math.floor(player.z)
-      for (let dx = -SCAN_R; dx <= SCAN_R; dx++) {
-        for (let dz = -SCAN_R; dz <= SCAN_R; dz++) {
-          for (let dy = -SCAN_H; dy <= SCAN_H; dy++) {
+      var found = []
+      var px = Math.floor(player.x), py = Math.floor(player.y), pz = Math.floor(player.z)
+      for (var dx = -SCAN_R; dx <= SCAN_R; dx++) {
+        for (var dz = -SCAN_R; dz <= SCAN_R; dz++) {
+          for (var dy = -SCAN_H; dy <= SCAN_H; dy++) {
             if (level.getBlock(px + dx, py + dy, pz + dz).id === TRASH_BLOCK) {
               found.push([px + dx, py + dy, pz + dz, dx * dx + dy * dy + dz * dz])
             }
@@ -87,15 +87,15 @@ ServerEvents.tick(event => {
       found.sort((a, b) => a[3] - b[3])
       piles.set(key, found.slice(0, MAX_PILES))
     }
-    const list = piles.get(key)
+    var list = piles.get(key)
     if (!list || list.length === 0) return
     list.forEach(p => {
       // one fly per burst per pile, sometimes two
-      const n = Math.random() < 0.3 ? 2 : 1
-      for (let i = 0; i < n; i++) {
-        const x = p[0] + 0.2 + Math.random() * 0.6
-        const y = p[1] + 0.45 + Math.random() * 0.5
-        const z = p[2] + 0.2 + Math.random() * 0.6
+      var n = Math.random() < 0.3 ? 2 : 1
+      for (var i = 0; i < n; i++) {
+        var x = p[0] + 0.2 + Math.random() * 0.6
+        var y = p[1] + 0.45 + Math.random() * 0.5
+        var z = p[2] + 0.2 + Math.random() * 0.6
         // count 0 = the "offset" triple is used as velocity (scaled by the last argument)
         level.spawnParticles(FLY, false, x, y, z, (Math.random() - 0.5) * 0.8, (Math.random() - 0.3) * 0.4, (Math.random() - 0.5) * 0.8, 0, 1.0)
       }
