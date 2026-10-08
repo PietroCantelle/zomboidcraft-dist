@@ -1,0 +1,4 @@
+/** EMI Config - ZomboidCraft: sem o botao de configuracao do EMI no inventario (o resto fica no padrao do EMI). */
+#ui {
+	emi-config-button-visibility: never;
+}

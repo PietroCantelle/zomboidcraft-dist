@@ -24,4 +24,10 @@ ServerEvents.loaded(event => {
     data.putBoolean('zcDefaultGamerules036', true)
     console.info('[ZomboidCraft] 0.3.6 gamerules applied (reducedDebugInfo=true)')
   }
+  // 0.3.6: no "[Admin: ...]" echoes of tp / gamemode / time set... in the chat of other operators (logAdminCommands)
+  if (!data.getBoolean('zcDefaultGamerules036b')) {
+    server.runCommandSilent('gamerule logAdminCommands false')
+    data.putBoolean('zcDefaultGamerules036b', true)
+    console.info('[ZomboidCraft] 0.3.6 gamerules applied (logAdminCommands=false)')
+  }
 })

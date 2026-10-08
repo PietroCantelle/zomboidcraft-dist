@@ -11,6 +11,12 @@ const ZcReviveSurvivalAPI = Java.loadClass('gg.zomboidcraft.survival.api.Surviva
 const MobEffectCategory = Java.loadClass('net.minecraft.world.effect.MobEffectCategory')
 
 function zcRevive(player) {
+  // 0.3.6: preso ao corpo (espectador) -> volta no corpo com tudo; espectador sem corpo -> sobrevivencia no lugar
+  try {
+    Java.loadClass('gg.zomboidcraft.player.death.Revive').adminRevive(player)
+  } catch (e) {
+    console.warn('[ZomboidCraft] /revive: could not pull the player out of the body: ' + e)
+  }
   ZcReviveSurvivalAPI.resetAll(player, false)
 
   var bad = []
