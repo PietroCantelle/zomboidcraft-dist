@@ -15,7 +15,7 @@
 				"&f\"1. Agachado não faz barulho. 2. Eles vêm pelo som. 3. Não gasta a água da banheira à toa. 4. A porta de cima tranca por dentro. 5. Se eu for sair: de dia, devagar, e volta antes de escurecer. 6. O rádio: 98.3, às sete da noite.\""
 				""
 				"Este caderno é o seu diário de missões. Abre com &eJ&r ou pelo botão no canto do inventário."
-				"O progresso é do seu &egrupo&r (FTB Teams): quem estiver no mesmo grupo divide as missões. Crie ou entre num grupo pelo botão de equipe no inventário (ou &e/ftbteams party create <nome>&r). Cada um resgata a própria recompensa."
+				"O progresso é do seu &egrupo&r: quem estiver no mesmo grupo divide as missões, a reputação e os chefes. Abra a tela do grupo com &e]&r (ou &e/grupo&r): &eCRIAR GRUPO&r gera um código de 6 letras; quem quer entrar digita o código e &ePEDE&r, e o líder aceita. Ninguém tem nome lá: só o código. Cada um resgata a própria recompensa."
 				"Nada aqui aponta setas mágicas para lugar nenhum. Leia, olhe em volta, pergunte no rádio."
 			]
 			icon: "minecraft:paper"

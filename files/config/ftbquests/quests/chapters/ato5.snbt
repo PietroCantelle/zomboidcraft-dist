@@ -102,7 +102,7 @@
 				{
 					icon: "minecraft:wither_skeleton_skull"
 					id: "7A0B118862B77966"
-					title: "O Inchado caiu — com você na luta (esquadrão, tecla ])"
+					title: "O Inchado caiu — com você na luta (grupo, tecla ])"
 					type: "custom"
 				}
 				{
@@ -280,7 +280,7 @@
 				{
 					icon: "minecraft:wither_skeleton_skull"
 					id: "12737CE7AC924FD5"
-					title: "A Major caiu — com você na luta (esquadrão, tecla ])"
+					title: "A Major caiu — com você na luta (grupo, tecla ])"
 					type: "custom"
 				}
 				{
@@ -341,7 +341,7 @@
 				{
 					icon: "minecraft:wither_skeleton_skull"
 					id: "7409B0FBC792A4FD"
-					title: "O Paciente Zero caiu — com você na luta (esquadrão, tecla ])"
+					title: "O Paciente Zero caiu — com você na luta (grupo, tecla ])"
 					type: "custom"
 				}
 				{

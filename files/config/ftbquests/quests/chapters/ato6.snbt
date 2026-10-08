@@ -155,7 +155,7 @@
 				""
 				"&eOnde:&r a Muralha, no extremo leste (siga o nascer do sol): o único portão que ainda funciona, com a torre de controle de 60 m."
 				"&cBoss:&r no topo da torre de controle (sala envidraçada e passarela externa). Armadura pesada: explosão e bala quase não entram; lâmina curta nas costuras das costas entra. O visor quebra com golpes na cabeça. Ele empurra para a beirada e arrasta jogadores até ela (outro jogador solta). A cada 15 s ele para 2 s, ofegante."
-				"Ele larga as &echaves A e B&r do portão e o diário dele. Cada esquadrão que derruba o Escafandro sai com o seu par de chaves."
+				"Ele larga as &echaves A e B&r do portão e o diário dele. Cada grupo que derruba o Escafandro sai com o seu par de chaves."
 				"O diário tem a combinação do &ecofre da torre&r (4 dígitos): lá estão outra &echave B&r e a ordem do Protocolo Silêncio."
 			]
 			hide_until_deps_complete: true
@@ -186,7 +186,7 @@
 				{
 					icon: "minecraft:wither_skeleton_skull"
 					id: "5EFA815BF4374B2F"
-					title: "O Escafandro caiu — com você na luta (esquadrão, tecla ])"
+					title: "O Escafandro caiu — com você na luta (grupo, tecla ])"
 					type: "custom"
 				}
 				{

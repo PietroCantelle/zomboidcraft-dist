@@ -308,7 +308,7 @@
 				"No átrio do shopping, alguma coisa grita — e a horda do Centro obedece."
 				"&eOnde:&r o shopping de dois andares no Centro, uns 350 m a leste-sudeste da Matriz, com a claraboia rachada sobre o átrio."
 				"&cBoss:&r O Arauto acorda quando alguém entra no átrio (debaixo da claraboia). O grito tem 3 s de preparo: um golpe forte na cabeça interrompe. Cada grito puxa infectados dos corredores; depois ele grita em cone (empurra e enjoa) e derruba painéis da claraboia. Cabeça e garganta levam o triplo. Se ninguém fizer barulho perto, ele para para escutar."
-				"&eRegra dos chefes:&r cada sobrevivente enfrenta cada chefe uma vez, com o seu &eesquadrão&r (tecla &e]&r ou &e/grupo&r). Quem estiver no esquadrão e na arena quando ele cair recebe a vitória, e para essa pessoa ele não volta. Quem ainda não lutou encontra o chefe lá, esperando (se outro esquadrão estiver lutando: arena ocupada, espere)."
+				"&eRegra dos chefes:&r cada sobrevivente enfrenta cada chefe uma vez, com o seu &egrupo&r (tecla &e]&r ou &e/grupo&r). Quem estiver no grupo e na arena quando ele cair recebe a vitória, e para essa pessoa ele não volta. Quem ainda não lutou encontra o chefe lá, esperando (se outro grupo estiver lutando: arena ocupada, espere)."
 				"Ele larga o &emegafone&r e o &ecrachá da segurança&r da Galeria. A gravação do CFTV do Dia -3 está no baú da Galeria."
 			]
 			hide_until_deps_complete: true
@@ -344,7 +344,7 @@
 				{
 					icon: "minecraft:wither_skeleton_skull"
 					id: "69FDDB5318AD8415"
-					title: "O Arauto caiu — com você na luta (esquadrão, tecla ])"
+					title: "O Arauto caiu — com você na luta (grupo, tecla ])"
 					type: "custom"
 				}
 				{

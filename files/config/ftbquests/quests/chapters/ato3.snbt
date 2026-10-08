@@ -68,7 +68,7 @@
 				"Com pouca vida ele &eajoelha e se rende&r. A escolha é de vocês:"
 				"&e• Poupar:&r agache e segure clique direito nele por 3 s (ou algeme). Ele vira prisioneiro no Refúgio (Pedágio)."
 				"&e• Executar:&r bata de novo. Loot completo, e o Refúgio não gosta (Os Corvos)."
-				"As duas rotas seguem a história. O destino do Dente é um só por mundo: vale a primeira rendição ou execução. Esquadrões que chegarem depois ainda enfrentam o Dente (a vitória conta para eles), mas o mundo mantém o destino já escrito."
+				"As duas rotas seguem a história. O destino do Dente é um só por mundo: vale a primeira rendição ou execução. Grupos que chegarem depois ainda enfrentam o Dente (a vitória conta para eles), mas o mundo mantém o destino já escrito."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:iron_bars"

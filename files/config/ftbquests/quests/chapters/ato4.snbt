@@ -114,7 +114,7 @@
 				{
 					icon: "minecraft:wither_skeleton_skull"
 					id: "7012D937D9E5A7FC"
-					title: "O Escudo caiu — com você na luta (esquadrão, tecla ])"
+					title: "O Escudo caiu — com você na luta (grupo, tecla ])"
 					type: "custom"
 				}
 				{

@@ -358,7 +358,7 @@
 				"&7&oDona Cida, na manhã seguinte: \"Bom dia. Café é de cevada, açúcar acabou no dia seis. Quem trabalha, come. Quem não pode trabalhar, come também. Quem mente sobre mordida, vai embora. Tá bom? Tá bom.\""
 				""
 				"A &eDona Cida&r fica na sala da diretoria, no colégio em L. Falar com ela pela primeira vez te dá a reputação &eTolerado&r com o Refúgio (comércio e trabalhos do mural)."
-				"Ninguém sai sozinho desta cidade. Junte-se a outros sobreviventes num &egrupo&r (FTB Teams) e passe uma noite dormindo sob o mesmo teto — a quarentena da quadra: se ninguém virar até de manhã, vocês são gente."
+				"Ninguém sai sozinho desta cidade. Junte-se a outros sobreviventes num &egrupo&r (tecla &e]&r: código do grupo, pedido, o líder aceita) e passe uma noite dormindo sob o mesmo teto — a quarentena da quadra: se ninguém virar até de manhã, vocês são gente."
 			]
 			hide_until_deps_complete: true
 			icon: "comforts:sleeping_bag_brown"
