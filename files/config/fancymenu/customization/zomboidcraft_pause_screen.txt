@@ -67,7 +67,7 @@ element {
   height = 20
   stay_on_screen = false
   enable_parallax = false
-  source = ZomboidCraft 0.3.6
+  source = ZomboidCraft 0.3.1
   source_mode = direct
   base_color = #8C8174
   scale = 1.0
@@ -80,38 +80,3 @@ element {
   interactable = false
 }
 
-
-vanilla_button {
-  element_type = vanilla_button
-  instance_identifier = mc_pausescreen_advancements_button
-  anchor_point = vanilla
-  is_hidden = true
-}
-
-vanilla_button {
-  element_type = vanilla_button
-  instance_identifier = mc_pausescreen_stats_button
-  anchor_point = vanilla
-  is_hidden = true
-}
-
-vanilla_button {
-  element_type = vanilla_button
-  instance_identifier = mc_pausescreen_feedback_button
-  anchor_point = vanilla
-  is_hidden = true
-}
-
-vanilla_button {
-  element_type = vanilla_button
-  instance_identifier = mc_pausescreen_report_bugs_button
-  anchor_point = vanilla
-  is_hidden = true
-}
-
-vanilla_button {
-  element_type = vanilla_button
-  instance_identifier = mc_pausescreen_lan_button
-  anchor_point = vanilla
-  is_hidden = true
-}

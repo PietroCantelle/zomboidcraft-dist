@@ -81,7 +81,7 @@ element {
   height = 20
   stay_on_screen = false
   enable_parallax = false
-  source = ZomboidCraft 0.3.6
+  source = ZomboidCraft 0.3.1
   source_mode = direct
   base_color = #8C8174
   scale = 1.0
@@ -96,7 +96,7 @@ element {
 
 vanilla_button {
   element_type = vanilla_button
-  instance_identifier = mc_titlescreen_singleplayer_button
+  instance_identifier = mc_titlescreen_multiplayer_button
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
@@ -112,34 +112,8 @@ vanilla_button {
   enable_parallax = false
   is_hidden = false
   label = 
-  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/btn_singleplayer.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/btn_singleplayer_hover.png
-  nine_slice_custom_background = false
-  transparent_background = false
-  underline_label_on_hover = false
-  navigatable = true
-}
-
-vanilla_button {
-  element_type = vanilla_button
-  instance_identifier = mc_titlescreen_multiplayer_button
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-left
-  x = 18
-  y = -2
-  width = 150
-  height = 20
-  stay_on_screen = false
-  enable_parallax = false
-  is_hidden = false
-  label = 
-  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/btn_multiplayer.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/btn_multiplayer_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/btn_play.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/btn_play_hover.png
   nine_slice_custom_background = false
   transparent_background = false
   underline_label_on_hover = false
@@ -157,7 +131,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-left
   x = 18
-  y = 22
+  y = -2
   width = 150
   height = 20
   stay_on_screen = false
@@ -183,7 +157,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-left
   x = 18
-  y = 46
+  y = 22
   width = 150
   height = 20
   stay_on_screen = false
@@ -200,28 +174,16 @@ vanilla_button {
 
 vanilla_button {
   element_type = vanilla_button
-  instance_identifier = forge_titlescreen_mods_button
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-left
-  x = 18
-  y = 74
-  width = 56
-  height = 14
-  stay_on_screen = false
-  enable_parallax = false
+  instance_identifier = mc_titlescreen_singleplayer_button
+  anchor_point = vanilla
   is_hidden = true
-  label = 
-  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/btn_mods.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/btn_mods_hover.png
-  nine_slice_custom_background = false
-  transparent_background = false
-  underline_label_on_hover = false
-  navigatable = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = forge_titlescreen_mods_button
+  anchor_point = vanilla
+  is_hidden = true
 }
 
 vanilla_button {

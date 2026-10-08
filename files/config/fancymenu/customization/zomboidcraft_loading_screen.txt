@@ -138,7 +138,7 @@ element {
   height = 20
   stay_on_screen = false
   enable_parallax = false
-  source = ZomboidCraft 0.3.6
+  source = ZomboidCraft 0.3.1
   source_mode = direct
   base_color = #8C8174
   scale = 1.0
