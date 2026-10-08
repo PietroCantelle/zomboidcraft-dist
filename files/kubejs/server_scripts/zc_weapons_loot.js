@@ -3,7 +3,7 @@
 // and gun chests, Lootr-wrapped tables, other mods.
 //   * no potions (healing or any other) - only plain water bottles stay (they are the "dirty glass water" of the pack);
 //   * vanilla swords -> a melee weapon of Lot-a-Melees 60% of the time (damaged), nothing otherwise;
-//   * bows / crossbows / arrows -> TaCZ ammo, or (rarely) a simple gun;
+//   * bows (and tipped arrows) -> TaCZ ammo, or (rarely) a simple gun; crossbows and plain arrows stay;
 //   * a stray box of rounds in ~8% of any chest; guns only through the military / police / gun chests, and rare;
 //   * the top tier (AWP, M95, M249, RPK, RPG-7, golden Deagle) never comes out of a chest;
 //   * Keerdm's "point blank" gun chests lose their guns 3 times out of 4.
@@ -39,7 +39,7 @@ LootJS.modifiers(event => {
   const isGun = stack => String(stack.id) === 'tacz:modern_kinetic_gun'
 
   const SWORD = /^minecraft:(wooden|stone|iron|golden|diamond|netherite)_sword$/
-  const RANGED = /^minecraft:(bow|crossbow|arrow|spectral_arrow|tipped_arrow)$/
+  const RANGED = /^minecraft:(bow|tipped_arrow)$/   // crossbows and plain arrows stay
   const POTION = ItemFilter.custom(s => /^minecraft:(splash_|lingering_)?potion$/.test(String(s.id))
     && String(s.nbt ? s.nbt.getString('Potion') : '') !== 'minecraft:water')
   const MILITARY = /.*(military|militar|army|police|policia|armory|arsenal|bunker|weapon|gun|soldier|batalhao|base_cerco|portao1).*/
@@ -49,7 +49,7 @@ LootJS.modifiers(event => {
   // 2. swords -> melee weapons (fewer than there were swords)
   event.addLootTypeModifier(LootType.CHEST)
     .modifyLoot(Ingredient.of(SWORD), s => Math.random() < 0.6 ? meleeStack() : Item.of('minecraft:air'))
-  // 3. bows and arrows -> rounds; 1 in 10 a simple gun
+  // 3. bows (and tipped arrows) -> rounds; 1 in 10 a simple gun
   event.addLootTypeModifier(LootType.CHEST)
     .modifyLoot(Ingredient.of(RANGED), s => Math.random() < 0.1 ? gunStack(pick(SIMPLE)) : ammoStack(pick(AMMO), 1))
   // 4. the top tier never, and most guns of Keerdm's gun chests are gone
