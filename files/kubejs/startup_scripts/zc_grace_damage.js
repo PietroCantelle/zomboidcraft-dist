@@ -26,47 +26,6 @@ ForgeEvents.onEvent('net.minecraftforge.event.entity.living.LivingHurtEvent', ev
   }
 })
 
-// Esconde o efeito "Sem minimapa" do Xaero (o zc_player usa ele para travar o minimapa sem GPS) na tela do inventario.
-// O zc_player ja pede para o Forge nao desenhar o efeito, mas ele ainda aparecia. Aqui ele sai do mapa de efeitos
-// do jogador local so enquanto a tela e desenhada e volta logo depois; o minimapa continua travado sem GPS.
-if (Platform.isClientEnvironment()) {
-  var ZC_HIDDEN_EFFECTS = ['xaerominimap:no_minimap', 'xaerominimap:no_waypoints',
-    'xaerominimap:no_minimap_harmful', 'xaerominimap:no_waypoints_harmful']
-  var ZcGraceMinecraft = Java.loadClass('net.minecraft.client.Minecraft')
-  var ZcForgeRegistries = Java.loadClass('net.minecraftforge.registries.ForgeRegistries')
-  var zcStashed = []
-
-  function zcHideMapEffects() {
-    zcStashed = []
-    var player = ZcGraceMinecraft.getInstance().player
-    if (!player) return
-    var map = player.getActiveEffectsMap()
-    var it = map.entrySet().iterator()
-    while (it.hasNext()) {
-      var entry = it.next()
-      var key = ZcForgeRegistries.MOB_EFFECTS.getKey(entry.getKey())
-      if (key && ZC_HIDDEN_EFFECTS.indexOf(String(key)) >= 0) {
-        zcStashed.push([entry.getKey(), entry.getValue()])
-        it.remove()
-      }
-    }
-  }
-
-  function zcRestoreMapEffects() {
-    var player = ZcGraceMinecraft.getInstance().player
-    if (player && zcStashed.length) {
-      var map = player.getActiveEffectsMap()
-      for (var i = 0; i < zcStashed.length; i++) {
-        if (!map.containsKey(zcStashed[i][0])) map.put(zcStashed[i][0], zcStashed[i][1])
-      }
-    }
-    zcStashed = []
-  }
-
-  ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Render$Pre', event => {
-    try { zcHideMapEffects() } catch (e) { zcStashed = []; console.error('[ZomboidCraft] hide map effects failed: ' + e) }
-  })
-  ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Render$Post', event => {
-    try { zcRestoreMapEffects() } catch (e) { console.error('[ZomboidCraft] restore map effects failed: ' + e) }
-  })
-}
+// (0.3.6) O bloco que escondia os efeitos "Sem minimapa" do Xaero durante a tela do inventario saiu daqui: as funcoes
+// declaradas dentro do if nao existiam na hora do evento (erro a cada frame) e o zc_player ja faz isso em Java
+// (XaeroMinimapCompat.stashForScreen), inclusive no servidor dedicado, onde o efeito fica sem nome de registro.
