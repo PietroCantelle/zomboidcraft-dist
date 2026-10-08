@@ -18,4 +18,10 @@ ServerEvents.loaded(event => {
     data.putBoolean('zcDefaultGamerules025', true)
     console.info('[ZomboidCraft] 0.2.5 gamerules applied (sunray=false, hunternibling=false)')
   }
+  // 0.3.6: F3 without coordinates / block info (reducedDebugInfo) - the GPS item is the only way to know where you are.
+  if (!data.getBoolean('zcDefaultGamerules036')) {
+    server.runCommandSilent('gamerule reducedDebugInfo true')
+    data.putBoolean('zcDefaultGamerules036', true)
+    console.info('[ZomboidCraft] 0.3.6 gamerules applied (reducedDebugInfo=true)')
+  }
 })
