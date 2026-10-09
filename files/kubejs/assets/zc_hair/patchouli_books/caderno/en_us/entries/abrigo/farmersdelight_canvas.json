@@ -8,7 +8,13 @@
   "pages": [
     {
       "type": "patchouli:crafting",
-      "recipe": "farmersdelight:canvas"
+      "recipe": "farmersdelight:canvas",
+      "recipe2": "zomboidcraft:canvas_from_plant_string"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zomboidcraft:canvas_from_wool",
+      "recipe2": "zomboidcraft:canvas_from_leather"
     },
     {
       "type": "patchouli:text",

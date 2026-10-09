@@ -117,5 +117,20 @@ var ZC_RECIPE_NOTES = [
  [ "zc_player:waypoint_marker", "zc_hair:equipamento/zc_player_waypoint_marker", "zc_recipes:learned/zc_player_waypoint_marker",
   [ "zc_player:waypoint_marker" ] ],
  [ "zc_story:calendario", "zc_hair:abrigo/zc_story_calendario", "zc_recipes:learned/zc_story_calendario",
-  [ "zc_story:calendario" ] ]
+  [ "zc_story:calendario" ] ],
+ // 0.3.9 (by hand)
+ [ "zc_player:flare", "zc_hair:equipamento/zc_player_flare", "zc_recipes:learned/zc_player_flare",
+  [ "zc_player:flare" ] ],
+ [ "zc_player:vant", "zc_hair:equipamento/zc_player_vant", "zc_recipes:learned/zc_player_vant",
+  [ "zc_player:vant" ] ],
+ [ "zc_player:signal_jammer", "zc_hair:equipamento/zc_player_signal_jammer", "zc_recipes:learned/zc_player_signal_jammer",
+  [ "zc_player:signal_jammer" ] ],
+ [ "farmersdelight:straw", "zc_hair:abrigo/farmersdelight_straw", "zc_recipes:learned/farmersdelight_straw",
+  [ "zomboidcraft:straw_from_wheat", "zomboidcraft:straw_from_dead_bush" ] ],
+ [ "minecraft:paper", "zc_hair:abrigo/minecraft_paper", "zc_recipes:learned/minecraft_paper",
+  [ "minecraft:paper", "zomboidcraft:paper_from_straw" ] ],
+ [ "farmersdelight:rope", "zc_hair:abrigo/farmersdelight_rope", "zc_recipes:learned/farmersdelight_rope",
+  [ "farmersdelight:rope", "zomboidcraft:rope_from_string" ] ],
+ [ "minecraft:string", "zc_hair:primeiros_passos/minecraft_string", "zc_recipes:learned/minecraft_string",
+  [ "zomboidcraft:string_from_plant_string" ] ]
 ]

@@ -1,0 +1,18 @@
+{
+  "name": "block.zc_player.signal_jammer",
+  "icon": "zc_player:signal_jammer",
+  "category": "zc_hair:equipamento",
+  "advancement": "zc_recipes:learned/zc_player_signal_jammer",
+  "secret": true,
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zc_player:signal_jammer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.equipamento"
+    }
+  ]
+}

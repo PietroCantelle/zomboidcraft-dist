@@ -1,0 +1,19 @@
+{
+  "name": "item.farmersdelight.rope",
+  "icon": "farmersdelight:rope",
+  "category": "zc_hair:abrigo",
+  "advancement": "zc_recipes:learned/farmersdelight_rope",
+  "secret": true,
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "farmersdelight:rope",
+      "recipe2": "zomboidcraft:rope_from_string"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.abrigo"
+    }
+  ]
+}

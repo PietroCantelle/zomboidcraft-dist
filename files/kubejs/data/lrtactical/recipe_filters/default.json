@@ -1,0 +1,8 @@
+{
+  "whitelist": [
+    "^lrtactical:.*$",
+    "^delta_wt:.*$",
+    "^zomboidcraft:.*$"
+  ],
+  "blacklist": []
+}

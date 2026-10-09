@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
 
   // Every Gun Smith Table recipe (TaCZ default pack + addon gun packs): add salvage cost and
   // halve ammo output. Done by rewriting the JSON (TaCZ ships a KubeJS schema, so r.json is available).
-  let guns = 0, ammo = 0, att = 0
+  let guns = 0, ammo = 0, att = 0, melee = 0, lrRemoved = 0
   let todo = []
   event.forEachRecipe({ type: 'tacz:gun_smith_table_crafting' }, r => {
     let j = JSON.parse(String(r.json.toString()))
@@ -121,6 +121,22 @@ ServerEvents.recipes(event => {
     } else if (kind == 'ammo') {
       if (j.result.count && j.result.count > 1) j.result.count = Math.max(1, Math.floor(j.result.count / 2))
       ammo++
+    } else if (kind == 'custom' && j.result.group) {
+      // 0.3.9 - LesRaisins Tactical (lrtactical) + DeltaForce Melee Pack: TaCZ cold weapons.
+      // Only the MELEE weapons stay; their recipes get very expensive (loot-only salvage + plates instead of ingots).
+      // Everything else of lrtactical (grenades, molotov, C4, medkits, flash shield) loses its recipe.
+      let group = String(j.result.group)
+      if (group != 'lrtactical:melee') {
+        r.remove()
+        lrRemoved++
+        return
+      }
+      j.materials.forEach(mat => {
+        if (mat.item && mat.item.tag == 'forge:ingots/iron') { mat.item = { tag: 'forge:plates/iron' }; mat.count = (mat.count || 1) * 2 }
+      })
+      j.materials.push({ item: { item: 'kubejs:weapon_parts' }, count: 3 })
+      j.materials.push({ item: { tag: 'forge:leather' }, count: 2 })
+      melee++
     } else {
       return
     }
@@ -131,5 +147,20 @@ ServerEvents.recipes(event => {
     t.recipe.remove()
     event.custom(t.json).id(t.id)
   })
-  console.info(`[ZC] TaCZ recipes rewritten: guns=${guns} attachments=${att} ammo=${ammo}`)
+  console.info(`[ZC] TaCZ recipes rewritten: guns=${guns} attachments=${att} ammo=${ammo} melee=${melee} (lrtactical non-melee removed: ${lrRemoved})`)
+  // lrtactical's own workbench (Smithing Table LRT): plates instead of ingots
+  event.replaceInput({ id: 'lrtactical:smith_table' }, 'minecraft:iron_ingot', IRON_PLATE)
+
+  // ------------------------------------------------------------------ 4. 0.3.9: more ways to make the basics
+  // Lona (Farmer's Delight canvas) used to need straw only (knife + wheat/grass). Three alternatives:
+  event.shaped('farmersdelight:canvas', ['SS', 'SS'], { S: 'notreepunching:plant_string' }).id('zomboidcraft:canvas_from_plant_string')
+  event.shapeless('2x farmersdelight:canvas', ['#minecraft:wool', '#minecraft:wool', '#forge:string']).id('zomboidcraft:canvas_from_wool')
+  event.shapeless('2x farmersdelight:canvas', ['#forge:leather', '#forge:leather', '#forge:string']).id('zomboidcraft:canvas_from_leather')
+  // Palha without a Farmer's Delight knife: thresh wheat by hand, or shred a dead bush.
+  event.shapeless('2x farmersdelight:straw', ['minecraft:wheat', 'minecraft:wheat', 'minecraft:wheat']).id('zomboidcraft:straw_from_wheat')
+  event.shapeless('2x farmersdelight:straw', ['minecraft:dead_bush']).id('zomboidcraft:straw_from_dead_bush')
+  // Papel de palha, barbante de fibra, corda de barbante.
+  event.shaped('2x minecraft:paper', ['SSS'], { S: 'farmersdelight:straw' }).id('zomboidcraft:paper_from_straw')
+  event.shapeless('2x minecraft:string', ['notreepunching:plant_string', 'notreepunching:plant_string', 'notreepunching:plant_string']).id('zomboidcraft:string_from_plant_string')
+  event.shaped('2x farmersdelight:rope', ['S', 'S', 'S'], { S: '#forge:string' }).id('zomboidcraft:rope_from_string')
 })

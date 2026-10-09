@@ -1,0 +1,19 @@
+{
+  "name": "item.farmersdelight.straw",
+  "icon": "farmersdelight:straw",
+  "category": "zc_hair:abrigo",
+  "advancement": "zc_recipes:learned/farmersdelight_straw",
+  "secret": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zomboidcraft:straw_from_wheat",
+      "recipe2": "zomboidcraft:straw_from_dead_bush"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.abrigo"
+    }
+  ]
+}

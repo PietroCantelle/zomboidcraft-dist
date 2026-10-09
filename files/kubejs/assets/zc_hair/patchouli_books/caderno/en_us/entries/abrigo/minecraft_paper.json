@@ -1,0 +1,19 @@
+{
+  "name": "item.minecraft.paper",
+  "icon": "minecraft:paper",
+  "category": "zc_hair:abrigo",
+  "advancement": "zc_recipes:learned/minecraft_paper",
+  "secret": true,
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:paper",
+      "recipe2": "zomboidcraft:paper_from_straw"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.abrigo"
+    }
+  ]
+}
