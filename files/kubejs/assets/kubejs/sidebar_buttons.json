@@ -1,0 +1,11 @@
+{
+  "caderno": {
+    "group": "ftblibrary:info",
+    "icon": "kubejs:item/survival_journal",
+    "x": 611,
+    "click": "command:/caderno",
+    "required_server_mods": [
+      "kubejs"
+    ]
+  }
+}

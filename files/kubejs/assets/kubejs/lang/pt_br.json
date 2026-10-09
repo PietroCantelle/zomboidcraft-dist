@@ -1,4 +1,6 @@
 {
+  "sidebar_button.kubejs.caderno": "Caderno de Sobrevivência",
+  "sidebar_button.kubejs.caderno.tooltip": "Abre o caderno com as receitas que você já aprendeu",
   "item.kubejs.weapon_parts": "Peças de Arma",
   "item.kubejs.weapon_parts.tooltip": "Sucata militar. Necessária para montar armas de fogo.",
   "item.kubejs.military_electronics": "Eletrônicos Militares",

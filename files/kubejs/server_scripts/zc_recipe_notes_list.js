@@ -112,5 +112,10 @@ var ZC_RECIPE_NOTES = [
  [ "create:water_wheel", "zc_hair:maquinas/create_water_wheel", "zc_recipes:learned/create_water_wheel",
   [ "create:crafting/kinetics/water_wheel" ] ],
  [ "create:mechanical_press", "zc_hair:maquinas/create_mechanical_press", "zc_recipes:learned/create_mechanical_press",
-  [ "create:crafting/kinetics/mechanical_press" ] ]
+  [ "create:crafting/kinetics/mechanical_press" ] ],
+ // 0.3.8 (added by hand, not by gen_recipe_book.js)
+ [ "zc_player:waypoint_marker", "zc_hair:equipamento/zc_player_waypoint_marker", "zc_recipes:learned/zc_player_waypoint_marker",
+  [ "zc_player:waypoint_marker" ] ],
+ [ "zc_story:calendario", "zc_hair:abrigo/zc_story_calendario", "zc_recipes:learned/zc_story_calendario",
+  [ "zc_story:calendario" ] ]
 ]
