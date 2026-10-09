@@ -1,0 +1,23 @@
+{
+  "name": "zc.recipes.spray_can",
+  "icon": "zc_graffiti:spray_can_red",
+  "category": "zc_hair:abrigo",
+  "advancement": "zc_recipes:learned/zc_graffiti_spray_can",
+  "secret": true,
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zc_graffiti:spray_can_red",
+      "recipe2": "zc_graffiti:spray_can_black"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.spray_can.text"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.abrigo"
+    }
+  ]
+}

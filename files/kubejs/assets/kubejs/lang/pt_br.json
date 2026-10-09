@@ -106,5 +106,7 @@
   "block.kubejs.ad_saude_fique_em_casa": "Cartaz: Fique em Casa",
   "block.kubejs.ad_vacina": "Cartaz: Vacine-se",
   "block.kubejs.ad_quarentena_aviso": "Cartaz: Área em Quarentena",
-  "block.kubejs.ad_procurado_dente": "Cartaz: Procurado: Dente"
+  "block.kubejs.ad_procurado_dente": "Cartaz: Procurado: Dente",
+  "zc.recipes.spray_can": "Spray de tinta",
+  "zc.recipes.spray_can.text": "Uma lata para cada corante: chapa de ferro, pólvora como propelente e o corante. Segure o clique direito mirando a parede. De perto o jato é fino e cheio; de longe abre numa mancha larga e rala. Quebrar o bloco apaga a pixação."
 }

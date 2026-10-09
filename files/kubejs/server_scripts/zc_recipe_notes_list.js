@@ -132,5 +132,7 @@ var ZC_RECIPE_NOTES = [
  [ "farmersdelight:rope", "zc_hair:abrigo/farmersdelight_rope", "zc_recipes:learned/farmersdelight_rope",
   [ "farmersdelight:rope", "zomboidcraft:rope_from_string" ] ],
  [ "minecraft:string", "zc_hair:primeiros_passos/minecraft_string", "zc_recipes:learned/minecraft_string",
-  [ "zomboidcraft:string_from_plant_string" ] ]
+  [ "zomboidcraft:string_from_plant_string" ] ],
+ [ "zc_graffiti:spray_can_red", "zc_hair:abrigo/zc_graffiti_spray_can", "zc_recipes:learned/zc_graffiti_spray_can",
+  [ "zc_graffiti:spray_can_red", "zc_graffiti:spray_can_black" ] ]
 ]

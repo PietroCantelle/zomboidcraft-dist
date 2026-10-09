@@ -22,6 +22,16 @@ LootJS.modifiers(event => {
     .addWeightedLoot(['riot_armor_chestplate', 'swat_armor_chestplate', 'black_plate_carrier_light', 'olive_plate_carrier_light']
       .map(i => LootEntry.of('marbledsarsenal:' + i)))
 
+  // 0.3.9 - spray cans (zc_graffiti): shops, garages, warehouses, schools and offices often; anywhere else rarely.
+  const CANS = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple',
+    'blue', 'brown', 'green', 'red', 'black'].map(c => LootEntry.of('zc_graffiti:spray_can_' + c))
+  event.addLootTableModifier(/.*(hardware|garage|mechanic|industrial|office|school|supermarket|clothing|metro).*/)
+    .randomChance(0.15)
+    .addWeightedLoot(CANS)
+  event.addLootTypeModifier(LootType.CHEST)
+    .randomChance(0.02)
+    .addWeightedLoot(CANS)
+
   // any other chest (houses, shops, ruins, mineshafts...)
   event.addLootTypeModifier(LootType.CHEST)
     .randomChance(0.03)
