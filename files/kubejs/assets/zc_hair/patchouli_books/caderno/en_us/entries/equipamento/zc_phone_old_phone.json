@@ -1,0 +1,18 @@
+{
+  "name": "item.zc_phone.old_phone",
+  "icon": "zc_phone:old_phone",
+  "category": "zc_hair:equipamento",
+  "advancement": "zc_recipes:learned/zc_phone_old_phone",
+  "secret": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zc_phone:old_phone"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.equipamento"
+    }
+  ]
+}

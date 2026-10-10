@@ -108,5 +108,7 @@
   "block.kubejs.ad_quarentena_aviso": "Poster: Área em Quarentena",
   "block.kubejs.ad_procurado_dente": "Poster: Procurado: Dente",
   "zc.recipes.spray_can": "Spray paint",
-  "zc.recipes.spray_can.text": "One can per dye: iron plate, gunpowder as propellant and the dye. Hold right-click aiming at the wall. Up close the jet is thin and solid; far away it opens into a wide thin cloud. Breaking the block wipes the paint."
+  "zc.recipes.spray_can.text": "One can per dye: iron plate, gunpowder as propellant and the dye. Hold right-click aiming at the wall. Up close the jet is thin and solid; far away it opens into a wide thin cloud. Breaking the block wipes the paint.",
+  "zc.recipes.nether": "Nether substitutes",
+  "zc.recipes.nether.text": "The wall sealed the Nether along with the city. What came from there is now improvised: quartz from amethyst, glowstone from glow ink, blaze powder from gunpowder and coal, nether wart from red mushrooms. Melee and Create recipes take the substitute directly."
 }

@@ -1,0 +1,34 @@
+{
+  "name": "zc.recipes.nether",
+  "icon": "minecraft:quartz",
+  "category": "zc_hair:maquinas",
+  "advancement": "zc_recipes:learned/zomboidcraft_nether",
+  "secret": true,
+  "sortnum": 60,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zomboidcraft:quartz_from_amethyst",
+      "recipe2": "zomboidcraft:glowstone_from_glow_ink"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zomboidcraft:blaze_powder_from_gunpowder",
+      "recipe2": "zomboidcraft:blaze_rod_from_powder"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zomboidcraft:nether_wart_from_mushroom",
+      "recipe2": "zomboidcraft:netherrack_from_cobble"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zomboidcraft:magma_cream_overworld",
+      "recipe2": "zomboidcraft:blaze_burner_overworld"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.nether.text"
+    }
+  ]
+}

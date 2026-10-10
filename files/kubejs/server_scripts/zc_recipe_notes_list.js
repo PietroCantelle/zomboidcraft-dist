@@ -133,6 +133,12 @@ var ZC_RECIPE_NOTES = [
   [ "farmersdelight:rope", "zomboidcraft:rope_from_string" ] ],
  [ "minecraft:string", "zc_hair:primeiros_passos/minecraft_string", "zc_recipes:learned/minecraft_string",
   [ "zomboidcraft:string_from_plant_string" ] ],
+ [ "zc_market:vending_stand", "zc_hair:abrigo/zc_market_vending_stand", "zc_recipes:learned/zc_market_vending_stand",
+  [ "zc_market:vending_stand" ] ],
+ [ "minecraft:quartz", "zc_hair:maquinas/zomboidcraft_nether", "zc_recipes:learned/zomboidcraft_nether",
+  [ "zomboidcraft:quartz_from_amethyst", "zomboidcraft:glowstone_from_glow_ink", "zomboidcraft:blaze_powder_from_gunpowder", "zomboidcraft:blaze_rod_from_powder", "zomboidcraft:nether_wart_from_mushroom", "zomboidcraft:netherrack_from_cobble", "zomboidcraft:magma_cream_overworld", "zomboidcraft:blaze_burner_overworld" ] ],
+ [ "zc_phone:old_phone", "zc_hair:equipamento/zc_phone_old_phone", "zc_recipes:learned/zc_phone_old_phone",
+  [ "zc_phone:old_phone" ] ],
  [ "zc_graffiti:spray_can_red", "zc_hair:abrigo/zc_graffiti_spray_can", "zc_recipes:learned/zc_graffiti_spray_can",
   [ "zc_graffiti:spray_can_red", "zc_graffiti:spray_can_black" ] ]
 ]

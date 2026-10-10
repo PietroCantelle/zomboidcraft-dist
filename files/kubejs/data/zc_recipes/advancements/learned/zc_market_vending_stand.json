@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "learned": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

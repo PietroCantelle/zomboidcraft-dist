@@ -181,7 +181,7 @@
 			]
 			description: [
 				"Toda ferramenta precisa de cabo. &eFolhas&r quebradas com a mão às vezes soltam gravetos."
-				"Depois que tiver machado ou serra: tora ou tábua vira um monte de gravetos."
+				"Depois que tiver machado ou serra: tábua + ferramenta vira graveto. Tora + faca de sílex dá 4 gravetos."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:stick"
@@ -258,7 +258,7 @@
 				"28B49AA33B789149"
 			]
 			description: [
-				"Na mesa, &etora + machado&r dá poucas tábuas (o machado gasta). Com uma &eserra&r rende mais."
+				"Na mesa ou no inventário, &etora + machado&r em qualquer posição dá 2 tábuas (o machado gasta). Com uma &eserra&r saem 4."
 				"A serra pede metal: mais para frente. Por enquanto, machado."
 			]
 			hide_until_deps_complete: true

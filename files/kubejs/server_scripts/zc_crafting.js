@@ -163,4 +163,56 @@ ServerEvents.recipes(event => {
   event.shaped('2x minecraft:paper', ['SSS'], { S: 'farmersdelight:straw' }).id('zomboidcraft:paper_from_straw')
   event.shapeless('2x minecraft:string', ['notreepunching:plant_string', 'notreepunching:plant_string', 'notreepunching:plant_string']).id('zomboidcraft:string_from_plant_string')
   event.shaped('2x farmersdelight:rope', ['S', 'S', 'S'], { S: '#forge:string' }).id('zomboidcraft:rope_from_string')
+
+  // ------------------------------------------------------------------ 5. 0.4.0: planks in any layout, Nether substitutes
+  // No Tree Punching only makes planks with the tool ABOVE the log (1x2 shaped) and 6 sticks with tool + log side by
+  // side (mirrored too), so "log next to axe" always gave sticks. Now: log + axe/saw anywhere in the grid = planks
+  // (2 with a weak saw = any axe, 4 with a saw); the log -> sticks shortcut moves to the knife (log + knife = 4 sticks).
+  // The per-wood pairs come from the vanilla log -> planks recipes that NTP later replaces at runtime.
+  let planksDone = 0
+  event.forEachRecipe({ type: 'minecraft:crafting_shapeless', output: '#minecraft:planks' }, r => {
+    let j = r.json
+    if (!j.has('ingredients') || j.get('ingredients').size() !== 1) return
+    let ing = j.get('ingredients').get(0)
+    let res = j.get('result')
+    let out = res.isJsonObject() ? res.get('item').getAsString() : res.getAsString()
+    let count = res.isJsonObject() && res.has('count') ? res.get('count').getAsInt() : 4
+    if (count < 4) return // keep the odd 1:1 recipes (stripped bark, etc.) alone
+    let name = out.replace(':', '_')
+    event.custom({ type: 'notreepunching:tool_damaging_shapeless', recipe: { type: 'minecraft:crafting_shapeless',
+      ingredients: [ing, { tag: 'notreepunching:weak_saws' }], result: { item: out, count: 2 } } }).id('zomboidcraft:planks_axe/' + name)
+    event.custom({ type: 'notreepunching:tool_damaging_shapeless', recipe: { type: 'minecraft:crafting_shapeless',
+      ingredients: [ing, { tag: 'notreepunching:saws' }], result: { item: out, count: 4 } } }).id('zomboidcraft:planks_saw/' + name)
+    planksDone++
+  })
+  console.info('[ZC] planks-anywhere recipes: ' + planksDone + ' woods')
+  event.remove({ id: 'notreepunching:sticks_from_logs_with_flint_axe' })
+  event.remove({ id: 'notreepunching:sticks_from_logs_with_saw' })
+  event.custom({ type: 'notreepunching:tool_damaging_shapeless', recipe: { type: 'minecraft:crafting_shapeless',
+    ingredients: [{ tag: 'minecraft:logs' }, { tag: 'notreepunching:knives' }], result: { item: 'minecraft:stick', count: 4 } } }).id('zomboidcraft:sticks_from_log_knife')
+
+  // The Nether is sealed (the wall), so the base Nether materials get overworld recipes...
+  event.shapeless('minecraft:quartz', ['minecraft:amethyst_shard', 'minecraft:amethyst_shard']).id('zomboidcraft:quartz_from_amethyst')
+  event.shapeless('2x minecraft:glowstone_dust', ['minecraft:glow_ink_sac', '#forge:dusts/redstone']).id('zomboidcraft:glowstone_from_glow_ink')
+  event.shapeless('2x minecraft:blaze_powder', ['minecraft:gunpowder', 'minecraft:gunpowder', '#forge:dusts/redstone', 'minecraft:coal']).id('zomboidcraft:blaze_powder_from_gunpowder')
+  event.shaped('minecraft:blaze_rod', ['P', 'P', 'S'], { P: 'minecraft:blaze_powder', S: '#forge:rods/wooden' }).id('zomboidcraft:blaze_rod_from_powder')
+  event.shapeless('minecraft:nether_wart', ['minecraft:red_mushroom', 'minecraft:red_mushroom', 'minecraft:bone_meal']).id('zomboidcraft:nether_wart_from_mushroom')
+  event.shaped('4x minecraft:netherrack', ['CC', 'CP'], { C: '#forge:cobblestone', P: 'minecraft:blaze_powder' }).id('zomboidcraft:netherrack_from_cobble')
+  event.shapeless('minecraft:magma_cream', ['minecraft:slime_ball', 'minecraft:blaze_powder']).id('zomboidcraft:magma_cream_overworld')
+  // ...and the recipes the players actually hit (TaCZ melee packs, Create) take the overworld item directly.
+  ;['lrtactical', 'delta_wt', 'tacz'].forEach(mod => {
+    event.replaceInput({ mod: mod }, '#forge:gems/quartz', 'minecraft:amethyst_shard')
+    event.replaceInput({ mod: mod }, '#forge:dusts/glowstone', 'minecraft:glow_ink_sac')
+    event.replaceInput({ mod: mod }, 'minecraft:blaze_powder', 'minecraft:gunpowder')
+    event.replaceInput({ mod: mod }, '#forge:rods/blaze', 'minecraft:lightning_rod')
+    event.replaceInput({ mod: mod }, 'minecraft:magma_cream', 'minecraft:slime_ball')
+    event.replaceInput({ mod: mod }, 'minecraft:nether_wart', 'minecraft:red_mushroom')
+    event.replaceInput({ mod: mod }, 'minecraft:dragon_breath', 'minecraft:honey_bottle')
+  })
+  event.replaceInput({ id: 'create:crafting/materials/rose_quartz' }, '#forge:gems/quartz', 'minecraft:amethyst_shard')
+  event.replaceInput({ id: 'create:crafting/kinetics/empty_blaze_burner' }, '#forge:netherrack', 'minecraft:bricks')
+  event.shapeless('create:blaze_burner', ['create:empty_blaze_burner', '#forge:storage_blocks/coal', 'minecraft:blaze_powder', 'minecraft:blaze_powder']).id('zomboidcraft:blaze_burner_overworld')
+  event.replaceInput({ id: 'securitycraft:keycard_lv3' }, '#forge:ingots/nether_brick', 'minecraft:brick')
+  event.replaceInput({ id: 'immersive_aircraft:nether_engine' }, 'minecraft:netherite_ingot', '#forge:ingots/iron')
+  event.replaceInput({ id: 'immersive_aircraft:nether_engine' }, 'minecraft:nether_brick', 'minecraft:brick')
 })
