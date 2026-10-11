@@ -12,7 +12,8 @@
       "minecraft:wither_skeleton",
       "minecraft:magma_cube",
       "minecraft:strider",
-      "the_deep_void:abductor"
+      "the_deep_void:abductor",
+      "minecraft:zombie_horse"
     ],
     "result": "deny"
   },
@@ -29,7 +30,8 @@
       "minecraft:wither_skeleton",
       "minecraft:magma_cube",
       "minecraft:strider",
-      "the_deep_void:abductor"
+      "the_deep_void:abductor",
+      "minecraft:zombie_horse"
     ],
     "when": "onjoin",
     "result": "deny"

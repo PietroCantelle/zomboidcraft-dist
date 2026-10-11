@@ -7,7 +7,9 @@
 const ZC_NETHER_MOBS = [
   'minecraft:zombified_piglin', 'minecraft:piglin', 'minecraft:piglin_brute', 'minecraft:hoglin', 'minecraft:zoglin',
   'minecraft:blaze', 'minecraft:ghast', 'minecraft:wither_skeleton', 'minecraft:magma_cube', 'minecraft:strider',
-  'the_deep_void:abductor'
+  'the_deep_void:abductor',
+  // 0.4.2 hotfix: no zombie horses either (The Hordes' default table brought them)
+  'minecraft:zombie_horse'
 ]
 
 ZC_NETHER_MOBS.forEach(id => {
