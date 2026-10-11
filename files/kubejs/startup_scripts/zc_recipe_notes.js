@@ -4,7 +4,7 @@
 // Logic and loot: server_scripts/zc_recipe_notes.js ; names: kubejs/assets/zc_recipes/lang/*.json
 
 StartupEvents.registry('item', event => {
-  // A torn page with ONE random essential recipe (prefers one the reader does not know yet).
+  // A torn page with ONE recipe (prefers one the reader does not know yet). 0.4.2: almost every recipe of the pack.
   // Stack of 1: the recipe is written into the item NBT the first time someone looks at it.
   event.create('recipe_note')
     .maxStackSize(1)

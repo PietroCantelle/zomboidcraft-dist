@@ -1,5 +1,40 @@
 [
   {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:zombified_piglin",
+      "minecraft:piglin",
+      "minecraft:piglin_brute",
+      "minecraft:hoglin",
+      "minecraft:zoglin",
+      "minecraft:blaze",
+      "minecraft:ghast",
+      "minecraft:wither_skeleton",
+      "minecraft:magma_cube",
+      "minecraft:strider",
+      "the_deep_void:abductor"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:zombified_piglin",
+      "minecraft:piglin",
+      "minecraft:piglin_brute",
+      "minecraft:hoglin",
+      "minecraft:zoglin",
+      "minecraft:blaze",
+      "minecraft:ghast",
+      "minecraft:wither_skeleton",
+      "minecraft:magma_cube",
+      "minecraft:strider",
+      "the_deep_void:abductor"
+    ],
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
     "mob": [
       "minecraft:creeper",
       "minecraft:skeleton"

@@ -3,6 +3,146 @@
   "values": [
     "zc_story:survivor",
     "minecraft:villager",
-    "minecraft:wandering_trader"
+    "minecraft:wandering_trader",
+    {
+      "id": "car:car",
+      "required": false
+    },
+    {
+      "id": "immersive_aircraft:airship",
+      "required": false
+    },
+    {
+      "id": "immersive_aircraft:bamboo_hopper",
+      "required": false
+    },
+    {
+      "id": "immersive_aircraft:biplane",
+      "required": false
+    },
+    {
+      "id": "immersive_aircraft:cargo_airship",
+      "required": false
+    },
+    {
+      "id": "immersive_aircraft:gyrodyne",
+      "required": false
+    },
+    {
+      "id": "immersive_aircraft:quadrocopter",
+      "required": false
+    },
+    {
+      "id": "immersive_aircraft:warship",
+      "required": false
+    },
+    {
+      "id": "create:contraption",
+      "required": false
+    },
+    {
+      "id": "create:carriage_contraption",
+      "required": false
+    },
+    {
+      "id": "create:gantry_contraption",
+      "required": false
+    },
+    {
+      "id": "create:stationary_contraption",
+      "required": false
+    },
+    {
+      "id": "create:seat",
+      "required": false
+    },
+    {
+      "id": "railways:benchcart",
+      "required": false
+    },
+    {
+      "id": "railways:jukeboxcart",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:cart_metalbarrel",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:cart_reinforcedcrate",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:cart_woodenbarrel",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:cart_woodencrate",
+      "required": false
+    },
+    {
+      "id": "minecraft:boat",
+      "required": false
+    },
+    {
+      "id": "minecraft:chest_boat",
+      "required": false
+    },
+    {
+      "id": "minecraft:minecart",
+      "required": false
+    },
+    {
+      "id": "minecraft:chest_minecart",
+      "required": false
+    },
+    {
+      "id": "minecraft:furnace_minecart",
+      "required": false
+    },
+    {
+      "id": "minecraft:hopper_minecart",
+      "required": false
+    },
+    {
+      "id": "minecraft:tnt_minecart",
+      "required": false
+    },
+    {
+      "id": "minecraft:spawner_minecart",
+      "required": false
+    },
+    {
+      "id": "minecraft:command_block_minecart",
+      "required": false
+    },
+    {
+      "id": "ecologics:boat",
+      "required": false
+    },
+    {
+      "id": "ecologics:chest_boat",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:boat",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chest_boat",
+      "required": false
+    },
+    {
+      "id": "lootr:lootr_minecart",
+      "required": false
+    },
+    {
+      "id": "supplementaries:dispenser_minecart",
+      "required": false
+    },
+    {
+      "id": "tacz:target_minecart",
+      "required": false
+    }
   ]
 }

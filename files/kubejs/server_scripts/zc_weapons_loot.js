@@ -15,7 +15,7 @@ LootJS.modifiers(event => {
   const GOOD = [['hk_mp5a5', 'AUTO', 4], ['ump45', 'AUTO', 4], ['ak47', 'AUTO', 3], ['m4a1', 'AUTO', 3], ['sks_tactical', 'SEMI', 3],
     ['m16a1', 'BURST', 2], ['vector45', 'AUTO', 2], ['deagle', 'SEMI', 2], ['scar_h', 'AUTO', 1], ['hk_g3', 'AUTO', 1], ['aa12', 'AUTO', 1]]
   const AMMO = [['9mm', 12, 4, 14], ['12g', 8, 2, 8], ['45acp', 7, 4, 12], ['762x39', 6, 5, 15], ['556x45', 6, 5, 15], ['357mag', 3, 3, 8],
-    ['50ae', 2, 2, 6], ['762x51', 2, 4, 10], ['46x30', 2, 6, 14]]
+    ['50ae', 2, 2, 6], ['308', 2, 4, 10], ['46x30', 2, 6, 14]]
   const TOP = ['tacz:ai_awp', 'tacz:m95', 'tacz:m249', 'tacz:rpk', 'tacz:rpg7', 'tacz:deagle_golden']
 
   const pick = list => {

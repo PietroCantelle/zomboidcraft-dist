@@ -28,7 +28,7 @@ customization {
 
 element {
   element_type = image
-  instance_identifier = zc_panel_left
+  instance_identifier = zc_title_dim
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
@@ -38,12 +38,32 @@ element {
   anchor_point = top-left
   x = 0
   y = 0
-  width = 220
-  height = 240
+  width = 100
+  height = 100
   stay_on_screen = false
   enable_parallax = false
-  source = [source:local]/config/fancymenu/assets/zomboidcraft/panel_left.png
+  source = [source:local]/config/fancymenu/assets/zomboidcraft/dim.png
+  stretch_x = true
   stretch_y = true
+}
+
+element {
+  element_type = image
+  instance_identifier = zc_sound_icon
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = top-left
+  x = 8
+  y = 8
+  width = 14
+  height = 10
+  stay_on_screen = false
+  enable_parallax = false
+  source = [source:local]/config/fancymenu/assets/zomboidcraft/t2_sound.png
 }
 
 element {
@@ -55,9 +75,9 @@ element {
   fade_out = no_fading
   auto_sizing = false
   sticky_anchor = false
-  anchor_point = mid-left
-  x = 16
-  y = -108
+  anchor_point = top-centered
+  x = -90
+  y = 6
   width = 180
   height = 60
   stay_on_screen = false
@@ -66,8 +86,98 @@ element {
 }
 
 element {
+  element_type = image
+  instance_identifier = zc_logo_sub
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = top-centered
+  x = -60
+  y = 67
+  width = 120
+  height = 8
+  stay_on_screen = false
+  enable_parallax = false
+  source = [source:local]/config/fancymenu/assets/zomboidcraft/t2_logo_sub.png
+}
+
+element {
+  element_type = image
+  instance_identifier = zc_news_panel
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = mid-right
+  x = -294
+  y = -40
+  width = 284
+  height = 136
+  stay_on_screen = false
+  enable_parallax = false
+  source = [source:local]/config/fancymenu/assets/zomboidcraft/t2_panel.png
+}
+
+element {
+  element_type = image
+  instance_identifier = zc_news_portrait
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = mid-right
+  x = -286
+  y = -32
+  width = 84
+  height = 120
+  stay_on_screen = false
+  enable_parallax = false
+  source = [source:local]/config/fancymenu/assets/zomboidcraft/news_portrait.png
+}
+
+element {
   element_type = text_v2
-  instance_identifier = zc_version
+  instance_identifier = zc_news_text
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = mid-right
+  x = -194
+  y = -33
+  width = 178
+  height = 122
+  stay_on_screen = false
+  enable_parallax = false
+  source = [source:local]/config/fancymenu/assets/zomboidcraft/noticias.txt
+  source_mode = resource
+  base_color = #DAD0BA
+  scale = 1.0
+  shadow = true
+  text_border = 2
+  line_spacing = 1
+  parse_markdown = true
+  auto_line_wrapping = true
+  enable_scrolling = true
+  interactable = false
+  headline_line_color = #7A1A12
+  separation_line_color = #5A4A3A
+  grabber_color_normal = #5A524A
+  grabber_color_hover = #E8A030
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = zc_footer_info
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
@@ -76,12 +186,12 @@ element {
   sticky_anchor = false
   anchor_point = bottom-left
   x = 4
-  y = -20
+  y = -32
   width = 160
-  height = 20
+  height = 30
   stay_on_screen = false
   enable_parallax = false
-  source = ZomboidCraft 0.3.6
+  source = Minecraft {"placeholder":"mcversion"}%n%Forge {"placeholder":"loaderver"}%n%{"placeholder":"loadedmods"} mods carregados
   source_mode = direct
   base_color = #8C8174
   scale = 1.0
@@ -94,9 +204,38 @@ element {
   interactable = false
 }
 
+element {
+  element_type = text_v2
+  instance_identifier = zc_version
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = bottom-right
+  x = -164
+  y = -22
+  width = 160
+  height = 10
+  stay_on_screen = false
+  enable_parallax = false
+  source = |||%n%ZomboidCraft – 0.4.1%n%|||
+  source_mode = direct
+  base_color = #8C8174
+  scale = 1.0
+  shadow = true
+  text_border = 0
+  line_spacing = 1
+  parse_markdown = true
+  auto_line_wrapping = false
+  enable_scrolling = false
+  interactable = false
+}
+
 vanilla_button {
   element_type = vanilla_button
-  instance_identifier = mc_titlescreen_multiplayer_button
+  instance_identifier = mc_titlescreen_singleplayer_button
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
@@ -104,16 +243,42 @@ vanilla_button {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-left
-  x = 18
-  y = -26
-  width = 150
-  height = 20
+  x = 12
+  y = -44
+  width = 112
+  height = 18
   stay_on_screen = false
   enable_parallax = false
   is_hidden = false
   label = 
-  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/btn_play.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/btn_play_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/t2_btn_singleplayer.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/t2_btn_singleplayer_hover.png
+  nine_slice_custom_background = false
+  transparent_background = false
+  underline_label_on_hover = false
+  navigatable = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = forge_titlescreen_mods_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = mid-left
+  x = 12
+  y = -22
+  width = 112
+  height = 18
+  stay_on_screen = false
+  enable_parallax = false
+  is_hidden = false
+  label = 
+  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/t2_btn_mods.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/t2_btn_mods_hover.png
   nine_slice_custom_background = false
   transparent_background = false
   underline_label_on_hover = false
@@ -130,16 +295,16 @@ vanilla_button {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-left
-  x = 18
-  y = -2
-  width = 150
-  height = 20
+  x = 12
+  y = 0
+  width = 112
+  height = 18
   stay_on_screen = false
   enable_parallax = false
   is_hidden = false
   label = 
-  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/btn_options.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/btn_options_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/t2_btn_options.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/t2_btn_options_hover.png
   nine_slice_custom_background = false
   transparent_background = false
   underline_label_on_hover = false
@@ -156,16 +321,16 @@ vanilla_button {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-left
-  x = 18
+  x = 12
   y = 22
-  width = 150
-  height = 20
+  width = 112
+  height = 18
   stay_on_screen = false
   enable_parallax = false
   is_hidden = false
   label = 
-  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/btn_quit.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/btn_quit_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/t2_btn_quit.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/t2_btn_quit_hover.png
   nine_slice_custom_background = false
   transparent_background = false
   underline_label_on_hover = false
@@ -174,16 +339,28 @@ vanilla_button {
 
 vanilla_button {
   element_type = vanilla_button
-  instance_identifier = mc_titlescreen_singleplayer_button
-  anchor_point = vanilla
-  is_hidden = true
-}
-
-vanilla_button {
-  element_type = vanilla_button
-  instance_identifier = forge_titlescreen_mods_button
-  anchor_point = vanilla
-  is_hidden = true
+  instance_identifier = mc_titlescreen_multiplayer_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = mid-left
+  x = 12
+  y = 52
+  width = 112
+  height = 22
+  stay_on_screen = false
+  enable_parallax = false
+  is_hidden = false
+  label = 
+  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/t2_btn_play.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/t2_btn_play_hover.png
+  nine_slice_custom_background = false
+  transparent_background = false
+  underline_label_on_hover = false
+  navigatable = true
 }
 
 vanilla_button {
@@ -191,7 +368,7 @@ vanilla_button {
   instance_identifier = title_screen_copyright_button
   anchor_point = vanilla
   is_hidden = false
-  label = {"text":"Copyright Mojang AB. Do not distribute!","color":"#8C8174"}
+  label = {"text":"Copyright Mojang AB. Do not distribute!","color":"#5E564C"}
 }
 
 vanilla_button {
