@@ -220,7 +220,7 @@ element {
   height = 10
   stay_on_screen = false
   enable_parallax = false
-  source = |||%n%ZomboidCraft – 0.4.1%n%|||
+  source = |||%n%ZomboidCraft – 0.4.2%n%|||
   source_mode = direct
   base_color = #8C8174
   scale = 1.0
@@ -235,58 +235,6 @@ element {
 
 vanilla_button {
   element_type = vanilla_button
-  instance_identifier = mc_titlescreen_singleplayer_button
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-left
-  x = 12
-  y = -44
-  width = 112
-  height = 18
-  stay_on_screen = false
-  enable_parallax = false
-  is_hidden = false
-  label = 
-  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/t2_btn_singleplayer.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/t2_btn_singleplayer_hover.png
-  nine_slice_custom_background = false
-  transparent_background = false
-  underline_label_on_hover = false
-  navigatable = true
-}
-
-vanilla_button {
-  element_type = vanilla_button
-  instance_identifier = forge_titlescreen_mods_button
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-left
-  x = 12
-  y = -22
-  width = 112
-  height = 18
-  stay_on_screen = false
-  enable_parallax = false
-  is_hidden = false
-  label = 
-  backgroundnormal = [source:local]/config/fancymenu/assets/zomboidcraft/t2_btn_mods.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/zomboidcraft/t2_btn_mods_hover.png
-  nine_slice_custom_background = false
-  transparent_background = false
-  underline_label_on_hover = false
-  navigatable = true
-}
-
-vanilla_button {
-  element_type = vanilla_button
   instance_identifier = mc_titlescreen_options_button
   appearance_delay = no_delay
   disappearance_delay = no_delay
@@ -296,7 +244,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-left
   x = 12
-  y = 0
+  y = -22
   width = 112
   height = 18
   stay_on_screen = false
@@ -322,7 +270,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-left
   x = 12
-  y = 22
+  y = 0
   width = 112
   height = 18
   stay_on_screen = false
@@ -348,7 +296,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-left
   x = 12
-  y = 52
+  y = 30
   width = 112
   height = 22
   stay_on_screen = false
@@ -369,6 +317,20 @@ vanilla_button {
   anchor_point = vanilla
   is_hidden = false
   label = {"text":"Copyright Mojang AB. Do not distribute!","color":"#5E564C"}
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_singleplayer_button
+  anchor_point = vanilla
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = forge_titlescreen_mods_button
+  anchor_point = vanilla
+  is_hidden = true
 }
 
 vanilla_button {
