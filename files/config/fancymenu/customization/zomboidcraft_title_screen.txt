@@ -49,25 +49,6 @@ element {
 
 element {
   element_type = image
-  instance_identifier = zc_sound_icon
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = top-left
-  x = 8
-  y = 8
-  width = 14
-  height = 10
-  stay_on_screen = false
-  enable_parallax = false
-  source = [source:local]/config/fancymenu/assets/zomboidcraft/t2_sound.png
-}
-
-element {
-  element_type = image
   instance_identifier = zc_logo
   appearance_delay = no_delay
   disappearance_delay = no_delay
@@ -124,25 +105,6 @@ element {
 }
 
 element {
-  element_type = image
-  instance_identifier = zc_news_portrait
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-right
-  x = -286
-  y = -32
-  width = 84
-  height = 120
-  stay_on_screen = false
-  enable_parallax = false
-  source = [source:local]/config/fancymenu/assets/zomboidcraft/news_portrait.png
-}
-
-element {
   element_type = text_v2
   instance_identifier = zc_news_text
   appearance_delay = no_delay
@@ -152,10 +114,10 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-right
-  x = -194
-  y = -33
-  width = 178
-  height = 122
+  x = -282
+  y = -32
+  width = 262
+  height = 120
   stay_on_screen = false
   enable_parallax = false
   source = [source:local]/config/fancymenu/assets/zomboidcraft/noticias.txt
@@ -168,40 +130,11 @@ element {
   parse_markdown = true
   auto_line_wrapping = true
   enable_scrolling = true
-  interactable = false
+  interactable = true
   headline_line_color = #7A1A12
   separation_line_color = #5A4A3A
-  grabber_color_normal = #5A524A
+  grabber_color_normal = #3A342E
   grabber_color_hover = #E8A030
-}
-
-element {
-  element_type = text_v2
-  instance_identifier = zc_footer_info
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = bottom-left
-  x = 4
-  y = -32
-  width = 160
-  height = 30
-  stay_on_screen = false
-  enable_parallax = false
-  source = Minecraft {"placeholder":"mcversion"}%n%Forge {"placeholder":"loaderver"}%n%{"placeholder":"loadedmods"} mods carregados
-  source_mode = direct
-  base_color = #8C8174
-  scale = 1.0
-  shadow = true
-  text_border = 0
-  line_spacing = 1
-  parse_markdown = false
-  auto_line_wrapping = false
-  enable_scrolling = false
-  interactable = false
 }
 
 element {
@@ -244,7 +177,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-left
   x = 12
-  y = -22
+  y = -6
   width = 112
   height = 18
   stay_on_screen = false
@@ -270,7 +203,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-left
   x = 12
-  y = 0
+  y = 16
   width = 112
   height = 18
   stay_on_screen = false
@@ -296,9 +229,9 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-left
   x = 12
-  y = 30
+  y = -40
   width = 112
-  height = 22
+  height = 26
   stay_on_screen = false
   enable_parallax = false
   is_hidden = false
@@ -313,14 +246,6 @@ vanilla_button {
 
 vanilla_button {
   element_type = vanilla_button
-  instance_identifier = title_screen_copyright_button
-  anchor_point = vanilla
-  is_hidden = false
-  label = {"text":"Copyright Mojang AB. Do not distribute!","color":"#5E564C"}
-}
-
-vanilla_button {
-  element_type = vanilla_button
   instance_identifier = mc_titlescreen_singleplayer_button
   anchor_point = vanilla
   is_hidden = true
@@ -329,6 +254,13 @@ vanilla_button {
 vanilla_button {
   element_type = vanilla_button
   instance_identifier = forge_titlescreen_mods_button
+  anchor_point = vanilla
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = title_screen_copyright_button
   anchor_point = vanilla
   is_hidden = true
 }
