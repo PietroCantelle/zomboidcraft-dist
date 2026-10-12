@@ -1,0 +1,19 @@
+{
+  "name": "item.zc_locks.key",
+  "icon": "zc_locks:key",
+  "category": "zc_hair:abrigo",
+  "advancement": "zc_recipes:learned/zc_locks_key",
+  "secret": true,
+  "sortnum": 47,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zc_locks:key_from_padlock",
+      "recipe2": "zc_locks:key_copy"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.abrigo"
+    }
+  ]
+}

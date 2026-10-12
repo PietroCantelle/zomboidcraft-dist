@@ -1,0 +1,27 @@
+{
+  "name": "item.zc_flags.white_flag",
+  "icon": "zc_flags:white_flag",
+  "category": "zc_hair:abrigo",
+  "advancement": "zc_recipes:learned/zc_flags_white_flag",
+  "secret": true,
+  "sortnum": 48,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zc_flags:white_flag",
+      "recipe2": "zc_flags:flag_upgrade"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Um pano de lã amarrado num graveto. Em branco, serve de bandeira de rendição; na Bancada de bandeiras vira o estandarte do seu grupo. Para aumentar o tamanho: a bandeira + 2 lãs + 1 graveto na mesa de trabalho (o desenho fica). Pequena (1x1), média (2x1), grande (3x2) e gigante (4x3)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para colocar: clique no chão para ela subir num mastro e balançar no vento; agachado no chão, fica deitada; numa parede, fica esticada; no teto, pendurada. As maiores precisam do espaço livre. Quebrar qualquer parte devolve a bandeira inteira com o desenho."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.abrigo"
+    }
+  ]
+}

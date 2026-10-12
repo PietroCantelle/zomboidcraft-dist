@@ -1,0 +1,22 @@
+{
+  "name": "block.zc_flags.flag_table",
+  "icon": "zc_flags:flag_table",
+  "category": "zc_hair:abrigo",
+  "advancement": "zc_recipes:learned/zc_flags_flag_table",
+  "secret": true,
+  "sortnum": 49,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zc_flags:flag_table"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O ateliê das bandeiras. Coloque uma bandeira branca (ou uma já desenhada) no primeiro espaço e pinte: lápis, borracha, balde, linha, retângulo, conta-gotas, paleta com cor em hex, carimbos (caveira, risco biológico, zumbi...), texto, e importar uma imagem do computador ou de um link. Dá para guardar modelos para usar de novo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.abrigo"
+    }
+  ]
+}

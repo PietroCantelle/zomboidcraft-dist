@@ -1,0 +1,18 @@
+{
+  "name": "item.zc_locks.lockpick_pro",
+  "icon": "zc_locks:lockpick_pro",
+  "category": "zc_hair:abrigo",
+  "advancement": "zc_recipes:learned/zc_locks_lockpick_pro",
+  "secret": true,
+  "sortnum": 46,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zc_locks:lockpick_pro"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.abrigo"
+    }
+  ]
+}

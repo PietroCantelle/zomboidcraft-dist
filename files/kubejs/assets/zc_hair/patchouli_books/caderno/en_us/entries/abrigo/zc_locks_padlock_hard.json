@@ -1,0 +1,18 @@
+{
+  "name": "item.zc_locks.padlock_hard",
+  "icon": "zc_locks:padlock_hard",
+  "category": "zc_hair:abrigo",
+  "advancement": "zc_recipes:learned/zc_locks_padlock_hard",
+  "secret": true,
+  "sortnum": 43,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "zc_locks:padlock_hard"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "zc.recipes.flavor.abrigo"
+    }
+  ]
+}

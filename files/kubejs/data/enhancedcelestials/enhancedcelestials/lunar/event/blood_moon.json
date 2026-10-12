@@ -31,7 +31,10 @@
   },
   "mob_settings": {
     "blocks_sleeping": {
-      "type": "corgilib:any"
+      "type": "corgilib:flipped",
+      "condition_to_flip": {
+        "type": "corgilib:any"
+      }
     },
     "lunar_spawn_settings": {
       "force_surface_spawning": true,

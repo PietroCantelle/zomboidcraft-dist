@@ -96,3 +96,20 @@ LootJS.modifiers(event => {
     .randomChance(0.08)
     .addLoot('notreepunching:sandstone_loose_rock')
 })
+
+// v0.4.3 - a carne de zumbi (camuflagem) estava apelona: metade da chance de cair de qualquer infectado.
+// Walkie-talkie simples e Atlas (Map Atlases) raros em baús.
+LootJS.modifiers(event => {
+  event.addLootTypeModifier(LootType.ENTITY)
+    .randomChance(0.5)
+    .removeLoot(Ingredient.of('#zc_world:zombie_flesh'))
+  event.addLootTypeModifier(LootType.CHEST)
+    .randomChance(0.015)
+    .addLoot('walkietalkie:stone_walkietalkie')
+  event.addLootTypeModifier(LootType.CHEST)
+    .randomChance(0.005)
+    .addLoot('walkietalkie:iron_walkietalkie')
+  event.addLootTypeModifier(LootType.CHEST)
+    .randomChance(0.004)
+    .addLoot('map_atlases:atlas')
+})
