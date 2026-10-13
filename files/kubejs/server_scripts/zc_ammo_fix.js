@@ -12,8 +12,10 @@ const zcFixedAmmo = stack => {
 }
 
 LootJS.modifiers(event => {
+  // Perf: the item test (Java, ItemFilter.and short-circuits) runs first, so the JS callback only sees tacz:ammo
+  // stacks instead of every item of every loot roll. zcFixedAmmo already requires tacz:ammo: same result.
   event.addLootTableModifier(/.*/)
-    .modifyLoot(ItemFilter.custom(s => zcFixedAmmo(s) !== null), s => zcFixedAmmo(s))
+    .modifyLoot(ItemFilter.custom(Ingredient.of('tacz:ammo')).and(ItemFilter.custom(s => zcFixedAmmo(s) !== null)), s => zcFixedAmmo(s))
 })
 
 const zcFixAmmoInventory = player => {

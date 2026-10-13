@@ -101,13 +101,19 @@ function matchSign(l1, l2) {
   return null
 }
 
+// Perf: loaded once; an instanceof test per block entity instead of building a class-name string for each one.
+// The exact-name test is kept after it (only for signs), so subclasses such as HangingSignBlockEntity stay excluded.
+var ZcSignBlockEntity = Java.loadClass('net.minecraft.world.level.block.entity.SignBlockEntity')
+
 function swapChunkSigns(level, cx, cz) {
   const chunk = level.chunkSource.getChunkNow(cx, cz)
   if (!chunk) return
+  const bes = chunk.blockEntities
+  if (bes.isEmpty()) return
   const todo = []
-  chunk.blockEntities.forEach((pos, be) => {
-    const cls = String(be.getClass().getName())
-    if (!cls.endsWith('.SignBlockEntity')) return
+  bes.forEach((pos, be) => {
+    if (!(be instanceof ZcSignBlockEntity)) return
+    if (!String(be.getClass().getName()).endsWith('.SignBlockEntity')) return
     const b = level.getBlock(pos)
     if (!String(b.id).endsWith('_wall_sign')) return
     const text = be.frontText

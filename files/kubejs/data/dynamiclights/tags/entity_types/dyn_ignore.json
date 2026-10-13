@@ -1,0 +1,369 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:zombie",
+      "required": false
+    },
+    {
+      "id": "minecraft:husk",
+      "required": false
+    },
+    {
+      "id": "minecraft:drowned",
+      "required": false
+    },
+    {
+      "id": "minecraft:zombie_villager",
+      "required": false
+    },
+    {
+      "id": "zombies_plus:axe_zombie",
+      "required": false
+    },
+    {
+      "id": "zombies_plus:bow_zombie",
+      "required": false
+    },
+    {
+      "id": "zombies_plus:brute_zombie",
+      "required": false
+    },
+    {
+      "id": "zombies_plus:cave_zombie",
+      "required": false
+    },
+    {
+      "id": "zombies_plus:crawler_zombie",
+      "required": false
+    },
+    {
+      "id": "zombies_plus:crossbow_zombie",
+      "required": false
+    },
+    {
+      "id": "zombies_plus:leaper_zombie",
+      "required": false
+    },
+    {
+      "id": "zombies_plus:runner_zombie",
+      "required": false
+    },
+    {
+      "id": "zombies_plus:shrieker_zombie",
+      "required": false
+    },
+    {
+      "id": "zombies_plus:slow_zombie",
+      "required": false
+    },
+    {
+      "id": "zombies_plus:sword_zombie",
+      "required": false
+    },
+    {
+      "id": "zombies_plus:vile_zombie",
+      "required": false
+    },
+    {
+      "id": "zombies_plus:weak_zombie",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:assasin_black_ops",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:boomer",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:chainsaw",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:clicker",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:crawler",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:demolisher",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:devestated",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:divided",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:explosive_infected",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:faceless",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:fetus",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:goon",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:infected",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:infected_hazmat",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:infected_juggernaut",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:infected_military",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:infected_police",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:inflated",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:military",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:night_hunter",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:parasite",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:ram",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:rat_king",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:revived",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:runner",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:zero_patient",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:axestrom",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:bigsucker",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:bomber",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:clogger",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:coppertar",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:deadclogger",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:grounded_clogger",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:grounded_invisiclogger",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:invisiblebidy",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:invisiclogger",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:invisiimmortal",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:invisilehcery",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:lechery",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:neocrorines",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:slaveman",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:smokesmitter",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:sucker",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thebeartamer",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thebidy",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thebidyupside",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thedungeon",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thegliter",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:theheavy",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thehorrors",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thehorrorsdecoys",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thehunter",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:theimmortal",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thelurker",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:theordure",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:theposessive",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thepregnant",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:therabidus",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:therod",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:theskeeper",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thesmoker",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thesomnolence",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thespectre",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thespitter",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:theswarmer",
+      "required": false
+    },
+    {
+      "id": "undead_revamp2:thewolf",
+      "required": false
+    },
+    {
+      "id": "zc_infected:choque",
+      "required": false
+    },
+    {
+      "id": "zc_infected:chorona",
+      "required": false
+    },
+    {
+      "id": "zc_infected:estufado",
+      "required": false
+    },
+    {
+      "id": "zc_infected:gritador",
+      "required": false
+    },
+    {
+      "id": "zc_infected:motosserra",
+      "required": false
+    },
+    {
+      "id": "zc_infected:olhudo",
+      "required": false
+    },
+    {
+      "id": "zc_infected:rastejador",
+      "required": false
+    },
+    {
+      "id": "zc_infected:sequestrador",
+      "required": false
+    }
+  ]
+}

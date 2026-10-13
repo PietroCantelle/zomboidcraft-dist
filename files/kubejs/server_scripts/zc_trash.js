@@ -65,27 +65,61 @@ const MAX_PILES = 24      // piles per player that get flies (closest ones win)
 var tick = 0
 const piles = new Map()   // player uuid -> [[x, y, z], ...]
 
-ServerEvents.tick(event => {
-  tick++
-  if (tick % SPAWN_EVERY !== 0) return
-  var rescan = tick % SCAN_EVERY === 0
-  event.server.players.forEach(player => {
-    var level = player.level
-    var key = String(player.uuid)
-    if (rescan || !piles.has(key)) {
-      var found = []
-      var px = Math.floor(player.x), py = Math.floor(player.y), pz = Math.floor(player.z)
-      for (var dx = -SCAN_R; dx <= SCAN_R; dx++) {
-        for (var dz = -SCAN_R; dz <= SCAN_R; dz++) {
-          for (var dy = -SCAN_H; dy <= SCAN_H; dy++) {
-            if (level.getBlock(px + dx, py + dy, pz + dz).id === TRASH_BLOCK) {
-              found.push([px + dx, py + dy, pz + dz, dx * dx + dy * dy + dz * dz])
+// Perf: the scan used to read all 17x17x7 blocks through Rhino for every player on the same tick. Now each 16^3 chunk
+// section the box touches is first asked (palette lookup, Java side) whether it can hold a pile at all; only those
+// are walked. Results are sorted by distance with the old (dx, dz, dy) walk order as tie-break, so the list is the
+// same as before. Players are spread over the 40-tick period by their UUID (each still rescans every 40 ticks).
+var ZcTrashRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
+var ZC_TRASH_ID = new ResourceLocation(TRASH_BLOCK)
+// null when zc_world is missing (the registry would hand back air, which must never match)
+var ZC_TRASH_BLK = ZcTrashRegistries.BLOCK.containsKey(ZC_TRASH_ID) ? ZcTrashRegistries.BLOCK.get(ZC_TRASH_ID) : null
+var ZC_TRASH_PRED = s => s.is(ZC_TRASH_BLK)
+
+function zcTrashScan(level, px, py, pz) {
+  var found = []
+  if (ZC_TRASH_BLK == null) return found
+  var x0 = px - SCAN_R, x1 = px + SCAN_R, y0 = py - SCAN_H, y1 = py + SCAN_H, z0 = pz - SCAN_R, z1 = pz + SCAN_R
+  for (var cx = x0 >> 4; cx <= x1 >> 4; cx++) {
+    for (var cz = z0 >> 4; cz <= z1 >> 4; cz++) {
+      var sections = null
+      for (var sy = y0 >> 4; sy <= y1 >> 4; sy++) {
+        var idx = level.getSectionIndexFromSectionY(sy)
+        if (idx < 0 || idx >= level.getSectionsCount()) continue // outside build height: void air
+        if (sections == null) sections = level.getChunk(cx, cz).getSections()
+        var sec = sections[idx]
+        if (sec.hasOnlyAir() || !sec.maybeHas(ZC_TRASH_PRED)) continue
+        var ax = Math.max(x0, cx << 4), bx = Math.min(x1, (cx << 4) + 15)
+        var ay = Math.max(y0, sy << 4), by = Math.min(y1, (sy << 4) + 15)
+        var az = Math.max(z0, cz << 4), bz = Math.min(z1, (cz << 4) + 15)
+        for (var x = ax; x <= bx; x++) {
+          for (var z = az; z <= bz; z++) {
+            for (var y = ay; y <= by; y++) {
+              if (sec.getBlockState(x & 15, y & 15, z & 15).is(ZC_TRASH_BLK)) {
+                var dx = x - px, dy = y - py, dz = z - pz
+                found.push([x, y, z, dx * dx + dy * dy + dz * dz, dx, dz, dy])
+              }
             }
           }
         }
       }
-      found.sort((a, b) => a[3] - b[3])
-      piles.set(key, found.slice(0, MAX_PILES))
+    }
+  }
+  // distance first, then the order the old dx -> dz -> dy walk produced
+  found.sort((a, b) => (a[3] - b[3]) || (a[4] - b[4]) || (a[5] - b[5]) || (a[6] - b[6]))
+  if (found.length > MAX_PILES) found = found.slice(0, MAX_PILES)
+  return found.map(p => [p[0], p[1], p[2], p[3]])
+}
+
+ServerEvents.tick(event => {
+  tick++
+  if (tick % SPAWN_EVERY !== 0) return
+  event.server.players.forEach(player => {
+    var level = player.level
+    var key = String(player.uuid)
+    // stable per-player phase (a multiple of SPAWN_EVERY) inside the SCAN_EVERY period
+    var phase = (Math.abs(player.uuid.hashCode()) % (SCAN_EVERY / SPAWN_EVERY)) * SPAWN_EVERY
+    if ((tick - phase) % SCAN_EVERY === 0 || !piles.has(key)) {
+      piles.set(key, zcTrashScan(level, Math.floor(player.x), Math.floor(player.y), Math.floor(player.z)))
     }
     var list = piles.get(key)
     if (!list || list.length === 0) return
@@ -102,5 +136,7 @@ ServerEvents.tick(event => {
     })
   })
 })
+
+PlayerEvents.loggedOut(event => { piles.delete(String(event.player.uuid)) })
 
 ServerEvents.loaded(() => { piles.clear(); tick = 0 })

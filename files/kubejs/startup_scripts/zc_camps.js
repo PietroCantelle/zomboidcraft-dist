@@ -84,15 +84,15 @@ ForgeEvents.onEvent('net.minecraftforge.event.level.ChunkEvent$Load', event => {
     var ServerLevel = Java.loadClass('net.minecraft.server.level.ServerLevel')
     if (!(level instanceof ServerLevel)) return
     var server = level.getServer()
-    var overworld = server.getLevel(Java.loadClass('net.minecraft.world.level.Level').OVERWORLD)
+    var overworld = server.overworld() // getLevel(Level.OVERWORLD) is ambiguous in Rhino and threw on every new chunk
     if (!overworld || !overworld.equals(level)) return
     var pos = event.getChunk().getPos()
     var cx = pos.x, cz = pos.z
     // never place blocks while the chunk is still being loaded: do it on the next server tick
-    var TickTask = Java.loadClass('net.minecraft.server.TickTask')
-    server.tell(new TickTask(server.getTickCount() + 1, () => {
+    // (server.tell(TickTask) is ambiguous in Rhino - KubeJS also adds tell(Component) - and threw on every chunk)
+    server.scheduleInTicks(1, () => {
       try { zccCamp(level, cx, cz) } catch (e) { console.warn('[zc_camps] ' + e) }
-    }))
+    })
   } catch (e) {
     console.warn('[zc_camps] chunk handler: ' + e)
   }

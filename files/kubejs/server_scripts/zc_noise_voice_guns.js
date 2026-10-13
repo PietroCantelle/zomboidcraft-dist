@@ -28,7 +28,7 @@ let voiceFixed = false
 function voiceAlwaysCounts() {
   if (voiceFixed) return
   try {
-    const opt = NoiseConfig.VOICE_ONLY_NEAR_HOSTILES
+    let opt = NoiseConfig.VOICE_ONLY_NEAR_HOSTILES // Rhino: const inside a function that runs twice = "redeclaration"
     if (opt.get()) {
       opt.set(false)
       opt.clearCache()
@@ -45,18 +45,18 @@ PlayerEvents.loggedIn(event => voiceAlwaysCounts())
 
 // --- tiros ------------------------------------------------------------------------------------------
 function hasSilencer(stack) {
-  const gun = IGun.getIGunOrNull(stack)
+  let gun = IGun.getIGunOrNull(stack)
   if (!gun) return false
-  const id = gun.getAttachmentId(stack, AttachmentType.MUZZLE)
+  let id = gun.getAttachmentId(stack, AttachmentType.MUZZLE)
   if (!id || DefaultAssets.isEmptyAttachmentId(id)) return false
   try {
-    const index = TimelessAPI.getCommonAttachmentIndex(id)
+    let index = TimelessAPI.getCommonAttachmentIndex(id)
     if (index.isPresent()) {
-      const modifiers = index.get().getData().getModifier()
+      let modifiers = index.get().getData().getModifier()
       if (modifiers && modifiers.containsKey('silence')) return true
     }
   } catch (e) { /* pacote sem dados: cai no nome */ }
-  const name = String(id)
+  let name = String(id)
   return name.includes('silenc') || name.includes('suppress')
 }
 
@@ -64,9 +64,9 @@ let gunErrorLogged = false
 TimelessGunEvents.gunFire(event => {
   try {
     if (!event.logicalSide.isServer()) return
-    const shooter = event.shooter
+    let shooter = event.shooter
     if (!(shooter instanceof ServerPlayer)) return
-    const loudness = hasSilencer(event.gunItemStack) ? SUPPRESSED : 100
+    let loudness = hasSilencer(event.gunItemStack) ? SUPPRESSED : 100
     NoiseTracker.add(shooter, loudness, NoiseSource.COMBAT, shooter.blockPosition())
   } catch (e) {
     if (!gunErrorLogged) {
