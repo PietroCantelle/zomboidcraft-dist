@@ -4,13 +4,6 @@
     "modId": "forge",
     "version": "fmlloader-1.20.1-47.4.23.jar"
   },
-  "1.8.1+1.20.1+forge.jar": {
-    "jarName": "1.8.1+1.20.1+forge.jar",
-    "modId": "emi_letsdo_compat",
-    "version": "1.8.1",
-    "curseForgeHash": 4020643785,
-    "modrinthHash": "bf45d3dc317a8e1a2412996b54da88140844a6f8"
-  },
   "[1.20.1] SecurityCraft v1.10.0.1.jar": {
     "jarName": "[1.20.1] SecurityCraft v1.10.0.1.jar",
     "modId": "securitycraft",
@@ -101,13 +94,6 @@
     "version": "9.2.14",
     "curseForgeHash": 98480002,
     "modrinthHash": "a52918a500ff421180a1cbd1a0cabee712134ec4"
-  },
-  "athena-forge-1.20.1-3.1.2.jar": {
-    "jarName": "athena-forge-1.20.1-3.1.2.jar",
-    "modId": "athena",
-    "version": "3.1.2",
-    "curseForgeHash": 3211401917,
-    "modrinthHash": "2acee24454af859988a691f0506271a465f68f7b"
   },
   "Atlas Lib-1.20.1-1.1.12.jar": {
     "jarName": "Atlas Lib-1.20.1-1.1.12.jar",
@@ -730,13 +716,6 @@
     "curseForgeHash": 1714752762,
     "modrinthHash": "1b8899ea5a9fd45f2adf8bbb25651a0a95dc6020"
   },
-  "handcrafted-forge-1.20.1-3.0.6.jar": {
-    "jarName": "handcrafted-forge-1.20.1-3.0.6.jar",
-    "modId": "handcrafted",
-    "version": "3.0.6",
-    "curseForgeHash": 2938560098,
-    "modrinthHash": "f1b9a009529134c736c59d6d192d53a4a25e5e5f"
-  },
   "ImmediatelyFast-Forge-1.5.4+1.20.4.jar": {
     "jarName": "ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
     "modId": "immediatelyfast",
@@ -902,27 +881,6 @@
     "version": "1.5.0",
     "curseForgeHash": 3850440114,
     "modrinthHash": "878dd35df02e1e17b7eb16113147f964eda8847f"
-  },
-  "letsdo-API-forge-1.2.15-forge.jar": {
-    "jarName": "letsdo-API-forge-1.2.15-forge.jar",
-    "modId": "doapi",
-    "version": "1.2.15",
-    "curseForgeHash": 2024374848,
-    "modrinthHash": "a261043a45097d861a13a63ebdbb0ca350e06a63"
-  },
-  "letsdo-bloomingnature-forge-1.0.12.jar": {
-    "jarName": "letsdo-bloomingnature-forge-1.0.12.jar",
-    "modId": "bloomingnature",
-    "version": "1.0.12",
-    "curseForgeHash": 1593487584,
-    "modrinthHash": "360727042ae8579f5cdc95650953b39ea30fabfa"
-  },
-  "letsdo-herbalbrews-forge-1.0.12.jar": {
-    "jarName": "letsdo-herbalbrews-forge-1.0.12.jar",
-    "modId": "herbalbrews",
-    "version": "1.0.12",
-    "curseForgeHash": 2611086057,
-    "modrinthHash": "3de7feb383868a0db45351580d6ef5b05b776f16"
   },
   "lithostitched-forge-1.20.1-1.4.11.jar": {
     "jarName": "lithostitched-forge-1.20.1-1.4.11.jar",
@@ -1246,13 +1204,6 @@
     "curseForgeHash": 2067768782,
     "modrinthHash": "ffb68135b88bdbb25224378c76daf922c3f4c322"
   },
-  "resourcefullib-forge-1.20.1-2.1.29.jar": {
-    "jarName": "resourcefullib-forge-1.20.1-2.1.29.jar",
-    "modId": "resourcefullib",
-    "version": "2.1.29",
-    "curseForgeHash": 4227743239,
-    "modrinthHash": "6fc590a7c56a720fec57e290cbb0a106efbb3ffa"
-  },
   "responsiveshields-2.3-mc1.18-19-20.x.jar": {
     "jarName": "responsiveshields-2.3-mc1.18-19-20.x.jar",
     "modId": "responsiveshields",
@@ -1351,8 +1302,8 @@
     "curseForgeHash": 2677835492,
     "modrinthHash": "cfd851ffd2c3b451a96a19207dc6e084c1dfec73"
   },
-  "Sky\u0027s Overworld Netherite 2.8 1.20.1 Forge.jar": {
-    "jarName": "Sky\u0027s Overworld Netherite 2.8 1.20.1 Forge.jar",
+  "Sky's Overworld Netherite 2.8 1.20.1 Forge.jar": {
+    "jarName": "Sky's Overworld Netherite 2.8 1.20.1 Forge.jar",
     "modId": "overworld_netherite_ore",
     "version": "2.8",
     "curseForgeHash": 2959413428,

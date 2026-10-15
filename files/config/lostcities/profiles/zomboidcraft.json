@@ -1,7 +1,7 @@
 {
  "lostcity": {
   "description": "ZomboidCraft - Itavera: Lost Cities with a Brazilian asset pack in districts (Centro, Saude, Acacias, Vila Operaria, Boa Vista, favelas, Industrial Norte, rural west/south), abandoned and overgrown",
-  "extraDescription": "Asset pack by zc_world (requires Create, Create Deco, Decorative Blocks, Handcrafted, Refurbished Furniture, Immersive Weathering, Spring to Life, Regions Unexplored)",
+  "extraDescription": "Asset pack by zc_world (requires Create, Create Deco, Decorative Blocks, Refurbished Furniture, Immersive Weathering, Spring to Life, Regions Unexplored)",
   "worldStyle": "zc_world:zomboidcraft_keerdm",
   "landscapeType": "default",
   "icon": "textures/gui/icon_default.png",

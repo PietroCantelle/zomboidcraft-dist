@@ -5,13 +5,14 @@
 //  - 1 dia de jogo (20 min) sem café: aviso "daria tudo por um café".
 //  - 1 dia e um quarto sem café: dor de cabeça leve - a cada ~4 min, Fadiga de mineração I por 30 s
 //    (às vezes Fraqueza I por 20 s) e um aviso. Não escala, não tira vida, não dá enjoo.
-//  - Beber café (kubejs:coffee ou os cafés do Herbal Brews): tira a dor, zera o relógio e dá Pressa I
+//  - Beber café (kubejs:coffee): tira a dor, zera o relógio e dá Pressa I
 //    (4 min para viciados, 2 min para qualquer um).
 //
 // Itens: kubejs:ground_coffee (pó) e kubejs:coffee (startup_scripts/zc_coffee_items.js). Receitas e loot no fim.
+// 0.4.8: o Herbal Brews saiu do pack; o pó de café vem só do loot.
 
 const COFFEE_TAG = 'zc_trait_viciado_em_cafe'
-const COFFEE_ITEMS = ['kubejs:coffee', 'herbalbrews:coffee', 'herbalbrews:milk_coffee']
+const COFFEE_ITEMS = ['kubejs:coffee']
 const DAY = 24000
 const CRAVE_AFTER = DAY            // aviso
 const HEADACHE_AFTER = DAY + 6000  // dor de cabeça
@@ -65,8 +66,6 @@ ItemEvents.foodEaten(event => {
 })
 
 ServerEvents.recipes(event => {
-  // Grãos de café (Herbal Brews: planta selvagem / cultivada) -> pó de café
-  event.shapeless('2x kubejs:ground_coffee', ['herbalbrews:coffee_beans'])
   // Pó de café + garrafa de água (vanilla ou do zc_survival) -> café
   const WATER = Ingredient.of([
     Item.of('minecraft:potion', '{Potion:"minecraft:water"}').strongNBT(),
