@@ -346,13 +346,13 @@
 				"A cada 2 dias."
 			]
 			hide_until_deps_complete: true
-			icon: "car:wheel"
+			icon: "zc_vehicles:part_wheel"
 			id: "6A84D90048712C15"
 			repeat_cooldown: 129600
 			rewards: [
 				{
 					id: "38047B4C230867BA"
-					item: "car:canister"
+					item: "zc_vehicles:jerry_can"
 					type: "item"
 				}
 				{
@@ -374,27 +374,27 @@
 							items: [
 								{
 									Count: 1b
-									id: "car:engine_piston"
+									id: "zc_vehicles:piston"
 								}
 								{
 									Count: 1b
-									id: "car:wheel"
+									id: "zc_vehicles:part_wheel"
 								}
 								{
 									Count: 1b
-									id: "car:big_wheel"
+									id: "zc_vehicles:part_battery"
 								}
 								{
 									Count: 1b
-									id: "car:battery"
+									id: "zc_vehicles:part_tank"
 								}
 								{
 									Count: 1b
-									id: "car:small_tank"
+									id: "zc_vehicles:part_engine"
 								}
 								{
 									Count: 1b
-									id: "car:engine_3_cylinder"
+									id: "zc_vehicles:steel_sheet"
 								}
 							]
 						}
@@ -494,11 +494,11 @@
 				"751A2E985FDDD2F1"
 			]
 			description: [
-				"&7&oDente, pelo rádio: \"Diesel é luz. Quem traz diesel, tem luz.\""
-				"Quatro baldes de biodiesel. A cada 2 dias."
+				"&7&oDente, pelo rádio: \"Combustível é luz. Quem traz combustível, tem luz.\""
+				"Quatro galões cheios (gasolina sifonada ou etanol do alambique). A cada 2 dias."
 			]
 			hide_until_deps_complete: true
-			icon: "car:canister"
+			icon: "zc_vehicles:jerry_can"
 			id: "74CCC52F9E6167EF"
 			repeat_cooldown: 129600
 			rewards: [
@@ -519,11 +519,12 @@
 					consume_items: true
 					count: 4L
 					id: "73C31773C9152E78"
-					item: "car:bio_diesel_bucket"
+					item: "zc_vehicles:jerry_can"
+					title: "Galões cheios (4)"
 					type: "item"
 				}
 			]
-			title: "Frete de Diesel"
+			title: "Frete de Combustível"
 			x: 2.0d
 			y: 4.0d
 		}
@@ -798,7 +799,7 @@
 			rewards: [
 				{
 					id: "75F1DFE0A8852717"
-					item: "car:canister"
+					item: "zc_vehicles:jerry_can"
 					type: "item"
 				}
 				{
@@ -840,18 +841,18 @@
 				"Fale com o NPC (clique direito) e escolha &eTrabalhos&r: entregas e caçadas com prazo, uma de cada vez. Entregar dá itens do estoque e reputação. O &eBigode&r paga por peças, sucata eletrônica, combustível e por limpar o caminho das cargas."
 			]
 			hide_until_deps_complete: true
-			icon: "car:wheel"
+			icon: "zc_vehicles:part_wheel"
 			id: "1C77CF04AB68EEF4"
 			rewards: [
 				{
 					id: "1A029A059426E080"
-					item: "car:repair_kit"
+					item: "zc_vehicles:repair_kit"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					icon: "car:wheel"
+					icon: "zc_vehicles:part_wheel"
 					id: "3580BDA948F38902"
 					title: "Termine um trabalho do Galpão"
 					type: "custom"
@@ -876,7 +877,7 @@
 			rewards: [
 				{
 					id: "5892DD0312A2C839"
-					item: "car:canister"
+					item: "zc_vehicles:jerry_can"
 					type: "item"
 				}
 			]

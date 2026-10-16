@@ -34,11 +34,12 @@ ServerEvents.recipes(event => {
   // Anvil: 3 iron blocks + 4 plates (instead of 3 blocks + 4 ingots)
   event.replaceInput({ id: 'minecraft:anvil' }, 'minecraft:iron_ingot', IRON_PLATE)
 
-  // Vehicles: body panels and engines need plates, engines need Create precision parts.
-  event.replaceInput({ mod: 'car' }, 'minecraft:iron_ingot', IRON_PLATE)
+  // Vehicles (zc_vehicles): steel sheets, tools and parts take plates; pistons need Create precision mechanisms, so every
+  // engine made at the workbench (4 to 12 pistons) costs a Create workshop - same tier as the old car mod's engines.
+  event.replaceInput({ mod: 'zc_vehicles' }, 'minecraft:iron_ingot', IRON_PLATE)
   event.replaceInput({ mod: 'immersive_aircraft' }, 'minecraft:iron_ingot', IRON_PLATE)
-  ;['car:engine_3_cylinder', 'car:engine_6_cylinder', 'car:engine_truck'].forEach(id =>
-    event.replaceInput({ output: id }, 'minecraft:redstone', 'create:precision_mechanism'))
+  event.replaceInput({ output: 'zc_vehicles:piston' }, IRON_PLATE, 'create:precision_mechanism')
+  event.replaceInput({ output: 'zc_vehicles:engine_block' }, 'minecraft:iron_block', 'create:brass_casing')
 
   // ------------------------------------------------------------------ 2. storage & basics
   // Chest: 8 planks are not enough - it needs nails (iron nuggets).

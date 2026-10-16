@@ -21,8 +21,10 @@ key_key.walkietalkie.activate:key.keyboard.l
 key_key.toolbelt.open:key.keyboard.0
 key_key.toolbelt.slot:key.keyboard.unknown
 key_key.tacz.inspect.desc:key.keyboard.i
-key_key.car_horn:key.keyboard.z
-key_key.car_gui:key.keyboard.i:CONTROL
+key_key.zc_vehicles.horn:key.keyboard.z
+key_key.zc_vehicles.engine:key.keyboard.h
+key_key.zc_vehicles.lights:key.keyboard.k
+key_key.zc_vehicles.glovebox:key.keyboard.o
 key_key.immersive_aircraft.boost:key.keyboard.z
 key_key.shouldersurfing.swap_shoulder:key.keyboard.p
 key_key.item_scrapper.place_item:key.keyboard.semicolon

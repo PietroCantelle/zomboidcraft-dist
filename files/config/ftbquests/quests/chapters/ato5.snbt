@@ -161,8 +161,8 @@
 				{
 					count: 2L
 					id: "38B3A87603226764"
-					item: "car:canister"
-					title: "2 galões (encha de diesel antes de descer)"
+					item: "zc_vehicles:jerry_can"
+					title: "2 galões (encha de combustível antes de descer)"
 					type: "item"
 				}
 				{

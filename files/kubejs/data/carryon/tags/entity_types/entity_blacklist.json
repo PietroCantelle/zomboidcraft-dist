@@ -5,7 +5,7 @@
     "minecraft:villager",
     "minecraft:wandering_trader",
     {
-      "id": "car:car",
+      "id": "zc_vehicles:vehicle",
       "required": false
     },
     {

@@ -137,8 +137,8 @@
 				{
 					count: 1L
 					id: "6B21595C7C53C931"
-					item: "car:generator"
-					title: "Gerador"
+					item: "immersiveengineering:dynamo"
+					title: "Gerador (dínamo)"
 					type: "item"
 				}
 				{

@@ -3,7 +3,7 @@
 	default_quest_shape: "circle"
 	filename: "ato4"
 	group: "5D8B484F7578C85C"
-	icon: "car:engine_truck"
+	icon: "zc_vehicles:part_engine"
 	id: "0E57AA78F7D728C0"
 	order_index: 4
 	quest_links: [ ]
@@ -149,50 +149,51 @@
 			description: [
 				"&7&oRádio de torre, voz de soldado: \"Veículos civis no setor sete, aqui é Torre Sete. Vocês estão dentro do perímetro de tiro. Isto é um aviso. (pausa, voz mais baixa) Apaguem os faróis, pelo amor de Deus. O Vasconcelos entra às seis.\""
 				""
-				"Três veículos funcionando, um deles caminhão para o diesel. Motor, rodas, bateria, tanque cheio — monte na oficina."
+				"Três veículos funcionando, um deles caminhão para a carga. Motor, rodas, bateria, tanque cheio — o que faltar, fabrique na bancada automotiva."
 			]
 			hide_until_deps_complete: true
-			icon: "car:engine_truck"
+			icon: "zc_vehicles:part_engine"
 			id: "67EAE6AFE1F56700"
 			rewards: [
 				{
 					count: 2
 					id: "021BD6094150F8AC"
-					item: "car:repair_kit"
+					item: "zc_vehicles:repair_kit"
 					type: "item"
 				}
 				{
 					id: "65CB02036FE9EBFC"
-					item: "car:wrench"
+					item: "zc_vehicles:wrench"
 					type: "item"
 				}
 			]
 			size: 1.25d
 			tasks: [
 				{
-					count: 1L
+					count: 2L
 					id: "3D1B61DCBF254198"
-					item: "car:engine_truck"
-					title: "Motor de caminhão"
+					item: "zc_vehicles:part_engine"
+					title: "Motores (2)"
 					type: "item"
 				}
 				{
-					count: 1L
+					count: 4L
 					id: "1842CE6B810A3232"
-					item: "car:engine_3_cylinder"
-					title: "Motor de carro"
+					item: "zc_vehicles:part_wheel"
+					title: "Rodas (4)"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "230575AA0294A763"
-					item: "car:battery"
+					item: "zc_vehicles:part_battery"
+					title: "Baterias (2)"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "7954A3212585B9AD"
-					item: "car:canister"
+					item: "zc_vehicles:jerry_can"
 					title: "Galões (2)"
 					type: "item"
 				}
@@ -216,12 +217,12 @@
 				"O heliporto da base é o mesmo que, no fim, pode levar quatro pessoas embora (final Os Poucos)."
 			]
 			hide_until_deps_complete: true
-			icon: "car:big_wheel"
+			icon: "zc_vehicles:part_wheel"
 			id: "5C087BB4BE44246A"
 			rewards: [
 				{
 					id: "40701B0653F2BD41"
-					item: "car:repair_kit"
+					item: "zc_vehicles:repair_kit"
 					type: "item"
 				}
 				{
