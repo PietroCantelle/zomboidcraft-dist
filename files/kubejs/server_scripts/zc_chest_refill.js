@@ -15,7 +15,11 @@
 // Player-placed chests never had a LootTable tag, so they are never touched.
 
 const REFILL_MS = 2 * 24 * 60 * 60 * 1000   // 2 real days
+// 0.4.10: also the Refurbished Furniture crates (the city buildings and the Loot Marker use them for loot; before they
+// gave loot once and never refilled)
+const CRATE_WOODS = ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak', 'mangrove', 'cherry', 'crimson', 'warped']
 const CONTAINERS = ['minecraft:chest', 'minecraft:trapped_chest', 'minecraft:barrel']
+  .concat(Platform.isLoaded('refurbished_furniture') ? CRATE_WOODS.map(w => `refurbished_furniture:${w}_crate`) : [])
 // Story chests hold quest documents every player needs, and the spawn house is every new player's first chest.
 // With shared loot the first player would take them for everyone, so these refill FAST instead of never.
 const FAST_REFILL_MS = 30 * 60 * 1000       // 30 real minutes
@@ -65,7 +69,7 @@ CONTAINERS.forEach(id => BlockEvents.rightClicked(id, event => {
   const now = Date.now()
   const r = handle(block, now)
   // Double chests: the other half unpacks its own loot table when the menu opens, so stamp it too.
-  if (block.id !== 'minecraft:barrel') {
+  if (block.id === 'minecraft:chest' || block.id === 'minecraft:trapped_chest') {
     ;[block.north, block.south, block.east, block.west].forEach(n => {
       if (n && n.id === block.id) handle(n, now)
     })
